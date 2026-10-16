@@ -62,6 +62,8 @@ button:hover{background:#285576}button:focus-visible,input:focus-visible,select:
 .person-jump:hover{background:transparent;color:#fff}
 .modal-open{overflow:hidden}
 #graph .node{text-rendering:geometricPrecision}
+#graph .node text{display:none;pointer-events:all}
+#graph .node circle.hitbox{fill:transparent;stroke:none;pointer-events:all}
 @media(min-width:900px){.person-modal{align-items:center}.person-modal>.sheet{border-radius:18px;max-height:82vh}}
 @media(max-width:740px){.wrap{padding:10px}.panel{padding:11px}.info{grid-template-columns:1fr}.route{grid-template-columns:1fr 1fr}.route button{grid-column:1/-1}#graphwrap{height:56vh;min-height:360px}.toolbar{gap:6px}.toolbar button.small{min-width:42px}.stats span{padding:6px 9px}}
 </style>
@@ -81,13 +83,13 @@ button:hover{background:#285576}button:focus-visible,input:focus-visible,select:
 </div>
 <div class="analysis-tools">
 <label>分佈方式<select id="layoutMode"><option value="relations">關係導向（力導向）</option><option value="party">黨籍群集（力導向）</option></select></label>
-<label>黨籍篩選<select id="partyFilter"><option value="ALL">全部黨籍</option></select></label>
+<label>黨籍篩選<select id="partyFilter"><option value="ALL">全部黨籍</option></select></label><label>姓名顯示<select id="labelMode"><option value="smart">智慧顯示（防重疊）</option><option value="focus">只顯示選取姓名</option><option value="all">全部顯示（可能重疊）</option></select></label>
 <label class="check"><input type="checkbox" id="crossOnly"> 只看跨黨連線</label>
 <label class="check"><input type="checkbox" id="showEvents" checked> 顯示事件／組織</label>
-</div><div id="visibleStat"></div><div id="graphwrap"><svg id="graph" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="政治人物關係網絡圖，點選人物查看紀錄" viewBox="-1280 -900 2560 1800">
+</div><div id="visibleStat"></div><div id="nameStat" class="party-note" aria-live="polite">縮小時只顯示圓點，放大後會依空間顯示姓名；點圓點也能開啟資料。</div><div id="graphwrap"><svg id="graph" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="政治人物關係網絡圖，點選人物查看紀錄" viewBox="-1280 -900 2560 1800">
 <text x="-1100" y="0" fill="#b4c5da">正在載入關係圖…</text></svg></div>
 <div class="colors" id="legend"></div>
-<p class="subtitle">單指拖曳、雙指縮放；點人物名字會清除篩選、恢復完整網絡並開啟資料視窗。節目來賓名單不證明兩人曾在同一集出現。顏色是「最近有來源可確認的政黨歸屬」，部分僅為歷史紀錄，不能當成現在的正式黨籍；跨黨連線亦可能來自不同年代。</p>
+<p class="subtitle">單指拖曳、雙指縮放；縮小時只顯示圓點、放大後智慧排放姓名；點人物圓點或姓名會解除篩選、恢復完整網絡並強調一度關係，開啟資料視窗。節目來賓名單不證明兩人曾在同一集出現。顏色是「最近有來源可確認的政黨歸屬」，部分僅為歷史紀錄，不能當成現在的正式黨籍；跨黨連線亦可能來自不同年代。</p>
 </section>
 <div class="info">
 <section class="panel" id="profile"><h2>人物資訊</h2><div id="personinfo" class="loading">點擊關係圖中的人物，查看相關紀錄與來源。</div></section>
@@ -175,7 +177,7 @@ function layout(){
  const result=new Map(list.map((n,i)=>[n.id,{x:(xs[i]-cx)*factor,y:(ys[i]-cy)*factor}]));
  layoutCache.set(layoutMode,result);positions=new Map(result);
 }
-function viewSet(){svg.setAttribute("viewBox",[view.x,view.y,view.w,view.h].join(" "));$("scale").textContent=Math.round(2560/view.w*100)+"%";}
+function viewSet(){svg.setAttribute("viewBox",[view.x,view.y,view.w,view.h].join(" "));$("scale").textContent=Math.round(2560/view.w*100)+"%";window.dispatchEvent(new Event("graph:view"));}
 function worldPoint(cx,cy){const p=svg.createSVGPoint();p.x=cx;p.y=cy;const matrix=svg.getScreenCTM();return matrix?p.matrixTransform(matrix.inverse()):{x:view.x+view.w/2,y:view.y+view.h/2}}
 function zoom(f,cx,cy){const rect=svg.getBoundingClientRect();const anchor=worldPoint(cx??rect.left+rect.width/2,cy??rect.top+rect.height/2);const newW=clamp(view.w*f,120,6000),ratio=newW/view.w;view.x=anchor.x-(anchor.x-view.x)*ratio;view.y=anchor.y-(anchor.y-view.y)*ratio;view.w=newW;view.h*=ratio;viewSet();}
 function center(n){const p=positions.get(n.id);if(!p)return;view.w=clamp(850,120,6000);view.h=view.w*1800/2560;view.x=p.x-view.w/2;view.y=p.y-view.h/2;viewSet();}
@@ -183,11 +185,11 @@ function reset(){view={x:-1280,y:-900,w:2560,h:1800};viewSet()}
 function render(){
  svg.replaceChildren();
  const bg=el("g",{id:"links"}),fg=el("g",{id:"nodes"});svg.append(bg,fg);
- edges=db.edges.map((e,i)=>{const a=positions.get(e.from),b=positions.get(e.to);if(!a||!b)return null;const l=el("line",{x1:a.x,y1:a.y,x2:b.x,y2:b.y,stroke:types[e.type]||"#8395ae","stroke-width":2.3,"stroke-opacity":0.21});bg.append(l);return {el:l,e,i}});
+ edges=db.edges.map((e,i)=>{const a=positions.get(e.from),b=positions.get(e.to);if(!a||!b)return null;const l=el("line",{x1:a.x,y1:a.y,x2:b.x,y2:b.y,stroke:types[e.type]||"#8395ae","stroke-width":1.4,"stroke-opacity":0.075});bg.append(l);return {el:l,e,i}});
  graphNodes=db.nodes.map(n=>{const p=positions.get(n.id),isHub=n.group==="hub",g=el("g",{"class":"node","data-id":n.id,transform:"translate("+p.x+" "+p.y+")"});
  g.append(el("circle",{r:isHub?10:8,fill:isHub&&n.id.startsWith("TVBS戰情室")?"#EBA06C":partyColor(n)}));
  g.append(el("title",{},n.label+"｜"+(isHub&&n.id.startsWith("TVBS戰情室")?"媒體節目節點":partyLabel(n))+"｜"+(n.party?.kind==="current_documented"?"近期紀錄":n.party?.kind==="historical_only"?"歷史黨籍":n.party?.kind==="last_documented"?"最近紀錄":"尚未核對")));
- g.append(el("rect",{"class":"hitbox",x:-15,y:-19,width:Math.max(70,16*[...n.label].length+43),height:38,rx:8}));
+ g.append(el("circle",{"class":"hitbox",r:13}));
  const text=el("text",{x:14,y:4,"font-size":isHub?12.5:14.5,fill:"#e9f2ff"},n.label);g.append(text);
  g.setAttribute("tabindex","0");g.setAttribute("role","button");g.setAttribute("aria-label","查看 "+n.label+" 的人物關係");
  g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();e.stopPropagation();select(n.id,true)}});
@@ -224,18 +226,19 @@ function updateHighlight(){
  let visibleCount=0,edgeCount=0;
  for(const o of edges){if(!o)continue;const on=visibleLinks.has(o.i),hi=!(routeSet||selected)||emphasizeEdges.has(o.i);
   o.el.style.display=on?"":"none";
-  o.el.setAttribute("stroke-opacity",!on?0:hi?((routeSet||selected)?.87:.25):.022);
-  o.el.setAttribute("stroke-width",hi&&routeSet?4.3:hi&&selected?3:2);
+  o.el.setAttribute("stroke-opacity",!on?0:hi?((routeSet||selected)?.80:.075):.012);
+  o.el.setAttribute("stroke-width",hi&&routeSet?3.4:hi&&selected?2.7:1.3);
   if(on)edgeCount++;
  }
  for(const o of graphNodes){
   const on=visibleNodes.has(o.n.id),hi=!(routeSet||selected)||emphasizeNodes.has(o.n.id);
   o.el.style.display=on?"":"none";o.el.style.pointerEvents=on?"auto":"none";
-  o.el.setAttribute("opacity",hi?1:.075);
+  o.el.setAttribute("opacity",hi?1:.30);
   const t=o.el.querySelector("text");t.setAttribute("font-weight",hi&&(selected===o.n.id||routeSet&&emphasizeNodes.has(o.n.id))?"700":"400");
   if(on)visibleCount++;
  }
  $("visibleStat").textContent="畫面顯示 "+visibleCount+" 個節點、"+edgeCount+" 條連線｜以有來源的最近／歷史黨籍標籤分析，灰色包含未查證者";
+ window.dispatchEvent(new Event("graph:view"));
 }
 function restoreFullNetwork(){
  partyFilter="ALL";crossOnly=false;showEvents=true;
@@ -246,6 +249,7 @@ function select(id,zoomTo=false){
  const n=db.nodes.find(n=>n.id===id);if(!n)return;
  // One tap on any person name returns to the complete network, even when party filters or a highlighted path were active.
  restoreFullNetwork();
+ selected=id;updateHighlight();
  $("personsearch").value=n.label;
  const related=db.edges.map((e,i)=>({...e,i})).filter(e=>e.from===id||e.to===id);
  const nn=related.map(e=>({...e,other:e.from===id?e.to:e.from}));const nonhubs=nn.filter(e=>db.nodes.find(n=>n.id===e.other)?.group!=="hub");
@@ -338,6 +342,7 @@ const end=e=>{
 };
 svg.addEventListener("pointerup",end);svg.addEventListener("pointercancel",end);
 svg.addEventListener("dblclick",e=>{e.preventDefault();zoom(0.7,e.clientX,e.clientY)});
+window.graphLabelState=()=>({selected,route:routeSet?.nodes||[],edges:db?.edges||[]});
 fetch("./data/network.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(boot).catch(e=>{svg.replaceChildren(el("text",{x:-900,y:0,fill:"#e9f2ff","font-size":30},"無法載入資料："+e.message));$("stats").textContent="資料載入失敗，請重新整理頁面。"});
 })();
-</script></body></html>
+</script><script src="./assets/label-clutter-fix.js" defer></script></body></html>

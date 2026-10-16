@@ -1,0 +1,2924 @@
+{
+  "meta": {
+    "title": "新黨 × 張榮味｜跨條目人物關係網",
+    "date": "2026-10-17",
+    "scope": "以兩篇維基百科條目資訊框與本文明確具名人士為範圍；排除參考文獻作者、媒體標題附帶姓名；不是全面人脈查核",
+    "sources": [
+      {
+        "name": "新黨",
+        "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+      },
+      {
+        "name": "張榮味",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+      }
+    ],
+    "relation_note": "職務銜接與共同事件非私人交情；司法案件被提及者不等同有罪。"
+  },
+  "nodes": [
+    {
+      "id": "創黨成員（1993）",
+      "label": "創黨成員（1993）",
+      "group": "hub",
+      "notes": [
+        "條目中的組織、選舉名單或事件群集；連線不等同私人交情。"
+      ]
+    },
+    {
+      "id": "條目所列全國委員會",
+      "label": "條目所列全國委員會",
+      "group": "hub",
+      "notes": [
+        "條目中的組織、選舉名單或事件群集；連線不等同私人交情。"
+      ]
+    },
+    {
+      "id": "歷任最高領導",
+      "label": "歷任最高領導",
+      "group": "hub",
+      "notes": [
+        "條目中的組織、選舉名單或事件群集；連線不等同私人交情。"
+      ]
+    },
+    {
+      "id": "歷屆新黨立委",
+      "label": "歷屆新黨立委",
+      "group": "hub",
+      "notes": [
+        "條目中的組織、選舉名單或事件群集；連線不等同私人交情。"
+      ]
+    },
+    {
+      "id": "臺北市議會新黨黨團",
+      "label": "臺北市議會新黨黨團",
+      "group": "hub",
+      "notes": [
+        "條目中的組織、選舉名單或事件群集；連線不等同私人交情。"
+      ]
+    },
+    {
+      "id": "1997年黨內衝突",
+      "label": "1997年黨內衝突",
+      "group": "hub",
+      "notes": [
+        "條目中的組織、選舉名單或事件群集；連線不等同私人交情。"
+      ]
+    },
+    {
+      "id": "2020–21路線爭議",
+      "label": "2020–21路線爭議",
+      "group": "hub",
+      "notes": [
+        "條目中的組織、選舉名單或事件群集；連線不等同私人交情。"
+      ]
+    },
+    {
+      "id": "國新選舉合作",
+      "label": "國新選舉合作",
+      "group": "hub",
+      "notes": [
+        "條目中的組織、選舉名單或事件群集；連線不等同私人交情。"
+      ]
+    },
+    {
+      "id": "2024不分區名單",
+      "label": "2024不分區名單",
+      "group": "hub",
+      "notes": [
+        "條目中的組織、選舉名單或事件群集；連線不等同私人交情。"
+      ]
+    },
+    {
+      "id": "21青連線",
+      "label": "21青連線",
+      "group": "hub",
+      "notes": [
+        "條目中的組織、選舉名單或事件群集；連線不等同私人交情。"
+      ]
+    },
+    {
+      "id": "吳成典",
+      "label": "吳成典",
+      "group": "current",
+      "notes": [
+        "條目所列黨主席；2020年起擔任主席。",
+        "2020年起擔任新黨主席（以條目所載任期為準）。"
+      ]
+    },
+    {
+      "id": "李勝峰",
+      "label": "李勝峰",
+      "group": "current",
+      "notes": [
+        "條目所列副主席，也是創黨成員。"
+      ]
+    },
+    {
+      "id": "林易陞",
+      "label": "林易陞",
+      "group": "current",
+      "notes": [
+        "條目所列副主席兼秘書長。"
+      ]
+    },
+    {
+      "id": "游智彬",
+      "label": "游智彬",
+      "group": "current",
+      "notes": [
+        "條目所列副秘書長。",
+        "2024年參選立委挑戰國民黨魯明哲。"
+      ]
+    },
+    {
+      "id": "田昭容",
+      "label": "田昭容",
+      "group": "current",
+      "notes": [
+        "條目所列副秘書長。"
+      ]
+    },
+    {
+      "id": "陳麗玲",
+      "label": "陳麗玲",
+      "group": "current",
+      "notes": [
+        "條目所列發言人，2020年參與主席選舉。"
+      ]
+    },
+    {
+      "id": "侯漢廷",
+      "label": "侯漢廷",
+      "group": "current",
+      "notes": [
+        "條目所列全國委員會委員，臺北市議員。"
+      ]
+    },
+    {
+      "id": "賀樺",
+      "label": "賀樺",
+      "group": "current",
+      "notes": [
+        "條目所列全國委員會委員。"
+      ]
+    },
+    {
+      "id": "林啟談",
+      "label": "林啟談",
+      "group": "current",
+      "notes": [
+        "條目所列全國委員會委員。"
+      ]
+    },
+    {
+      "id": "鄭光禮",
+      "label": "鄭光禮",
+      "group": "current",
+      "notes": [
+        "條目所列全國委員會委員。"
+      ]
+    },
+    {
+      "id": "蔡明璋",
+      "label": "蔡明璋",
+      "group": "current",
+      "notes": [
+        "條目所列全國委員會委員。"
+      ]
+    },
+    {
+      "id": "董俊良",
+      "label": "董俊良",
+      "group": "current",
+      "notes": [
+        "條目所列全國委員會委員。"
+      ]
+    },
+    {
+      "id": "郭榮先",
+      "label": "郭榮先",
+      "group": "current",
+      "notes": [
+        "條目所列全國委員會委員。"
+      ]
+    },
+    {
+      "id": "吳正群",
+      "label": "吳正群",
+      "group": "current",
+      "notes": [
+        "條目所列全國委員會委員。"
+      ]
+    },
+    {
+      "id": "戴德成",
+      "label": "戴德成",
+      "group": "current",
+      "notes": [
+        "條目所列全國委員會委員。"
+      ]
+    },
+    {
+      "id": "孫家棟",
+      "label": "孫家棟",
+      "group": "current",
+      "notes": [
+        "條目所列全國委員會委員。"
+      ]
+    },
+    {
+      "id": "仉桂美",
+      "label": "仉桂美",
+      "group": "current",
+      "notes": [
+        "條目所列全國委員會委員。"
+      ]
+    },
+    {
+      "id": "王萬邦",
+      "label": "王萬邦",
+      "group": "current",
+      "notes": [
+        "條目所列全國委員會委員。"
+      ]
+    },
+    {
+      "id": "謝治",
+      "label": "謝治",
+      "group": "current",
+      "notes": [
+        "條目所列全國委員會委員。"
+      ]
+    },
+    {
+      "id": "趙少康",
+      "label": "趙少康",
+      "group": "founder",
+      "notes": [
+        "條目列為新黨創黨成員。"
+      ]
+    },
+    {
+      "id": "郁慕明",
+      "label": "郁慕明",
+      "group": "founder",
+      "notes": [
+        "條目列為新黨創黨成員。",
+        "2003年至2020年擔任新黨主席；2021年黨內路線爭議關鍵人物。"
+      ]
+    },
+    {
+      "id": "王建煊",
+      "label": "王建煊",
+      "group": "founder",
+      "notes": [
+        "條目列為新黨創黨成員。"
+      ]
+    },
+    {
+      "id": "陳癸淼",
+      "label": "陳癸淼",
+      "group": "founder",
+      "notes": [
+        "條目列為新黨創黨成員。"
+      ]
+    },
+    {
+      "id": "李慶華",
+      "label": "李慶華",
+      "group": "founder",
+      "notes": [
+        "條目列為新黨創黨成員。",
+        "曾任新黨領導人，2000年退黨支持宋楚瑜。"
+      ]
+    },
+    {
+      "id": "周荃",
+      "label": "周荃",
+      "group": "founder",
+      "notes": [
+        "條目列為新黨創黨成員。",
+        "創黨成員，後退黨參選臺北縣縣長。"
+      ]
+    },
+    {
+      "id": "周陽山",
+      "label": "周陽山",
+      "group": "founder",
+      "notes": [
+        "曾任新黨全國委員會召集人／代理召集人。"
+      ]
+    },
+    {
+      "id": "馮定國",
+      "label": "馮定國",
+      "group": "founder",
+      "notes": [
+        "曾任新黨全國委員會召集人／代理召集人。"
+      ]
+    },
+    {
+      "id": "郝龍斌",
+      "label": "郝龍斌",
+      "group": "founder",
+      "notes": [
+        "曾任新黨全國委員會召集人／代理召集人。"
+      ]
+    },
+    {
+      "id": "謝啟大",
+      "label": "謝啟大",
+      "group": "founder",
+      "notes": [
+        "曾任新黨全國委員會召集人／代理召集人。",
+        "2001年新黨全國委員會召集人。"
+      ]
+    },
+    {
+      "id": "營志宏",
+      "label": "營志宏",
+      "group": "founder",
+      "notes": [
+        "曾任新黨全國委員會召集人／代理召集人。"
+      ]
+    },
+    {
+      "id": "朱高正",
+      "label": "朱高正",
+      "group": "historical",
+      "notes": [
+        "1997年因黨內衝突遭新黨除名。"
+      ]
+    },
+    {
+      "id": "黃國鐘",
+      "label": "黃國鐘",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "姚立明",
+      "label": "姚立明",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "李新",
+      "label": "李新",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "李炷烽",
+      "label": "李炷烽",
+      "group": "historical",
+      "notes": [
+        "2001年至2009年擔任金門縣縣長。"
+      ]
+    },
+    {
+      "id": "曹壽民",
+      "label": "曹壽民",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "賴士葆",
+      "label": "賴士葆",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "雷倩",
+      "label": "雷倩",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "費鴻泰",
+      "label": "費鴻泰",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "潘懷宗",
+      "label": "潘懷宗",
+      "group": "historical",
+      "notes": [
+        "2021年臺北市議會新黨黨團召集人。"
+      ]
+    },
+    {
+      "id": "陳彥伯",
+      "label": "陳彥伯",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "楊世光",
+      "label": "楊世光",
+      "group": "historical",
+      "notes": [
+        "2019年新黨提名參選2020年總統；2022年挑戰黨主席。"
+      ]
+    },
+    {
+      "id": "王炳忠",
+      "label": "王炳忠",
+      "group": "historical",
+      "notes": [
+        "曾任新黨發言人；2020–2021年捲入黨內路線爭議。"
+      ]
+    },
+    {
+      "id": "蘇恆",
+      "label": "蘇恆",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "李慶元",
+      "label": "李慶元",
+      "group": "historical",
+      "notes": [
+        "2021年經吳成典邀請重返新黨，引發黨內爭議。"
+      ]
+    },
+    {
+      "id": "林明正",
+      "label": "林明正",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "金介壽",
+      "label": "金介壽",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "曹原彰",
+      "label": "曹原彰",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "朱惠良",
+      "label": "朱惠良",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "宋艾克",
+      "label": "宋艾克",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "戴德滿",
+      "label": "戴德滿",
+      "group": "historical",
+      "notes": [
+        "2024年新黨不分區提名人。"
+      ]
+    },
+    {
+      "id": "王子芩",
+      "label": "王子芩",
+      "group": "historical",
+      "notes": [
+        "2024年新黨不分區提名人。"
+      ]
+    },
+    {
+      "id": "米甘幹·理佛克",
+      "label": "米甘幹·理佛克",
+      "group": "historical",
+      "notes": [
+        "2024年新黨平地原住民立法委員參選人。",
+        "2024年新黨提名平地原住民立委候選人。"
+      ]
+    },
+    {
+      "id": "邱毅",
+      "label": "邱毅",
+      "group": "historical",
+      "notes": [
+        "2020年新黨不分區立委名單列首位。"
+      ]
+    },
+    {
+      "id": "王鴻薇",
+      "label": "王鴻薇",
+      "group": "historical",
+      "notes": [
+        "條目稱2013年轉入中國國民黨，導致臺北市議會新黨黨團解散。"
+      ]
+    },
+    {
+      "id": "林正國",
+      "label": "林正國",
+      "group": "historical",
+      "notes": [
+        "條目引用2019年《報導者》調查報導指涉內容農場操作；相關指控依原報導查核。"
+      ]
+    },
+    {
+      "id": "林郁方",
+      "label": "林郁方",
+      "group": "historical",
+      "notes": [
+        "曾列入條目新黨立委名單／選舉結果表。"
+      ]
+    },
+    {
+      "id": "高惠宇",
+      "label": "高惠宇",
+      "group": "historical",
+      "notes": [
+        "曾列入條目新黨立委名單／選舉結果表。"
+      ]
+    },
+    {
+      "id": "陳一新",
+      "label": "陳一新",
+      "group": "historical",
+      "notes": [
+        "曾列入條目新黨立委名單／選舉結果表。"
+      ]
+    },
+    {
+      "id": "陳漢強",
+      "label": "陳漢強",
+      "group": "historical",
+      "notes": [
+        "曾列入條目新黨立委名單／選舉結果表。"
+      ]
+    },
+    {
+      "id": "傅崐成",
+      "label": "傅崐成",
+      "group": "historical",
+      "notes": [
+        "曾列入條目新黨立委名單／選舉結果表。"
+      ]
+    },
+    {
+      "id": "蔡正揚",
+      "label": "蔡正揚",
+      "group": "historical",
+      "notes": [
+        "曾列入條目新黨立委名單／選舉結果表。"
+      ]
+    },
+    {
+      "id": "鄭龍水",
+      "label": "鄭龍水",
+      "group": "historical",
+      "notes": [
+        "曾列入條目新黨立委名單／選舉結果表。"
+      ]
+    },
+    {
+      "id": "賴來焜",
+      "label": "賴來焜",
+      "group": "historical",
+      "notes": [
+        "曾列入條目新黨立委名單／選舉結果表。"
+      ]
+    },
+    {
+      "id": "錢達",
+      "label": "錢達",
+      "group": "historical",
+      "notes": [
+        "曾列入條目新黨立委名單／選舉結果表。"
+      ]
+    },
+    {
+      "id": "張世良",
+      "label": "張世良",
+      "group": "historical",
+      "notes": [
+        "曾列入條目新黨立委名單／選舉結果表。"
+      ]
+    },
+    {
+      "id": "馮滬祥",
+      "label": "馮滬祥",
+      "group": "historical",
+      "notes": [
+        "曾列入條目新黨立委名單／選舉結果表。"
+      ]
+    },
+    {
+      "id": "鍾新財",
+      "label": "鍾新財",
+      "group": "historical",
+      "notes": [
+        "曾列入條目新黨立委名單／選舉結果表。"
+      ]
+    },
+    {
+      "id": "宋楚瑜",
+      "label": "宋楚瑜",
+      "group": "external",
+      "notes": [
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+      ]
+    },
+    {
+      "id": "李登輝",
+      "label": "李登輝",
+      "group": "external",
+      "notes": [
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+      ]
+    },
+    {
+      "id": "朱星羽",
+      "label": "朱星羽",
+      "group": "external",
+      "notes": [
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+      ]
+    },
+    {
+      "id": "馬英九",
+      "label": "馬英九",
+      "group": "external",
+      "notes": [
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+      ]
+    },
+    {
+      "id": "許信良",
+      "label": "許信良",
+      "group": "external",
+      "notes": [
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+      ]
+    },
+    {
+      "id": "陳文茜",
+      "label": "陳文茜",
+      "group": "external",
+      "notes": [
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+      ]
+    },
+    {
+      "id": "蘇貞昌",
+      "label": "蘇貞昌",
+      "group": "external",
+      "notes": [
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+      ]
+    },
+    {
+      "id": "洪秀柱",
+      "label": "洪秀柱",
+      "group": "external",
+      "notes": [
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+      ]
+    },
+    {
+      "id": "張安樂",
+      "label": "張安樂",
+      "group": "external",
+      "notes": [
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+      ]
+    },
+    {
+      "id": "韓國瑜",
+      "label": "韓國瑜",
+      "group": "external",
+      "notes": [
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+      ]
+    },
+    {
+      "id": "魯明哲",
+      "label": "魯明哲",
+      "group": "external",
+      "notes": [
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+      ]
+    },
+    {
+      "id": "謝長廷",
+      "label": "謝長廷",
+      "group": "external",
+      "notes": [
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+      ]
+    },
+    {
+      "id": "蔡英文",
+      "label": "蔡英文",
+      "group": "external",
+      "notes": [
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+      ]
+    },
+    {
+      "id": "吳敦義",
+      "label": "吳敦義",
+      "group": "external",
+      "notes": [
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+      ]
+    },
+    {
+      "id": "郝柏村",
+      "label": "郝柏村",
+      "group": "external",
+      "notes": [
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+      ]
+    },
+    {
+      "id": "李敖",
+      "label": "李敖",
+      "group": "historical",
+      "notes": [
+        "1999年新黨提名參選2000年總統選舉。",
+        "1999年受新黨提名參選2000年總統大選。"
+      ]
+    },
+    {
+      "id": "條目其他政治背景",
+      "label": "條目其他政治背景",
+      "group": "hub",
+      "notes": [
+        "這些人物出現在政黨歷史脈絡、選舉或外部互動，但本頁未足以證實直接人際關係。"
+      ]
+    },
+    {
+      "id": "張榮味",
+      "label": "張榮味",
+      "group": "yunlin",
+      "notes": [
+        "雲林政治人物，原條目所述雲林張派領導人物；1999–2005 年曾任縣長。"
+      ]
+    },
+    {
+      "id": "張嘉郡",
+      "label": "張嘉郡",
+      "group": "family",
+      "notes": [
+        "張榮味長女，條目載有立委經歷與2015年是否參選的討論。"
+      ]
+    },
+    {
+      "id": "張鎔麒",
+      "label": "張鎔麒",
+      "group": "family",
+      "notes": [
+        "張榮味兒子，條目載有2015年立委徵召布局。"
+      ]
+    },
+    {
+      "id": "張怡郡",
+      "label": "張怡郡",
+      "group": "family",
+      "notes": [
+        "張榮味么女，本文僅提供親屬身分，無其他政治事件連線。"
+      ]
+    },
+    {
+      "id": "張麗善",
+      "label": "張麗善",
+      "group": "family",
+      "notes": [
+        "張榮味胞妹，國民黨籍雲林縣長，曾為2014年縣長參選人。"
+      ]
+    },
+    {
+      "id": "張永成",
+      "label": "張永成",
+      "group": "family",
+      "notes": [
+        "張榮味妹婿，條目列為全國農會總幹事。"
+      ]
+    },
+    {
+      "id": "張啟盟",
+      "label": "張啟盟",
+      "group": "family",
+      "notes": [
+        "張榮味胞弟，條目列為台灣區農業合作社全國聯合社理事主席。"
+      ]
+    },
+    {
+      "id": "張啟庭",
+      "label": "張啟庭",
+      "group": "family",
+      "notes": [
+        "張榮味胞弟，條目列為國濟禮儀公司董事長。"
+      ]
+    },
+    {
+      "id": "王月霞",
+      "label": "王月霞",
+      "group": "family",
+      "notes": [
+        "張榮味前配偶；條目記載2012年離婚。"
+      ]
+    },
+    {
+      "id": "蘇文雄",
+      "label": "蘇文雄",
+      "group": "yunlin",
+      "notes": [
+        "雲林縣前縣長，1997年縣長選舉與張榮味競選。"
+      ]
+    },
+    {
+      "id": "李學聰",
+      "label": "李學聰",
+      "group": "yunlin",
+      "notes": [
+        "條目列為張榮味前任縣長代理人。"
+      ]
+    },
+    {
+      "id": "李進勇",
+      "label": "李進勇",
+      "group": "yunlin",
+      "notes": [
+        "條目列為張榮味繼任縣長代理人。"
+      ]
+    },
+    {
+      "id": "蘇治芬",
+      "label": "蘇治芬",
+      "group": "yunlin",
+      "notes": [
+        "條目列為張榮味之後的雲林縣正任縣長。"
+      ]
+    },
+    {
+      "id": "歐明憲",
+      "label": "歐明憲",
+      "group": "yunlin",
+      "notes": [
+        "條目列為張榮味擔任雲林縣議長的前任。"
+      ]
+    },
+    {
+      "id": "陳清秀",
+      "label": "陳清秀",
+      "group": "yunlin",
+      "notes": [
+        "條目列為張榮味擔任雲林縣議長的繼任。"
+      ]
+    },
+    {
+      "id": "張平沼",
+      "label": "張平沼",
+      "group": "yunlin",
+      "notes": [
+        "條目列為台灣省商業總會理事長前任。"
+      ]
+    },
+    {
+      "id": "蔡國洲",
+      "label": "蔡國洲",
+      "group": "yunlin",
+      "notes": [
+        "條目列為台灣省商業總會理事長繼任。"
+      ]
+    },
+    {
+      "id": "張清良",
+      "label": "張清良",
+      "group": "yunlin",
+      "notes": [
+        "張榮味縣長任內副縣長，停職期間代行職務。"
+      ]
+    },
+    {
+      "id": "連戰",
+      "label": "連戰",
+      "group": "yunlin",
+      "notes": [
+        "2004年國民黨總統候選人，張榮味任連宋雲林競選總部主委。"
+      ]
+    },
+    {
+      "id": "朱立倫",
+      "label": "朱立倫",
+      "group": "yunlin",
+      "notes": [
+        "2015年張榮味公開表態支持的國民黨總統候選人。"
+      ]
+    },
+    {
+      "id": "陳國益",
+      "label": "陳國益",
+      "group": "yunlin",
+      "notes": [
+        "1994年雲林縣議會副議長選舉，與張榮味同涉確定的投票行賄案。"
+      ]
+    },
+    {
+      "id": "徐治國",
+      "label": "徐治國",
+      "group": "yunlin",
+      "notes": [
+        "條目焚化爐案件段落提及旭鼎負責人徐治國涉嫌行賄；不得據此推斷未載明司法結果。"
+      ]
+    },
+    {
+      "id": "呂昆展",
+      "label": "呂昆展",
+      "group": "yunlin",
+      "notes": [
+        "條目焚化爐案件段落提及呂昆展名下美國帳戶；不據此推斷刑事責任。"
+      ]
+    },
+    {
+      "id": "雲林張家／親屬",
+      "label": "雲林張家／親屬",
+      "group": "hub",
+      "notes": [
+        "依條目家族段落與資訊框整理的親屬群，並非全員有政治職務。"
+      ]
+    },
+    {
+      "id": "雲林張派",
+      "label": "雲林張派",
+      "group": "hub",
+      "notes": [
+        "條目稱張榮味是「雲林張派」掌門人，並提及選舉布局、2016年北農董事會。"
+      ]
+    },
+    {
+      "id": "雲林縣長任期沿革",
+      "label": "雲林縣長任期沿革",
+      "group": "hub",
+      "notes": [
+        "此群為前後任職務關係，並非人與人的合作或私交。"
+      ]
+    },
+    {
+      "id": "雲林縣議長任期沿革",
+      "label": "雲林縣議長任期沿革",
+      "group": "hub",
+      "notes": [
+        "此群為前後任職務關係，並非人與人的合作或私交。"
+      ]
+    },
+    {
+      "id": "台灣省商業總會理事長",
+      "label": "台灣省商業總會理事長",
+      "group": "hub",
+      "notes": [
+        "張榮味與其前後任理事長沿革；僅記錄職務連結。"
+      ]
+    },
+    {
+      "id": "1994議長選舉事件",
+      "label": "1994議長選舉事件",
+      "group": "hub",
+      "notes": [
+        "條目記載1994年議長及副議長選舉案件，並記載2005年有罪定讞。"
+      ]
+    },
+    {
+      "id": "2004連宋雲林競選總部",
+      "label": "2004連宋雲林競選總部",
+      "group": "hub",
+      "notes": [
+        "張榮味擔任連戰、宋楚瑜正副總統候選人雲林縣競選總部主委。"
+      ]
+    },
+    {
+      "id": "2014–15張派選舉布局",      "label": "2014–15張派選舉布局",
+      "group": "hub",
+      "notes": [
+        "張麗善2014參選縣長及2015年張家立委布局事件。"
+      ]
+    },
+    {
+      "id": "林內焚化爐弊案",
+      "label": "林內焚化爐弊案",
+      "group": "hub",
+      "notes": [
+        "條目所述司法案件，不同涉案角色應個別確認，不意味所有被提及者都有罪。"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "條目所列全國委員會",
+      "to": "吳成典",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "李勝峰",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "林易陞",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "侯漢廷",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "陳麗玲",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "賀樺",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "林啟談",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "鄭光禮",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "蔡明璋",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "董俊良",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "郭榮先",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "吳正群",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "戴德成",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "孫家棟",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "仉桂美",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "王萬邦",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "田昭容",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "謝治",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目所列全國委員會",
+      "to": "游智彬",
+      "type": "affiliation",
+      "detail": "條目「現任黨職」表列全國委員會委員；未逐一查證2026年的任職狀態。",
+      "period": "條目查閱：2026-10-17",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "創黨成員（1993）",
+      "to": "趙少康",
+      "type": "affiliation",
+      "detail": "1993年新黨創黨成員之一（條目資訊框及創黨歷史）。",
+      "period": "1993",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "創黨成員（1993）",
+      "to": "郁慕明",
+      "type": "affiliation",
+      "detail": "1993年新黨創黨成員之一（條目資訊框及創黨歷史）。",
+      "period": "1993",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "創黨成員（1993）",
+      "to": "王建煊",
+      "type": "affiliation",
+      "detail": "1993年新黨創黨成員之一（條目資訊框及創黨歷史）。",
+      "period": "1993",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "創黨成員（1993）",
+      "to": "陳癸淼",
+      "type": "affiliation",
+      "detail": "1993年新黨創黨成員之一（條目資訊框及創黨歷史）。",
+      "period": "1993",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "創黨成員（1993）",
+      "to": "李慶華",
+      "type": "affiliation",
+      "detail": "1993年新黨創黨成員之一（條目資訊框及創黨歷史）。",
+      "period": "1993",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "創黨成員（1993）",
+      "to": "李勝峰",
+      "type": "affiliation",
+      "detail": "1993年新黨創黨成員之一（條目資訊框及創黨歷史）。",
+      "period": "1993",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "創黨成員（1993）",
+      "to": "周荃",
+      "type": "affiliation",
+      "detail": "1993年新黨創黨成員之一（條目資訊框及創黨歷史）。",
+      "period": "1993",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷任最高領導",
+      "to": "趙少康",
+      "type": "affiliation",
+      "detail": "曾任全國委員會召集人、代理召集人或新黨主席；詳細任期見條目歷任領導人表。",
+      "period": "1993–2026（跨不同任期）",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷任最高領導",
+      "to": "郁慕明",
+      "type": "affiliation",
+      "detail": "曾任全國委員會召集人、代理召集人或新黨主席；詳細任期見條目歷任領導人表。",
+      "period": "1993–2026（跨不同任期）",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷任最高領導",
+      "to": "王建煊",
+      "type": "affiliation",
+      "detail": "曾任全國委員會召集人、代理召集人或新黨主席；詳細任期見條目歷任領導人表。",
+      "period": "1993–2026（跨不同任期）",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷任最高領導",
+      "to": "陳癸淼",
+      "type": "affiliation",
+      "detail": "曾任全國委員會召集人、代理召集人或新黨主席；詳細任期見條目歷任領導人表。",
+      "period": "1993–2026（跨不同任期）",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷任最高領導",
+      "to": "周陽山",
+      "type": "affiliation",
+      "detail": "曾任全國委員會召集人、代理召集人或新黨主席；詳細任期見條目歷任領導人表。",
+      "period": "1993–2026（跨不同任期）",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷任最高領導",
+      "to": "馮定國",
+      "type": "affiliation",
+      "detail": "曾任全國委員會召集人、代理召集人或新黨主席；詳細任期見條目歷任領導人表。",
+      "period": "1993–2026（跨不同任期）",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷任最高領導",
+      "to": "李慶華",
+      "type": "affiliation",
+      "detail": "曾任全國委員會召集人、代理召集人或新黨主席；詳細任期見條目歷任領導人表。",
+      "period": "1993–2026（跨不同任期）",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷任最高領導",
+      "to": "郝龍斌",
+      "type": "affiliation",
+      "detail": "曾任全國委員會召集人、代理召集人或新黨主席；詳細任期見條目歷任領導人表。",
+      "period": "1993–2026（跨不同任期）",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷任最高領導",
+      "to": "謝啟大",
+      "type": "affiliation",
+      "detail": "曾任全國委員會召集人、代理召集人或新黨主席；詳細任期見條目歷任領導人表。",
+      "period": "1993–2026（跨不同任期）",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷任最高領導",
+      "to": "營志宏",
+      "type": "affiliation",
+      "detail": "曾任全國委員會召集人、代理召集人或新黨主席；詳細任期見條目歷任領導人表。",
+      "period": "1993–2026（跨不同任期）",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷任最高領導",
+      "to": "吳成典",
+      "type": "affiliation",
+      "detail": "曾任全國委員會召集人、代理召集人或新黨主席；詳細任期見條目歷任領導人表。",
+      "period": "1993–2026（跨不同任期）",
+      "source": "組織",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "朱高正",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "李慶華",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "周荃",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "陳癸淼",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "趙少康",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "謝啟大",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "郁慕明",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "王建煊",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "朱惠良",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "周陽山",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "林郁方",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "郝龍斌",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "高惠宇",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "陳一新",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "陳漢強",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "傅崐成",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "馮定國",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "蔡正揚",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "鄭龍水",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "賴來焜",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "錢達",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "黃國鐘",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "姚立明",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "張世良",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "馮滬祥",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "營志宏",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "李炷烽",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "鍾新財",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "吳成典",
+      "type": "affiliation",
+      "detail": "條目列於新黨歷屆立法委員名單（1993–2004等任期）。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "賴士葆",
+      "type": "affiliation",
+      "detail": "條目列於歷屆新黨立委名單；注意2004年等部分人物係由國民黨提名、新黨背書，不可直接推論當時具新黨黨籍。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "雷倩",
+      "type": "affiliation",
+      "detail": "條目列於歷屆新黨立委名單；注意2004年等部分人物係由國民黨提名、新黨背書，不可直接推論當時具新黨黨籍。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "費鴻泰",
+      "type": "affiliation",
+      "detail": "條目列於歷屆新黨立委名單；注意2004年等部分人物係由國民黨提名、新黨背書，不可直接推論當時具新黨黨籍。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "歷屆新黨立委",
+      "to": "曹壽民",
+      "type": "affiliation",
+      "detail": "條目列於歷屆新黨立委名單；注意2004年等部分人物係由國民黨提名、新黨背書，不可直接推論當時具新黨黨籍。",
+      "period": "1993–2008（依人而異）",
+      "source": "執政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "臺北市議會新黨黨團",
+      "to": "李慶元",
+      "type": "affiliation",
+      "detail": "2021年3人組成臺北市議會新黨黨團。",
+      "period": "2021",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "臺北市議會新黨黨團",
+      "to": "潘懷宗",
+      "type": "affiliation",
+      "detail": "2021年3人組成臺北市議會新黨黨團。",
+      "period": "2021",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "臺北市議會新黨黨團",
+      "to": "侯漢廷",
+      "type": "affiliation",
+      "detail": "2021年3人組成臺北市議會新黨黨團。",
+      "period": "2021",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "1997年黨內衝突",
+      "to": "朱高正",
+      "type": "event",
+      "detail": "涉及條目記載的1997年前後新黨內部指控、批評、黨紀處理或口角，參與性質各不相同。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "1997年黨內衝突",
+      "to": "黃國鐘",
+      "type": "event",
+      "detail": "涉及條目記載的1997年前後新黨內部指控、批評、黨紀處理或口角，參與性質各不相同。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "1997年黨內衝突",
+      "to": "郁慕明",
+      "type": "event",
+      "detail": "涉及條目記載的1997年前後新黨內部指控、批評、黨紀處理或口角，參與性質各不相同。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "1997年黨內衝突",
+      "to": "陳癸淼",
+      "type": "event",
+      "detail": "涉及條目記載的1997年前後新黨內部指控、批評、黨紀處理或口角，參與性質各不相同。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "1997年黨內衝突",
+      "to": "姚立明",
+      "type": "event",
+      "detail": "涉及條目記載的1997年前後新黨內部指控、批評、黨紀處理或口角，參與性質各不相同。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "1997年黨內衝突",
+      "to": "王建煊",
+      "type": "event",
+      "detail": "涉及條目記載的1997年前後新黨內部指控、批評、黨紀處理或口角，參與性質各不相同。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "1997年黨內衝突",
+      "to": "李慶華",
+      "type": "event",
+      "detail": "涉及條目記載的1997年前後新黨內部指控、批評、黨紀處理或口角，參與性質各不相同。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "1997年黨內衝突",
+      "to": "郝龍斌",
+      "type": "event",
+      "detail": "涉及條目記載的1997年前後新黨內部指控、批評、黨紀處理或口角，參與性質各不相同。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "1997年黨內衝突",
+      "to": "李新",
+      "type": "event",
+      "detail": "涉及條目記載的1997年前後新黨內部指控、批評、黨紀處理或口角，參與性質各不相同。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "2020–21路線爭議",
+      "to": "吳成典",
+      "type": "event",
+      "detail": "出現在條目記載2020–2021年「理念派／選舉派」路線紛爭的相關人物。",
+      "period": "2020–2021",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "2020–21路線爭議",
+      "to": "郁慕明",
+      "type": "event",
+      "detail": "出現在條目記載2020–2021年「理念派／選舉派」路線紛爭的相關人物。",
+      "period": "2020–2021",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "2020–21路線爭議",
+      "to": "王炳忠",
+      "type": "event",
+      "detail": "出現在條目記載2020–2021年「理念派／選舉派」路線紛爭的相關人物。",
+      "period": "2020–2021",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "2020–21路線爭議",
+      "to": "楊世光",
+      "type": "event",
+      "detail": "出現在條目記載2020–2021年「理念派／選舉派」路線紛爭的相關人物。",
+      "period": "2020–2021",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "2020–21路線爭議",
+      "to": "侯漢廷",
+      "type": "event",
+      "detail": "出現在條目記載2020–2021年「理念派／選舉派」路線紛爭的相關人物。",
+      "period": "2020–2021",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "2020–21路線爭議",
+      "to": "潘懷宗",
+      "type": "event",
+      "detail": "出現在條目記載2020–2021年「理念派／選舉派」路線紛爭的相關人物。",
+      "period": "2020–2021",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "2020–21路線爭議",
+      "to": "蘇恆",
+      "type": "event",
+      "detail": "出現在條目記載2020–2021年「理念派／選舉派」路線紛爭的相關人物。",
+      "period": "2020–2021",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "2020–21路線爭議",
+      "to": "林明正",
+      "type": "event",
+      "detail": "出現在條目記載2020–2021年「理念派／選舉派」路線紛爭的相關人物。",
+      "period": "2020–2021",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "2020–21路線爭議",
+      "to": "李慶元",
+      "type": "event",
+      "detail": "出現在條目記載2020–2021年「理念派／選舉派」路線紛爭的相關人物。",
+      "period": "2020–2021",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "21青連線",
+      "to": "郁慕明",
+      "type": "affiliation",
+      "detail": "條目記載2021年郁慕明與王炳忠等人成立「21青連線」；此處僅表事件或同場成員，未查證所有人正式成員資格。",
+      "period": "2021",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "21青連線",
+      "to": "王炳忠",
+      "type": "affiliation",
+      "detail": "條目記載2021年郁慕明與王炳忠等人成立「21青連線」；此處僅表事件或同場成員，未查證所有人正式成員資格。",
+      "period": "2021",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "國新選舉合作",
+      "to": "郝龍斌",
+      "type": "affiliation",
+      "detail": "國民黨與新黨歷次合作提名或背書相關人物；並非表示皆為新黨黨員。",
+      "period": "2004–2008",
+      "source": "黨際關係",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "國新選舉合作",
+      "to": "賴士葆",
+      "type": "affiliation",
+      "detail": "國民黨與新黨歷次合作提名或背書相關人物；並非表示皆為新黨黨員。",
+      "period": "2004–2008",
+      "source": "黨際關係",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "國新選舉合作",
+      "to": "雷倩",
+      "type": "affiliation",
+      "detail": "國民黨與新黨歷次合作提名或背書相關人物；並非表示皆為新黨黨員。",
+      "period": "2004–2008",
+      "source": "黨際關係",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "國新選舉合作",
+      "to": "費鴻泰",
+      "type": "affiliation",
+      "detail": "國民黨與新黨歷次合作提名或背書相關人物；並非表示皆為新黨黨員。",
+      "period": "2004–2008",
+      "source": "黨際關係",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "國新選舉合作",
+      "to": "曹壽民",
+      "type": "affiliation",
+      "detail": "國民黨與新黨歷次合作提名或背書相關人物；並非表示皆為新黨黨員。",
+      "period": "2004–2008",
+      "source": "黨際關係",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "國新選舉合作",
+      "to": "吳成典",
+      "type": "affiliation",
+      "detail": "國民黨與新黨歷次合作提名或背書相關人物；並非表示皆為新黨黨員。",
+      "period": "2004–2008",
+      "source": "黨際關係",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "2024不分區名單",
+      "to": "王建煊",
+      "type": "affiliation",
+      "detail": "2024年第11屆立委選舉新黨不分區提名名單；當選結果為0席。",
+      "period": "2024",
+      "source": "參選",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "2024不分區名單",
+      "to": "仉桂美",
+      "type": "affiliation",
+      "detail": "2024年第11屆立委選舉新黨不分區提名名單；當選結果為0席。",
+      "period": "2024",
+      "source": "參選",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "2024不分區名單",
+      "to": "吳成典",
+      "type": "affiliation",
+      "detail": "2024年第11屆立委選舉新黨不分區提名名單；當選結果為0席。",
+      "period": "2024",
+      "source": "參選",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "2024不分區名單",
+      "to": "賀樺",
+      "type": "affiliation",
+      "detail": "2024年第11屆立委選舉新黨不分區提名名單；當選結果為0席。",
+      "period": "2024",
+      "source": "參選",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "2024不分區名單",
+      "to": "林易陞",
+      "type": "affiliation",
+      "detail": "2024年第11屆立委選舉新黨不分區提名名單；當選結果為0席。",
+      "period": "2024",
+      "source": "參選",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "2024不分區名單",
+      "to": "陳麗玲",
+      "type": "affiliation",
+      "detail": "2024年第11屆立委選舉新黨不分區提名名單；當選結果為0席。",
+      "period": "2024",
+      "source": "參選",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "2024不分區名單",
+      "to": "戴德滿",
+      "type": "affiliation",
+      "detail": "2024年第11屆立委選舉新黨不分區提名名單；當選結果為0席。",
+      "period": "2024",
+      "source": "參選",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "2024不分區名單",
+      "to": "王子芩",
+      "type": "affiliation",
+      "detail": "2024年第11屆立委選舉新黨不分區提名名單；當選結果為0席。",
+      "period": "2024",
+      "source": "參選",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "朱高正",
+      "to": "黃國鐘",
+      "type": "cooperate",
+      "detail": "兩人於1994年自社民黨背景投入新黨，1997年共同提出對姚立明的指控。",
+      "period": "1994、1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "朱高正",
+      "to": "姚立明",
+      "type": "dispute",
+      "detail": "1997年朱高正與黃國鐘公開指控姚立明；此圖只記錄指控曾發生，不判斷真偽。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "黃國鐘",
+      "to": "姚立明",      "type": "dispute",
+      "detail": "1997年與朱高正共同指控姚立明；此圖只記錄指控曾發生，不判斷真偽。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "朱高正",
+      "to": "郁慕明",
+      "type": "dispute",
+      "detail": "1997年新黨黨內公開互批、政治爭議。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "朱高正",
+      "to": "陳癸淼",
+      "type": "dispute",
+      "detail": "1997年公開互批；郁慕明、陳癸淼曾共同召開記者會指控朱高正。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "郁慕明",
+      "to": "陳癸淼",
+      "type": "cooperate",
+      "detail": "兩人1997年共同召開對朱高正提出指控的記者會；所述內容屬雙方爭議，圖不判真偽。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "王建煊",
+      "to": "朱高正",
+      "type": "dispute",
+      "detail": "王建煊以廉政勤政委員會召集人身分主持會議，決議開除朱高正黨籍。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "郁慕明",
+      "to": "李慶華",
+      "type": "dispute",
+      "detail": "條目記載兩人在1997年前後不和。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "李慶華",
+      "to": "郝龍斌",
+      "type": "dispute",
+      "detail": "條目記載曾發生口角衝突。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "李慶華",
+      "to": "李新",
+      "type": "dispute",
+      "detail": "條目記載曾發生口角衝突。",
+      "period": "1997",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "李慶華",
+      "to": "宋楚瑜",
+      "type": "support",
+      "detail": "李慶華2000年辭去新黨職務、退黨支持宋楚瑜參選總統。",
+      "period": "2000",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "李敖",
+      "to": "宋楚瑜",
+      "type": "support",
+      "detail": "李敖原獲新黨提名競選2000年總統，投票前宣布支持宋楚瑜。",
+      "period": "2000",
+      "source": "參選",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "郁慕明",
+      "to": "謝長廷",
+      "type": "cooperate",
+      "detail": "2008年兩人雖立場不同，仍會面交換政局意見。",
+      "period": "2008",
+      "source": "黨際關係",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "洪秀柱",
+      "to": "張安樂",
+      "type": "event",
+      "detail": "兩人共同出席新黨2016年23週年黨慶；僅代表同場活動。",
+      "period": "2016",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "郁慕明",
+      "to": "王炳忠",
+      "type": "cooperate",
+      "detail": "2020年郁慕明公開力挺王炳忠；條目亦記載其過去曾提拔王炳忠。",
+      "period": "2020–2021",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "郁慕明",
+      "to": "吳成典",
+      "type": "dispute",
+      "detail": "2020–2021年新黨路線歧見，2021年郁慕明公開批評吳成典領導。",
+      "period": "2020–2021",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "王炳忠",
+      "to": "吳成典",
+      "type": "dispute",
+      "detail": "2020年王炳忠公開質疑吳成典路線，2021年持續批評黨中央。",
+      "period": "2020–2021",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "王炳忠",
+      "to": "李慶元",
+      "type": "dispute",
+      "detail": "2021年王炳忠公開反對李慶元重返新黨，提出政治立場相關指控；僅記錄其發言。",
+      "period": "2021",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "郁慕明",
+      "to": "李慶元",
+      "type": "dispute",
+      "detail": "2021年郁慕明公開反對李慶元回歸新黨；相關指控雙方說法不同。",
+      "period": "2021",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "吳成典",
+      "to": "李慶元",
+      "type": "cooperate",
+      "detail": "吳成典2021年邀請李慶元重返新黨，促成議會黨團重新組成。",
+      "period": "2021",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "吳成典",
+      "to": "潘懷宗",
+      "type": "cooperate",
+      "detail": "2020年黨內路線紛爭，條目將潘懷宗描述為「親吳成典」的秘書長。",
+      "period": "2020",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "趙少康",
+      "to": "潘懷宗",
+      "type": "cooperate",
+      "detail": "2020年郁慕明臉書說法中，潘懷宗被描述為趙少康所提拔；此為郁慕明的說法。",
+      "period": "2020",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "楊世光",
+      "to": "侯漢廷",
+      "type": "dispute",
+      "detail": "條目記載2020年楊世光曾批評侯漢廷對統一立場不夠強硬。",
+      "period": "2020",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "楊世光",
+      "to": "吳成典",
+      "type": "contest",
+      "detail": "2022年新黨第十屆主席選舉二人競爭，吳成典連任。",
+      "period": "2022",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "陳麗玲",
+      "to": "吳成典",
+      "type": "contest",
+      "detail": "2020年新黨黨主席改選，二人競爭，吳成典當選。",
+      "period": "2020",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "郁慕明",
+      "to": "蘇恆",
+      "type": "event",
+      "detail": "兩人2021年與其他成員同場就新黨路線公開發表意見；不能據此推論私交。",
+      "period": "2021",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "郁慕明",
+      "to": "林明正",
+      "type": "event",
+      "detail": "兩人2021年共同出席批評黨中央的記者會。",
+      "period": "2021",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "吳成典",
+      "to": "李炷烽",
+      "type": "cooperate",
+      "detail": "條目記載吳成典在2021年邀回多名曾退黨人士，其中包含李炷烽。",
+      "period": "2021",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "吳成典",
+      "to": "金介壽",
+      "type": "cooperate",
+      "detail": "條目記載2021年吳成典找回過去曾退黨的黨員。",
+      "period": "2021",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "吳成典",
+      "to": "曹原彰",
+      "type": "cooperate",
+      "detail": "條目記載2021年吳成典找回過去曾退黨的黨員。",
+      "period": "2021",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "吳成典",
+      "to": "朱惠良",
+      "type": "cooperate",
+      "detail": "條目記載2021年吳成典找回過去曾退黨的黨員。",
+      "period": "2021",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "吳成典",
+      "to": "宋艾克",
+      "type": "cooperate",
+      "detail": "條目記載2021年吳成典找回過去曾退黨的黨員。",
+      "period": "2021",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "游智彬",
+      "to": "魯明哲",
+      "type": "contest",
+      "detail": "2024年立委選舉，游智彬以新黨名義挑戰魯明哲。",
+      "period": "2024",
+      "source": "參選",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "郁慕明",
+      "to": "洪秀柱",
+      "type": "event",
+      "detail": "新黨2016年黨慶，時任國民黨主席洪秀柱出席，郁慕明表達期待合作；不代表兩人私交。",
+      "period": "2016",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "郁慕明",
+      "to": "張安樂",
+      "type": "event",
+      "detail": "張安樂出席2016年新黨黨慶，時任黨主席郁慕明發言；僅代表同場活動。",
+      "period": "2016",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "李慶華",
+      "to": "陳文茜",
+      "type": "event",
+      "detail": "1999年李敖曾提出「李慶華、陳文茜」搭配構想；僅為政治提議，非實際搭檔。",
+      "period": "1999",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "李敖",
+      "to": "許信良",
+      "type": "event",
+      "detail": "1999年李敖曾提出「許信良、李敖」搭配構想；僅為政治提議，非實際搭檔。",
+      "period": "1999",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "朱星羽",
+      "to": "郁慕明",
+      "type": "event",
+      "detail": "1993年三一四事件時，朱星羽帶領抗議群眾，郁慕明在新國民黨連線赴高雄宣講名單之中。",
+      "period": "1993",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "李登輝",
+      "to": "趙少康",
+      "type": "dispute",
+      "detail": "新國民黨連線與當時李登輝領導的國民黨當權派政治路線有矛盾，是1993年分黨的政治背景。",
+      "period": "1989–1993",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "王建煊",
+      "to": "蘇貞昌",
+      "type": "contest",
+      "detail": "2001年臺北縣縣長選舉對手，蘇貞昌連任。",
+      "period": "2001",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目其他政治背景",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "條目提及的人物或政治背景，不推論其與特定新黨成員存在直接關係。",
+      "period": "依條目",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目其他政治背景",
+      "to": "韓國瑜",
+      "type": "event",
+      "detail": "條目提及的人物或政治背景，不推論其與特定新黨成員存在直接關係。",
+      "period": "依條目",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目其他政治背景",
+      "to": "蔡英文",
+      "type": "event",
+      "detail": "條目提及的人物或政治背景，不推論其與特定新黨成員存在直接關係。",
+      "period": "依條目",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目其他政治背景",
+      "to": "吳敦義",
+      "type": "event",
+      "detail": "條目提及的人物或政治背景，不推論其與特定新黨成員存在直接關係。",
+      "period": "依條目",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目其他政治背景",
+      "to": "郝柏村",
+      "type": "event",
+      "detail": "條目提及的人物或政治背景，不推論其與特定新黨成員存在直接關係。",
+      "period": "依條目",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目其他政治背景",
+      "to": "王鴻薇",
+      "type": "event",
+      "detail": "條目歷史中提及的政治人物；無可於本頁確認的特定直接人際連線。",
+      "period": "依條目",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目其他政治背景",
+      "to": "陳彥伯",
+      "type": "event",
+      "detail": "條目歷史中提及的政治人物；無可於本頁確認的特定直接人際連線。",
+      "period": "依條目",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目其他政治背景",
+      "to": "邱毅",
+      "type": "event",
+      "detail": "條目歷史中提及的政治人物；無可於本頁確認的特定直接人際連線。",
+      "period": "依條目",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目其他政治背景",
+      "to": "林正國",
+      "type": "event",
+      "detail": "條目歷史中提及的政治人物；無可於本頁確認的特定直接人際連線。",
+      "period": "依條目",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "條目其他政治背景",
+      "to": "米甘幹·理佛克",
+      "type": "event",
+      "detail": "條目歷史中提及的政治人物；無可於本頁確認的特定直接人際連線。",
+      "period": "依條目",
+      "source": "歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E6%96%B0%E9%BB%A8"
+    },
+    {
+      "from": "張榮味",
+      "to": "張嘉郡",
+      "type": "family",
+      "detail": "父女（長女）",
+      "period": "家族",
+      "source": "張榮味條目｜資訊框及家族",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "張榮味",
+      "to": "張鎔麒",
+      "type": "family",
+      "detail": "父子",
+      "period": "家族",
+      "source": "張榮味條目｜資訊框及家族",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "張榮味",
+      "to": "張怡郡",
+      "type": "family",
+      "detail": "父女（么女）",
+      "period": "家族",
+      "source": "張榮味條目｜資訊框及家族",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "張榮味",
+      "to": "張麗善",
+      "type": "family",
+      "detail": "兄妹",
+      "period": "家族",
+      "source": "張榮味條目｜資訊框及家族",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "張榮味",
+      "to": "張永成",
+      "type": "family",
+      "detail": "姻親：妹婿",
+      "period": "家族",
+      "source": "張榮味條目｜資訊框及家族",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "張榮味",
+      "to": "張啟盟",
+      "type": "family",
+      "detail": "兄弟（胞弟）",
+      "period": "家族",
+      "source": "張榮味條目｜資訊框及家族",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "張榮味",
+      "to": "張啟庭",
+      "type": "family",
+      "detail": "兄弟（胞弟）",
+      "period": "家族",
+      "source": "張榮味條目｜資訊框及家族",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "張榮味",
+      "to": "王月霞",
+      "type": "family",
+      "detail": "前配偶；條目記載2012年離婚",
+      "period": "2012",
+      "source": "張榮味條目｜資訊框及家族",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "張榮味",
+      "to": "蘇文雄",
+      "type": "contest",
+      "detail": "1997年雲林縣長選舉，張榮味以約3,000票之差敗給蘇文雄。",
+      "period": "1997",
+      "source": "張榮味條目｜從政",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "張榮味",
+      "to": "陳國益",
+      "type": "cooperate",
+      "detail": "1994年雲林縣正、副議長選舉中分別當選；條目記載相關投票行賄罪2005年定讞。",
+      "period": "1994／2005",
+      "source": "張榮味條目｜賄選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "張榮味",
+      "to": "張清良",
+      "type": "cooperate",
+      "detail": "張清良任縣府副縣長，2004年張榮味停職時代行縣長職務。",
+      "period": "2004",
+      "source": "張榮味條目｜雲林縣縣長",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "張榮味",
+      "to": "連戰",
+      "type": "cooperate",
+      "detail": "張榮味擔任2004年連戰、宋楚瑜總統選舉雲林縣競選總部主委。",
+      "period": "2004",
+      "source": "張榮味條目｜雲林縣縣長",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "張榮味",
+      "to": "宋楚瑜",
+      "type": "cooperate",
+      "detail": "張榮味擔任2004年連戰、宋楚瑜正副總統選舉雲林縣競選總部主委；宋楚瑜也是原新黨條目人物。",
+      "period": "2004",
+      "source": "張榮味條目｜雲林縣縣長",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "張榮味",
+      "to": "朱立倫",
+      "type": "support",
+      "detail": "2015年張榮味公開表態支持國民黨總統候選人朱立倫。",
+      "period": "2015",
+      "source": "張榮味條目｜近年活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "張榮味",
+      "to": "張麗善",
+      "type": "event",
+      "detail": "張派推出張麗善參選2014年雲林縣長。",
+      "period": "2014",
+      "source": "張榮味條目｜近年活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "張榮味",
+      "to": "張嘉郡",
+      "type": "event",
+      "detail": "條目記載張嘉郡2014–15年間立委退選、被徵召等布局。",
+      "period": "2014–15",
+      "source": "張榮味條目｜近年活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "張榮味",
+      "to": "張鎔麒",
+      "type": "event",
+      "detail": "2015年張嘉郡宣布退選後，張鎔麒獲徵召參選立委。",
+      "period": "2015",
+      "source": "張榮味條目｜近年活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林張家／親屬",
+      "to": "張榮味",
+      "type": "affiliation",
+      "detail": "條目資訊框或「家族」記載之成員；除另有直接親屬邊外，不推斷彼此關係。",
+      "period": "家族",
+      "source": "張榮味條目｜家族",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林張家／親屬",
+      "to": "張嘉郡",
+      "type": "affiliation",
+      "detail": "條目資訊框或「家族」記載之成員；除另有直接親屬邊外，不推斷彼此關係。",
+      "period": "家族",
+      "source": "張榮味條目｜家族",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林張家／親屬",
+      "to": "張鎔麒",
+      "type": "affiliation",
+      "detail": "條目資訊框或「家族」記載之成員；除另有直接親屬邊外，不推斷彼此關係。",
+      "period": "家族",
+      "source": "張榮味條目｜家族",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林張家／親屬",
+      "to": "張怡郡",
+      "type": "affiliation",
+      "detail": "條目資訊框或「家族」記載之成員；除另有直接親屬邊外，不推斷彼此關係。",
+      "period": "家族",
+      "source": "張榮味條目｜家族",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林張家／親屬",
+      "to": "張麗善",
+      "type": "affiliation",
+      "detail": "條目資訊框或「家族」記載之成員；除另有直接親屬邊外，不推斷彼此關係。",
+      "period": "家族",
+      "source": "張榮味條目｜家族",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林張家／親屬",
+      "to": "張永成",
+      "type": "affiliation",
+      "detail": "條目資訊框或「家族」記載之成員；除另有直接親屬邊外，不推斷彼此關係。",
+      "period": "家族",
+      "source": "張榮味條目｜家族",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林張家／親屬",
+      "to": "張啟盟",
+      "type": "affiliation",
+      "detail": "條目資訊框或「家族」記載之成員；除另有直接親屬邊外，不推斷彼此關係。",
+      "period": "家族",
+      "source": "張榮味條目｜家族",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林張家／親屬",
+      "to": "張啟庭",
+      "type": "affiliation",
+      "detail": "條目資訊框或「家族」記載之成員；除另有直接親屬邊外，不推斷彼此關係。",
+      "period": "家族",
+      "source": "張榮味條目｜家族",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林張家／親屬",
+      "to": "王月霞",
+      "type": "affiliation",
+      "detail": "條目資訊框或「家族」記載之成員；除另有直接親屬邊外，不推斷彼此關係。",
+      "period": "家族",
+      "source": "張榮味條目｜家族",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林張派",
+      "to": "張榮味",
+      "type": "affiliation",
+      "detail": "張榮味及條目所記載張派相關選舉布局人物；此處為政治／選舉群集。",
+      "period": "1990–2016",
+      "source": "張榮味條目｜近年活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林張派",
+      "to": "張麗善",
+      "type": "affiliation",
+      "detail": "張榮味及條目所記載張派相關選舉布局人物；此處為政治／選舉群集。",
+      "period": "1990–2016",
+      "source": "張榮味條目｜近年活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林張派",
+      "to": "張嘉郡",
+      "type": "affiliation",
+      "detail": "張榮味及條目所記載張派相關選舉布局人物；此處為政治／選舉群集。",
+      "period": "1990–2016",
+      "source": "張榮味條目｜近年活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林張派",
+      "to": "張鎔麒",
+      "type": "affiliation",
+      "detail": "張榮味及條目所記載張派相關選舉布局人物；此處為政治／選舉群集。",
+      "period": "1990–2016",
+      "source": "張榮味條目｜近年活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林縣長任期沿革",
+      "to": "蘇文雄",
+      "type": "affiliation",
+      "detail": "正任前任（1999年辭世）。",
+      "period": "1999以前",
+      "source": "張榮味條目｜資訊框／雲林縣縣長",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林縣長任期沿革",
+      "to": "李學聰",
+      "type": "affiliation",
+      "detail": "前任代理縣長。",
+      "period": "1999",
+      "source": "張榮味條目｜資訊框／雲林縣縣長",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林縣長任期沿革",
+      "to": "張榮味",
+      "type": "affiliation",
+      "detail": "1999–2005年縣長。",
+      "period": "1999–2005",
+      "source": "張榮味條目｜資訊框／雲林縣縣長",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林縣長任期沿革",
+      "to": "李進勇",
+      "type": "affiliation",
+      "detail": "繼任代理縣長。",
+      "period": "2005",
+      "source": "張榮味條目｜資訊框／雲林縣縣長",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林縣長任期沿革",
+      "to": "蘇治芬",
+      "type": "affiliation",
+      "detail": "繼任正任縣長。",
+      "period": "2005之後",
+      "source": "張榮味條目｜資訊框／雲林縣縣長",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林縣長任期沿革",
+      "to": "張清良",
+      "type": "affiliation",
+      "detail": "副縣長；張榮味停職期間代行職務。",
+      "period": "2004",
+      "source": "張榮味條目｜資訊框／雲林縣縣長",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林縣議長任期沿革",
+      "to": "歐明憲",
+      "type": "affiliation",
+      "detail": "張榮味前任縣議長",
+      "period": "1990–1998",
+      "source": "張榮味條目｜資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林縣議長任期沿革",
+      "to": "張榮味",
+      "type": "affiliation",
+      "detail": "曾任第12–13屆雲林縣議長",
+      "period": "1990–1998",
+      "source": "張榮味條目｜資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "雲林縣議長任期沿革",
+      "to": "陳清秀",
+      "type": "affiliation",
+      "detail": "張榮味繼任縣議長",
+      "period": "1990–1998",
+      "source": "張榮味條目｜資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "台灣省商業總會理事長",
+      "to": "張平沼",
+      "type": "affiliation",
+      "detail": "張榮味前任理事長",
+      "period": "2009–2018",
+      "source": "張榮味條目｜資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "台灣省商業總會理事長",
+      "to": "張榮味",
+      "type": "affiliation",
+      "detail": "2009–2018年理事長（依資訊框）",
+      "period": "2009–2018",
+      "source": "張榮味條目｜資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "台灣省商業總會理事長",
+      "to": "蔡國洲",
+      "type": "affiliation",
+      "detail": "張榮味繼任理事長",
+      "period": "2009–2018",
+      "source": "張榮味條目｜資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "1994議長選舉事件",
+      "to": "張榮味",
+      "type": "event",
+      "detail": "條目記載兩人在1994議長及副議長選舉案中2005年獲罪判決定讞。",
+      "period": "1994／2005",
+      "source": "張榮味條目｜賄選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "1994議長選舉事件",
+      "to": "陳國益",
+      "type": "event",
+      "detail": "條目記載兩人在1994議長及副議長選舉案中2005年獲罪判決定讞。",
+      "period": "1994／2005",
+      "source": "張榮味條目｜賄選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "2004連宋雲林競選總部",
+      "to": "張榮味",
+      "type": "event",
+      "detail": "張榮味任連宋選舉雲林競選總部主委；兩人為國民黨正副總統候選人。",
+      "period": "2004",
+      "source": "張榮味條目｜雲林縣縣長",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "2004連宋雲林競選總部",
+      "to": "連戰",
+      "type": "event",
+      "detail": "張榮味任連宋選舉雲林競選總部主委；兩人為國民黨正副總統候選人。",
+      "period": "2004",
+      "source": "張榮味條目｜雲林縣縣長",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "2004連宋雲林競選總部",
+      "to": "宋楚瑜",
+      "type": "event",
+      "detail": "張榮味任連宋選舉雲林競選總部主委；兩人為國民黨正副總統候選人。",
+      "period": "2004",
+      "source": "張榮味條目｜雲林縣縣長",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "2014–15張派選舉布局",
+      "to": "張榮味",
+      "type": "event",
+      "detail": "條目「近年活動」段落記載此人物參與或被提及2014–15張派／國民黨選舉布局。",
+      "period": "2014–15",
+      "source": "張榮味條目｜近年活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "2014–15張派選舉布局",
+      "to": "張麗善",
+      "type": "event",
+      "detail": "條目「近年活動」段落記載此人物參與或被提及2014–15張派／國民黨選舉布局。",
+      "period": "2014–15",
+      "source": "張榮味條目｜近年活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "2014–15張派選舉布局",
+      "to": "張嘉郡",
+      "type": "event",
+      "detail": "條目「近年活動」段落記載此人物參與或被提及2014–15張派／國民黨選舉布局。",
+      "period": "2014–15",
+      "source": "張榮味條目｜近年活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "2014–15張派選舉布局",
+      "to": "張鎔麒",
+      "type": "event",
+      "detail": "條目「近年活動」段落記載此人物參與或被提及2014–15張派／國民黨選舉布局。",
+      "period": "2014–15",
+      "source": "張榮味條目｜近年活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "2014–15張派選舉布局",
+      "to": "朱立倫",
+      "type": "event",
+      "detail": "條目「近年活動」段落記載此人物參與或被提及2014–15張派／國民黨選舉布局。",
+      "period": "2014–15",
+      "source": "張榮味條目｜近年活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "林內焚化爐弊案",
+      "to": "張榮味",
+      "type": "case",
+      "detail": "張榮味因縣長任內收賄罪，2018年判刑8年定讞。",
+      "period": "2000年代–2018",
+      "source": "張榮味條目｜林內焚化爐弊案",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "林內焚化爐弊案",
+      "to": "徐治國",
+      "type": "case",
+      "detail": "條目記載旭鼎負責人徐治國涉嫌行賄；未由此條目獨立確認最終責任。",
+      "period": "2000年代–2018",
+      "source": "張榮味條目｜林內焚化爐弊案",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "林內焚化爐弊案",
+      "to": "呂昆展",
+      "type": "case",
+      "detail": "條目提及1,000萬元匯入呂昆展名下的美國帳戶；不代表已確認其違法。",
+      "period": "2000年代–2018",
+      "source": "張榮味條目｜林內焚化爐弊案",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    }
+  ]
+}

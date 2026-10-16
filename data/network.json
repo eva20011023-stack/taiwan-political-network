@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "臺灣政治人物關係網｜新黨、張榮味、王鴻薇、吳崢、王建煊",
+    "title": "臺灣政治人物關係網｜九月政爭及其他歷史關係",
     "date": "2026-10-17",
-    "scope": "整合維基百科〈新黨〉〈張榮味〉〈王鴻薇〉〈吳崢〉〈王建煊〉條目中有明確依據的人名和組織／事件，非全面人脈核查。",
+    "scope": "持續併入新黨、張榮味、王鴻薇、吳崢、王建煊與2013年九月政爭條目；核心人物、司法程序、政黨回應以來源可核對的事件與職務連結，非全面人脈查核。",
     "sources": [
       {
         "name": "新黨",
@@ -23,9 +23,13 @@
       {
         "name": "王建煊",
         "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+      },
+      {
+        "name": "九月政爭",
+        "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
       }
     ],
-    "relation_note": "直接政治合作、上下級職務、選舉對手、公開爭論、同一事件或機構、親屬必須分清；共同事件不等於個人交情，法院案件被提及不等於有罪。",
+    "relation_note": "九月政爭條目包含當事人爭議性說法，關說／監聽／洩密指控與後來司法判決不能混為一談；同一案件出現不等於彼此認識或共同違法。",
     "party": {
       "as_of": "2026-10-17",
       "policy": "有近期資料佐證者標近期黨籍，只有舊提名或黨職記錄則顯示為歷史／最近紀錄；離黨及未核對者不當成現任黨員。顏色只反映資料分類，非政治立場或私人關係。",
@@ -1177,7 +1181,8 @@
       "label": "馬英九",
       "group": "external",
       "notes": [
-        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。",
+        "2013年時任中華民國總統與國民黨主席，主張追究王金平相關政治責任。"
       ],
       "party": {
         "code": "KMT",
@@ -1222,7 +1227,8 @@
       "label": "蘇貞昌",
       "group": "external",
       "notes": [
-        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。",
+        "2013年時任民進黨主席，曾就政爭與司法調查提出公開批評。"
       ],
       "party": {
         "code": "DPP",
@@ -1237,7 +1243,8 @@
       "label": "洪秀柱",
       "group": "external",
       "notes": [
-        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。",
+        "2013年時任立法院副院長，條目記載總統府曾提及扶正院長的可能。"
       ],
       "party": {
         "code": "KMT",
@@ -1327,7 +1334,8 @@
       "label": "吳敦義",
       "group": "external",
       "notes": [
-        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。",
+        "2013年時任副總統，陪同馬英九與江宜樺舉行9月8日記者會。"
       ],
       "party": {
         "code": "KMT",
@@ -1546,7 +1554,8 @@
       "label": "李進勇",
       "group": "yunlin",
       "notes": [
-        "條目列為張榮味繼任縣長代理人。"
+        "條目列為張榮味繼任縣長代理人。",
+        "2013年以前法務部政務次長身分就監聽、洩密爭議告發相關人士。"
       ],
       "party": {
         "code": "DPP",
@@ -1651,7 +1660,8 @@
       "label": "連戰",
       "group": "yunlin",
       "notes": [
-        "2004年國民黨總統候選人，張榮味任連宋雲林競選總部主委。"
+        "2004年國民黨總統候選人，張榮味任連宋雲林競選總部主委。",
+        "2013年對王金平事件的處理程序提出反對意見。"
       ],
       "party": {
         "code": "KMT",
@@ -1666,7 +1676,9 @@
       "label": "朱立倫",
       "group": "yunlin",
       "notes": [
-        "2015年張榮味公開表態支持的國民黨總統候選人。"
+        "2015年張榮味公開表態支持的國民黨總統候選人。",
+        "2015年以國民黨主席身分宣布不繼續委任律師上訴王金平黨籍訴訟。",
+        "2015年國民黨主席，停止王金平黨籍訴訟上訴。"
       ],
       "party": {
         "code": "KMT",
@@ -2000,13 +2012,15 @@
       "id": "蔡正元",
       "label": "蔡正元",
       "group": "historical",
-      "notes": [],
+      "notes": [
+        "2013年時任國民黨立委，公開批評特偵組監聽國會。"
+      ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "2013",
+        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
+        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
       }
     },
     {
@@ -2515,7 +2529,8 @@
       "label": "王金平",
       "group": "historical",
       "notes": [
-        "2013年九月政爭期間受到王建煊公開批評（據條目）。"
+        "2013年九月政爭期間受到王建煊公開批評（據條目）。",
+        "2013年時任立法院院長，對關說指控提出反駁並提起黨籍存在訴訟。"
       ],
       "party": {
         "code": "KMT",
@@ -2595,6 +2610,709 @@
       "group": "hub",
       "notes": [
         "王建煊條目將其列為基金會董事長（1996年起），另記載2001年選後從事公益活動。"
+      ]
+    },
+    {
+      "id": "江宜樺",
+      "label": "江宜樺",
+      "group": "historical",
+      "notes": [
+        "2013年時任行政院院長，曾接受黃世銘案件報告及在後續司法程序中作證。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "黃世銘",
+      "label": "黃世銘",
+      "group": "historical",
+      "notes": [
+        "2013年時任檢察總長，對總統報告相關調查內容；2015年因洩密罪判刑確定。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "曾勇夫",
+      "label": "曾勇夫",
+      "group": "historical",
+      "notes": [
+        "2013年時任法務部部長，遭捲入關說疑雲，否認指控後辭職。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "柯建銘",
+      "label": "柯建銘",
+      "group": "historical",
+      "notes": [
+        "2013年時任民進黨立院黨團總召，其電話通訊是特偵組偵查背景之一，相關關說案簽結。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "historical_only",
+        "as_of": "2013",
+        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
+        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
+      }
+    },
+    {
+      "id": "陳守煌",
+      "label": "陳守煌",
+      "group": "historical",
+      "notes": [
+        "2013年時任高檢署檢察長；涉行政責任爭議，事後受檢察官評鑑處理。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "林秀濤",
+      "label": "林秀濤",
+      "group": "historical",
+      "notes": [
+        "高檢署檢察官，曾承辦柯建銘全民電通案上訴判斷，表示依法律理由決定不上訴。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "楊榮宗",
+      "label": "楊榮宗",
+      "group": "historical",
+      "notes": [
+        "特偵組主任檢察官，2013年監聽國會爭議中的偵查人員。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "鄭深元",
+      "label": "鄭深元",
+      "group": "historical",
+      "notes": [
+        "特偵組檢察官，2013年相關監聽爭議中的偵查人員。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "陳正芬",
+      "label": "陳正芬",
+      "group": "historical",
+      "notes": [
+        "2013年8月31日與林秀濤一同被特偵組訊問的檢察官。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "羅智強",
+      "label": "羅智強",
+      "group": "historical",
+      "notes": [
+        "2013年時任總統府副秘書長，參與馬英九與江宜樺討論案情的會議，政爭後請辭。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "2013",
+        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
+        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
+      }
+    },
+    {
+      "id": "金溥聰",
+      "label": "金溥聰",
+      "group": "historical",
+      "notes": [
+        "時任駐美代表，條目記錄其與評論者南方朔的相關訴訟。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "吳伯雄",
+      "label": "吳伯雄",
+      "group": "historical",
+      "notes": [
+        "2013年曾任國民黨主席，馬英九於9月9日致電尋求支持。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "2013",
+        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
+        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
+      }
+    },
+    {
+      "id": "丁遠超",
+      "label": "丁遠超",
+      "group": "historical",
+      "notes": [
+        "連戰辦公室主任，2013年曾代表連戰對外轉述處理王金平一事的看法。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "連勝文",
+      "label": "連勝文",
+      "group": "historical",
+      "notes": [
+        "2013年國民黨中常委，公開主張處理王金平爭議應遵守正當程序。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "2013",
+        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
+        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
+      }
+    },
+    {
+      "id": "殷瑋",
+      "label": "殷瑋",
+      "group": "historical",
+      "notes": [
+        "2013年時任國民黨文傳會副主委，曾轉述假處分抗告相關決策。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "2013",
+        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
+        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
+      }
+    },
+    {
+      "id": "許英傑",
+      "label": "許英傑",
+      "group": "historical",
+      "notes": [
+        "2013年王金平黨籍假處分事件中的委任律師。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "張瑜鳳",
+      "label": "張瑜鳳",
+      "group": "historical",
+      "notes": [
+        "2013年王金平黨籍假處分及2014年一審判決的法官。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "陳靜茹",
+      "label": "陳靜茹",
+      "group": "historical",
+      "notes": [
+        "2013年王金平黨籍假處分及2014年一審判決的法官。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "梁夢迪",
+      "label": "梁夢迪",
+      "group": "historical",
+      "notes": [
+        "2013年王金平黨籍假處分及2014年一審判決的法官。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "魏麗娟",
+      "label": "魏麗娟",
+      "group": "historical",
+      "notes": [
+        "2013年王金平黨籍保全抗告案高院合議庭審判長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "王麗莉",
+      "label": "王麗莉",
+      "group": "historical",
+      "notes": [
+        "2013年王金平黨籍保全抗告案高院受命法官。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "李媛媛",
+      "label": "李媛媛",
+      "group": "historical",
+      "notes": [
+        "2013年王金平黨籍保全抗告案高院陪席法官。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "羅瑩雪",
+      "label": "羅瑩雪",
+      "group": "historical",
+      "notes": [
+        "2013年準法務部長，在國會監聽事件中對調查合法性公開表態。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "管碧玲",
+      "label": "管碧玲",
+      "group": "historical",
+      "notes": [
+        "2013年時任民進黨立委，9月28日公開揭露立法院總機監聽問題。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "historical_only",
+        "as_of": "2013",
+        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
+        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
+      }
+    },
+    {
+      "id": "南方朔",
+      "label": "南方朔",
+      "group": "historical",
+      "notes": [
+        "評論者，條目記錄其與金溥聰之間的相關訴訟。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "陳榮和",
+      "label": "陳榮和",
+      "group": "historical",
+      "notes": [
+        "2010年司法官集體收賄案件中的法官，相關偵查衍生後續監聽案。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "吳健保",
+      "label": "吳健保",
+      "group": "historical",
+      "notes": [
+        "柯建銘監聽案調查背景提及其假釋關說疑雲，不能由此推論定罪。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "張介欽",
+      "label": "張介欽",
+      "group": "historical",
+      "notes": [
+        "2013年臺北地檢署主任檢察官，參與黃世銘洩密案訊問。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "許富男",
+      "label": "許富男",
+      "group": "historical",
+      "notes": [
+        "臺北市議員，曾有與柯建銘的通話被特偵組監聽，相關疑雲調查後簽結。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "楊炳禎",
+      "label": "楊炳禎",
+      "group": "historical",
+      "notes": [
+        "條目在許富男與柯建銘通話脈絡提及的前高院法官；案件事後查無關說實據。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "呂學樟",
+      "label": "呂學樟",
+      "group": "historical",
+      "notes": [
+        "2013年立法院紀律委員會相關表決中迴避出席的國民黨立委。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "2013",
+        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
+        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
+      }
+    },
+    {
+      "id": "陳根德",
+      "label": "陳根德",
+      "group": "historical",
+      "notes": [
+        "2013年立法院紀律委員會相關表決中迴避出席的國民黨立委。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "2013",
+        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
+        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
+      }
+    },
+    {
+      "id": "張慶忠",
+      "label": "張慶忠",
+      "group": "historical",
+      "notes": [
+        "2013年立法院紀律委員會相關表決中迴避出席的國民黨立委。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "2013",
+        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
+        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
+      }
+    },
+    {
+      "id": "陳鎮湘",
+      "label": "陳鎮湘",
+      "group": "historical",
+      "notes": [
+        "2013年立法院紀律委員會相關表決中迴避出席的國民黨立委。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "2013",
+        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
+        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
+      }
+    },
+    {
+      "id": "陳淑慧",
+      "label": "陳淑慧",
+      "group": "historical",
+      "notes": [
+        "2013年立法院紀律委員會相關表決中迴避出席的國民黨立委。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "2013",
+        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
+        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
+      }
+    },
+    {
+      "id": "江惠貞",
+      "label": "江惠貞",
+      "group": "historical",
+      "notes": [
+        "2013年立法院紀律委員會相關表決中迴避出席的國民黨立委。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "2013",
+        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
+        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
+      }
+    },
+    {
+      "id": "洪德旋",
+      "label": "洪德旋",
+      "group": "historical",
+      "notes": [
+        "監察委員，曾參與黃世銘監察院彈劾與調查報告。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "吳豐山",
+      "label": "吳豐山",
+      "group": "historical",
+      "notes": [
+        "監察委員，曾參與黃世銘監察院彈劾與調查報告。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "邱文聰",
+      "label": "邱文聰",
+      "group": "historical",
+      "notes": [
+        "法律學者，對九月政爭中偵查不公開與憲法權限提出法律評論。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "林錦芳",
+      "label": "林錦芳",
+      "group": "historical",
+      "notes": [
+        "2014年時任司法院秘書長，曾說明張瑜鳳庭長審查程序。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "甘添貴",
+      "label": "甘添貴",
+      "group": "historical",
+      "notes": [
+        "法律學者，其著作觀點在條目中被林秀濤援引解釋上訴問題。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未據本條目核對當前黨籍"
+      }
+    },
+    {
+      "id": "2013九月政爭（核心）",
+      "label": "2013九月政爭（核心）",
+      "group": "hub",
+      "notes": [
+        "歷史事件節點，各參與者角色不同；同一事件不代表私交、同盟或共同責任。"
+      ]
+    },
+    {
+      "id": "全民電通案與背景監聽",
+      "label": "全民電通案與背景監聽",
+      "group": "hub",
+      "notes": [
+        "歷史事件節點，各參與者角色不同；同一事件不代表私交、同盟或共同責任。"
+      ]
+    },
+    {
+      "id": "總統府與特偵組偵查報告",
+      "label": "總統府與特偵組偵查報告",
+      "group": "hub",
+      "notes": [
+        "歷史事件節點，各參與者角色不同；同一事件不代表私交、同盟或共同責任。"
+      ]
+    },
+    {
+      "id": "2013王金平黨籍爭議",
+      "label": "2013王金平黨籍爭議",
+      "group": "hub",
+      "notes": [
+        "歷史事件節點，各參與者角色不同；同一事件不代表私交、同盟或共同責任。"
+      ]
+    },
+    {
+      "id": "王金平黨籍民事訴訟",
+      "label": "王金平黨籍民事訴訟",
+      "group": "hub",
+      "notes": [
+        "歷史事件節點，各參與者角色不同；同一事件不代表私交、同盟或共同責任。"
+      ]
+    },
+    {
+      "id": "2013國會監聽揭露",
+      "label": "2013國會監聽揭露",
+      "group": "hub",
+      "notes": [
+        "歷史事件節點，各參與者角色不同；同一事件不代表私交、同盟或共同責任。"
+      ]
+    },
+    {
+      "id": "監察院與檢察官評鑑調查",
+      "label": "監察院與檢察官評鑑調查",
+      "group": "hub",
+      "notes": [
+        "歷史事件節點，各參與者角色不同；同一事件不代表私交、同盟或共同責任。"
+      ]
+    },
+    {
+      "id": "2013立院紀律委員會",
+      "label": "2013立院紀律委員會",
+      "group": "hub",
+      "notes": [
+        "歷史事件節點，各參與者角色不同；同一事件不代表私交、同盟或共同責任。"
+      ]
+    },
+    {
+      "id": "黃世銘洩密案件",
+      "label": "黃世銘洩密案件",
+      "group": "hub",
+      "notes": [
+        "歷史事件節點，各參與者角色不同；同一事件不代表私交、同盟或共同責任。"
+      ]
+    },
+    {
+      "id": "對九月政爭之公開評論",
+      "label": "對九月政爭之公開評論",
+      "group": "hub",
+      "notes": [
+        "歷史事件節點，各參與者角色不同；同一事件不代表私交、同盟或共同責任。"
+      ]
+    },
+    {
+      "id": "其他通話關說調查",
+      "label": "其他通話關說調查",
+      "group": "hub",
+      "notes": [
+        "歷史事件節點，各參與者角色不同；同一事件不代表私交、同盟或共同責任。"
       ]
     }
   ],
@@ -5433,6 +6151,843 @@
       "period": "1996年起（據條目履歷）",
       "source": "經歷／其他",
       "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "2013九月政爭（核心）",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "時任總統兼國民黨主席，公開主張追究王金平政治責任。",
+      "period": "2013-09",
+      "source": "九月政爭｜概要與開端",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013九月政爭（核心）",
+      "to": "王金平",
+      "type": "event",
+      "detail": "時任立法院院長，遭關說指控並提出反駁。",
+      "period": "2013-09",
+      "source": "九月政爭｜概要與開端",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013九月政爭（核心）",
+      "to": "江宜樺",
+      "type": "event",
+      "detail": "時任行政院院長，接受調查內容報告並參與討論。",
+      "period": "2013-09",
+      "source": "九月政爭｜概要與開端",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013九月政爭（核心）",
+      "to": "黃世銘",
+      "type": "event",
+      "detail": "時任檢察總長，曾向總統報告偵查資訊。",
+      "period": "2013-09",
+      "source": "九月政爭｜概要與開端",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013九月政爭（核心）",
+      "to": "曾勇夫",
+      "type": "event",
+      "detail": "時任法務部長，捲入行政責任爭議後請辭。",
+      "period": "2013-09",
+      "source": "九月政爭｜概要與開端",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013九月政爭（核心）",
+      "to": "柯建銘",
+      "type": "event",
+      "detail": "時任民進黨立院黨團總召，監聽內容涉及其與王金平通話。",
+      "period": "2013-09",
+      "source": "九月政爭｜概要與開端",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "全民電通案與背景監聽",
+      "to": "柯建銘",
+      "type": "event",
+      "detail": "全民電通背信案被告，更一審獲無罪且未經上訴定讞。",
+      "period": "1997–2013",
+      "source": "九月政爭｜背景",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "全民電通案與背景監聽",
+      "to": "林秀濤",
+      "type": "event",
+      "detail": "承辦上訴審查，認定欠缺法律上訴理由，未提起上訴。",
+      "period": "1997–2013",
+      "source": "九月政爭｜背景",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "全民電通案與背景監聽",
+      "to": "陳守煌",
+      "type": "event",
+      "detail": "時任高檢署檢察長，後遭行政責任質疑。",
+      "period": "1997–2013",
+      "source": "九月政爭｜背景",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "全民電通案與背景監聽",
+      "to": "陳榮和",
+      "type": "event",
+      "detail": "司法官集體收賄案件脈絡，特偵組後續延伸偵查。",
+      "period": "1997–2013",
+      "source": "九月政爭｜背景",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "全民電通案與背景監聽",
+      "to": "吳健保",
+      "type": "event",
+      "detail": "假釋關說案涉及的監聽調查背景人物。",
+      "period": "1997–2013",
+      "source": "九月政爭｜背景",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "全民電通案與背景監聽",
+      "to": "王金平",
+      "type": "event",
+      "detail": "與柯建銘通話內容在特偵組監聽過程中遭錄下。",
+      "period": "1997–2013",
+      "source": "九月政爭｜背景",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "全民電通案與背景監聽",
+      "to": "曾勇夫",
+      "type": "event",
+      "detail": "與王金平通話內容相關，當事人否認涉不法關說。",
+      "period": "1997–2013",
+      "source": "九月政爭｜背景",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "總統府與特偵組偵查報告",
+      "to": "黃世銘",
+      "type": "event",
+      "detail": "2013年8月31日與9月1日向總統馬英九報告案情。",
+      "period": "2013-08–09",
+      "source": "九月政爭｜特偵組與總統府",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "總統府與特偵組偵查報告",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "曾接受黃世銘報告，並與幕僚討論。",
+      "period": "2013-08–09",
+      "source": "九月政爭｜特偵組與總統府",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "總統府與特偵組偵查報告",
+      "to": "江宜樺",
+      "type": "event",
+      "detail": "曾由黃世銘報告案情，後以證人身分在法院說明。",
+      "period": "2013-08–09",
+      "source": "九月政爭｜特偵組與總統府",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "總統府與特偵組偵查報告",
+      "to": "羅智強",
+      "type": "event",
+      "detail": "曾與馬英九、江宜樺就案件資料討論。",
+      "period": "2013-08–09",
+      "source": "九月政爭｜特偵組與總統府",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "總統府與特偵組偵查報告",
+      "to": "楊榮宗",
+      "type": "event",
+      "detail": "特偵組檢察官，曾協助黃世銘前往官邸。",
+      "period": "2013-08–09",
+      "source": "九月政爭｜特偵組與總統府",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "總統府與特偵組偵查報告",
+      "to": "鄭深元",
+      "type": "event",
+      "detail": "特偵組檢察官，條目提及其處理監聽譯文資料。",
+      "period": "2013-08–09",
+      "source": "九月政爭｜特偵組與總統府",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "總統府與特偵組偵查報告",
+      "to": "林秀濤",
+      "type": "event",
+      "detail": "曾被特偵組訊問及監聽，後公開質疑其調查程序。",
+      "period": "2013-08–09",
+      "source": "九月政爭｜特偵組與總統府",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "總統府與特偵組偵查報告",
+      "to": "陳正芬",
+      "type": "event",
+      "detail": "曾與林秀濤同時段接受特偵組訊問。",
+      "period": "2013-08–09",
+      "source": "九月政爭｜特偵組與總統府",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013王金平黨籍爭議",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "時任國民黨主席，主張開除王金平黨籍。",
+      "period": "2013-09",
+      "source": "九月政爭｜黨籍事件及各方反應",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013王金平黨籍爭議",
+      "to": "王金平",
+      "type": "event",
+      "detail": "對開除黨籍處分提起假處分及確認黨籍存在訴訟。",
+      "period": "2013-09",
+      "source": "九月政爭｜黨籍事件及各方反應",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013王金平黨籍爭議",
+      "to": "吳敦義",
+      "type": "event",
+      "detail": "陪同馬英九出席公開譴責王金平的記者會。",
+      "period": "2013-09",
+      "source": "九月政爭｜黨籍事件及各方反應",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013王金平黨籍爭議",
+      "to": "江宜樺",
+      "type": "event",
+      "detail": "陪同馬英九出席2013年9月8日記者會。",
+      "period": "2013-09",
+      "source": "九月政爭｜黨籍事件及各方反應",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013王金平黨籍爭議",
+      "to": "羅智強",
+      "type": "event",
+      "detail": "時任總統府副秘書長，參與聲明稿相關工作、後請辭。",
+      "period": "2013-09",
+      "source": "九月政爭｜黨籍事件及各方反應",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013王金平黨籍爭議",
+      "to": "洪秀柱",
+      "type": "event",
+      "detail": "時任立法院副院長，總統府曾提及扶正院長的可能。",
+      "period": "2013-09",
+      "source": "九月政爭｜黨籍事件及各方反應",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013王金平黨籍爭議",
+      "to": "連戰",
+      "type": "event",
+      "detail": "公開對王金平事件的處理提出不同意見。",
+      "period": "2013-09",
+      "source": "九月政爭｜黨籍事件及各方反應",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013王金平黨籍爭議",
+      "to": "丁遠超",
+      "type": "event",
+      "detail": "連戰辦公室主任，轉述連戰的公開立場。",
+      "period": "2013-09",
+      "source": "九月政爭｜黨籍事件及各方反應",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013王金平黨籍爭議",
+      "to": "連勝文",
+      "type": "event",
+      "detail": "公開對處置程序與比例提出不同意見。",
+      "period": "2013-09",
+      "source": "九月政爭｜黨籍事件及各方反應",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013王金平黨籍爭議",
+      "to": "吳伯雄",
+      "type": "event",
+      "detail": "馬英九曾致電其尋求支持。",
+      "period": "2013-09",
+      "source": "九月政爭｜黨籍事件及各方反應",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013王金平黨籍爭議",
+      "to": "殷瑋",
+      "type": "event",
+      "detail": "代表國民黨對外說明假處分抗告後續態度。",
+      "period": "2013-09",
+      "source": "九月政爭｜黨籍事件及各方反應",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "王金平黨籍民事訴訟",
+      "to": "王金平",
+      "type": "event",
+      "detail": "原告，聲請保全黨籍假處分並獲一二審有利裁判。",
+      "period": "2013–2015",
+      "source": "九月政爭｜黨籍訴訟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "王金平黨籍民事訴訟",
+      "to": "許英傑",
+      "type": "event",
+      "detail": "王金平黨籍訴訟委任律師。",
+      "period": "2013–2015",
+      "source": "九月政爭｜黨籍訴訟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "王金平黨籍民事訴訟",
+      "to": "張瑜鳳",
+      "type": "event",
+      "detail": "臺北地方法院合議庭法官。",
+      "period": "2013–2015",
+      "source": "九月政爭｜黨籍訴訟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "王金平黨籍民事訴訟",
+      "to": "陳靜茹",
+      "type": "event",
+      "detail": "臺北地方法院合議庭法官。",
+      "period": "2013–2015",
+      "source": "九月政爭｜黨籍訴訟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "王金平黨籍民事訴訟",
+      "to": "梁夢迪",
+      "type": "event",
+      "detail": "臺北地方法院合議庭法官。",
+      "period": "2013–2015",
+      "source": "九月政爭｜黨籍訴訟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "王金平黨籍民事訴訟",
+      "to": "魏麗娟",
+      "type": "event",
+      "detail": "臺灣高等法院抗告案合議庭審判長。",
+      "period": "2013–2015",
+      "source": "九月政爭｜黨籍訴訟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "王金平黨籍民事訴訟",
+      "to": "王麗莉",
+      "type": "event",
+      "detail": "臺灣高等法院抗告案受命法官。",
+      "period": "2013–2015",
+      "source": "九月政爭｜黨籍訴訟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "王金平黨籍民事訴訟",
+      "to": "李媛媛",
+      "type": "event",
+      "detail": "臺灣高等法院抗告案陪席法官。",
+      "period": "2013–2015",
+      "source": "九月政爭｜黨籍訴訟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "王金平黨籍民事訴訟",
+      "to": "林錦芳",
+      "type": "event",
+      "detail": "2014年以司法院秘書長身分說明張瑜鳳庭長審查程序。",
+      "period": "2013–2015",
+      "source": "九月政爭｜黨籍訴訟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "王金平黨籍民事訴訟",
+      "to": "朱立倫",
+      "type": "event",
+      "detail": "2015年以國民黨主席身分停止相關上訴的律師委任，案件後定讞。",
+      "period": "2013–2015",
+      "source": "九月政爭｜黨籍訴訟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013國會監聽揭露",
+      "to": "管碧玲",
+      "type": "event",
+      "detail": "2013年9月28日公開揭露立法院總機被監聽。",
+      "period": "2013-09–10",
+      "source": "九月政爭｜監聽國會事件",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013國會監聽揭露",
+      "to": "黃世銘",
+      "type": "event",
+      "detail": "檢察總長，後承認監聽對象包含立法院總機並道歉。",
+      "period": "2013-09–10",
+      "source": "九月政爭｜監聽國會事件",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013國會監聽揭露",
+      "to": "楊榮宗",
+      "type": "event",
+      "detail": "曾公開說明監聽號碼來源，相關說法遭媒體測試質疑。",
+      "period": "2013-09–10",
+      "source": "九月政爭｜監聽國會事件",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013國會監聽揭露",
+      "to": "蔡正元",
+      "type": "event",
+      "detail": "國民黨立委，公開批評監聽國會事件，要求黃世銘負責。",
+      "period": "2013-09–10",
+      "source": "九月政爭｜監聽國會事件",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013國會監聽揭露",
+      "to": "羅瑩雪",
+      "type": "event",
+      "detail": "候任法務部長，對特偵組監聽行為是否有主觀意圖發表看法。",
+      "period": "2013-09–10",
+      "source": "九月政爭｜監聽國會事件",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013國會監聽揭露",
+      "to": "林秀濤",
+      "type": "event",
+      "detail": "曾遭監聽，後公開批評特偵組。",
+      "period": "2013-09–10",
+      "source": "九月政爭｜監聽國會事件",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "監察院與檢察官評鑑調查",
+      "to": "洪德旋",
+      "type": "event",
+      "detail": "監察委員，參與黃世銘彈劾及調查報告。",
+      "period": "2013–2014",
+      "source": "九月政爭｜行政調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "監察院與檢察官評鑑調查",
+      "to": "吳豐山",
+      "type": "event",
+      "detail": "監察委員，參與黃世銘彈劾及調查報告。",
+      "period": "2013–2014",
+      "source": "九月政爭｜行政調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "監察院與檢察官評鑑調查",
+      "to": "黃世銘",
+      "type": "event",
+      "detail": "2013年檢察官評鑑委員會建議應受懲戒；2015年洩密判刑定讞。",
+      "period": "2013–2014",
+      "source": "九月政爭｜行政調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "監察院與檢察官評鑑調查",
+      "to": "楊榮宗",
+      "type": "event",
+      "detail": "監聽國會事件的檢察官評鑑個案人物。",
+      "period": "2013–2014",
+      "source": "九月政爭｜行政調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "監察院與檢察官評鑑調查",
+      "to": "鄭深元",
+      "type": "event",
+      "detail": "監聽國會事件的檢察官評鑑個案人物。",
+      "period": "2013–2014",
+      "source": "九月政爭｜行政調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "監察院與檢察官評鑑調查",
+      "to": "陳守煌",
+      "type": "event",
+      "detail": "司法關說行政責任評鑑案個案人物。",
+      "period": "2013–2014",
+      "source": "九月政爭｜行政調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "監察院與檢察官評鑑調查",
+      "to": "林秀濤",
+      "type": "event",
+      "detail": "司法關說行政責任評鑑案個案人物。",
+      "period": "2013–2014",
+      "source": "九月政爭｜行政調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013立院紀律委員會",
+      "to": "柯建銘",
+      "type": "event",
+      "detail": "紀律委員會就關說疑雲做出不處分決議。",
+      "period": "2013-11-29",
+      "source": "九月政爭｜行政調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013立院紀律委員會",
+      "to": "呂學樟",
+      "type": "event",
+      "detail": "依條目記載，相關審議時迴避出席；此為議事程序，不代表共同意圖。",
+      "period": "2013-11-29",
+      "source": "九月政爭｜行政調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013立院紀律委員會",
+      "to": "陳根德",
+      "type": "event",
+      "detail": "依條目記載，相關審議時迴避出席；此為議事程序，不代表共同意圖。",
+      "period": "2013-11-29",
+      "source": "九月政爭｜行政調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013立院紀律委員會",
+      "to": "張慶忠",
+      "type": "event",
+      "detail": "依條目記載，相關審議時迴避出席；此為議事程序，不代表共同意圖。",
+      "period": "2013-11-29",
+      "source": "九月政爭｜行政調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013立院紀律委員會",
+      "to": "陳鎮湘",
+      "type": "event",
+      "detail": "依條目記載，相關審議時迴避出席；此為議事程序，不代表共同意圖。",
+      "period": "2013-11-29",
+      "source": "九月政爭｜行政調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013立院紀律委員會",
+      "to": "陳淑慧",
+      "type": "event",
+      "detail": "依條目記載，相關審議時迴避出席；此為議事程序，不代表共同意圖。",
+      "period": "2013-11-29",
+      "source": "九月政爭｜行政調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "2013立院紀律委員會",
+      "to": "江惠貞",
+      "type": "event",
+      "detail": "依條目記載，相關審議時迴避出席；此為議事程序，不代表共同意圖。",
+      "period": "2013-11-29",
+      "source": "九月政爭｜行政調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "黃世銘洩密案件",
+      "to": "黃世銘",
+      "type": "event",
+      "detail": "2015年依洩密罪等罪名遭判刑定讞。",
+      "period": "2013–2015",
+      "source": "九月政爭｜司法起訴與調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "黃世銘洩密案件",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "檢察總長黃世銘曾向其報告偵查中資料；馬英九的相關案件另行裁判，不能等同黃世銘定罪。",
+      "period": "2013–2015",
+      "source": "九月政爭｜司法起訴與調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "黃世銘洩密案件",
+      "to": "江宜樺",
+      "type": "event",
+      "detail": "以證人身分出庭說明調查報告經過。",
+      "period": "2013–2015",
+      "source": "九月政爭｜司法起訴與調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "黃世銘洩密案件",
+      "to": "羅智強",
+      "type": "event",
+      "detail": "以證人身分被傳喚調查。",
+      "period": "2013–2015",
+      "source": "九月政爭｜司法起訴與調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "黃世銘洩密案件",
+      "to": "張介欽",
+      "type": "event",
+      "detail": "2013年以臺北地檢署主任檢察官身分訊問黃世銘。",
+      "period": "2013–2015",
+      "source": "九月政爭｜司法起訴與調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "對九月政爭之公開評論",
+      "to": "蘇貞昌",
+      "type": "event",
+      "detail": "時任民進黨主席，曾批評馬英九等人對案件的公開說明程序。",
+      "period": "2013–2015",
+      "source": "九月政爭｜爭議與影響",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "對九月政爭之公開評論",
+      "to": "邱文聰",
+      "type": "event",
+      "detail": "法律學者，提出檢察體系與總統憲法權限的法律批評。",
+      "period": "2013–2015",
+      "source": "九月政爭｜爭議與影響",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "對九月政爭之公開評論",
+      "to": "金溥聰",
+      "type": "event",
+      "detail": "條目記載其與評論者南方朔之間的訴訟。",
+      "period": "2013–2015",
+      "source": "九月政爭｜爭議與影響",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "對九月政爭之公開評論",
+      "to": "南方朔",
+      "type": "event",
+      "detail": "與金溥聰有相關訴訟之評論者。",
+      "period": "2013–2015",
+      "source": "九月政爭｜爭議與影響",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "對九月政爭之公開評論",
+      "to": "李進勇",
+      "type": "event",
+      "detail": "就監聽及洩密相關爭議對當事人提出告發。",
+      "period": "2013–2015",
+      "source": "九月政爭｜爭議與影響",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "對九月政爭之公開評論",
+      "to": "甘添貴",
+      "type": "event",
+      "detail": "法律學者，其法學意見獲林秀濤於說明上訴法律理由時援引。",
+      "period": "2013–2015",
+      "source": "九月政爭｜爭議與影響",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "其他通話關說調查",
+      "to": "許富男",
+      "type": "event",
+      "detail": "與柯建銘的通話涉及另案調查脈絡，2014年檢方查無關說實據後簽結。",
+      "period": "2013–2014",
+      "source": "九月政爭｜司法起訴與調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "其他通話關說調查",
+      "to": "柯建銘",
+      "type": "event",
+      "detail": "與許富男通話被提及。",
+      "period": "2013–2014",
+      "source": "九月政爭｜司法起訴與調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "其他通話關說調查",
+      "to": "楊炳禎",
+      "type": "event",
+      "detail": "許富男通話中提及的前高院法官，未確認有不法。",
+      "period": "2013–2014",
+      "source": "九月政爭｜司法起訴與調查",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "馬英九",
+      "to": "王金平",
+      "type": "dispute",
+      "detail": "2013年9月王金平遭司法關說疑雲，時任總統兼國民黨主席馬英九要求黨紀處置；王金平否認關說，並訴請保留黨籍。",
+      "period": "2013-09",
+      "source": "九月政爭｜開端",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "馬英九",
+      "to": "黃世銘",
+      "type": "event",
+      "detail": "黃世銘於2013年8月31日、9月1日向總統馬英九報告監聽相關案情；相關程序與後續法律責任各有爭議及裁判。",
+      "period": "2013-08–09",
+      "source": "九月政爭｜偵查報告",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "馬英九",
+      "to": "江宜樺",
+      "type": "affiliation",
+      "detail": "2013年總統與行政院長，曾就特偵組所報案情共同討論。",
+      "period": "2013-08–09",
+      "source": "九月政爭｜偵查報告",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "馬英九",
+      "to": "羅智強",
+      "type": "affiliation",
+      "detail": "2013年總統與總統府副秘書長，羅智強參與相關討論及聲明稿工作。",
+      "period": "2013-08–09",
+      "source": "九月政爭｜總統府",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "王金平",
+      "to": "柯建銘",
+      "type": "event",
+      "detail": "2013年6月兩人通話遭特偵組監聽；關說案移送調查後簽結，未起訴。",
+      "period": "2013-06–2014",
+      "source": "九月政爭｜監聽爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "王金平",
+      "to": "曾勇夫",
+      "type": "event",
+      "detail": "2013年王金平與曾勇夫關於檢方上訴問題的通話遭行政關說質疑；當事人否認不法，相關刑事偵查未起訴。",
+      "period": "2013",
+      "source": "九月政爭｜關說疑雲",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "王金平",
+      "to": "陳守煌",
+      "type": "event",
+      "detail": "條目記載王金平與陳守煌談及檢察官上訴疑慮，特偵組對其行政責任提出質疑。",
+      "period": "2013",
+      "source": "九月政爭｜關說疑雲",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "陳守煌",
+      "to": "林秀濤",
+      "type": "event",
+      "detail": "陳守煌為高檢署檢察長、林秀濤為承辦檢察官，雙方就是否上訴的行政責任受後續評鑑。",
+      "period": "2013",
+      "source": "九月政爭｜關說疑雲",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "黃世銘",
+      "to": "林秀濤",
+      "type": "dispute",
+      "detail": "林秀濤指控特偵組曲解其證詞，並批評黃世銘向總統報告調查內容。",
+      "period": "2013-09",
+      "source": "九月政爭｜檢察體系",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "管碧玲",
+      "to": "黃世銘",
+      "type": "dispute",
+      "detail": "管碧玲2013年揭露立法院總機監聽爭議，黃世銘後出面承認並道歉。",
+      "period": "2013-09",
+      "source": "九月政爭｜監聽國會",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "蔡正元",
+      "to": "黃世銘",
+      "type": "dispute",
+      "detail": "蔡正元2013年以國民黨立委身分公開批評監聽國會、要求黃世銘負責。",
+      "period": "2013-09",
+      "source": "九月政爭｜監聽國會",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "連戰",
+      "to": "馬英九",
+      "type": "dispute",
+      "detail": "連戰於2013年公開認為王金平事件處理程序不公平，與馬英九主張不同。",
+      "period": "2013-09",
+      "source": "九月政爭｜黨內反應",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "連勝文",
+      "to": "馬英九",
+      "type": "dispute",
+      "detail": "連勝文於2013年公開要求王金平案依正當法律程序處理，並對馬英九做法提出異議。",
+      "period": "2013-09",
+      "source": "九月政爭｜黨內反應",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "朱立倫",
+      "to": "王金平",
+      "type": "event",
+      "detail": "2015年朱立倫任國民黨主席時停止續行王金平黨籍訴訟之律師委任，案件終告定讞。",
+      "period": "2015",
+      "source": "九月政爭｜後續黨籍訴訟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "洪德旋",
+      "to": "吳豐山",
+      "type": "cooperate",
+      "detail": "監察委員洪德旋、吳豐山共同提出調查及黃世銘彈劾案。",
+      "period": "2013–2014",
+      "source": "九月政爭｜監察院",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "金溥聰",
+      "to": "南方朔",
+      "type": "dispute",
+      "detail": "條目記載金溥聰與南方朔曾有訴訟事件，未據此推論政治同盟。",
+      "period": "2013–2014",
+      "source": "九月政爭｜其他爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "王金平",
+      "to": "許英傑",
+      "type": "affiliation",
+      "detail": "王金平為維護黨籍聘請許英傑律師提出相關法律程序。",
+      "period": "2013-09",
+      "source": "九月政爭｜黨籍訴訟",
+      "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
     }
   ]
 }

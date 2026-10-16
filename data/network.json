@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "臺灣政治人物關係網｜新黨、張榮味、王鴻薇、吳崢",
+    "title": "臺灣政治人物關係網｜新黨、張榮味、王鴻薇、吳崢、王建煊",
     "date": "2026-10-17",
-    "scope": "整合維基百科〈新黨〉〈張榮味〉〈王鴻薇〉〈吳崢〉本文與資訊框明確具名之政治人物，部分共同事件／組織為節點；非全臺人脈或私人交情驗證。",
+    "scope": "整合維基百科〈新黨〉〈張榮味〉〈王鴻薇〉〈吳崢〉〈王建煊〉條目中有明確依據的人名和組織／事件，非全面人脈核查。",
     "sources": [
       {
         "name": "新黨",
@@ -19,6 +19,10 @@
       {
         "name": "吳崢",
         "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+      },
+      {
+        "name": "王建煊",
+        "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
       }
     ],
     "relation_note": "直接政治合作、上下級職務、選舉對手、公開爭論、同一事件或機構、親屬必須分清；共同事件不等於個人交情，法院案件被提及不等於有罪。"
@@ -280,7 +284,10 @@
       "label": "王建煊",
       "group": "founder",
       "notes": [
-        "條目列為新黨創黨成員。"
+        "條目列為新黨創黨成員。",
+        "1990–1992年任財政部長，1993年為新黨創黨成員，1994–1995年任新黨全國委員會召集人，2008–2014年任監察院長。",
+        "1998年參選臺北市長，2001年參選臺北縣長；2023年表態角逐2024年總統、同年9月退出，之後列名新黨2024年不分區立委第一順位。",
+        "財政部長任內曾推動土地增值稅依實際交易金額課稅；該政策及當時政治爭議參考王建煊條目，尚未逐一獨立核查。"
       ]
     },
     {
@@ -1349,6 +1356,158 @@
       "group": "hub",
       "notes": [
         "共同事件或組織，不表示參與者彼此熟識。"
+      ]
+    },
+    {
+      "id": "蘇法昭",
+      "label": "蘇法昭",
+      "group": "family",
+      "notes": [
+        "王建煊配偶（據條目資訊框）。"
+      ]
+    },
+    {
+      "id": "郭婉容",
+      "label": "郭婉容",
+      "group": "historical",
+      "notes": [
+        "條目列為王建煊擔任財政部長之前任。"
+      ]
+    },
+    {
+      "id": "白培英",
+      "label": "白培英",
+      "group": "historical",
+      "notes": [
+        "條目列為王建煊擔任財政部長之繼任者。"
+      ]
+    },
+    {
+      "id": "錢復",
+      "label": "錢復",
+      "group": "historical",
+      "notes": [
+        "條目列為王建煊擔任監察院長之前任。"
+      ]
+    },
+    {
+      "id": "張博雅",
+      "label": "張博雅",
+      "group": "historical",
+      "notes": [
+        "條目列為王建煊擔任監察院長之繼任者。"
+      ]
+    },
+    {
+      "id": "梁肅戎",
+      "label": "梁肅戎",
+      "group": "historical",
+      "notes": [
+        "王建煊條目提及1998年參與與梁肅戎有關的臺灣海峽兩岸和平統一促進會。"
+      ]
+    },
+    {
+      "id": "邵建興",
+      "label": "邵建興",
+      "group": "historical",
+      "notes": [
+        "2001年臺北縣縣長選舉候選人（無黨籍）。"
+      ]
+    },
+    {
+      "id": "石翊靖",
+      "label": "石翊靖",
+      "group": "historical",
+      "notes": [
+        "2001年臺北縣縣長選舉候選人（無黨籍）。"
+      ]
+    },
+    {
+      "id": "張通榮",
+      "label": "張通榮",
+      "group": "historical",
+      "notes": [
+        "2013年監察院彈劾爭議所涉案件當事人，事件提及不等同判定有罪。"
+      ]
+    },
+    {
+      "id": "王金平",
+      "label": "王金平",
+      "group": "historical",
+      "notes": [
+        "2013年九月政爭期間受到王建煊公開批評（據條目）。"
+      ]
+    },
+    {
+      "id": "1990–1992財政部長任期",
+      "label": "1990–1992財政部長任期",
+      "group": "hub",
+      "notes": [
+        "公開共同事件或職務銜接，不直接代表私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "1994–1995新黨召集人沿革",
+      "label": "1994–1995新黨召集人沿革",
+      "group": "hub",
+      "notes": [
+        "公開共同事件或職務銜接，不直接代表私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "1998臺北市長選舉",
+      "label": "1998臺北市長選舉",
+      "group": "hub",
+      "notes": [
+        "公開共同事件或職務銜接，不直接代表私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "1998兩岸和平統一促進會",
+      "label": "1998兩岸和平統一促進會",
+      "group": "hub",
+      "notes": [
+        "公開共同事件或職務銜接，不直接代表私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "2001臺北縣長選舉",
+      "label": "2001臺北縣長選舉",
+      "group": "hub",
+      "notes": [
+        "公開共同事件或職務銜接，不直接代表私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "2008–2014監察院長沿革",
+      "label": "2008–2014監察院長沿革",
+      "group": "hub",
+      "notes": [
+        "公開共同事件或職務銜接，不直接代表私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "2013張通榮監察院彈劾爭議",
+      "label": "2013張通榮監察院彈劾爭議",
+      "group": "hub",
+      "notes": [
+        "公開共同事件或職務銜接，不直接代表私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "2013九月政爭政治批評",
+      "label": "2013九月政爭政治批評",
+      "group": "hub",
+      "notes": [
+        "公開共同事件或職務銜接，不直接代表私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "愛心第二春文教基金會",
+      "label": "愛心第二春文教基金會",
+      "group": "hub",
+      "notes": [
+        "王建煊條目將其列為基金會董事長（1996年起），另記載2001年選後從事公益活動。"
       ]
     }
   ],
@@ -3872,6 +4031,321 @@
       "period": "2024起",
       "source": "組織／職務",
       "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "王建煊",
+      "to": "蘇法昭",
+      "type": "family",
+      "detail": "王建煊條目資訊框載兩人為配偶。",
+      "period": "條目查閱：2026-10-17",
+      "source": "資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "王建煊",
+      "to": "郁慕明",
+      "type": "affiliation",
+      "detail": "新黨1994–1995年全國委員會召集人之職務沿革：王建煊於1994年10月接續郁慕明；兩人亦同為創黨成員。",
+      "period": "1993–1995",
+      "source": "資訊框／新黨時期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "王建煊",
+      "to": "陳癸淼",
+      "type": "affiliation",
+      "detail": "新黨全國委員會召集人之職務沿革：王建煊之後由陳癸淼接任；非私人關係推論。",
+      "period": "1995",
+      "source": "資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "王建煊",
+      "to": "郭婉容",
+      "type": "affiliation",
+      "detail": "財政部長職務前後任：王建煊接任郭婉容之財政部長職務。",
+      "period": "1990",
+      "source": "資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "王建煊",
+      "to": "白培英",
+      "type": "affiliation",
+      "detail": "財政部長職務前後任：白培英於1992年接任王建煊。",
+      "period": "1992",
+      "source": "資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "王建煊",
+      "to": "錢復",
+      "type": "affiliation",
+      "detail": "監察院長職務前後任：王建煊於2008年接任錢復。",
+      "period": "2008",
+      "source": "資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "王建煊",
+      "to": "張博雅",
+      "type": "affiliation",
+      "detail": "監察院長職務前後任：張博雅於2014年接任王建煊。",
+      "period": "2014",
+      "source": "資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "王建煊",
+      "to": "馬英九",
+      "type": "contest",
+      "detail": "1998年臺北市長選舉，王建煊與馬英九同場競選；新黨選前有棄王保馬的政治抉擇。",
+      "period": "1998",
+      "source": "新黨時期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "王建煊",
+      "to": "馬英九",
+      "type": "affiliation",
+      "detail": "2008年馬英九以總統身分提名王建煊擔任監察院長，經立法院行使同意權通過。",
+      "period": "2008",
+      "source": "監察院長任內",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "王建煊",
+      "to": "王金平",
+      "type": "dispute",
+      "detail": "王建煊於2013年九月政爭期間公開批評立法院長王金平及其協商作風；為公開政治批評紀錄。",
+      "period": "2013-09",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "1990–1992財政部長任期",
+      "to": "王建煊",
+      "type": "event",
+      "detail": "1990年6月至1992年10月擔任財政部長。",
+      "period": "1990–1992",
+      "source": "資訊框／財政部長時期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "1990–1992財政部長任期",
+      "to": "李登輝",
+      "type": "event",
+      "detail": "王建煊任財政部長時的中華民國總統。",
+      "period": "1990–1992",
+      "source": "資訊框／財政部長時期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "1990–1992財政部長任期",
+      "to": "郝柏村",
+      "type": "event",
+      "detail": "王建煊任財政部長時的行政院長。",
+      "period": "1990–1992",
+      "source": "資訊框／財政部長時期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "1990–1992財政部長任期",
+      "to": "郭婉容",
+      "type": "event",
+      "detail": "王建煊的財政部長前任。",
+      "period": "1990–1992",
+      "source": "資訊框／財政部長時期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "1990–1992財政部長任期",
+      "to": "白培英",
+      "type": "event",
+      "detail": "王建煊的財政部長繼任者。",
+      "period": "1990–1992",
+      "source": "資訊框／財政部長時期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "1994–1995新黨召集人沿革",
+      "to": "郁慕明",
+      "type": "event",
+      "detail": "王建煊接任前的新黨全國委員會召集人。",
+      "period": "1994–1995",
+      "source": "資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "1994–1995新黨召集人沿革",
+      "to": "王建煊",
+      "type": "event",
+      "detail": "1994年10月至1995年8月任新黨全國委員會召集人。",
+      "period": "1994–1995",
+      "source": "資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "1994–1995新黨召集人沿革",
+      "to": "陳癸淼",
+      "type": "event",
+      "detail": "1995年8月起接替王建煊的新黨全國委員會召集人。",
+      "period": "1994–1995",
+      "source": "資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "1998臺北市長選舉",
+      "to": "王建煊",
+      "type": "event",
+      "detail": "新黨候選人，得44,452票、2.97%。",
+      "period": "1998",
+      "source": "新黨時期／選舉紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "1998臺北市長選舉",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "國民黨候選人；條目記載新黨在選前出現棄王保馬。",
+      "period": "1998",
+      "source": "新黨時期／選舉紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "1998兩岸和平統一促進會",
+      "to": "王建煊",
+      "type": "event",
+      "detail": "條目記載1998年出任該會首任監事。",
+      "period": "1998",
+      "source": "新黨時期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "1998兩岸和平統一促進會",
+      "to": "梁肅戎",
+      "type": "event",
+      "detail": "條目以梁肅戎姓名指涉該促進會相關背景；不等於確認其與王建煊私交。",
+      "period": "1998",
+      "source": "新黨時期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "2001臺北縣長選舉",
+      "to": "王建煊",
+      "type": "event",
+      "detail": "新黨候選人，得票820,808票，48.16%。",
+      "period": "2001",
+      "source": "臺北縣長選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "2001臺北縣長選舉",
+      "to": "蘇貞昌",
+      "type": "event",
+      "detail": "民進黨候選人，得票874,495票，51.31%，當選。",
+      "period": "2001",
+      "source": "臺北縣長選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "2001臺北縣長選舉",
+      "to": "邵建興",
+      "type": "event",
+      "detail": "無黨籍候選人，得票3,972票。",
+      "period": "2001",
+      "source": "臺北縣長選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "2001臺北縣長選舉",
+      "to": "石翊靖",
+      "type": "event",
+      "detail": "無黨籍候選人，得票4,913票。",
+      "period": "2001",
+      "source": "臺北縣長選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "2008–2014監察院長沿革",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "2008年以總統身分提名王建煊為監察院長。",
+      "period": "2008–2014",
+      "source": "資訊框／監察院長任內",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "2008–2014監察院長沿革",
+      "to": "錢復",
+      "type": "event",
+      "detail": "王建煊上任前的監察院長。",
+      "period": "2008–2014",
+      "source": "資訊框／監察院長任內",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "2008–2014監察院長沿革",
+      "to": "王建煊",
+      "type": "event",
+      "detail": "2008年8月至2014年7月擔任監察院長。",
+      "period": "2008–2014",
+      "source": "資訊框／監察院長任內",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "2008–2014監察院長沿革",
+      "to": "張博雅",
+      "type": "event",
+      "detail": "2014年接任監察院長。",
+      "period": "2008–2014",
+      "source": "資訊框／監察院長任內",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "2013張通榮監察院彈劾爭議",
+      "to": "張通榮",
+      "type": "event",
+      "detail": "監察院所審議彈劾案所涉及之人物；本節點不推定有罪。",
+      "period": "2013-08",
+      "source": "監察院長任內",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "2013張通榮監察院彈劾爭議",
+      "to": "王建煊",
+      "type": "event",
+      "detail": "2013年張通榮相關彈劾案未通過後，王建煊公開主張檢討監察院制度，引發監委聲明回應。",
+      "period": "2013-08",
+      "source": "監察院長任內",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "2013九月政爭政治批評",
+      "to": "王建煊",
+      "type": "event",
+      "detail": "2013年九月政爭期間公開批評王金平的議事協商作風。",
+      "period": "2013-09",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "2013九月政爭政治批評",
+      "to": "王金平",
+      "type": "event",
+      "detail": "時任立法院長，遭王建煊在九月政爭脈絡中公開批評。",
+      "period": "2013-09",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
+    },
+    {
+      "from": "愛心第二春文教基金會",
+      "to": "王建煊",
+      "type": "affiliation",
+      "detail": "王建煊條目列其擔任愛心第二春文教基金會董事長，從事公益事務；基金會是組織節點，非人物。",
+      "period": "1996年起（據條目履歷）",
+      "source": "經歷／其他",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
     }
   ]
 }

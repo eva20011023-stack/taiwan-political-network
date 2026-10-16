@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "臺灣政治人物關係網｜九月政爭及其他歷史關係",
+    "title": "臺灣政治人物關係網｜新增管碧玲",
     "date": "2026-10-17",
-    "scope": "持續併入新黨、張榮味、王鴻薇、吳崢、王建煊與2013年九月政爭條目；核心人物、司法程序、政黨回應以來源可核對的事件與職務連結，非全面人脈查核。",
+    "scope": "整合維基百科〈新黨〉〈張榮味〉〈王鴻薇〉〈吳崢〉〈王建煊〉〈九月政爭〉及〈管碧玲〉條目明確記錄的公開職務、親屬、選舉、政策與事件；共同事件不代表私交。",
     "sources": [
       {
         "name": "新黨",
@@ -27,6 +27,10 @@
       {
         "name": "九月政爭",
         "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+      },
+      {
+        "name": "管碧玲",
+        "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
       }
     ],
     "relation_note": "九月政爭條目包含當事人爭議性說法，關說／監聽／洩密指控與後來司法判決不能混為一談；同一案件出現不等於彼此認識或共同違法。",
@@ -2960,16 +2964,18 @@
     {
       "id": "管碧玲",
       "label": "管碧玲",
-      "group": "historical",
+      "group": "current",
       "notes": [
-        "2013年時任民進黨立委，9月28日公開揭露立法院總機監聽問題。"
+        "2013年時任民進黨立委，9月28日公開揭露立法院總機監聽問題。",
+        "2005年至2023年擔任第6至10屆立法委員；2023年1月31日接任海洋委員會主任委員，條目亦記載其於2024年卓榮泰內閣留任。",
+        "曾任高雄市新聞處長、文化局長及民進黨立法院黨團幹事長；本次資料擷取自維基百科，職務現況仍須以政府資料為準。"
       ],
       "party": {
         "code": "DPP",
-        "kind": "historical_only",
-        "as_of": "2013",
-        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
-        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
+        "kind": "last_documented",
+        "as_of": "2026-10-17 條目查閱（職務記錄含2024年）",
+        "source": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2",
+        "qualification": "條目資訊框記載為民主進步黨；未另行確認2026年最新黨籍"
       }
     },
     {
@@ -3313,6 +3319,423 @@
       "group": "hub",
       "notes": [
         "歷史事件節點，各參與者角色不同；同一事件不代表私交、同盟或共同責任。"
+      ]
+    },
+    {
+      "id": "許陽明",
+      "label": "許陽明",
+      "group": "family",
+      "notes": [
+        "管碧玲配偶，為條目資訊框公開列載。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "陳建仁",
+      "label": "陳建仁",
+      "group": "current",
+      "notes": [
+        "管碧玲在陳建仁內閣出任海洋委員會主任委員。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "卓榮泰",
+      "label": "卓榮泰",
+      "group": "current",
+      "notes": [
+        "管碧玲於2024年卓榮泰內閣續任海洋委員會主任委員。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "李仲威",
+      "label": "李仲威",
+      "group": "historical",
+      "notes": [
+        "管碧玲接任海委會主任委員前之正任主委。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "周美伍",
+      "label": "周美伍",
+      "group": "historical",
+      "notes": [
+        "2022年9月至2023年1月代理海洋委員會主任委員。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "陳培瑜",
+      "label": "陳培瑜",
+      "group": "current",
+      "notes": [
+        "管碧玲辭去2020年不分區立委職務後的遞補立委。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "柯文哲",
+      "label": "柯文哲",
+      "group": "current",
+      "notes": [
+        "2014年臺北市長候選人，管碧玲對其配偶助選遭質疑一事提出評論。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "陳佩琪",
+      "label": "陳佩琪",
+      "group": "external",
+      "notes": [
+        "2014年以柯文哲配偶身分參與助選，涉及公務人員行政中立法修法討論。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "尤美女",
+      "label": "尤美女",
+      "group": "historical",
+      "notes": [
+        "提案死刑犯得申請赦免條款，管碧玲為連署立委之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "陳菊",
+      "label": "陳菊",
+      "group": "historical",
+      "notes": [
+        "2006年民進黨高雄市長黨內初選與管碧玲相關公開評論。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "李昆澤",
+      "label": "李昆澤",
+      "group": "historical",
+      "notes": [
+        "2006年就管碧玲影射高雄市長初選候選人之說法提出反駁。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "林益世",
+      "label": "林益世",
+      "group": "historical",
+      "notes": [
+        "2008年立法院朝野衝突時曾反對民進黨所提議案。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "陳為廷",
+      "label": "陳為廷",
+      "group": "historical",
+      "notes": [
+        "管碧玲2014年對其事件曾發表給予機會的評論；不據此推論私人交情。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "邱文達",
+      "label": "邱文達",
+      "group": "historical",
+      "notes": [
+        "2011年管碧玲針對WHA使用中華台北名稱公開批評的時任衛生署長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "童振源",
+      "label": "童振源",
+      "group": "historical",
+      "notes": [
+        "2016年與WHA邀請函一中原則問題的政府對外說明相關人士。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "侯孝賢",
+      "label": "侯孝賢",
+      "group": "external",
+      "notes": [
+        "2012年對管碧玲停辦金馬獎說法提出批評的導演。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "柯一正",
+      "label": "柯一正",
+      "group": "external",
+      "notes": [
+        "2012年對管碧玲停辦金馬獎說法表達批評的導演。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "李烈",
+      "label": "李烈",
+      "group": "external",
+      "notes": [
+        "2012年對管碧玲停辦金馬獎說法表達批評的電影製片。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "龍應台",
+      "label": "龍應台",
+      "group": "historical",
+      "notes": [
+        "2012年對管碧玲停辦金馬獎說法表達批評的時任文化部長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "張雅琴",
+      "label": "張雅琴",
+      "group": "external",
+      "notes": [
+        "2016年在節目中批評管碧玲對太平島專屬經濟海域認知的主播。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "邱太三",
+      "label": "邱太三",
+      "group": "historical",
+      "notes": [
+        "2024年金門快艇翻覆事故後，陸委會主委與管碧玲同受邀赴立院專報。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "高金素梅",
+      "label": "高金素梅",
+      "group": "current",
+      "notes": [
+        "2024年立法院內政委員會召委，就金門快艇翻覆事故專報名稱與管碧玲意見不同。"
+      ],
+      "party": {
+        "code": "IND",
+        "kind": "last_documented",
+        "as_of": "2024-03",
+        "source": "https://www.cna.com.tw/news/aipl/202403030153.aspx",
+        "qualification": "2024年中央社報導稱無黨籍，未核對2026年的黨籍變化"
+      }
+    },
+    {
+      "id": "朱鳳蓮",
+      "label": "朱鳳蓮",
+      "group": "external",
+      "notes": [
+        "2024年中國大陸國台辦發言人，曾公開批評管碧玲在金門事件中的說法。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證可靠的政黨歸屬"
+      }
+    },
+    {
+      "id": "管碧玲｜海委會與內閣職務",
+      "label": "管碧玲｜海委會與內閣職務",
+      "group": "hub",
+      "notes": [
+        "此節點僅紀錄公開事件；同一事件不等於彼此有私人往來或共同立場。"
+      ]
+    },
+    {
+      "id": "管碧玲｜立委不分區遞補",
+      "label": "管碧玲｜立委不分區遞補",
+      "group": "hub",
+      "notes": [
+        "此節點僅紀錄公開事件；同一事件不等於彼此有私人往來或共同立場。"
+      ]
+    },
+    {
+      "id": "2006高雄市長民進黨初選論戰",
+      "label": "2006高雄市長民進黨初選論戰",
+      "group": "hub",
+      "notes": [
+        "此節點僅紀錄公開事件；同一事件不等於彼此有私人往來或共同立場。"
+      ]
+    },
+    {
+      "id": "2008立院管碧玲洪秀柱衝突",
+      "label": "2008立院管碧玲洪秀柱衝突",
+      "group": "hub",
+      "notes": [
+        "此節點僅紀錄公開事件；同一事件不等於彼此有私人往來或共同立場。"
+      ]
+    },
+    {
+      "id": "2012金馬獎存廢公開論戰",
+      "label": "2012金馬獎存廢公開論戰",
+      "group": "hub",
+      "notes": [
+        "此節點僅紀錄公開事件；同一事件不等於彼此有私人往來或共同立場。"
+      ]
+    },
+    {
+      "id": "2014公務員配偶助選修法",
+      "label": "2014公務員配偶助選修法",
+      "group": "hub",
+      "notes": [
+        "此節點僅紀錄公開事件；同一事件不等於彼此有私人往來或共同立場。"
+      ]
+    },
+    {
+      "id": "管碧玲｜WHA名稱公開爭論",
+      "label": "管碧玲｜WHA名稱公開爭論",
+      "group": "hub",
+      "notes": [
+        "此節點僅紀錄公開事件；同一事件不等於彼此有私人往來或共同立場。"
+      ]
+    },
+    {
+      "id": "管碧玲｜太平島仲裁評論",
+      "label": "管碧玲｜太平島仲裁評論",
+      "group": "hub",
+      "notes": [
+        "此節點僅紀錄公開事件；同一事件不等於彼此有私人往來或共同立場。"
+      ]
+    },
+    {
+      "id": "2024金門快艇翻覆事故立院專報",
+      "label": "2024金門快艇翻覆事故立院專報",
+      "group": "hub",
+      "notes": [
+        "此節點僅紀錄公開事件；同一事件不等於彼此有私人往來或共同立場。"
       ]
     }
   ],
@@ -6988,6 +7411,447 @@
       "period": "2013-09",
       "source": "九月政爭｜黨籍訴訟",
       "url": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD"
+    },
+    {
+      "from": "管碧玲｜海委會與內閣職務",
+      "to": "管碧玲",
+      "type": "event",
+      "detail": "2023年1月31日接任海洋委員會主任委員，2024年續任。",
+      "period": "2022–2024",
+      "source": "公職與選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲｜海委會與內閣職務",
+      "to": "陳建仁",
+      "type": "event",
+      "detail": "2023年管碧玲出任海委會主委時的行政院長。",
+      "period": "2022–2024",
+      "source": "公職與選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲｜海委會與內閣職務",
+      "to": "卓榮泰",
+      "type": "event",
+      "detail": "2024年新內閣留任管碧玲時的行政院長。",
+      "period": "2022–2024",
+      "source": "公職與選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲｜海委會與內閣職務",
+      "to": "李仲威",
+      "type": "event",
+      "detail": "海委會主委前任（正任）。",
+      "period": "2022–2024",
+      "source": "公職與選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲｜海委會與內閣職務",
+      "to": "周美伍",
+      "type": "event",
+      "detail": "管碧玲上任前的海委會代理主任委員。",
+      "period": "2022–2024",
+      "source": "公職與選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲｜立委不分區遞補",
+      "to": "管碧玲",
+      "type": "event",
+      "detail": "2023年1月31日辭去不分區立委，轉任海委會主委。",
+      "period": "2023-01",
+      "source": "公職與選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲｜立委不分區遞補",
+      "to": "陳培瑜",
+      "type": "event",
+      "detail": "遞補管碧玲留下的不分區立委席次。",
+      "period": "2023-01",
+      "source": "公職與選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "2006高雄市長民進黨初選論戰",
+      "to": "管碧玲",
+      "type": "event",
+      "detail": "以『有爭議的候選人』評論民進黨高雄市長初選人選。",
+      "period": "2006",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "2006高雄市長民進黨初選論戰",
+      "to": "陳菊",
+      "type": "event",
+      "detail": "受到管碧玲評論影射的初選候選人。",
+      "period": "2006",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "2006高雄市長民進黨初選論戰",
+      "to": "李昆澤",
+      "type": "event",
+      "detail": "針對管碧玲評論公開反駁。",
+      "period": "2006",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "2008立院管碧玲洪秀柱衝突",
+      "to": "管碧玲",
+      "type": "event",
+      "detail": "在立法院議場衝突中掌摑洪秀柱，雙方後來達成和解。",
+      "period": "2008–2010",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "2008立院管碧玲洪秀柱衝突",
+      "to": "洪秀柱",
+      "type": "event",
+      "detail": "在立法院議場衝突中遭管碧玲掌摑，雙方後來達成和解。",
+      "period": "2008–2010",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "2008立院管碧玲洪秀柱衝突",
+      "to": "林益世",
+      "type": "event",
+      "detail": "時任國民黨立院黨團幹部，反對民進黨提案，衝突在議場發生。",
+      "period": "2008–2010",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "2012金馬獎存廢公開論戰",
+      "to": "管碧玲",
+      "type": "event",
+      "detail": "2012年主張停辦金馬獎並成立國際性影展。",
+      "period": "2012",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "2012金馬獎存廢公開論戰",
+      "to": "侯孝賢",
+      "type": "event",
+      "detail": "公開批評停辦金馬獎的主張。",
+      "period": "2012",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "2012金馬獎存廢公開論戰",
+      "to": "柯一正",
+      "type": "event",
+      "detail": "公開批評停辦金馬獎的主張。",
+      "period": "2012",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "2012金馬獎存廢公開論戰",
+      "to": "李烈",
+      "type": "event",
+      "detail": "公開批評停辦金馬獎的主張。",
+      "period": "2012",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "2012金馬獎存廢公開論戰",
+      "to": "龍應台",
+      "type": "event",
+      "detail": "時任文化部長，公開批評停辦金馬獎的主張。",
+      "period": "2012",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "2014公務員配偶助選修法",
+      "to": "管碧玲",
+      "type": "event",
+      "detail": "針對公務員配偶助選遭質疑之爭議公開表態，並提案修正公務人員行政中立法。",
+      "period": "2014",
+      "source": "政策立場",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "2014公務員配偶助選修法",
+      "to": "陳佩琪",
+      "type": "event",
+      "detail": "柯文哲配偶，2014年助選遭部分國民黨人士質疑違反行政中立。",
+      "period": "2014",
+      "source": "政策立場",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "2014公務員配偶助選修法",
+      "to": "柯文哲",
+      "type": "event",
+      "detail": "2014年臺北市長選舉候選人，其配偶助選爭議成為修法背景。",
+      "period": "2014",
+      "source": "政策立場",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲｜WHA名稱公開爭論",
+      "to": "管碧玲",
+      "type": "event",
+      "detail": "2011年批評WHA以『中華台北』名義參與的政策，2016年進一步解釋不同邀請函條件。",
+      "period": "2011／2016",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲｜WHA名稱公開爭論",
+      "to": "邱文達",
+      "type": "event",
+      "detail": "2011年時任衛生署長，受到管碧玲公開批評。",
+      "period": "2011／2016",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲｜WHA名稱公開爭論",
+      "to": "童振源",
+      "type": "event",
+      "detail": "2016年政府對WHA邀請函『一中原則』立場說明者。",
+      "period": "2011／2016",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲｜太平島仲裁評論",
+      "to": "管碧玲",
+      "type": "event",
+      "detail": "2016年就南海仲裁與太平島經濟海域問題發表說法。",
+      "period": "2016",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲｜太平島仲裁評論",
+      "to": "張雅琴",
+      "type": "event",
+      "detail": "2016年於節目中公開批評管碧玲的說法。",
+      "period": "2016",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "2024金門快艇翻覆事故立院專報",
+      "to": "管碧玲",
+      "type": "event",
+      "detail": "時任海委會主委，主張調整立院專報名稱，與召委高金素梅出現公開歧見。",
+      "period": "2024-02–03",
+      "source": "言論及爭議",
+      "url": "https://www.cna.com.tw/news/aipl/202403030153.aspx"
+    },
+    {
+      "from": "2024金門快艇翻覆事故立院專報",
+      "to": "高金素梅",
+      "type": "event",
+      "detail": "時任立法院內政委員會召委，反對海委會調整專報名稱。",
+      "period": "2024-02–03",
+      "source": "言論及爭議",
+      "url": "https://www.cna.com.tw/news/aipl/202403030153.aspx"
+    },
+    {
+      "from": "2024金門快艇翻覆事故立院專報",
+      "to": "邱太三",
+      "type": "event",
+      "detail": "時任陸委會主委，與管碧玲同受邀赴立院說明。",
+      "period": "2024-02–03",
+      "source": "言論及爭議",
+      "url": "https://www.cna.com.tw/news/aipl/202403030153.aspx"
+    },
+    {
+      "from": "2024金門快艇翻覆事故立院專報",
+      "to": "朱鳳蓮",
+      "type": "event",
+      "detail": "中國大陸國台辦發言人，就相關事件公開批評管碧玲。",
+      "period": "2024-02–03",
+      "source": "言論及爭議",
+      "url": "https://www.cna.com.tw/news/aipl/202403030153.aspx"
+    },
+    {
+      "from": "2024金門快艇翻覆事故立院專報",
+      "to": "王鴻薇",
+      "type": "event",
+      "detail": "就管碧玲於2024年公開摸男性記者臉部的行為提出性別界線相關批評。",
+      "period": "2024-02–03",
+      "source": "言論及爭議",
+      "url": "https://www.cna.com.tw/news/aipl/202403030153.aspx"
+    },
+    {
+      "from": "管碧玲",
+      "to": "許陽明",
+      "type": "family",
+      "detail": "維基百科資訊框公開列載兩人為配偶。",
+      "period": "條目查閱：2026-10-17",
+      "source": "資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲",
+      "to": "陳建仁",
+      "type": "affiliation",
+      "detail": "管碧玲於2023年1月31日加入陳建仁內閣，擔任海洋委員會主任委員。",
+      "period": "2023",
+      "source": "公職與選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲",
+      "to": "卓榮泰",
+      "type": "affiliation",
+      "detail": "管碧玲2024年在卓榮泰內閣留任海洋委員會主任委員。",
+      "period": "2024",
+      "source": "公職與選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲",
+      "to": "李仲威",
+      "type": "affiliation",
+      "detail": "海洋委員會主任委員職務沿革：李仲威為管碧玲上任前的正任主委。",
+      "period": "2022–2023",
+      "source": "資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲",
+      "to": "周美伍",
+      "type": "affiliation",
+      "detail": "海洋委員會主任委員職務沿革：周美伍任代理主委，管碧玲2023年1月接任正任。",
+      "period": "2022–2023",
+      "source": "資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲",
+      "to": "陳培瑜",
+      "type": "affiliation",
+      "detail": "管碧玲2023年辭去民進黨不分區立委後，陳培瑜遞補其席次。",
+      "period": "2023",
+      "source": "資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲",
+      "to": "洪秀柱",
+      "type": "dispute",
+      "detail": "2008年立院議場衝突中管碧玲掌摑洪秀柱，事件訴訟後雙方於2010年和解。",
+      "period": "2008–2010",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲",
+      "to": "陳菊",
+      "type": "contest",
+      "detail": "2006年民進黨高雄市長初選期間，管碧玲公開評論陳菊相關爭議，引發討論。",
+      "period": "2006",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲",
+      "to": "李昆澤",
+      "type": "dispute",
+      "detail": "李昆澤在2006年高雄市長民進黨初選論戰中公開反駁管碧玲。",
+      "period": "2006",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲",
+      "to": "尤美女",
+      "type": "cooperate",
+      "detail": "尤美女提案死刑犯申請赦免條款，管碧玲為連署立委之一。",
+      "period": "2014",
+      "source": "政策立場",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲",
+      "to": "邱文達",
+      "type": "dispute",
+      "detail": "2011年管碧玲公開批評邱文達使用『中華台北』參與WHA的政策。",
+      "period": "2011",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲",
+      "to": "侯孝賢",
+      "type": "dispute",
+      "detail": "侯孝賢2012年公開批評管碧玲主張停辦金馬獎的說法。",
+      "period": "2012",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲",
+      "to": "高金素梅",
+      "type": "dispute",
+      "detail": "2024年金門快艇翻覆事故後，管碧玲與立院內政委員會召委高金素梅就專報名稱公開交鋒。",
+      "period": "2024-03",
+      "source": "金門快艇立院專報",
+      "url": "https://www.cna.com.tw/news/aipl/202403030153.aspx"
+    },
+    {
+      "from": "管碧玲",
+      "to": "王鴻薇",
+      "type": "dispute",
+      "detail": "2024年管碧玲公開觸摸男性記者臉部後，王鴻薇公開批評其行為涉及性別界線；這是王鴻薇的公開主張，不表示法律或主管機關已認定構成性騷擾。",
+      "period": "2024-03",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲",
+      "to": "朱鳳蓮",
+      "type": "dispute",
+      "detail": "2024年中國大陸國台辦發言人朱鳳蓮對管碧玲就金門事件的公開說法提出批評。",
+      "period": "2024-03",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲",
+      "to": "張雅琴",
+      "type": "dispute",
+      "detail": "2016年主播張雅琴公開批評管碧玲對太平島專屬經濟海域的說法。",
+      "period": "2016",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲",
+      "to": "柯文哲",
+      "type": "event",
+      "detail": "2014年柯文哲配偶陳佩琪參與助選引發行政中立爭議，管碧玲據此提出修法。屬政策事件交集，非私人關係。",
+      "period": "2014",
+      "source": "政策立場",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "管碧玲",
+      "to": "陳為廷",
+      "type": "event",
+      "detail": "管碧玲2014年就陳為廷公開爭議發言，主張給予機會；不推論雙方實際認識或互動。",
+      "period": "2014",
+      "source": "言論及爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
     }
   ]
 }

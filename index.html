@@ -25,8 +25,8 @@ button:hover{background:#285576}button:focus-visible,input:focus-visible,select:
 #scale{font-variant-numeric:tabular-nums;min-width:51px;text-align:center;color:#d9e7f6}
 #graphwrap{height:min(69vh,740px);min-height:340px;border:1px solid #37536d;border-radius:11px;overflow:hidden;background:radial-gradient(ellipse at 60% 50%,#142b46 0%,#081829 78%);touch-action:none;overscroll-behavior:contain;position:relative}
 #graph{display:block;width:100%;height:100%;touch-action:none;user-select:none;-webkit-user-select:none}
-#graph .node{cursor:pointer}#graph .node circle{stroke:#b9d4f5;stroke-width:1.5}#graph .node text{pointer-events:none;paint-order:stroke;stroke:#081629;stroke-width:3.5;stroke-linejoin:round}
-#graph .node:hover circle{stroke:white;stroke-width:3}
+#graph .node{cursor:pointer}#graph .node circle{stroke:#b9d4f5;stroke-width:1.5}#graph .node text{pointer-events:all;cursor:pointer;paint-order:stroke;stroke:#081629;stroke-width:3.5;stroke-linejoin:round}
+#graph .node:hover circle{stroke:white;stroke-width:3}#graph .node .hitbox{fill:transparent;pointer-events:all}#graph .node:focus circle{stroke:#fff;stroke-width:3}
 .info{display:grid;grid-template-columns:minmax(250px,1.25fr) minmax(260px,1fr);gap:12px;margin-top:12px}
 .record{background:#0b1b2d;padding:10px;border-radius:9px;border:1px solid #314c6b;margin:9px 0}
 .record b{display:inline-block;margin-right:7px}.record .type{font-size:11px;color:#d0dded}
@@ -42,6 +42,16 @@ button:hover{background:#285576}button:focus-visible,input:focus-visible,select:
 .pathstep{border-left:3px solid #87bfea;padding:8px 12px;background:#102c45;border-radius:0 8px 8px 0;margin:7px 0;font-size:13px}
 .footer{font-size:12px;color:var(--muted);padding:12px 0 30px}
 .loading{color:var(--muted);padding:12px}
+.person-modal[hidden]{display:none!important}
+.person-modal{position:fixed;inset:0;z-index:500;display:flex;align-items:end;justify-content:center;background:#0009;padding:12px}
+.person-modal>.sheet{background:#11243b;color:#edf4ff;border:1px solid #7396b4;border-radius:18px 18px 14px 14px;box-shadow:0 0 50px #0009;width:min(680px,100%);max-height:min(82dvh,800px);display:flex;flex-direction:column;overflow:hidden}
+.sheethead{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 17px;background:#193753;border-bottom:1px solid #42627d}
+.sheethead strong{font-size:19px}.sheethead button{min-height:42px;padding:7px 16px}
+.sheetbody{overflow:auto;padding:16px;overscroll-behavior:contain}
+.sheetbody .record{margin:9px 0}.sheetbody h3{margin:18px 0 9px}.sheetbody p{margin:6px 0}.sheetbody .record{line-height:1.58}
+.modal-open{overflow:hidden}
+#graph .node{text-rendering:geometricPrecision}
+@media(min-width:900px){.person-modal{align-items:center}.person-modal>.sheet{border-radius:18px;max-height:82vh}}
 @media(max-width:740px){.wrap{padding:10px}.panel{padding:11px}.info{grid-template-columns:1fr}.route{grid-template-columns:1fr 1fr}.route button{grid-column:1/-1}#graphwrap{height:56vh;min-height:360px}.toolbar{gap:6px}.toolbar button.small{min-width:42px}.stats span{padding:6px 9px}}
 </style>
 </head>
@@ -72,6 +82,9 @@ button:hover{background:#285576}button:focus-visible,input:focus-visible,select:
 <div class="route-options"><label><input type="checkbox" id="includehubs"> 允許透過共同事件／組織間接連接（結果會更短，但不代表人物彼此熟識）</label></div>
 <div id="pathresult" class="subtitle">在上方選擇兩位人物開始。</div>
 </section>
+<div class="person-modal" id="person-modal" hidden role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+ <div class="sheet"><div class="sheethead"><strong id="sheet-title">人物資料</strong><button type="button" id="sheet-close" aria-label="關閉人物資料">關閉 ✕</button></div><div class="sheetbody" id="sheet-body"></div></div>
+</div>
 <footer class="footer">來源：<a href="https://zh.wikipedia.org/wiki/新黨">新黨</a>、<a href="https://zh.wikipedia.org/wiki/張榮味">張榮味</a>、<a href="https://zh.wikipedia.org/wiki/王鴻薇">王鴻薇</a>、<a href="https://zh.wikipedia.org/wiki/吳崢">吳崢</a>（擷取與整理：2026-10-17）。本圖是維基百科內容的初步結構化記錄，不代表資料已全面核實，也不應將同場活動視為私交或同盟。</footer>
 </div>
 <script>
@@ -80,6 +93,7 @@ button:hover{background:#285576}button:focus-visible,input:focus-visible,select:
 const $=id=>document.getElementById(id),svg=$("graph"),ns="http://www.w3.org/2000/svg";
 let db, people=[], graphNodes=[], edges=[], positions=new Map(), selected=null,routeSet=null,focus=false;
 let view={x:-1280,y:-900,w:2560,h:1800},ptrs=new Map(),gestureMoved=false,wasDragged=false;
+let touchStart=null,lastTouchSelection={id:null,at:0};
 const groups={"founder":["創黨","#de9db0",-770,-485],"historical":["歷史人物","#9baec8",-320,-555],"current":["政治人物","#81baff",390,-540],"yunlin":["雲林政治","#d9aa76",775,55],"family":["親屬","#e6aad8",780,580],"external":["其他人物","#93c9b4",0,550],"hub":["事件／組織","#ffd17b",-400,300]};
 const types={affiliation:"#7f9dbf",event:"#7a8ca5",family:"#da9bea",contest:"#efb86c",dispute:"#ec8997",cooperate:"#92d6ab",support:"#b4b0ea",case:"#b98dd8"};
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -102,8 +116,12 @@ function render(){
  edges=db.edges.map((e,i)=>{const a=positions.get(e.from),b=positions.get(e.to);if(!a||!b)return null;const l=el("line",{x1:a.x,y1:a.y,x2:b.x,y2:b.y,stroke:types[e.type]||"#8395ae","stroke-width":2.3,"stroke-opacity":0.21});bg.append(l);return {el:l,e,i}});
  graphNodes=db.nodes.map(n=>{const p=positions.get(n.id),isHub=n.group==="hub",g=el("g",{"class":"node","data-id":n.id,transform:"translate("+p.x+" "+p.y+")"});
  g.append(el("circle",{r:isHub?10:8,fill:group(n)[1]}));
+ g.append(el("rect",{"class":"hitbox",x:-15,y:-19,width:Math.max(70,16*[...n.label].length+43),height:38,rx:8}));
  const text=el("text",{x:14,y:4,"font-size":isHub?12.5:14.5,fill:"#e9f2ff"},n.label);g.append(text);
- g.addEventListener("click",e=>{if(wasDragged)return;e.stopPropagation();select(n.id,true)});
+ g.setAttribute("tabindex","0");g.setAttribute("role","button");g.setAttribute("aria-label","查看 "+n.label+" 的人物關係");
+ g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();e.stopPropagation();select(n.id,true)}});
+
+ g.addEventListener("click",e=>{e.stopPropagation();if(wasDragged)return;if(lastTouchSelection.id===n.id&&Date.now()-lastTouchSelection.at<800)return;select(n.id,true)});
  fg.append(g);return {el:g,n}});
  svg.addEventListener("click",()=>{});
  updateHighlight();
@@ -125,7 +143,23 @@ function select(id,zoomTo=false){
  $("personinfo").innerHTML="<h3>"+esc(n.label)+"</h3><p class='muted'>"+esc(group(n)[0])+" · "+nonhubs.length+" 筆直接人物連線 · "+nn.length+" 筆相關紀錄（含事件／組織）</p>"+(n.notes?.length?"<ul class='notes'>"+n.notes.map(s=>"<li>"+esc(s)+"</li>").join("")+"</ul>":"")+"<button id='showperson'>只強調此人的關係</button> <button id='allagain'>恢復整張網絡</button>";
  $("showperson").onclick=()=>{updateHighlight();center(n)};$("allagain").onclick=showAll;
  $("records").innerHTML=nn.length?nn.slice(0,100).map(e=>"<div class='record'><b>"+esc(e.other)+"</b><span class='type'>"+esc(e.type)+" · "+esc(e.period)+"</span><p>"+esc(e.detail)+"</p>"+(e.url?"<a href='"+esc(e.url)+"' target='_blank' rel='noopener'>資料來源 ↗</a>":"")+"</div>").join(""):"<p>尚無資料庫內的直接關係紀錄。</p>";
+ openPersonSheet(n,nn);
 }
+function openPersonSheet(n,related){
+ $("sheet-title").textContent=n.label+"｜人物關係";
+ const note=(n.notes?.length?"<ul class='notes'>"+n.notes.map(x=>"<li>"+esc(x)+"</li>").join("")+"</ul>":"");
+ const cards=related.length?related.slice(0,100).map(e=>{
+ const other=e.from===n.id?e.to:e.from;
+ return "<div class='record'><b>"+esc(other)+"</b><span class='type'>"+esc(e.type)+" · "+esc(e.period)+"</span><p>"+esc(e.detail)+"</p>"+(e.url?"<a href='"+esc(e.url)+"' target='_blank' rel='noopener noreferrer'>查看來源 ↗</a>":"")+"</div>";
+ }).join(""):"<p>目前還沒有可顯示的關係紀錄。</p>";
+ $("sheet-body").innerHTML="<p class='muted'>"+esc(group(n)[0])+" · "+related.length+" 筆公開關係紀錄（包含共同事件）</p>"+note+"<h3>關係紀錄</h3>"+cards;
+ $("person-modal").hidden=false;document.body.classList.add("modal-open");
+ $("sheet-body").scrollTop=0;
+ }
+ function closePersonSheet(){$("person-modal").hidden=true;document.body.classList.remove("modal-open")}
+ $("sheet-close").onclick=closePersonSheet;
+ $("person-modal").addEventListener("click",e=>{if(e.target===$("person-modal"))closePersonSheet()});
+ document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("person-modal").hidden)closePersonSheet()});
 function showAll(){selected=null;routeSet=null;$("personsearch").value="";updateHighlight();reset();$("personinfo").innerHTML="點選人物，即可閱讀其工作、選舉、公開爭論或共同活動紀錄。";$("records").textContent="請先選取人物。";}
 function findPerson(){const q=$("personsearch").value.trim();const n=people.find(n=>n.label===q)||people.find(n=>n.label.includes(q));if(n&&q)select(n.id,true);else if(q)$("personinfo").textContent="找不到這個人物，請試試其他姓名。"}
 function path(){
@@ -153,14 +187,36 @@ $("showall").onclick=showAll;$("zoomin").onclick=()=>zoom(0.69);$("zoomout").onc
 svg.addEventListener("wheel",e=>{e.preventDefault();zoom(e.deltaY<0?0.82:1.22,e.clientX,e.clientY)},{passive:false});
 const pinch=()=>{const a=[...ptrs.values()];if(a.length<2)return null;return {x:(a[0].x+a[1].x)/2,y:(a[0].y+a[1].y)/2,d:Math.hypot(a[0].x-a[1].x,a[0].y-a[1].y)}};
 let prevPinch=null;
-svg.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse"&&e.button!==0)return;ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});prevPinch=pinch();if(ptrs.size===1){gestureMoved=false;wasDragged=false}});
+svg.addEventListener("pointerdown",e=>{
+ if(e.pointerType==="mouse"&&e.button!==0)return;
+ const p={x:e.clientX,y:e.clientY};ptrs.set(e.pointerId,p);
+ if(ptrs.size===1){wasDragged=false;gestureMoved=false;touchStart={id:e.pointerId,begin:p,target:e.target.closest?.(".node")?.dataset.id||null};}
+ else {wasDragged=true;gestureMoved=true;touchStart=null;}
+ prevPinch=pinch();
+});
 svg.addEventListener("pointermove",e=>{
  const old=ptrs.get(e.pointerId);if(!old)return;
  const p={x:e.clientX,y:e.clientY};ptrs.set(e.pointerId,p);
- if(ptrs.size>=2){const now=pinch();if(prevPinch&&now&&now.d>0&&prevPinch.d>0){zoom(prevPinch.d/now.d,now.x,now.y);const r=svg.getBoundingClientRect();view.x-=(now.x-prevPinch.x)/r.width*view.w;view.y-=(now.y-prevPinch.y)/r.height*view.h;viewSet();wasDragged=true}prevPinch=now;e.preventDefault();}
- else {const dx=p.x-old.x,dy=p.y-old.y;if(Math.abs(dx)+Math.abs(dy)>1){const r=svg.getBoundingClientRect();view.x-=dx/r.width*view.w;view.y-=dy/r.height*view.h;viewSet();wasDragged=true;e.preventDefault()}}
+ if(ptrs.size>=2){const now=pinch();if(prevPinch&&now&&now.d>0&&prevPinch.d>0){
+ zoom(prevPinch.d/now.d,now.x,now.y);const r=svg.getBoundingClientRect();view.x-=(now.x-prevPinch.x)/r.width*view.w;view.y-=(now.y-prevPinch.y)/r.height*view.h;viewSet();
+ }prevPinch=now;wasDragged=true;e.preventDefault();}
+ else {
+  const d=touchStart?Math.hypot(p.x-touchStart.begin.x,p.y-touchStart.begin.y):0;
+  if(!wasDragged&&d<11)return;
+  wasDragged=true;
+  const dx=p.x-old.x,dy=p.y-old.y;
+  if(dx||dy){const r=svg.getBoundingClientRect();view.x-=dx/r.width*view.w;view.y-=dy/r.height*view.h;viewSet();e.preventDefault()}
+ }
 });
-const end=e=>{ptrs.delete(e.pointerId);prevPinch=pinch();if(ptrs.size===0){setTimeout(()=>{wasDragged=false},60)}};
+const end=e=>{
+ const wasSingle=ptrs.size===1,ts=touchStart;
+ ptrs.delete(e.pointerId);prevPinch=pinch();
+ if(e.type==="pointerup"&&e.pointerType==="touch"&&wasSingle&&!wasDragged&&ts&&ts.id===e.pointerId&&ts.target){
+  lastTouchSelection={id:ts.target,at:Date.now()};
+  e.preventDefault();e.stopPropagation();select(ts.target,true);
+ }
+ if(!ptrs.size){touchStart=null;setTimeout(()=>{wasDragged=false},100);}
+};
 svg.addEventListener("pointerup",end);svg.addEventListener("pointercancel",end);
 svg.addEventListener("dblclick",e=>{e.preventDefault();zoom(0.7,e.clientX,e.clientY)});
 fetch("./data/network.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(boot).catch(e=>{svg.replaceChildren(el("text",{x:-900,y:0,fill:"#e9f2ff","font-size":30},"無法載入資料："+e.message));$("stats").textContent="資料載入失敗，請重新整理頁面。"});

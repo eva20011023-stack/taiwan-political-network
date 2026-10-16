@@ -153,7 +153,7 @@ $("showall").onclick=showAll;$("zoomin").onclick=()=>zoom(0.69);$("zoomout").onc
 svg.addEventListener("wheel",e=>{e.preventDefault();zoom(e.deltaY<0?0.82:1.22,e.clientX,e.clientY)},{passive:false});
 const pinch=()=>{const a=[...ptrs.values()];if(a.length<2)return null;return {x:(a[0].x+a[1].x)/2,y:(a[0].y+a[1].y)/2,d:Math.hypot(a[0].x-a[1].x,a[0].y-a[1].y)}};
 let prevPinch=null;
-svg.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse"&&e.button!==0)return;ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});prevPinch=pinch();if(ptrs.size===1){gestureMoved=false;wasDragged=false}try{svg.setPointerCapture(e.pointerId)}catch{}});
+svg.addEventListener("pointerdown",e=>{if(e.pointerType==="mouse"&&e.button!==0)return;ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});prevPinch=pinch();if(ptrs.size===1){gestureMoved=false;wasDragged=false}});
 svg.addEventListener("pointermove",e=>{
  const old=ptrs.get(e.pointerId);if(!old)return;
  const p={x:e.clientX,y:e.clientY};ptrs.set(e.pointerId,p);

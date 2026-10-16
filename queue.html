@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark"><title>維基網址處理進度｜臺灣政治人物關係圖譜</title>
+<style>
+:root{color-scheme:dark;--bg:#071321;--panel:#10243a;--panel2:#173452;--line:#35546c;--txt:#edf5ff;--muted:#b7c9de}
+*{box-sizing:border-box}body{margin:0;color:var(--txt);background:var(--bg);font:15px/1.6 system-ui,-apple-system,"Noto Sans TC",sans-serif}
+main{max-width:980px;margin:auto;padding:18px 13px 80px}a{color:#a4d6ff;text-underline-offset:3px}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin:4px 0 24px}nav a{padding:8px 13px;border:1px solid var(--line);border-radius:10px;background:#172f49;text-decoration:none}
+h1{font-size:clamp(24px,5vw,34px);line-height:1.25;margin:0 0 5px}
+h2{font-size:18px;margin:0 0 10px}
+.sub{font-size:14px;color:var(--muted);margin:6px 0 22px}
+.panel{border:1px solid var(--line);background:var(--panel);padding:16px;border-radius:15px;margin:14px 0}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.stat{background:#142c46;border:1px solid #395a76;border-radius:12px;padding:12px;min-width:0}
+.stat strong{display:block;font-size:30px;font-variant-numeric:tabular-nums;line-height:1.2}.stat span{color:var(--muted);font-size:12px}
+.action{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+button{background:#275c88;color:white;border:1px solid #75aad4;padding:10px 15px;border-radius:10px;min-height:43px;font:inherit;cursor:pointer}
+button:disabled{opacity:.55;cursor:wait}button:focus-visible,a:focus-visible{outline:3px solid #98d4ff;outline-offset:3px}
+.note{color:var(--muted);font-size:13px}.small{font-size:12px;color:var(--muted)}
+#message{font-size:13px;color:#cfe4f6;padding-top:8px}
+.list{display:grid;gap:9px}
+.entry{border:1px solid #3a5772;border-radius:11px;padding:12px;background:#0a1c2e}
+.entryhead{display:flex;gap:9px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+.entry a.title{font-weight:700;font-size:16px;overflow-wrap:anywhere}
+.status{display:inline-flex;align-items:center;white-space:nowrap;border:1px solid #7f9bb1;background:#22374c;color:#e2ecf5;border-radius:100px;padding:2px 10px;font-size:12px;font-weight:700}
+.status.processing{background:#243e59;color:#aee0ff;border-color:#519cc7}
+.status.done{background:#203f34;color:#a7eed0;border-color:#3b956e}
+.status.skipped{background:#473b27;color:#ffdf9b;border-color:#a88848}
+.status.failed{background:#4c2d33;color:#ffb9b9;border-color:#b86a70}
+.meta{color:var(--muted);font-size:12px;margin:4px 0 0;overflow-wrap:anywhere}
+.empty{color:var(--muted);padding:22px 10px;text-align:center}
+code{word-break:break-all}
+@media(max-width:580px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}main{padding:13px 10px 70px}.stat strong{font-size:26px}.panel{padding:12px}.entry{padding:10px}}
+</style></head>
+<body><main>
+<nav><a href="./">← 返回關係圖譜</a><a href="https://github.com/eva20011023-stack/taiwan-political-network/issues/1" target="_blank" rel="noopener">📥 繼續投遞維基網址 ↗</a></nav>
+<h1>📋 維基網址處理進度</h1>
+<p class="sub">邊逛維基邊投遞；這裡會整理每篇條目的排隊、處理與完成狀態。<b>每小時檢查一次、每輪最多嘗試兩篇。</b></p>
+<section class="stats" aria-label="處理狀態統計">
+<div class="stat"><strong id="pendingCount">—</strong><span>排隊中</span></div>
+<div class="stat"><strong id="workingCount">—</strong><span>處理中</span></div>
+<div class="stat"><strong id="doneCount">—</strong><span>已完成</span></div>
+<div class="stat"><strong id="otherCount">—</strong><span>待確認／略過</span></div>
+</section>
+<section class="panel">
+<div class="action"><button id="refresh" type="button">↻ 重新整理進度</button><span id="refreshTime" class="small" aria-live="polite"></span></div>
+<p class="note">「排隊中」表示網址已出現在投遞箱、尚未記錄為完成。「處理中」只有在後台寫下開始時間時才會顯示；看板不是即時直播。條目完成以資料成功寫入 GitHub 為準。</p>
+<p class="small" id="lastRun">最近一次排程檢查：尚無紀錄</p>
+<p id="message" role="status">正在讀取 GitHub 投遞箱…</p>
+</section>
+<section class="panel"><h2>每篇條目的進度</h2><div id="entries" class="list"><div class="empty">正在讀取網址…</div></div></section>
+<p class="note">只讀取<a href="https://github.com/eva20011023-stack/taiwan-political-network/issues/1">投遞箱</a>內專案擁有者提交的公開維基網址。已完成、略過及錯誤狀態取自<a href="https://github.com/eva20011023-stack/taiwan-political-network/blob/main/data/wiki_queue_state.json">公開處理紀錄</a>；若 API 暫時無法取得資料，狀態會註明而不假裝已處理。已存在人物節點不表示該篇條目已完整整理。</p>
+</main>
+<script>
+(()=>{"use strict";
+const $=id=>document.getElementById(id),owner="eva20011023-stack",api="https://api.github.com/repos/eva20011023-stack/taiwan-political-network/issues/1/comments";
+const text=(tag,cls,value)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(value!==undefined)e.textContent=value;return e;};
+const twDate=value=>{if(!value)return "尚未記錄";const d=new Date(value);return Number.isNaN(+d)?String(value):new Intl.DateTimeFormat("zh-TW",{timeZone:"Asia/Taipei",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).format(d)};
+function canonical(raw){
+ try{
+  if(!raw)return null;
+  let url=new URL(String(raw).trim());if(!/^[a-z-]+\.wikipedia\.org$/i.test(url.hostname))return null;
+  const language=url.hostname.split(".")[0].toLowerCase();
+  let title="";
+  if(url.pathname==="/w/index.php")title=url.searchParams.get("title")||"";
+  else{const match=url.pathname.match(/^\/(?:wiki|zh-tw|zh-hant|zh-cn|zh-hans|zh-hk|zh-mo)\/(.+)$/i);if(!match)return null;title=decodeURIComponent(match[1])}
+  title=title.replace(/_/g," ").normalize("NFC").trim();if(!title)return null;
+  const key=language+":"+title.toLocaleLowerCase();
+  return {key,title,language,url:"https://"+url.hostname+"/wiki/"+encodeURIComponent(title.replace(/ /g,"_"))};
+ }catch(e){return null}
+}
+function extract(body){
+ const matches=String(body||"").match(/https?:\/\/[a-z-]+\.wikipedia\.org\/[^\s<>"']+/gi)||[];
+ const result=[];
+ for(let raw of matches){
+  raw=raw.replace(/[，,。；;！!？?]+$/g,"");
+  // Strip closing Markdown link parenthesis only when unmatched.
+  while(raw.endsWith(")")&&((raw.match(/\(/g)||[]).length<(raw.match(/\)/g)||[]).length))raw=raw.slice(0,-1);
+  const item=canonical(raw);if(item)result.push(item);
+ }
+ return result;
+}
+function recordKey(entry){
+ if(typeof entry==="string"){const direct=canonical(entry);return direct?.key||entry}
+ if(!entry||typeof entry!=="object")return "";
+ if(entry.key)return String(entry.key);
+ for(const candidate of [entry.normalized_url,entry.url,entry.source_url,entry.canonical_url]){const c=canonical(candidate);if(c)return c.key}
+ return "";
+}
+function asMap(entries){
+ const m=new Map();for(const item of Array.isArray(entries)?entries:[]){const k=recordKey(item);if(k)m.set(k,typeof item==="string"?{url:item}:item)}return m;
+}
+async function issueUrls(){
+ const all=[];
+ for(let page=1;page<=10;page++){
+  const r=await fetch(api+"?per_page=100&page="+page,{headers:{"Accept":"application/vnd.github+json"}});
+  if(!r.ok)throw Error("GitHub 留言讀取失敗（HTTP "+r.status+"）");
+  const comments=await r.json();
+  if(!Array.isArray(comments))throw Error("GitHub 留言資料格式不符");
+  for(const c of comments){
+   if(c.user?.login!==owner)continue;
+   for(const it of extract(c.body)){all.push({...it,submitted_at:c.created_at,comment_url:c.html_url})}
+  }
+  if(comments.length<100)break;
+ }
+ const unique=new Map();for(const it of all){if(!unique.has(it.key))unique.set(it.key,it)}
+ return [...unique.values()].reverse();
+}
+function paint(items,state){
+ const done=asMap(state.processed),failed=asMap(state.failed),skipped=asMap(state.skipped),work=asMap(state.processing);
+ const statuses={pending:0,processing:0,done:0,other:0};
+ const area=$("entries");area.replaceChildren();
+ for(const it of items){
+  let code="pending",label="排隊中",extra="";
+  const p=done.get(it.key),w=work.get(it.key),f=failed.get(it.key),sk=skipped.get(it.key);
+  if(p){code="done";label="已完成";extra="完成時間："+twDate(p.processed_at||p.completed_at||p.finished_at)+(p.summary?"｜"+p.summary:"")}
+  else if(w){
+   const started=w.started_at||w.start_time||w.at;
+   const tooLong=started&&Date.now()-new Date(started).getTime()>3*3600000;
+   code=tooLong?"failed":"processing";label=tooLong?"處理逾時，待確認":"處理中";extra="開始時間："+twDate(started);
+  }else if(sk){code="skipped";label="已略過";extra=sk.reason||sk.note||"條目未納入圖譜"}
+  else if(f){code="failed";label="等待重試";extra=f.reason||f.error||"前次處理未成功"}
+  statuses[code==="done"?"done":code==="processing"?"processing":code==="pending"?"pending":"other"]++;
+  const row=text("article","entry"),head=text("div","entryhead");
+  const a=text("a","title",it.title);a.href=it.url;a.target="_blank";a.rel="noopener";
+  const tag=text("span","status "+code,label);
+  const m=text("p","meta","投遞於 "+twDate(it.submitted_at)+(extra?"｜"+extra:""));
+  head.append(a,tag);row.append(head,m);area.append(row);
+ }
+ if(!items.length)area.append(text("div","empty","尚未投遞維基網址。現在就能從上方連結開始貼！"));
+ $("pendingCount").textContent=statuses.pending;
+ $("workingCount").textContent=statuses.processing;
+ $("doneCount").textContent=statuses.done;
+ $("otherCount").textContent=statuses.other;
+}
+async function load(){
+ const btn=$("refresh");btn.disabled=true;$("message").textContent="正在同步 GitHub 最新紀錄…";
+ try{
+  const responses=await Promise.all([
+   fetch("./data/wiki_queue_state.json?ts="+Date.now(),{cache:"no-store"}),
+   issueUrls()
+  ]);
+  const [r,items]=responses;if(!r.ok)throw Error("處理紀錄檔讀取失敗（HTTP "+r.status+"）");
+  const state=await r.json();paint(items,state);
+  $("lastRun").textContent="最近一次排程檢查："+twDate(state.last_run||state.last_checked_at);
+  $("refreshTime").textContent="看板更新："+twDate(new Date().toISOString());
+  $("message").textContent="已同步 "+items.length+" 個不重複的維基網址。狀態在背景排程寫入紀錄後更新。";
+ }catch(e){
+  $("message").textContent="目前無法確認最新狀態："+e.message+"。請直接到 GitHub 投遞箱查看原始留言。";
+  $("entries").replaceChildren(text("div","empty","暫時無法載入排隊紀錄，請稍後按「重新整理進度」。"));
+ }finally{btn.disabled=false}
+}
+$("refresh").addEventListener("click",load);
+load();setInterval(load,300000);
+})();
+</script></body></html>

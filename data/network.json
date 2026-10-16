@@ -25,7 +25,23 @@
         "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA%E7%85%8A"
       }
     ],
-    "relation_note": "直接政治合作、上下級職務、選舉對手、公開爭論、同一事件或機構、親屬必須分清；共同事件不等於個人交情，法院案件被提及不等於有罪。"
+    "relation_note": "直接政治合作、上下級職務、選舉對手、公開爭論、同一事件或機構、親屬必須分清；共同事件不等於個人交情，法院案件被提及不等於有罪。",
+    "party": {
+      "as_of": "2026-10-17",
+      "policy": "有近期資料佐證者標近期黨籍，只有舊提名或黨職記錄則顯示為歷史／最近紀錄；離黨及未核對者不當成現任黨員。顏色只反映資料分類，非政治立場或私人關係。",
+      "codes": {
+        "KMT": "中國國民黨",
+        "DPP": "民主進步黨",
+        "NP": "新黨",
+        "TPP": "台灣民眾黨",
+        "NPP": "時代力量",
+        "PFP": "親民黨",
+        "CCP": "中國共產黨",
+        "IND": "無黨籍（有證據）",
+        "OTHER": "不適用／非政黨",
+        "UNKNOWN": "未核實／不明"
+      }
+    }
   },
   "nodes": [
     {
@@ -115,7 +131,14 @@
       "notes": [
         "條目所列黨主席；2020年起擔任主席。",
         "2020年起擔任新黨主席（以條目所載任期為準）。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "李勝峰",
@@ -123,7 +146,14 @@
       "group": "current",
       "notes": [
         "條目所列副主席，也是創黨成員。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "林易陞",
@@ -131,7 +161,14 @@
       "group": "current",
       "notes": [
         "條目所列副主席兼秘書長。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "游智彬",
@@ -140,7 +177,14 @@
       "notes": [
         "條目所列副秘書長。",
         "2024年參選立委挑戰國民黨魯明哲。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "田昭容",
@@ -148,7 +192,14 @@
       "group": "current",
       "notes": [
         "條目所列副秘書長。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "陳麗玲",
@@ -156,7 +207,14 @@
       "group": "current",
       "notes": [
         "條目所列發言人，2020年參與主席選舉。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "侯漢廷",
@@ -164,7 +222,14 @@
       "group": "current",
       "notes": [
         "條目所列全國委員會委員，臺北市議員。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "賀樺",
@@ -172,7 +237,14 @@
       "group": "current",
       "notes": [
         "條目所列全國委員會委員。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "林啟談",
@@ -180,7 +252,14 @@
       "group": "current",
       "notes": [
         "條目所列全國委員會委員。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "鄭光禮",
@@ -188,7 +267,14 @@
       "group": "current",
       "notes": [
         "條目所列全國委員會委員。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "蔡明璋",
@@ -196,7 +282,14 @@
       "group": "current",
       "notes": [
         "條目所列全國委員會委員。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "董俊良",
@@ -204,7 +297,14 @@
       "group": "current",
       "notes": [
         "條目所列全國委員會委員。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "郭榮先",
@@ -212,7 +312,14 @@
       "group": "current",
       "notes": [
         "條目所列全國委員會委員。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "吳正群",
@@ -220,7 +327,14 @@
       "group": "current",
       "notes": [
         "條目所列全國委員會委員。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "戴德成",
@@ -228,7 +342,14 @@
       "group": "current",
       "notes": [
         "條目所列全國委員會委員。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "孫家棟",
@@ -236,7 +357,14 @@
       "group": "current",
       "notes": [
         "條目所列全國委員會委員。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "仉桂美",
@@ -244,7 +372,14 @@
       "group": "current",
       "notes": [
         "條目所列全國委員會委員。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://2024.cec.gov.tw/data/file/9ee70fa79c5345fd9146c537d247ce48.pdf",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "王萬邦",
@@ -252,7 +387,14 @@
       "group": "current",
       "notes": [
         "條目所列全國委員會委員。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "謝治",
@@ -260,7 +402,14 @@
       "group": "current",
       "notes": [
         "條目所列全國委員會委員。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://foundations.olc.tw/foundations/view/261fc4f6-cbe2-445a-8dec-12796d1b55dc/2024-12-24/",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "趙少康",
@@ -268,7 +417,14 @@
       "group": "founder",
       "notes": [
         "條目列為新黨創黨成員。"
-      ]
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "郁慕明",
@@ -277,7 +433,14 @@
       "notes": [
         "條目列為新黨創黨成員。",
         "2003年至2020年擔任新黨主席；2021年黨內路線爭議關鍵人物。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2020–2024（歷史記錄）",
+        "source": "https://zh.wikipedia.org/wiki/新黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "王建煊",
@@ -288,7 +451,14 @@
         "1990–1992年任財政部長，1993年為新黨創黨成員，1994–1995年任新黨全國委員會召集人，2008–2014年任監察院長。",
         "1998年參選臺北市長，2001年參選臺北縣長；2023年表態角逐2024年總統、同年9月退出，之後列名新黨2024年不分區立委第一順位。",
         "財政部長任內曾推動土地增值稅依實際交易金額課稅；該政策及當時政治爭議參考王建煊條目，尚未逐一獨立核查。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://2024.cec.gov.tw/data/file/9ee70fa79c5345fd9146c537d247ce48.pdf",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "陳癸淼",
@@ -296,7 +466,14 @@
       "group": "founder",
       "notes": [
         "條目列為新黨創黨成員。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "李慶華",
@@ -305,7 +482,14 @@
       "notes": [
         "條目列為新黨創黨成員。",
         "曾任新黨領導人，2000年退黨支持宋楚瑜。"
-      ]
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "周荃",
@@ -314,7 +498,14 @@
       "notes": [
         "條目列為新黨創黨成員。",
         "創黨成員，後退黨參選臺北縣縣長。"
-      ]
+      ],
+      "party": {
+        "code": "OTHER",
+        "kind": "uncertain",
+        "as_of": "身份待核對",
+        "source": "",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "周陽山",
@@ -322,7 +513,14 @@
       "group": "founder",
       "notes": [
         "曾任新黨全國委員會召集人／代理召集人。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "馮定國",
@@ -330,7 +528,14 @@
       "group": "founder",
       "notes": [
         "曾任新黨全國委員會召集人／代理召集人。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "郝龍斌",
@@ -338,7 +543,14 @@
       "group": "founder",
       "notes": [
         "曾任新黨全國委員會召集人／代理召集人。"
-      ]
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "謝啟大",
@@ -347,7 +559,14 @@
       "notes": [
         "曾任新黨全國委員會召集人／代理召集人。",
         "2001年新黨全國委員會召集人。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2020–2024（歷史記錄）",
+        "source": "https://zh.wikipedia.org/wiki/新黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "營志宏",
@@ -355,7 +574,14 @@
       "group": "founder",
       "notes": [
         "曾任新黨全國委員會召集人／代理召集人。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "朱高正",
@@ -363,25 +589,53 @@
       "group": "historical",
       "notes": [
         "1997年因黨內衝突遭新黨除名。"
-      ]
+      ],
+      "party": {
+        "code": "OTHER",
+        "kind": "uncertain",
+        "as_of": "身份待核對",
+        "source": "",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "黃國鐘",
       "label": "黃國鐘",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "姚立明",
       "label": "姚立明",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "OTHER",
+        "kind": "uncertain",
+        "as_of": "身份待核對",
+        "source": "",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "李新",
       "label": "李新",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "李炷烽",
@@ -389,31 +643,66 @@
       "group": "historical",
       "notes": [
         "2001年至2009年擔任金門縣縣長。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2020–2024（歷史記錄）",
+        "source": "https://zh.wikipedia.org/wiki/新黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "曹壽民",
       "label": "曹壽民",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "賴士葆",
       "label": "賴士葆",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "雷倩",
       "label": "雷倩",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "費鴻泰",
       "label": "費鴻泰",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "潘懷宗",
@@ -421,13 +710,27 @@
       "group": "historical",
       "notes": [
         "2021年臺北市議會新黨黨團召集人。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2020–2024（歷史記錄）",
+        "source": "https://zh.wikipedia.org/wiki/新黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "陳彥伯",
       "label": "陳彥伯",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "楊世光",
@@ -435,7 +738,14 @@
       "group": "historical",
       "notes": [
         "2019年新黨提名參選2020年總統；2022年挑戰黨主席。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2020–2024（歷史記錄）",
+        "source": "https://zh.wikipedia.org/wiki/新黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "王炳忠",
@@ -443,13 +753,27 @@
       "group": "historical",
       "notes": [
         "曾任新黨發言人；2020–2021年捲入黨內路線爭議。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2020–2024（歷史記錄）",
+        "source": "https://zh.wikipedia.org/wiki/新黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "蘇恆",
       "label": "蘇恆",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "李慶元",
@@ -457,37 +781,79 @@
       "group": "historical",
       "notes": [
         "2021年經吳成典邀請重返新黨，引發黨內爭議。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "林明正",
       "label": "林明正",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "金介壽",
       "label": "金介壽",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "曹原彰",
       "label": "曹原彰",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "朱惠良",
       "label": "朱惠良",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "宋艾克",
       "label": "宋艾克",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "戴德滿",
@@ -495,7 +861,14 @@
       "group": "historical",
       "notes": [
         "2024年新黨不分區提名人。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://2024.cec.gov.tw/data/file/9ee70fa79c5345fd9146c537d247ce48.pdf",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "王子芩",
@@ -503,7 +876,14 @@
       "group": "historical",
       "notes": [
         "2024年新黨不分區提名人。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://2024.cec.gov.tw/data/file/9ee70fa79c5345fd9146c537d247ce48.pdf",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "米甘幹·理佛克",
@@ -512,7 +892,14 @@
       "notes": [
         "2024年新黨平地原住民立法委員參選人。",
         "2024年新黨提名平地原住民立委候選人。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://2024.cec.gov.tw/data/file/9ee70fa79c5345fd9146c537d247ce48.pdf",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "邱毅",
@@ -520,7 +907,14 @@
       "group": "historical",
       "notes": [
         "2020年新黨不分區立委名單列首位。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2020–2024（歷史記錄）",
+        "source": "https://zh.wikipedia.org/wiki/新黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "王鴻薇",
@@ -529,7 +923,14 @@
       "notes": [
         "條目稱2013年轉入中國國民黨，導致臺北市議會新黨黨團解散。",
         "2006–2013年新黨籍，2013年轉入國民黨；2023年當選臺北市第三選區立委。"
-      ]
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "林正國",
@@ -537,7 +938,14 @@
       "group": "historical",
       "notes": [
         "條目引用2019年《報導者》調查報導指涉內容農場操作；相關指控依原報導查核。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "林郁方",
@@ -545,7 +953,14 @@
       "group": "historical",
       "notes": [
         "曾列入條目新黨立委名單／選舉結果表。"
-      ]
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "高惠宇",
@@ -553,7 +968,14 @@
       "group": "historical",
       "notes": [
         "曾列入條目新黨立委名單／選舉結果表。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "陳一新",
@@ -561,7 +983,14 @@
       "group": "historical",
       "notes": [
         "曾列入條目新黨立委名單／選舉結果表。"
-      ]
+      ],
+      "party": {
+        "code": "NP",
+        "kind": "last_documented",
+        "as_of": "2020–2024（歷史記錄）",
+        "source": "https://zh.wikipedia.org/wiki/新黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "陳漢強",
@@ -569,7 +998,14 @@
       "group": "historical",
       "notes": [
         "曾列入條目新黨立委名單／選舉結果表。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "傅崐成",
@@ -577,7 +1013,14 @@
       "group": "historical",
       "notes": [
         "曾列入條目新黨立委名單／選舉結果表。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "蔡正揚",
@@ -585,7 +1028,14 @@
       "group": "historical",
       "notes": [
         "曾列入條目新黨立委名單／選舉結果表。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "鄭龍水",
@@ -593,7 +1043,14 @@
       "group": "historical",
       "notes": [
         "曾列入條目新黨立委名單／選舉結果表。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "賴來焜",
@@ -601,7 +1058,14 @@
       "group": "historical",
       "notes": [
         "曾列入條目新黨立委名單／選舉結果表。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "錢達",
@@ -609,7 +1073,14 @@
       "group": "historical",
       "notes": [
         "曾列入條目新黨立委名單／選舉結果表。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "張世良",
@@ -617,7 +1088,14 @@
       "group": "historical",
       "notes": [
         "曾列入條目新黨立委名單／選舉結果表。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "馮滬祥",
@@ -625,7 +1103,14 @@
       "group": "historical",
       "notes": [
         "曾列入條目新黨立委名單／選舉結果表。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "鍾新財",
@@ -633,7 +1118,14 @@
       "group": "historical",
       "notes": [
         "曾列入條目新黨立委名單／選舉結果表。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "宋楚瑜",
@@ -641,7 +1133,14 @@
       "group": "external",
       "notes": [
         "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
-      ]
+      ],
+      "party": {
+        "code": "PFP",
+        "kind": "last_documented",
+        "as_of": "近年／歷史紀錄",
+        "source": "https://zh.wikipedia.org/wiki/親民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "李登輝",
@@ -649,7 +1148,14 @@
       "group": "external",
       "notes": [
         "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
-      ]
+      ],
+      "party": {
+        "code": "OTHER",
+        "kind": "uncertain",
+        "as_of": "身份待核對",
+        "source": "",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "朱星羽",
@@ -657,7 +1163,14 @@
       "group": "external",
       "notes": [
         "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "馬英九",
@@ -665,7 +1178,14 @@
       "group": "external",
       "notes": [
         "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
-      ]
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "許信良",
@@ -673,7 +1193,14 @@
       "group": "external",
       "notes": [
         "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "陳文茜",
@@ -681,7 +1208,14 @@
       "group": "external",
       "notes": [
         "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
-      ]
+      ],
+      "party": {
+        "code": "OTHER",
+        "kind": "uncertain",
+        "as_of": "身份待核對",
+        "source": "",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "蘇貞昌",
@@ -689,7 +1223,14 @@
       "group": "external",
       "notes": [
         "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
-      ]
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "洪秀柱",
@@ -697,7 +1238,14 @@
       "group": "external",
       "notes": [
         "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
-      ]
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "張安樂",
@@ -705,7 +1253,14 @@
       "group": "external",
       "notes": [
         "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "韓國瑜",
@@ -713,7 +1268,14 @@
       "group": "external",
       "notes": [
         "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
-      ]
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "魯明哲",
@@ -721,7 +1283,14 @@
       "group": "external",
       "notes": [
         "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
-      ]
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "謝長廷",
@@ -729,7 +1298,14 @@
       "group": "external",
       "notes": [
         "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
-      ]
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "蔡英文",
@@ -737,7 +1313,14 @@
       "group": "external",
       "notes": [
         "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
-      ]
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "吳敦義",
@@ -745,7 +1328,14 @@
       "group": "external",
       "notes": [
         "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
-      ]
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "郝柏村",
@@ -753,7 +1343,14 @@
       "group": "external",
       "notes": [
         "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
-      ]
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "李敖",
@@ -762,7 +1359,14 @@
       "notes": [
         "1999年新黨提名參選2000年總統選舉。",
         "1999年受新黨提名參選2000年總統大選。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "條目其他政治背景",
@@ -778,7 +1382,14 @@
       "group": "yunlin",
       "notes": [
         "雲林政治人物，原條目所述雲林張派領導人物；1999–2005 年曾任縣長。"
-      ]
+      ],
+      "party": {
+        "code": "OTHER",
+        "kind": "uncertain",
+        "as_of": "身份待核對",
+        "source": "",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "張嘉郡",
@@ -786,7 +1397,14 @@
       "group": "family",
       "notes": [
         "張榮味長女，條目載有立委經歷與2015年是否參選的討論。"
-      ]
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "current_documented",
+        "as_of": "2026",
+        "source": "https://www.cna.com.tw/news/aipl/202609030180.aspx",
+        "qualification": "有近期資料支持"
+      }
     },
     {
       "id": "張鎔麒",
@@ -794,7 +1412,14 @@
       "group": "family",
       "notes": [
         "張榮味兒子，條目載有2015年立委徵召布局。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "張怡郡",
@@ -802,7 +1427,14 @@
       "group": "family",
       "notes": [
         "張榮味么女，本文僅提供親屬身分，無其他政治事件連線。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "張麗善",
@@ -810,7 +1442,14 @@
       "group": "family",
       "notes": [
         "張榮味胞妹，國民黨籍雲林縣長，曾為2014年縣長參選人。"
-      ]
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "current_documented",
+        "as_of": "2026",
+        "source": "https://www.cna.com.tw/news/aipl/202609030180.aspx",
+        "qualification": "有近期資料支持"
+      }
     },
     {
       "id": "張永成",
@@ -818,7 +1457,14 @@
       "group": "family",
       "notes": [
         "張榮味妹婿，條目列為全國農會總幹事。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "張啟盟",
@@ -826,7 +1472,14 @@
       "group": "family",
       "notes": [
         "張榮味胞弟，條目列為台灣區農業合作社全國聯合社理事主席。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "張啟庭",
@@ -834,7 +1487,14 @@
       "group": "family",
       "notes": [
         "張榮味胞弟，條目列為國濟禮儀公司董事長。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "王月霞",
@@ -842,7 +1502,14 @@
       "group": "family",
       "notes": [
         "張榮味前配偶；條目記載2012年離婚。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "蘇文雄",
@@ -850,7 +1517,14 @@
       "group": "yunlin",
       "notes": [
         "雲林縣前縣長，1997年縣長選舉與張榮味競選。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "李學聰",
@@ -858,7 +1532,14 @@
       "group": "yunlin",
       "notes": [
         "條目列為張榮味前任縣長代理人。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "李進勇",
@@ -866,7 +1547,14 @@
       "group": "yunlin",
       "notes": [
         "條目列為張榮味繼任縣長代理人。"
-      ]
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "蘇治芬",
@@ -874,7 +1562,14 @@
       "group": "yunlin",
       "notes": [
         "條目列為張榮味之後的雲林縣正任縣長。"
-      ]
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "歐明憲",
@@ -882,7 +1577,14 @@
       "group": "yunlin",
       "notes": [
         "條目列為張榮味擔任雲林縣議長的前任。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "陳清秀",
@@ -890,7 +1592,14 @@
       "group": "yunlin",
       "notes": [
         "條目列為張榮味擔任雲林縣議長的繼任。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "張平沼",
@@ -898,7 +1607,14 @@
       "group": "yunlin",
       "notes": [
         "條目列為台灣省商業總會理事長前任。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "蔡國洲",
@@ -906,7 +1622,14 @@
       "group": "yunlin",
       "notes": [
         "條目列為台灣省商業總會理事長繼任。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "張清良",
@@ -914,7 +1637,14 @@
       "group": "yunlin",
       "notes": [
         "張榮味縣長任內副縣長，停職期間代行職務。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "連戰",
@@ -922,7 +1652,14 @@
       "group": "yunlin",
       "notes": [
         "2004年國民黨總統候選人，張榮味任連宋雲林競選總部主委。"
-      ]
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "朱立倫",
@@ -930,7 +1667,14 @@
       "group": "yunlin",
       "notes": [
         "2015年張榮味公開表態支持的國民黨總統候選人。"
-      ]
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "陳國益",
@@ -938,7 +1682,14 @@
       "group": "yunlin",
       "notes": [
         "1994年雲林縣議會副議長選舉，與張榮味同涉確定的投票行賄案。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "徐治國",
@@ -946,7 +1697,14 @@
       "group": "yunlin",
       "notes": [
         "條目焚化爐案件段落提及旭鼎負責人徐治國涉嫌行賄；不得據此推斷未載明司法結果。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "呂昆展",
@@ -954,7 +1712,14 @@
       "group": "yunlin",
       "notes": [
         "條目焚化爐案件段落提及呂昆展名下美國帳戶；不據此推斷刑事責任。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "雲林張家／親屬",
@@ -1032,19 +1797,40 @@
       "id": "蔣萬安",
       "label": "蔣萬安",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "羅淑蕾",
       "label": "羅淑蕾",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "吳怡農",
       "label": "吳怡農",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "吳崢",
@@ -1052,43 +1838,92 @@
       "group": "current",
       "notes": [
         "曾任太陽花學運媒體組組長、時代力量與民進黨發言人，曾任林昶佐及林亮君幕僚。"
-      ]
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "傅崐萁",
       "label": "傅崐萁",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "王滬寧",
       "label": "王滬寧",
       "group": "external",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "CCP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://zh.wikipedia.org/wiki/王鴻薇",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "宋濤",
       "label": "宋濤",
       "group": "external",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "CCP",
+        "kind": "last_documented",
+        "as_of": "2024",
+        "source": "https://zh.wikipedia.org/wiki/王鴻薇",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "陶允正",
       "label": "陶允正",
       "group": "family",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "OTHER",
+        "kind": "uncertain",
+        "as_of": "身份待核對",
+        "source": "",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "林智堅",
       "label": "林智堅",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "江聰淵",
       "label": "江聰淵",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "2015臺北三國民黨初選",
@@ -1126,157 +1961,339 @@
       "id": "林昶佐",
       "label": "林昶佐",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "current_documented",
+        "as_of": "2023-11",
+        "source": "https://www.cna.com.tw/news/aipl/202311270259.aspx",
+        "qualification": "有近期資料支持"
+      }
     },
     {
       "id": "林亮君",
       "label": "林亮君",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "賴品妤",
       "label": "賴品妤",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "蔡正元",
       "label": "蔡正元",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "彭明敏",
       "label": "彭明敏",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "黃守達",
       "label": "黃守達",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "張芷菱",
       "label": "張芷菱",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "黃國昌",
       "label": "黃國昌",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "TPP",
+        "kind": "current_documented",
+        "as_of": "2026-08",
+        "source": "https://www.cna.com.tw/news/aipl/202608150158.aspx",
+        "qualification": "有近期資料支持"
+      }
     },
     {
       "id": "洪申翰",
       "label": "洪申翰",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "張之豪",
       "label": "張之豪",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "林穎孟",
       "label": "林穎孟",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "NPP",
+        "kind": "historical_only",
+        "as_of": "2018–2020（歷史紀錄，已離黨）",
+        "source": "https://zh.wikipedia.org/wiki/時代力量",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "黃郁芬",
       "label": "黃郁芬",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "NPP",
+        "kind": "historical_only",
+        "as_of": "2018–2020（歷史紀錄，已離黨）",
+        "source": "https://zh.wikipedia.org/wiki/時代力量",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "戴瑋姍",
       "label": "戴瑋姍",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "曾玟學",
       "label": "曾玟學",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "NPP",
+        "kind": "historical_only",
+        "as_of": "2018–2020（歷史紀錄，已離黨）",
+        "source": "https://zh.wikipedia.org/wiki/時代力量",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "黃捷",
       "label": "黃捷",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "高閔琳",
       "label": "高閔琳",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "張智倫",
       "label": "張智倫",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "賴清德",
       "label": "賴清德",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "張志豪",
       "label": "張志豪",
       "group": "historical",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "王義川",
       "label": "王義川",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "黃揚明",
       "label": "黃揚明",
       "group": "external",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "OTHER",
+        "kind": "uncertain",
+        "as_of": "身份待核對",
+        "source": "",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "江怡臻",
       "label": "江怡臻",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "楊懿珊",
       "label": "楊懿珊",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "林右昌",
       "label": "林右昌",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "何博文",
       "label": "何博文",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "徐國勇",
       "label": "徐國勇",
       "group": "current",
-      "notes": []
+      "notes": [],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2023–2026及過往選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/民主進步黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "2014太陽花學運",
@@ -1364,7 +2381,14 @@
       "group": "family",
       "notes": [
         "王建煊配偶（據條目資訊框）。"
-      ]
+      ],
+      "party": {
+        "code": "OTHER",
+        "kind": "uncertain",
+        "as_of": "身份待核對",
+        "source": "",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "郭婉容",
@@ -1372,7 +2396,14 @@
       "group": "historical",
       "notes": [
         "條目列為王建煊擔任財政部長之前任。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "白培英",
@@ -1380,7 +2411,14 @@
       "group": "historical",
       "notes": [
         "條目列為王建煊擔任財政部長之繼任者。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "錢復",
@@ -1388,7 +2426,14 @@
       "group": "historical",
       "notes": [
         "條目列為王建煊擔任監察院長之前任。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "張博雅",
@@ -1396,7 +2441,14 @@
       "group": "historical",
       "notes": [
         "條目列為王建煊擔任監察院長之繼任者。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "梁肅戎",
@@ -1404,7 +2456,14 @@
       "group": "historical",
       "notes": [
         "王建煊條目提及1998年參與與梁肅戎有關的臺灣海峽兩岸和平統一促進會。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "邵建興",
@@ -1412,7 +2471,14 @@
       "group": "historical",
       "notes": [
         "2001年臺北縣縣長選舉候選人（無黨籍）。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "石翊靖",
@@ -1420,7 +2486,14 @@
       "group": "historical",
       "notes": [
         "2001年臺北縣縣長選舉候選人（無黨籍）。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "張通榮",
@@ -1428,7 +2501,14 @@
       "group": "historical",
       "notes": [
         "2013年監察院彈劾爭議所涉案件當事人，事件提及不等同判定有罪。"
-      ]
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+      }
     },
     {
       "id": "王金平",
@@ -1436,7 +2516,14 @@
       "group": "historical",
       "notes": [
         "2013年九月政爭期間受到王建煊公開批評（據條目）。"
-      ]
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "近年及過往公職／選舉紀錄",
+        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
+        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+      }
     },
     {
       "id": "1990–1992財政部長任期",

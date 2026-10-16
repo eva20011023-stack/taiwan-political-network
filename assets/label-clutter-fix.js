@@ -45,7 +45,7 @@
    const limit=currentMode==="all"?Infinity:currentMode==="focus"?0:zoom<minZoom?0:Math.min(mobile?32:70,Math.max(6,Math.round(rect.width*rect.height/(zoom<5?25500:zoom<10?18000:13000))));
    const occupied=[];let count=0;
    for(const item of candidates){
-     if(onlyFocus&&!item.near&&!item.forced)continue;
+     if(currentMode!=="all"&&onlyFocus&&!item.near&&!item.forced)continue;
      if(currentMode==="focus"&&!item.forced)continue;
      if(!item.forced&&currentMode!=="all"&&(zoom<minZoom||count>=limit))continue;
      const width=(ctx?ctx.measureText(item.label.textContent).width:Array.from(item.label.textContent).length*fontPx)+7;

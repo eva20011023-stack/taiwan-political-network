@@ -57,3 +57,7 @@
 - 已設定每小時檢查一次投遞箱的 ChatGPT 排程；每輪最多嘗試整理兩個尚未處理的網址，實際完成速度受條目難度、工具可用性與 GitHub 權限影響。非即時處理，不應承諾一定在一小時內完成。
 - [data/wiki_queue_state.json](./data/wiki_queue_state.json) 用來記錄已處理、略過及失敗的網址，避免重複合併。
 - 只有確認成功提交 GitHub 才標為 `processed`；只收集公開資料，不收集私人資料，不將不相干條目強行建立政治關係。
+
+## 維基網址投遞與進度
+
+使用者可在 [公開維基投遞箱（Issue #1）](https://github.com/eva20011023-stack/taiwan-political-network/issues/1) 以留言方式連續提交任意維基網址。支援 `/wiki/`、`/zh-tw/` 等維基路徑。公開 [投遞進度看板](https://eva20011023-stack.github.io/taiwan-political-network/queue.html) 讀取 GitHub 留言和 `data/wiki_queue_state.json`，顯示排隊、處理中、已完成、待重試與略過。每小時的 ChatGPT 排程最多嘗試兩篇，處理時間並非保證。網址須為 repository owner `eva20011023-stack` 發送的公開留言，以免開放 Issue 遭第三人任意注入資料。開始前寫入 `processing`，推送成功後才移到 `processed`，並在 `last_run`/`last_checked_at` 記錄時間。

@@ -48,7 +48,7 @@ button:hover{background:#285576}button:focus-visible,input:focus-visible,select:
 <body><div class="wrap">
 <header class="hero">
 <div><h1>臺灣政治人物關係圖譜</h1><p class="subtitle">跨政黨、跨世代的公開政治關係 · 六度空間實驗</p></div>
-<div class="nav"><a href="#route">六度關係查詢</a><a href="./legacy.html">早期分類圖</a><a href="https://github.com/eva20011023-stack/taiwan-political-network">GitHub 專案</a></div>
+<div class="nav"><a href="#route">六度關係查詢</a><a href="#graphwrap" id="wuzheng">最新加入：吳崢</a><a href="#graphwrap" id="wang">王鴻薇</a><a href="./legacy.html">早期分類圖</a><a href="https://github.com/eva20011023-stack/taiwan-political-network">GitHub 專案</a></div>
 </header>
 <div id="stats" class="stats"><span>資料載入中…</span></div>
 <section class="panel">
@@ -146,9 +146,9 @@ function boot(data){
  for(const k of ["routeA","routeB"])$(k).innerHTML=people.map(n=>"<option value='"+esc(n.id)+"'>"+esc(n.label)+"</option>").join("");
  $("routeA").value="吳崢";$("routeB").value="張榮味";
  $("legend").innerHTML=Object.values(groups).map(([name,color])=>"<span class='key'><span class='dot' style='background:"+color+"'></span>"+name+"</span>").join("");
- layout();render();viewSet();select("吳崢",false);
+ layout();render();viewSet();select("吳崢",false);selected=null;updateHighlight();
 }
-$("searchbtn").onclick=findPerson;$("personsearch").addEventListener("keydown",e=>{if(e.key==="Enter")findPerson()});
+$("wuzheng").onclick=()=>{if(db)select("吳崢",true)};$("wang").onclick=()=>{if(db)select("王鴻薇",true)};$("searchbtn").onclick=findPerson;$("personsearch").addEventListener("keydown",e=>{if(e.key==="Enter")findPerson()});
 $("showall").onclick=showAll;$("zoomin").onclick=()=>zoom(0.69);$("zoomout").onclick=()=>zoom(1.45);$("fit").onclick=reset;$("routebtn").onclick=path;
 svg.addEventListener("wheel",e=>{e.preventDefault();zoom(e.deltaY<0?0.82:1.22,e.clientX,e.clientY)},{passive:false});
 const pinch=()=>{const a=[...ptrs.values()];if(a.length<2)return null;return {x:(a[0].x+a[1].x)/2,y:(a[0].y+a[1].y)/2,d:Math.hypot(a[0].x-a[1].x,a[0].y-a[1].y)}};

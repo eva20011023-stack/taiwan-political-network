@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "臺灣政治人物關係圖譜｜柯建銘、特偵組與國會歷史",
+    "title": "臺灣政治人物關係圖譜｜邱太三與王金平",
     "date": "2026-10-17",
-    "scope": "公開維基條目與可靠新聞核對政治人物、歷屆司法機關與特定事件的有據角色；來源包含柯建銘及最高法院檢察署特別偵查組。特偵組條目有中立性及來源不足警告，歷史個案僅保留行政角色或偵查事實、不把早年一審刑度當定讞。",
+    "scope": "整合公開來源可辨認的公職職務交接、黨務、選舉與重大政治事件，新增邱太三與王金平條目關係。人物共現於事件不代表私交，黨籍以時間及來源標示。",
     "sources": [
       {
         "name": "新黨",
@@ -59,9 +59,17 @@
       {
         "name": "最高法院檢察署特別偵查組",
         "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+      },
+      {
+        "name": "邱太三",
+        "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+      },
+      {
+        "name": "王金平",
+        "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%87%91%E5%B9%B3"
       }
     ],
-    "relation_note": "人物屬同一司法案件或檢察團隊不表示私交、同謀或罪責；2016年特偵組裁撤與各案裁判分開。2013國會監聽事件先前已建檔，此次補特偵組不同屆成員而非重複建直接關係。",
+    "relation_note": "2019邱太三陳情疑雲須區分當事人否認、監察院調查意見、兩次彈劾未通過；1999劉王改選與2013九月政爭不同；2014太陽花人物間的事件互動不等於政治結盟。",
     "party": {
       "as_of": "2026-10-17",
       "policy": "有近期資料佐證者標近期黨籍，只有舊提名或黨職記錄則顯示為歷史／最近紀錄；離黨及未核對者不當成現任黨員。顏色只反映資料分類，非政治立場或私人關係。",
@@ -2375,7 +2383,8 @@
       "group": "hub",
       "notes": [
         "共同事件或組織，不表示參與者彼此熟識。",
-        "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。"
+        "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。",
+        "依公開資料建立之歷史事件／職務節點；同事件不代表有私交、政治立場一致或共同責任。"
       ]
     },
     {
@@ -2591,14 +2600,16 @@
       "group": "historical",
       "notes": [
         "2013年九月政爭期間受到王建煊公開批評（據條目）。",
-        "2013年時任立法院院長，對關說指控提出反駁並提起黨籍存在訴訟。"
+        "2013年時任立法院院長，對關說指控提出反駁並提起黨籍存在訴訟。",
+        "歷任立法院副院長（1993–1999）、院長（1999–2016），1976–2020連續擔任立法委員；2000–2005年曾任國民黨副主席。",
+        "2026年1月5日獲國民黨主席鄭麗文聘任國民黨最高顧問，有公開中央社與政黨新聞稿佐證。"
       ],
       "party": {
         "code": "KMT",
-        "kind": "last_documented",
-        "as_of": "近年及過往公職／選舉紀錄",
-        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
-        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+        "kind": "current_documented",
+        "as_of": "2026-01-05",
+        "source": "https://www.cna.com.tw/news/aipl/202601050111.aspx",
+        "qualification": "2026年1月中央社證實獲聘國民黨最高顧問，支持當時國民黨歸屬；不能保證未來黨籍不變"
       }
     },
     {
@@ -3689,14 +3700,16 @@
       "label": "邱太三",
       "group": "historical",
       "notes": [
-        "2024年金門快艇翻覆事故後，陸委會主委與管碧玲同受邀赴立院專報。"
+        "2024年金門快艇翻覆事故後，陸委會主委與管碧玲同受邀赴立院專報。",
+        "民進黨籍政治人物：曾任1999–2004年立委、2006–2008年高雄市副市長、2014–2016年桃園市副市長、2016–2018年法務部長、2018–2019年國安會首席諮詢委員、2021–2024年陸委會主委。",
+        "2024年5月20日卸任陸委會主委後返回亞洲大學任教；與國安會諮詢委員時期個案爭議應區分事實、指控及監察院決議。"
       ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "尚未查證可靠的政黨歸屬"
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2024年5月卸任陸委會（條目仍記載民主進步黨籍）",
+        "source": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89",
+        "qualification": "歷史民進黨籍有立法院官方資料；尚未以2026年官方黨員名冊核實其現在黨籍"
       }
     },
     {
@@ -3876,7 +3889,8 @@
       "label": "鄭麗文",
       "group": "external",
       "notes": [
-        "條目列為《TVBS戰情室》代班主持人，具體代班日期須另查各集。"
+        "條目列為《TVBS戰情室》代班主持人，具體代班日期須另查各集。",
+        "2026年1月以國民黨主席身分聘王金平為國民黨最高顧問。"
       ],
       "party": {
         "code": "UNKNOWN",
@@ -6367,6 +6381,640 @@
       "group": "hub",
       "notes": [
         "這是公共事件／職務分類：參與同一事件不代表私人關係、政黨同盟或法律責任。"
+      ]
+    },
+    {
+      "id": "廖永來",
+      "label": "廖永來",
+      "group": "historical",
+      "notes": [
+        "臺中縣縣長，邱太三曾任其機要祕書，亦曾擔任其競選總幹事。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "利錦祥",
+      "label": "利錦祥",
+      "group": "historical",
+      "notes": [
+        "民進黨新潮流系人士，邱太三從政生涯早期引介者，據維基條目。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "洪奇昌",
+      "label": "洪奇昌",
+      "group": "historical",
+      "notes": [
+        "邱太三從政前曾任其法律顧問。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "蔡明憲",
+      "label": "蔡明憲",
+      "group": "historical",
+      "notes": [
+        "邱太三從政前曾任其法律顧問。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "鄭文燦",
+      "label": "鄭文燦",
+      "group": "historical",
+      "notes": [
+        "2014年桃園市長當選人，任命邱太三擔任桃園市副市長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "林全",
+      "label": "林全",
+      "group": "historical",
+      "notes": [
+        "2016年行政院長，邱太三在其內閣擔任法務部長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "陳明通",
+      "label": "陳明通",
+      "group": "historical",
+      "notes": [
+        "2021年卸任陸委會主委，邱太三接任。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "邱垂正",
+      "label": "邱垂正",
+      "group": "historical",
+      "notes": [
+        "2024年5月20日接任邱太三之後的陸委會主任委員。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "羅秉成",
+      "label": "羅秉成",
+      "group": "historical",
+      "notes": [
+        "2021年陸委會新舊主委交接典禮擔任監交之行政院政務委員。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "蔡清祥",
+      "label": "蔡清祥",
+      "group": "historical",
+      "notes": [
+        "2018年7月邱太三卸任法務部長後的繼任者。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "王清峰",
+      "label": "王清峰",
+      "group": "historical",
+      "notes": [
+        "曾任法務部長，邱太三被條目與之比較為任內未簽准執行死刑的部長，屬相似職務政策記錄，不代表二人有往來。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "張煥禎",
+      "label": "張煥禎",
+      "group": "historical",
+      "notes": [
+        "前壢新醫院院長；2019年監察院調查之涉訴案陳情人。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "彭坤業",
+      "label": "彭坤業",
+      "group": "historical",
+      "notes": [
+        "2019年時任桃園地檢署檢察長；邱太三遭指涉個案陳情與檢方協商程序，邱太三否認關說。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "林雅鋒",
+      "label": "林雅鋒",
+      "group": "historical",
+      "notes": [
+        "監察委員，曾參與邱太三疑涉關說案調查。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "王美玉",
+      "label": "王美玉",
+      "group": "historical",
+      "notes": [
+        "監察委員，曾參與邱太三疑涉關說案調查。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "高涌誠",
+      "label": "高涌誠",
+      "group": "historical",
+      "notes": [
+        "監察委員，曾參與邱太三疑涉關說案調查。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "邱太三｜早期立委及地方職務",
+      "label": "邱太三｜早期立委及地方職務",
+      "group": "hub",
+      "notes": [
+        "依公開資料建立之歷史事件／職務節點；同事件不代表有私交、政治立場一致或共同責任。"
+      ]
+    },
+    {
+      "id": "邱太三｜法務部長任職沿革",
+      "label": "邱太三｜法務部長任職沿革",
+      "group": "hub",
+      "notes": [
+        "依公開資料建立之歷史事件／職務節點；同事件不代表有私交、政治立場一致或共同責任。"
+      ]
+    },
+    {
+      "id": "邱太三｜陸委會主委交接",
+      "label": "邱太三｜陸委會主委交接",
+      "group": "hub",
+      "notes": [
+        "依公開資料建立之歷史事件／職務節點；同事件不代表有私交、政治立場一致或共同責任。"
+      ]
+    },
+    {
+      "id": "2017同婚釋憲法庭辯論（邱太三代表政府）",
+      "label": "2017同婚釋憲法庭辯論（邱太三代表政府）",
+      "group": "hub",
+      "notes": [
+        "依公開資料建立之歷史事件／職務節點；同事件不代表有私交、政治立場一致或共同責任。"
+      ]
+    },
+    {
+      "id": "2019邱太三陳情及監察院調查",
+      "label": "2019邱太三陳情及監察院調查",
+      "group": "hub",
+      "notes": [
+        "依公開資料建立之歷史事件／職務節點；同事件不代表有私交、政治立場一致或共同責任。"
+      ]
+    },
+    {
+      "id": "劉松藩",
+      "label": "劉松藩",
+      "group": "historical",
+      "notes": [
+        "1992–1999年立法院長，1999年院長選舉與王金平競爭，王金平當選。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "蘇嘉全",
+      "label": "蘇嘉全",
+      "group": "historical",
+      "notes": [
+        "2016年2月接任王金平之後的立法院院長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "饒穎奇",
+      "label": "饒穎奇",
+      "group": "historical",
+      "notes": [
+        "1999年王金平就任立法院長後擔任立法院副院長，曾談及1999年劉王之爭。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "江丙坤",
+      "label": "江丙坤",
+      "group": "historical",
+      "notes": [
+        "王金平任立法院長期間曾任副院長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "鍾榮吉",
+      "label": "鍾榮吉",
+      "group": "historical",
+      "notes": [
+        "王金平任立法院長期間曾任副院長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "曾永權",
+      "label": "曾永權",
+      "group": "historical",
+      "notes": [
+        "王金平任立法院長期間曾任副院長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "蕭萬長",
+      "label": "蕭萬長",
+      "group": "historical",
+      "notes": [
+        "2000–2005年曾與王金平同期擔任國民黨副主席。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "蔣仲苓",
+      "label": "蔣仲苓",
+      "group": "historical",
+      "notes": [
+        "2000–2005年曾與王金平同期擔任國民黨副主席。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "林澄枝",
+      "label": "林澄枝",
+      "group": "historical",
+      "notes": [
+        "2000–2005年曾與王金平同期擔任國民黨副主席。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "蔡辰洲",
+      "label": "蔡辰洲",
+      "group": "historical",
+      "notes": [
+        "1980年代立法院國民黨立委十三兄弟會人物，與王金平有派系活動交集。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "李乾龍",
+      "label": "李乾龍",
+      "group": "historical",
+      "notes": [
+        "2026年1月隨鄭麗文同赴王金平辦公室致贈顧問聘書的副主席。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "季麟連",
+      "label": "季麟連",
+      "group": "historical",
+      "notes": [
+        "2026年1月隨鄭麗文同赴王金平辦公室的國民黨副主席。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "張榮恭",
+      "label": "張榮恭",
+      "group": "historical",
+      "notes": [
+        "2026年1月隨鄭麗文同赴王金平辦公室的國民黨副主席。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "蕭旭岑",
+      "label": "蕭旭岑",
+      "group": "historical",
+      "notes": [
+        "2026年1月隨鄭麗文同赴王金平辦公室的國民黨副主席。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "林鴻池",
+      "label": "林鴻池",
+      "group": "historical",
+      "notes": [
+        "2014年太陽花學運期間國民黨政策會執行長，對王金平協商服貿發言表示不同立場。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "劉結一",
+      "label": "劉結一",
+      "group": "historical",
+      "notes": [
+        "2019年王金平訪問中國大陸與其會面，其時擔任國台辦主任。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "郭台銘",
+      "label": "郭台銘",
+      "group": "historical",
+      "notes": [
+        "2019年總統參選討論期間曾與王金平洽談協調可能性，不能視為永久政治聯盟。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "李鴻鈞",
+      "label": "李鴻鈞",
+      "group": "historical",
+      "notes": [
+        "2019年親民黨秘書長，曾協助王金平與宋楚瑜通話。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "葉匡時",
+      "label": "葉匡時",
+      "group": "historical",
+      "notes": [
+        "2022年柯志恩高雄市長選舉競總主任委員，王金平為榮譽主委。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "立法院院長職務交接（1999／2016）",
+      "label": "立法院院長職務交接（1999／2016）",
+      "group": "hub",
+      "notes": [
+        "依公開資料建立之歷史事件／職務節點；同事件不代表有私交、政治立場一致或共同責任。"
+      ]
+    },
+    {
+      "id": "1999劉松藩與王金平院長改選",
+      "label": "1999劉松藩與王金平院長改選",
+      "group": "hub",
+      "notes": [
+        "依公開資料建立之歷史事件／職務節點；同事件不代表有私交、政治立場一致或共同責任。"
+      ]
+    },
+    {
+      "id": "1980年代立法院十三兄弟會",
+      "label": "1980年代立法院十三兄弟會",
+      "group": "hub",
+      "notes": [
+        "依公開資料建立之歷史事件／職務節點；同事件不代表有私交、政治立場一致或共同責任。"
+      ]
+    },
+    {
+      "id": "王金平｜2000–2005國民黨副主席",
+      "label": "王金平｜2000–2005國民黨副主席",
+      "group": "hub",
+      "notes": [
+        "依公開資料建立之歷史事件／職務節點；同事件不代表有私交、政治立場一致或共同責任。"
+      ]
+    },
+    {
+      "id": "2019王金平總統選舉參與與退出",
+      "label": "2019王金平總統選舉參與與退出",
+      "group": "hub",
+      "notes": [
+        "依公開資料建立之歷史事件／職務節點；同事件不代表有私交、政治立場一致或共同責任。"
+      ]
+    },
+    {
+      "id": "2022柯志恩高雄市長選舉團隊",
+      "label": "2022柯志恩高雄市長選舉團隊",
+      "group": "hub",
+      "notes": [
+        "依公開資料建立之歷史事件／職務節點；同事件不代表有私交、政治立場一致或共同責任。"
+      ]
+    },
+    {
+      "id": "吳怡玎",
+      "label": "吳怡玎",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍尚未獨立查核"
+      }
+    },
+    {
+      "id": "2026王金平獲聘國民黨最高顧問",
+      "label": "2026王金平獲聘國民黨最高顧問",
+      "group": "hub",
+      "notes": [
+        "依公開資料建立之歷史事件／職務節點；同事件不代表有私交、政治立場一致或共同責任。"
       ]
     }
   ],
@@ -13048,6 +13696,807 @@
       "period": "2013",
       "source": "特偵組｜監聽國會",
       "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "邱太三｜早期立委及地方職務",
+      "to": "邱太三",
+      "type": "event",
+      "detail": "曾任臺中縣立委及高雄、桃園市副市長。",
+      "period": "1990年代–2016",
+      "source": "邱太三｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "邱太三｜早期立委及地方職務",
+      "to": "廖永來",
+      "type": "event",
+      "detail": "臺中縣縣長，邱太三曾任其機要秘書及助選幹部。",
+      "period": "1990年代–2016",
+      "source": "邱太三｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "邱太三｜早期立委及地方職務",
+      "to": "鄭文燦",
+      "type": "event",
+      "detail": "2014年桃園市長當選後任命邱太三為副市長。",
+      "period": "1990年代–2016",
+      "source": "邱太三｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "邱太三｜早期立委及地方職務",
+      "to": "陳菊",
+      "type": "event",
+      "detail": "2006年當選高雄市長，邱太三其後在市府任副市長。",
+      "period": "1990年代–2016",
+      "source": "邱太三｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "邱太三｜法務部長任職沿革",
+      "to": "邱太三",
+      "type": "event",
+      "detail": "2016-05-20至2018-07-15擔任法務部長。",
+      "period": "2016–2018",
+      "source": "邱太三｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "邱太三｜法務部長任職沿革",
+      "to": "羅瑩雪",
+      "type": "event",
+      "detail": "邱太三上任前的法務部長。",
+      "period": "2016–2018",
+      "source": "邱太三｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "邱太三｜法務部長任職沿革",
+      "to": "蔡清祥",
+      "type": "event",
+      "detail": "邱太三卸任後接任法務部長。",
+      "period": "2016–2018",
+      "source": "邱太三｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "邱太三｜法務部長任職沿革",
+      "to": "林全",
+      "type": "event",
+      "detail": "2016年出任行政院長，邱太三為其內閣成員。",
+      "period": "2016–2018",
+      "source": "邱太三｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "邱太三｜法務部長任職沿革",
+      "to": "賴清德",
+      "type": "event",
+      "detail": "2017年出任行政院長，邱太三繼續擔任法務部長。",
+      "period": "2016–2018",
+      "source": "邱太三｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "邱太三｜陸委會主委交接",
+      "to": "邱太三",
+      "type": "event",
+      "detail": "2021年2月23日接任陸委會主任委員，2024年5月20日卸任。",
+      "period": "2021–2024",
+      "source": "中央社｜陸委會主委交接",
+      "url": "https://www.cna.com.tw/news/firstnews/202102230063.aspx"
+    },
+    {
+      "from": "邱太三｜陸委會主委交接",
+      "to": "陳明通",
+      "type": "event",
+      "detail": "2021年卸任陸委會主委、轉任國安局長，邱太三接任。",
+      "period": "2021–2024",
+      "source": "中央社｜陸委會主委交接",
+      "url": "https://www.cna.com.tw/news/firstnews/202102230063.aspx"
+    },
+    {
+      "from": "邱太三｜陸委會主委交接",
+      "to": "邱垂正",
+      "type": "event",
+      "detail": "2024年5月20日接任陸委會主委。",
+      "period": "2021–2024",
+      "source": "中央社｜陸委會主委交接",
+      "url": "https://www.cna.com.tw/news/firstnews/202102230063.aspx"
+    },
+    {
+      "from": "邱太三｜陸委會主委交接",
+      "to": "羅秉成",
+      "type": "event",
+      "detail": "2021年2月23日代表行政院見證陸委會主委交接。",
+      "period": "2021–2024",
+      "source": "中央社｜陸委會主委交接",
+      "url": "https://www.cna.com.tw/news/firstnews/202102230063.aspx"
+    },
+    {
+      "from": "邱太三｜陸委會主委交接",
+      "to": "蔡英文",
+      "type": "event",
+      "detail": "任總統期間調整國安人事並任命邱太三出任陸委會主委。",
+      "period": "2021–2024",
+      "source": "中央社｜陸委會主委交接",
+      "url": "https://www.cna.com.tw/news/firstnews/202102230063.aspx"
+    },
+    {
+      "from": "2017同婚釋憲法庭辯論（邱太三代表政府）",
+      "to": "邱太三",
+      "type": "event",
+      "detail": "2017年3月24日以法務部長身分代表政府參與同性婚姻釋憲言詞辯論，發言引發公開批評。",
+      "period": "2017-03-24",
+      "source": "邱太三｜政策立場",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "2019邱太三陳情及監察院調查",
+      "to": "邱太三",
+      "type": "event",
+      "detail": "2019年因協助轉交壢新醫院相關個案陳情而遭關說質疑並請辭國安會職務；邱否認關說；監察院兩次彈劾皆未通過，但調查報告認為有重大違失。",
+      "period": "2019–2020",
+      "source": "中央社｜關說疑雲監察院調查",
+      "url": "https://www.cna.com.tw/news/firstnews/202002120297.aspx"
+    },
+    {
+      "from": "2019邱太三陳情及監察院調查",
+      "to": "張煥禎",
+      "type": "event",
+      "detail": "壢新醫院時任院長，相關逃漏稅案件當事人，曾向邱太三提出陳情。",
+      "period": "2019–2020",
+      "source": "中央社｜關說疑雲監察院調查",
+      "url": "https://www.cna.com.tw/news/firstnews/202002120297.aspx"
+    },
+    {
+      "from": "2019邱太三陳情及監察院調查",
+      "to": "彭坤業",
+      "type": "event",
+      "detail": "時任桃園地檢署檢察長，接受邱太三轉告陳情，後續行政責任受檢視。",
+      "period": "2019–2020",
+      "source": "中央社｜關說疑雲監察院調查",
+      "url": "https://www.cna.com.tw/news/firstnews/202002120297.aspx"
+    },
+    {
+      "from": "2019邱太三陳情及監察院調查",
+      "to": "林雅鋒",
+      "type": "event",
+      "detail": "就案件申請監察院自動調查的監察委員之一。",
+      "period": "2019–2020",
+      "source": "中央社｜關說疑雲監察院調查",
+      "url": "https://www.cna.com.tw/news/firstnews/202002120297.aspx"
+    },
+    {
+      "from": "2019邱太三陳情及監察院調查",
+      "to": "王美玉",
+      "type": "event",
+      "detail": "就案件申請監察院自動調查的監察委員之一。",
+      "period": "2019–2020",
+      "source": "中央社｜關說疑雲監察院調查",
+      "url": "https://www.cna.com.tw/news/firstnews/202002120297.aspx"
+    },
+    {
+      "from": "2019邱太三陳情及監察院調查",
+      "to": "高涌誠",
+      "type": "event",
+      "detail": "就案件申請監察院自動調查的監察委員之一。",
+      "period": "2019–2020",
+      "source": "中央社｜關說疑雲監察院調查",
+      "url": "https://www.cna.com.tw/news/firstnews/202002120297.aspx"
+    },
+    {
+      "from": "邱太三",
+      "to": "鄭文燦",
+      "type": "affiliation",
+      "detail": "2014年底邱太三獲鄭文燦公布為桃園市府副市長，兩人為市長與副市長公務隸屬關係。",
+      "period": "2014–2016",
+      "source": "中央社｜桃園市府首波人事",
+      "url": "https://www.cna.com.tw/news/aipl/201412150403.aspx"
+    },
+    {
+      "from": "邱太三",
+      "to": "陳菊",
+      "type": "affiliation",
+      "detail": "陳菊擔任高雄市長期間，邱太三任高雄市副市長。",
+      "period": "2006–2008",
+      "source": "邱太三｜經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "邱太三",
+      "to": "廖永來",
+      "type": "affiliation",
+      "detail": "邱太三曾任臺中縣長廖永來的機要秘書及助選幹部。",
+      "period": "1990年代",
+      "source": "邱太三｜早年",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "邱太三",
+      "to": "洪奇昌",
+      "type": "affiliation",
+      "detail": "邱太三曾擔任時任立委洪奇昌法律顧問。",
+      "period": "從政早期",
+      "source": "邱太三｜經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "邱太三",
+      "to": "蔡明憲",
+      "type": "affiliation",
+      "detail": "邱太三曾擔任時任立委蔡明憲法律顧問。",
+      "period": "從政早期",
+      "source": "邱太三｜經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "邱太三",
+      "to": "林全",
+      "type": "affiliation",
+      "detail": "2016年邱太三在林全內閣擔任法務部長。",
+      "period": "2016–2017",
+      "source": "邱太三｜行政院職務",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "邱太三",
+      "to": "賴清德",
+      "type": "affiliation",
+      "detail": "賴清德2017年出任行政院長後，邱太三續任法務部長。",
+      "period": "2017–2018",
+      "source": "邱太三｜行政院職務",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "邱太三",
+      "to": "羅瑩雪",
+      "type": "affiliation",
+      "detail": "邱太三於2016年接替羅瑩雪出任法務部長。",
+      "period": "2016-05",
+      "source": "邱太三｜法務部長職務沿革",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "邱太三",
+      "to": "蔡清祥",
+      "type": "affiliation",
+      "detail": "蔡清祥於2018年7月接任邱太三的法務部長職位。",
+      "period": "2018-07",
+      "source": "邱太三｜法務部長職務沿革",
+      "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89"
+    },
+    {
+      "from": "邱太三",
+      "to": "陳明通",
+      "type": "affiliation",
+      "detail": "2021年陸委會主委由陳明通交接給邱太三，交接典禮有公開紀錄。",
+      "period": "2021-02-23",
+      "source": "中央社｜陸委會交接",
+      "url": "https://www.cna.com.tw/news/firstnews/202102230063.aspx"
+    },
+    {
+      "from": "邱太三",
+      "to": "邱垂正",
+      "type": "affiliation",
+      "detail": "邱太三於2024年5月卸任陸委會主委，邱垂正接任。",
+      "period": "2024-05-20",
+      "source": "中央社｜內閣人事",
+      "url": "https://www.cna.com.tw/news/aipl/202404250044.aspx"
+    },
+    {
+      "from": "邱太三",
+      "to": "羅秉成",
+      "type": "event",
+      "detail": "2021年陸委會新舊主委交接時，由政務委員羅秉成見證。",
+      "period": "2021-02",
+      "source": "中央社｜交接典禮",
+      "url": "https://www.cna.com.tw/news/firstnews/202102230063.aspx"
+    },
+    {
+      "from": "邱太三",
+      "to": "彭坤業",
+      "type": "case",
+      "detail": "2019年邱太三涉個案陳情爭議，當事人否認不法關說；2020年監院兩度彈劾未通過，但調查指出相關行政違失。",
+      "period": "2019–2020",
+      "source": "中央社｜關說疑雲監院調查",
+      "url": "https://www.cna.com.tw/news/firstnews/202002120297.aspx"
+    },
+    {
+      "from": "邱太三",
+      "to": "張煥禎",
+      "type": "event",
+      "detail": "2019年壢新醫院院長張煥禎就司法個案向邱太三反映，後引發程序是否恰當的公開爭議。",
+      "period": "2019",
+      "source": "中央社｜監察院調查",
+      "url": "https://www.cna.com.tw/news/firstnews/202002120297.aspx"
+    },
+    {
+      "from": "立法院院長職務交接（1999／2016）",
+      "to": "王金平",
+      "type": "event",
+      "detail": "1999年當選立法院長，連任至2016年1月底。",
+      "period": "1999／2016",
+      "source": "立法院及中央社｜院長沿革",
+      "url": "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=6569&pid=82061"
+    },
+    {
+      "from": "立法院院長職務交接（1999／2016）",
+      "to": "劉松藩",
+      "type": "event",
+      "detail": "1999年前任院長，於院長改選中未能連任。",
+      "period": "1999／2016",
+      "source": "立法院及中央社｜院長沿革",
+      "url": "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=6569&pid=82061"
+    },
+    {
+      "from": "立法院院長職務交接（1999／2016）",
+      "to": "蘇嘉全",
+      "type": "event",
+      "detail": "2016年2月當選新任立法院院長。",
+      "period": "1999／2016",
+      "source": "立法院及中央社｜院長沿革",
+      "url": "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=6569&pid=82061"
+    },
+    {
+      "from": "立法院院長職務交接（1999／2016）",
+      "to": "李登輝",
+      "type": "event",
+      "detail": "1999年時任總統兼國民黨主席，當年院長改選背景的重要政治人物。",
+      "period": "1999／2016",
+      "source": "立法院及中央社｜院長沿革",
+      "url": "https://www.ly.gov.tw/Pages/Detail.aspx?nodeid=6569&pid=82061"
+    },
+    {
+      "from": "1999劉松藩與王金平院長改選",
+      "to": "王金平",
+      "type": "event",
+      "detail": "1999年由副院長競選並當選立法院院長。",
+      "period": "1999",
+      "source": "中央社｜劉王之爭",
+      "url": "https://www.cna.com.tw/news/firstnews/201612070387.aspx"
+    },
+    {
+      "from": "1999劉松藩與王金平院長改選",
+      "to": "劉松藩",
+      "type": "event",
+      "detail": "原院長並尋求連任，後敗於王金平。",
+      "period": "1999",
+      "source": "中央社｜劉王之爭",
+      "url": "https://www.cna.com.tw/news/firstnews/201612070387.aspx"
+    },
+    {
+      "from": "1999劉松藩與王金平院長改選",
+      "to": "李登輝",
+      "type": "event",
+      "detail": "時任國民黨主席，支持王金平接任立法院長。",
+      "period": "1999",
+      "source": "中央社｜劉王之爭",
+      "url": "https://www.cna.com.tw/news/firstnews/201612070387.aspx"
+    },
+    {
+      "from": "1999劉松藩與王金平院長改選",
+      "to": "饒穎奇",
+      "type": "event",
+      "detail": "當時國民黨人士，2016年受訪回憶當年兩人院長改選。",
+      "period": "1999",
+      "source": "中央社｜劉王之爭",
+      "url": "https://www.cna.com.tw/news/firstnews/201612070387.aspx"
+    },
+    {
+      "from": "1980年代立法院十三兄弟會",
+      "to": "王金平",
+      "type": "event",
+      "detail": "當年國民黨立法院派系成員，1980年代與蔡辰洲、劉松藩等人有派系活動交集。",
+      "period": "1980年代",
+      "source": "王金平條目／中央社｜歷史派系",
+      "url": "https://www.cna.com.tw/news/firstnews/201612070387.aspx"
+    },
+    {
+      "from": "1980年代立法院十三兄弟會",
+      "to": "劉松藩",
+      "type": "event",
+      "detail": "十三兄弟會成員，之後擔任立法院院長。",
+      "period": "1980年代",
+      "source": "王金平條目／中央社｜歷史派系",
+      "url": "https://www.cna.com.tw/news/firstnews/201612070387.aspx"
+    },
+    {
+      "from": "1980年代立法院十三兄弟會",
+      "to": "蔡辰洲",
+      "type": "event",
+      "detail": "條目提及的十三兄弟會代表人物。",
+      "period": "1980年代",
+      "source": "王金平條目／中央社｜歷史派系",
+      "url": "https://www.cna.com.tw/news/firstnews/201612070387.aspx"
+    },
+    {
+      "from": "1980年代立法院十三兄弟會",
+      "to": "饒穎奇",
+      "type": "event",
+      "detail": "中央社2016年報導列為該國會次團成員之一。",
+      "period": "1980年代",
+      "source": "王金平條目／中央社｜歷史派系",
+      "url": "https://www.cna.com.tw/news/firstnews/201612070387.aspx"
+    },
+    {
+      "from": "王金平｜2000–2005國民黨副主席",
+      "to": "王金平",
+      "type": "event",
+      "detail": "2000年6月至2005年8月國民黨副主席。",
+      "period": "2000–2005",
+      "source": "王金平｜資訊框黨務經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%87%91%E5%B9%B3"
+    },
+    {
+      "from": "王金平｜2000–2005國民黨副主席",
+      "to": "連戰",
+      "type": "event",
+      "detail": "同時期國民黨主席。",
+      "period": "2000–2005",
+      "source": "王金平｜資訊框黨務經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%87%91%E5%B9%B3"
+    },
+    {
+      "from": "王金平｜2000–2005國民黨副主席",
+      "to": "蕭萬長",
+      "type": "event",
+      "detail": "同時期國民黨副主席之一。",
+      "period": "2000–2005",
+      "source": "王金平｜資訊框黨務經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%87%91%E5%B9%B3"
+    },
+    {
+      "from": "王金平｜2000–2005國民黨副主席",
+      "to": "蔣仲苓",
+      "type": "event",
+      "detail": "同時期國民黨副主席之一。",
+      "period": "2000–2005",
+      "source": "王金平｜資訊框黨務經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%87%91%E5%B9%B3"
+    },
+    {
+      "from": "王金平｜2000–2005國民黨副主席",
+      "to": "吳伯雄",
+      "type": "event",
+      "detail": "同時期國民黨副主席之一。",
+      "period": "2000–2005",
+      "source": "王金平｜資訊框黨務經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%87%91%E5%B9%B3"
+    },
+    {
+      "from": "王金平｜2000–2005國民黨副主席",
+      "to": "林澄枝",
+      "type": "event",
+      "detail": "同時期國民黨副主席之一。",
+      "period": "2000–2005",
+      "source": "王金平｜資訊框黨務經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%87%91%E5%B9%B3"
+    },
+    {
+      "from": "王金平｜2000–2005國民黨副主席",
+      "to": "江丙坤",
+      "type": "event",
+      "detail": "同時期國民黨副主席之一。",
+      "period": "2000–2005",
+      "source": "王金平｜資訊框黨務經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%87%91%E5%B9%B3"
+    },
+    {
+      "from": "王金平｜2000–2005國民黨副主席",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "國民黨副主席任職與王金平任期部分重疊，期間有黨務職務交集。",
+      "period": "2000–2005",
+      "source": "王金平｜資訊框黨務經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%87%91%E5%B9%B3"
+    },
+    {
+      "from": "2014太陽花學運",
+      "to": "王金平",
+      "type": "event",
+      "detail": "2014年4月6日進入立院議場向學生致意，並宣布監督條例未立法前不召集服貿協商會議。",
+      "period": "2014-04",
+      "source": "公視新聞｜王金平太陽花協商",
+      "url": "https://news.pts.org.tw/article/266124"
+    },
+    {
+      "from": "2014太陽花學運",
+      "to": "林飛帆",
+      "type": "event",
+      "detail": "學生運動領導人之一，對王金平協商立場作出公開回應。",
+      "period": "2014-04",
+      "source": "公視新聞｜王金平太陽花協商",
+      "url": "https://news.pts.org.tw/article/266124"
+    },
+    {
+      "from": "2014太陽花學運",
+      "to": "陳為廷",
+      "type": "event",
+      "detail": "學生運動領導人之一，對國會協商發展表態。",
+      "period": "2014-04",
+      "source": "公視新聞｜王金平太陽花協商",
+      "url": "https://news.pts.org.tw/article/266124"
+    },
+    {
+      "from": "2014太陽花學運",
+      "to": "林鴻池",
+      "type": "event",
+      "detail": "國民黨政策會執行長，表示事前不知情並對王金平說法感到錯愕。",
+      "period": "2014-04",
+      "source": "公視新聞｜王金平太陽花協商",
+      "url": "https://news.pts.org.tw/article/266124"
+    },
+    {
+      "from": "2014太陽花學運",
+      "to": "費鴻泰",
+      "type": "event",
+      "detail": "國民黨團副書記長，公開批評王金平的2014年4月6日協商說法。",
+      "period": "2014-04",
+      "source": "公視新聞｜王金平太陽花協商",
+      "url": "https://news.pts.org.tw/article/266124"
+    },
+    {
+      "from": "2019王金平總統選舉參與與退出",
+      "to": "王金平",
+      "type": "event",
+      "detail": "2019年3月表態參選總統、6月不參加國民黨初選、11月宣布不參選2020大選。",
+      "period": "2019",
+      "source": "中央社｜王金平2019選戰",
+      "url": "https://www.cna.com.tw/news/firstnews/201911125002.aspx"
+    },
+    {
+      "from": "2019王金平總統選舉參與與退出",
+      "to": "宋楚瑜",
+      "type": "event",
+      "detail": "2019年親民黨主席、總統參選人，曾向王金平告知其參選決定。",
+      "period": "2019",
+      "source": "中央社｜王金平2019選戰",
+      "url": "https://www.cna.com.tw/news/firstnews/201911125002.aspx"
+    },
+    {
+      "from": "2019王金平總統選舉參與與退出",
+      "to": "郭台銘",
+      "type": "event",
+      "detail": "2019年總統參選討論階段曾與王金平交換協調意見。",
+      "period": "2019",
+      "source": "中央社｜王金平2019選戰",
+      "url": "https://www.cna.com.tw/news/firstnews/201911125002.aspx"
+    },
+    {
+      "from": "2019王金平總統選舉參與與退出",
+      "to": "柯文哲",
+      "type": "event",
+      "detail": "2019年時任臺北市長，王金平在總統參選討論期間與其接觸。",
+      "period": "2019",
+      "source": "中央社｜王金平2019選戰",
+      "url": "https://www.cna.com.tw/news/firstnews/201911125002.aspx"
+    },
+    {
+      "from": "2019王金平總統選舉參與與退出",
+      "to": "李鴻鈞",
+      "type": "event",
+      "detail": "2019年親民黨秘書長，安排王金平與宋楚瑜通話。",
+      "period": "2019",
+      "source": "中央社｜王金平2019選戰",
+      "url": "https://www.cna.com.tw/news/firstnews/201911125002.aspx"
+    },
+    {
+      "from": "2022柯志恩高雄市長選舉團隊",
+      "to": "柯志恩",
+      "type": "event",
+      "detail": "2022年國民黨高雄市長候選人。",
+      "period": "2022-07",
+      "source": "TVBS｜高雄市長競選團隊",
+      "url": "https://news.tvbs.com.tw/politics/1845259"
+    },
+    {
+      "from": "2022柯志恩高雄市長選舉團隊",
+      "to": "王金平",
+      "type": "event",
+      "detail": "受邀擔任柯志恩競選總部榮譽主任委員。",
+      "period": "2022-07",
+      "source": "TVBS｜高雄市長競選團隊",
+      "url": "https://news.tvbs.com.tw/politics/1845259"
+    },
+    {
+      "from": "2022柯志恩高雄市長選舉團隊",
+      "to": "葉匡時",
+      "type": "event",
+      "detail": "2022年任柯志恩競總主委。",
+      "period": "2022-07",
+      "source": "TVBS｜高雄市長競選團隊",
+      "url": "https://news.tvbs.com.tw/politics/1845259"
+    },
+    {
+      "from": "2022柯志恩高雄市長選舉團隊",
+      "to": "吳怡玎",
+      "type": "event",
+      "detail": "2022年任柯志恩競總總幹事。",
+      "period": "2022-07",
+      "source": "TVBS｜高雄市長競選團隊",
+      "url": "https://news.tvbs.com.tw/politics/1845259"
+    },
+    {
+      "from": "2026王金平獲聘國民黨最高顧問",
+      "to": "王金平",
+      "type": "event",
+      "detail": "2026年1月5日獲聘中國國民黨最高顧問。",
+      "period": "2026-01-05",
+      "source": "中央社｜國民黨最高顧問聘任",
+      "url": "https://www.cna.com.tw/news/aipl/202601050111.aspx"
+    },
+    {
+      "from": "2026王金平獲聘國民黨最高顧問",
+      "to": "鄭麗文",
+      "type": "event",
+      "detail": "2026年1月5日以國民黨主席身分親訪並致贈王金平最高顧問聘書。",
+      "period": "2026-01-05",
+      "source": "中央社｜國民黨最高顧問聘任",
+      "url": "https://www.cna.com.tw/news/aipl/202601050111.aspx"
+    },
+    {
+      "from": "2026王金平獲聘國民黨最高顧問",
+      "to": "李乾龍",
+      "type": "event",
+      "detail": "2026年1月隨鄭麗文同訪王金平辦公室的副主席之一。",
+      "period": "2026-01-05",
+      "source": "中央社｜國民黨最高顧問聘任",
+      "url": "https://www.cna.com.tw/news/aipl/202601050111.aspx"
+    },
+    {
+      "from": "2026王金平獲聘國民黨最高顧問",
+      "to": "季麟連",
+      "type": "event",
+      "detail": "2026年1月同訪的副主席之一。",
+      "period": "2026-01-05",
+      "source": "中央社｜國民黨最高顧問聘任",
+      "url": "https://www.cna.com.tw/news/aipl/202601050111.aspx"
+    },
+    {
+      "from": "2026王金平獲聘國民黨最高顧問",
+      "to": "張榮恭",
+      "type": "event",
+      "detail": "2026年1月同訪的副主席之一。",
+      "period": "2026-01-05",
+      "source": "中央社｜國民黨最高顧問聘任",
+      "url": "https://www.cna.com.tw/news/aipl/202601050111.aspx"
+    },
+    {
+      "from": "2026王金平獲聘國民黨最高顧問",
+      "to": "蕭旭岑",
+      "type": "event",
+      "detail": "2026年1月同訪的副主席之一。",
+      "period": "2026-01-05",
+      "source": "中央社｜國民黨最高顧問聘任",
+      "url": "https://www.cna.com.tw/news/aipl/202601050111.aspx"
+    },
+    {
+      "from": "2026王金平獲聘國民黨最高顧問",
+      "to": "吳宗憲",
+      "type": "event",
+      "detail": "2026年1月陪同前往的國民黨文傳會主委。",
+      "period": "2026-01-05",
+      "source": "中央社｜國民黨最高顧問聘任",
+      "url": "https://www.cna.com.tw/news/aipl/202601050111.aspx"
+    },
+    {
+      "from": "王金平",
+      "to": "劉松藩",
+      "type": "contest",
+      "detail": "1999年立法院長改選，原院長劉松藩與副院長王金平競爭，王金平當選。",
+      "period": "1999",
+      "source": "中央社｜劉王之爭",
+      "url": "https://www.cna.com.tw/news/firstnews/201612070387.aspx"
+    },
+    {
+      "from": "王金平",
+      "to": "蘇嘉全",
+      "type": "affiliation",
+      "detail": "蘇嘉全2016年2月接任王金平之後的立法院院長。",
+      "period": "2016-02",
+      "source": "王金平｜立法院長任期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%87%91%E5%B9%B3"
+    },
+    {
+      "from": "王金平",
+      "to": "饒穎奇",
+      "type": "affiliation",
+      "detail": "王金平1999年升任立法院長後，饒穎奇擔任副院長；饒在2016年曾公開追憶1999年院長改選。",
+      "period": "1999–2002",
+      "source": "王金平｜歷史職務",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%87%91%E5%B9%B3"
+    },
+    {
+      "from": "王金平",
+      "to": "蔡辰洲",
+      "type": "affiliation",
+      "detail": "1980年代兩人參與國民黨立院黨團的十三兄弟會政治次團。",
+      "period": "1980年代",
+      "source": "王金平｜從政經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%87%91%E5%B9%B3"
+    },
+    {
+      "from": "王金平",
+      "to": "連戰",
+      "type": "affiliation",
+      "detail": "王金平在連戰擔任國民黨主席期間於2000–2005年擔任副主席。",
+      "period": "2000–2005",
+      "source": "王金平｜國民黨副主席任期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%87%91%E5%B9%B3"
+    },
+    {
+      "from": "王金平",
+      "to": "鄭麗文",
+      "type": "affiliation",
+      "detail": "2026年1月5日國民黨主席鄭麗文正式頒發最高顧問聘書給王金平。",
+      "period": "2026-01",
+      "source": "中央社｜黨務",
+      "url": "https://www.cna.com.tw/news/aipl/202601050111.aspx"
+    },
+    {
+      "from": "王金平",
+      "to": "柯志恩",
+      "type": "support",
+      "detail": "2022年王金平擔任柯志恩高雄市長競選總部榮譽主任委員。",
+      "period": "2022",
+      "source": "TVBS｜選舉團隊",
+      "url": "https://news.tvbs.com.tw/politics/1845259"
+    },
+    {
+      "from": "王金平",
+      "to": "葉匡時",
+      "type": "cooperate",
+      "detail": "2022年柯志恩高雄市長選舉時，兩人分別擔任競總榮譽主委及主委。",
+      "period": "2022",
+      "source": "TVBS｜選舉團隊",
+      "url": "https://news.tvbs.com.tw/politics/1845259"
+    },
+    {
+      "from": "王金平",
+      "to": "宋楚瑜",
+      "type": "event",
+      "detail": "2019年王金平曾與宋楚瑜通話，宋告知其決定參選2020年總統；王其後宣布退出。",
+      "period": "2019-11",
+      "source": "中央社｜總統參選",
+      "url": "https://www.cna.com.tw/news/firstnews/201911125002.aspx"
+    },
+    {
+      "from": "王金平",
+      "to": "林飛帆",
+      "type": "event",
+      "detail": "2014年4月6日王金平赴太陽花學運佔領的立院議場發表監督條例協商立場，林飛帆公開回應。",
+      "period": "2014-04-06",
+      "source": "公視｜太陽花學運",
+      "url": "https://news.pts.org.tw/article/266124"
+    },
+    {
+      "from": "王金平",
+      "to": "陳為廷",
+      "type": "event",
+      "detail": "2014年4月6日王金平赴太陽花學運佔領的立院議場發表協商立場，陳為廷公開評論發展；並無證據證明私交。",
+      "period": "2014-04-06",
+      "source": "公視｜太陽花學運",
+      "url": "https://news.pts.org.tw/article/266124"
+    },
+    {
+      "from": "王金平",
+      "to": "林鴻池",
+      "type": "dispute",
+      "detail": "2014年4月6日林鴻池以國民黨政策會執行長身分對王金平服貿協商表態不同意見。",
+      "period": "2014-04",
+      "source": "公視｜國會協商",
+      "url": "https://news.pts.org.tw/article/266124"
+    },
+    {
+      "from": "王金平",
+      "to": "費鴻泰",
+      "type": "dispute",
+      "detail": "2014年4月6日費鴻泰公開批評王金平在監督條例立法前不召集服貿協商的立場。",
+      "period": "2014-04",
+      "source": "公視｜國會協商",
+      "url": "https://news.pts.org.tw/article/266124"
     }
   ]
 }

@@ -70,8 +70,21 @@
   ],
   "skipped": [],
   "failed": [],
-  "last_run": "2026-10-16T22:23:24.226Z",
+  "last_run": "2026-10-16T22:29:08.663Z",
   "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
-  "processing": [],
-  "last_checked_at": "2026-10-16T22:23:24.226Z"
+  "processing": [
+    {
+      "key": "zh:羅智強",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7",
+      "title": "羅智強",
+      "started_at": "2026-10-16T22:29:08.663Z"
+    },
+    {
+      "key": "zh:尹乃菁",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81",
+      "title": "尹乃菁",
+      "started_at": "2026-10-16T22:29:08.663Z"
+    }
+  ],
+  "last_checked_at": "2026-10-16T22:29:08.663Z"
 }

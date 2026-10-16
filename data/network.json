@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "臺灣政治人物關係圖譜｜太陽花、國會監聽與媒體政治",
+    "title": "臺灣政治人物關係圖譜｜柯建銘、特偵組與國會歷史",
     "date": "2026-10-17",
-    "scope": "以公開來源累積臺灣政治人物、政黨、重大事件與媒體節目之角色網絡；本輪增錄陳為廷及監聽國會事件。條目來源不是全面核查，重要司法裁判與行政調查各別標明時間與裁判階段。",
+    "scope": "公開維基條目與可靠新聞核對政治人物、歷屆司法機關與特定事件的有據角色；來源包含柯建銘及最高法院檢察署特別偵查組。特偵組條目有中立性及來源不足警告，歷史個案僅保留行政角色或偵查事實、不把早年一審刑度當定讞。",
     "sources": [
       {
         "name": "新黨",
@@ -51,9 +51,17 @@
       {
         "name": "監聽國會事件",
         "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+      },
+      {
+        "name": "柯建銘",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+      },
+      {
+        "name": "最高法院檢察署特別偵查組",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
       }
     ],
-    "relation_note": "事件共現不等於私交；監聽是否故意與不同司法案件之判決須區分。2013年法務部調查認定無證據證明故意監聽立法院總機、但存在查證監督違失；2019年馬英九涉洩密案更一審無罪確定。",
+    "relation_note": "人物屬同一司法案件或檢察團隊不表示私交、同謀或罪責；2016年特偵組裁撤與各案裁判分開。2013國會監聽事件先前已建檔，此次補特偵組不同屆成員而非重複建直接關係。",
     "party": {
       "as_of": "2026-10-17",
       "policy": "有近期資料佐證者標近期黨籍，只有舊提名或黨職記錄則顯示為歷史／最近紀錄；離黨及未核對者不當成現任黨員。顏色只反映資料分類，非政治立場或私人關係。",
@@ -2713,16 +2721,18 @@
     {
       "id": "柯建銘",
       "label": "柯建銘",
-      "group": "historical",
+      "group": "current",
       "notes": [
-        "2013年時任民進黨立院黨團總召，其電話通訊是特偵組偵查背景之一，相關關說案簽結。"
+        "2013年時任民進黨立院黨團總召，其電話通訊是特偵組偵查背景之一，相關關說案簽結。",
+        "1986年民進黨創黨黨員之一；1993年起歷任第2至11屆立法委員，曾以新竹市及全國不分區立委身分任職。",
+        "2004年底及2011年曾兩次代理民主進步黨主席；2026年2月24日由蔡其昌接任民進黨立院黨團總召。"
       ],
       "party": {
         "code": "DPP",
-        "kind": "historical_only",
-        "as_of": "2013",
-        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
-        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
+        "kind": "current_documented",
+        "as_of": "2026-02（民進黨立院黨團職務改選）",
+        "source": "https://www.cna.com.tw/news/aipl/202602240166.aspx",
+        "qualification": "2026年2月現任民進黨立委的公開職務新聞；黨籍及職務之後仍可能改變"
       }
     },
     {
@@ -5025,14 +5035,15 @@
       "label": "蔡其昌",
       "group": "historical",
       "notes": [
-        "民進黨立法院黨團重要幹部，陳培瑜履歷所屬黨團同僚。"
+        "民進黨立法院黨團重要幹部，陳培瑜履歷所屬黨團同僚。",
+        "2026年2月24日接替柯建銘出任民進黨立法院黨團總召。"
       ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "黨籍未另核對"
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2026-02",
+        "source": "https://www.cna.com.tw/news/aipl/202602240166.aspx",
+        "qualification": "2026年2月中央社報導為民進黨立委，現黨籍日後可能變動"
       }
     },
     {
@@ -5150,11 +5161,11 @@
         "2015年時代力量新竹立委候選人，陳為廷擔任其競選總幹事。"
       ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "未確認目前黨籍"
+        "code": "NPP",
+        "kind": "last_documented",
+        "as_of": "2016",
+        "source": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98",
+        "qualification": "2016年時代力量新竹立委候選人，非已核實的現有黨籍"
       }
     },
     {
@@ -5511,8 +5522,9 @@
       "label": "最高法院檢察署特別偵查組",
       "group": "hub",
       "notes": [
-        "最高法院檢察署特別偵查組（2007–2016），監聽國會爭議的偵查機關。它是機構節點，並非人物間私人關係。",
-        "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。"
+        "最高法院檢察署特別偵查組：2007-04-02成立、2017-01-01依法裁撤；2007–2016間曾辦理包含政壇人物在內的重要偵查案件；歷屆檢察官與個案涉案人角色不同。",
+        "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。",
+        "2007年4月2日成立，2016年11月立法院修法廢除法源，2017年1月1日正式裁撤。歷屆檢察官任期不完全重疊，案件與被告須區別。"
       ]
     },
     {
@@ -5545,6 +5557,816 @@
       "group": "hub",
       "notes": [
         "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。"
+      ]
+    },
+    {
+      "id": "陳水扁",
+      "label": "陳水扁",
+      "group": "historical",
+      "notes": [
+        "2004年民進黨主席卸任後，由柯建銘暫代主席。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "鄭正鈐",
+      "label": "鄭正鈐",
+      "group": "historical",
+      "notes": [
+        "2016年新竹市立委選舉國民黨籍候選人，與柯建銘競選同席。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "2016",
+        "source": "https://www.cna.com.tw/news/aipl/201601160368.aspx",
+        "qualification": "2016年國民黨新竹立委候選人，不能證明截至2026年黨籍未變"
+      }
+    },
+    {
+      "id": "林世嘉",
+      "label": "林世嘉",
+      "group": "historical",
+      "notes": [
+        "2013年台聯立院黨團總召，曾與柯建銘被媒體就會計法修正案詢問。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "顏清標",
+      "label": "顏清標",
+      "group": "historical",
+      "notes": [
+        "2013年會計法修正案被外界指涉及特別費除罪化受益的前立委；這是政治爭議中的說法，不等於不法指控成立。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "高虹安",
+      "label": "高虹安",
+      "group": "historical",
+      "notes": [
+        "2022年民眾黨籍立委，柯建銘以民進黨團名義函查其資策會資料引發調閱權爭議。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "羅文嘉",
+      "label": "羅文嘉",
+      "group": "historical",
+      "notes": [
+        "民進黨前秘書長，曾公開評論柯建銘國會折衝與黨內經驗。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "林靜儀",
+      "label": "林靜儀",
+      "group": "historical",
+      "notes": [
+        "民進黨籍立委，曾公開評論柯建銘的國會工作。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "鄭運鵬",
+      "label": "鄭運鵬",
+      "group": "historical",
+      "notes": [
+        "民進黨籍立委，曾公開評論柯建銘國會工作。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "江啟臣",
+      "label": "江啟臣",
+      "group": "historical",
+      "notes": [
+        "2025年時任立法院副院長，柯建銘宣布大罷免相關主張提及國會正副院長職務改選。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "林為洲",
+      "label": "林為洲",
+      "group": "historical",
+      "notes": [
+        "2016年時任國民黨立委，2016年立法院審議裁撤特偵組的法案時曾公開反對。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "林德福",
+      "label": "林德福",
+      "group": "historical",
+      "notes": [
+        "2016年國民黨立委，特偵組裁撤三讀後表達不同意見。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "柯建銘｜民進黨代理主席沿革",
+      "label": "柯建銘｜民進黨代理主席沿革",
+      "group": "hub",
+      "notes": [
+        "這是公共事件／職務分類：參與同一事件不代表私人關係、政黨同盟或法律責任。"
+      ]
+    },
+    {
+      "id": "2026民進黨立院黨團總召交接",
+      "label": "2026民進黨立院黨團總召交接",
+      "group": "hub",
+      "notes": [
+        "這是公共事件／職務分類：參與同一事件不代表私人關係、政黨同盟或法律責任。"
+      ]
+    },
+    {
+      "id": "莊瑞雄",
+      "label": "莊瑞雄",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "2016新竹市立法委員選舉",
+      "label": "2016新竹市立法委員選舉",
+      "group": "hub",
+      "notes": [
+        "這是公共事件／職務分類：參與同一事件不代表私人關係、政黨同盟或法律責任。"
+      ]
+    },
+    {
+      "id": "2013會計法第99條之1修法爭議",
+      "label": "2013會計法第99條之1修法爭議",
+      "group": "hub",
+      "notes": [
+        "這是公共事件／職務分類：參與同一事件不代表私人關係、政黨同盟或法律責任。"
+      ]
+    },
+    {
+      "id": "2025柯建銘大罷免倡議",
+      "label": "2025柯建銘大罷免倡議",
+      "group": "hub",
+      "notes": [
+        "這是公共事件／職務分類：參與同一事件不代表私人關係、政黨同盟或法律責任。"
+      ]
+    },
+    {
+      "id": "2022柯建銘高虹安資料調閱爭議",
+      "label": "2022柯建銘高虹安資料調閱爭議",
+      "group": "hub",
+      "notes": [
+        "這是公共事件／職務分類：參與同一事件不代表私人關係、政黨同盟或法律責任。"
+      ]
+    },
+    {
+      "id": "陳雲南",
+      "label": "陳雲南",
+      "group": "historical",
+      "notes": [
+        "條目記錄特偵組前三屆主任兼發言人。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "林嚞慧",
+      "label": "林嚞慧",
+      "group": "historical",
+      "notes": [
+        "特偵組第一、二、三屆成員之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "周士榆",
+      "label": "周士榆",
+      "group": "historical",
+      "notes": [
+        "特偵組第一、二、三屆成員之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "李海龍",
+      "label": "李海龍",
+      "group": "historical",
+      "notes": [
+        "特偵組第一、二、三屆成員之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "吳文忠",
+      "label": "吳文忠",
+      "group": "historical",
+      "notes": [
+        "特偵組第一、二屆成員之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "朱朝亮",
+      "label": "朱朝亮",
+      "group": "historical",
+      "notes": [
+        "特偵組第一、二屆成員之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "沈明倫",
+      "label": "沈明倫",
+      "group": "historical",
+      "notes": [
+        "特偵組第一、二屆成員之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "侯寬仁",
+      "label": "侯寬仁",
+      "group": "historical",
+      "notes": [
+        "特偵組第一屆成員之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "越方如",
+      "label": "越方如",
+      "group": "historical",
+      "notes": [
+        "特偵組第一至三屆成員與第四屆留任成員之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "周志榮",
+      "label": "周志榮",
+      "group": "historical",
+      "notes": [
+        "特偵組第一屆成員之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "鄭富銘",
+      "label": "鄭富銘",
+      "group": "historical",
+      "notes": [
+        "特偵組第三屆成員之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "姜貴昌",
+      "label": "姜貴昌",
+      "group": "historical",
+      "notes": [
+        "特偵組第三屆成員之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "莊正",
+      "label": "莊正",
+      "group": "historical",
+      "notes": [
+        "特偵組第三屆成員之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "蔡宗熙",
+      "label": "蔡宗熙",
+      "group": "historical",
+      "notes": [
+        "特偵組第三屆成員之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "林弘政",
+      "label": "林弘政",
+      "group": "historical",
+      "notes": [
+        "特偵組第三屆成員之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "汪南均",
+      "label": "汪南均",
+      "group": "historical",
+      "notes": [
+        "特偵組第三屆成員之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "陳宏達",
+      "label": "陳宏達",
+      "group": "historical",
+      "notes": [
+        "條目記錄2010年起第四屆特偵組主任兼發言人。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "薛維平",
+      "label": "薛維平",
+      "group": "historical",
+      "notes": [
+        "2010年第四屆特偵組組長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "張進豐",
+      "label": "張進豐",
+      "group": "historical",
+      "notes": [
+        "2010年第四屆特偵組組長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "林豐文",
+      "label": "林豐文",
+      "group": "historical",
+      "notes": [
+        "2010年第四屆特偵組組長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "郭永發",
+      "label": "郭永發",
+      "group": "historical",
+      "notes": [
+        "2010年第四屆特偵組成員。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "盧筱筠",
+      "label": "盧筱筠",
+      "group": "historical",
+      "notes": [
+        "2010年第四屆特偵組成員。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "柯宜汾",
+      "label": "柯宜汾",
+      "group": "historical",
+      "notes": [
+        "2010年第四屆特偵組成員。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "陳錫柱",
+      "label": "陳錫柱",
+      "group": "historical",
+      "notes": [
+        "2010年第四屆特偵組成員。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "謝謂誠",
+      "label": "謝謂誠",
+      "group": "historical",
+      "notes": [
+        "2010年第四屆特偵組成員。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "黃裕峰",
+      "label": "黃裕峰",
+      "group": "historical",
+      "notes": [
+        "2010年第四屆特偵組成員。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "蔡秋明",
+      "label": "蔡秋明",
+      "group": "historical",
+      "notes": [
+        "2010年第四屆特偵組留任檢察官。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "吳昭瑩",
+      "label": "吳昭瑩",
+      "group": "historical",
+      "notes": [
+        "2011年4月加入第四屆特偵組。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "蔡鴻仁",
+      "label": "蔡鴻仁",
+      "group": "historical",
+      "notes": [
+        "2011年4月加入第四屆特偵組。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "李鴻維",
+      "label": "李鴻維",
+      "group": "historical",
+      "notes": [
+        "2011年4月加入第四屆特偵組。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "郭文東",
+      "label": "郭文東",
+      "group": "historical",
+      "notes": [
+        "2016年特偵組主任；2016年9月公開表示持續執行未結案件直到裁撤。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "特偵組｜第一屆檢察官",
+      "label": "特偵組｜第一屆檢察官",
+      "group": "hub",
+      "notes": [
+        "特偵組歷史成員分屆：第一屆，部分成員為後加入／留任，年度非精確個人起迄日；同屆同事不推論私交。"
+      ]
+    },
+    {
+      "id": "特偵組｜第二屆檢察官",
+      "label": "特偵組｜第二屆檢察官",
+      "group": "hub",
+      "notes": [
+        "特偵組歷史成員分屆：第二屆，部分成員為後加入／留任，年度非精確個人起迄日；同屆同事不推論私交。"
+      ]
+    },
+    {
+      "id": "特偵組｜第三屆檢察官",
+      "label": "特偵組｜第三屆檢察官",
+      "group": "hub",
+      "notes": [
+        "特偵組歷史成員分屆：第三屆，部分成員為後加入／留任，年度非精確個人起迄日；同屆同事不推論私交。"
+      ]
+    },
+    {
+      "id": "特偵組｜第四屆檢察官",
+      "label": "特偵組｜第四屆檢察官",
+      "group": "hub",
+      "notes": [
+        "特偵組歷史成員分屆：第四屆，部分成員為後加入／留任，年度非精確個人起迄日；同屆同事不推論私交。"
+      ]
+    },
+    {
+      "id": "特偵組｜2013年國會監聽偵查",
+      "label": "特偵組｜2013年國會監聽偵查",
+      "group": "hub",
+      "notes": [
+        "特偵組歷史成員分屆：2013年國會監聽，部分成員為後加入／留任，年度非精確個人起迄日；同屆同事不推論私交。"
+      ]
+    },
+    {
+      "id": "特偵組｜2016年末期",
+      "label": "特偵組｜2016年末期",
+      "group": "hub",
+      "notes": [
+        "特偵組歷史成員分屆：2016年末期，部分成員為後加入／留任，年度非精確個人起迄日；同屆同事不推論私交。"
+      ]
+    },
+    {
+      "id": "2016特偵組裁撤立法",
+      "label": "2016特偵組裁撤立法",
+      "group": "hub",
+      "notes": [
+        "這是公共事件／職務分類：參與同一事件不代表私人關係、政黨同盟或法律責任。"
+      ]
+    },
+    {
+      "id": "特偵組｜陳水扁家庭密帳案調查",
+      "label": "特偵組｜陳水扁家庭密帳案調查",
+      "group": "hub",
+      "notes": [
+        "這是公共事件／職務分類：參與同一事件不代表私人關係、政黨同盟或法律責任。"
+      ]
+    },
+    {
+      "id": "吳淑珍",
+      "label": "吳淑珍",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "陳致中",
+      "label": "陳致中",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "黃睿靚",
+      "label": "黃睿靚",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍／身份未單獨核實"
+      }
+    },
+    {
+      "id": "特偵組｜2012林益世案件偵查",
+      "label": "特偵組｜2012林益世案件偵查",
+      "group": "hub",
+      "notes": [
+        "這是公共事件／職務分類：參與同一事件不代表私人關係、政黨同盟或法律責任。"
+      ]
+    },
+    {
+      "id": "特偵組｜拉法葉軍購案偵訊",
+      "label": "特偵組｜拉法葉軍購案偵訊",
+      "group": "hub",
+      "notes": [
+        "這是公共事件／職務分類：參與同一事件不代表私人關係、政黨同盟或法律責任。"
       ]
     }
   ],
@@ -11335,6 +12157,897 @@
       "period": "2013",
       "source": "監聽國會事件｜各界評論",
       "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "柯建銘｜民進黨代理主席沿革",
+      "to": "柯建銘",
+      "type": "event",
+      "detail": "2004年12月、2011年3月兩度代理民進黨主席。",
+      "period": "2004–2005／2011",
+      "source": "柯建銘｜黨務履歷",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "柯建銘｜民進黨代理主席沿革",
+      "to": "陳水扁",
+      "type": "event",
+      "detail": "2004年辭去民進黨主席，由柯建銘代理。",
+      "period": "2004–2005／2011",
+      "source": "柯建銘｜黨務履歷",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "柯建銘｜民進黨代理主席沿革",
+      "to": "蘇貞昌",
+      "type": "event",
+      "detail": "2005年1月接續代理主席柯建銘之後接任黨主席。",
+      "period": "2004–2005／2011",
+      "source": "柯建銘｜黨務履歷",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "柯建銘｜民進黨代理主席沿革",
+      "to": "蔡英文",
+      "type": "event",
+      "detail": "2011年3月因參與總統初選請辭黨主席，由柯建銘暫代。",
+      "period": "2004–2005／2011",
+      "source": "柯建銘｜黨務履歷",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "2026民進黨立院黨團總召交接",
+      "to": "柯建銘",
+      "type": "event",
+      "detail": "2026年2月24日卸任曾長期擔任的民進黨團總召。",
+      "period": "2026-02-24",
+      "source": "中央社｜民進黨團改選",
+      "url": "https://www.cna.com.tw/news/aipl/202602240166.aspx"
+    },
+    {
+      "from": "2026民進黨立院黨團總召交接",
+      "to": "蔡其昌",
+      "type": "event",
+      "detail": "2026年2月24日獲推舉擔任民進黨團總召。",
+      "period": "2026-02-24",
+      "source": "中央社｜民進黨團改選",
+      "url": "https://www.cna.com.tw/news/aipl/202602240166.aspx"
+    },
+    {
+      "from": "2026民進黨立院黨團總召交接",
+      "to": "莊瑞雄",
+      "type": "event",
+      "detail": "2026年2月24日改選後擔任民進黨團幹事長。",
+      "period": "2026-02-24",
+      "source": "中央社｜民進黨團改選",
+      "url": "https://www.cna.com.tw/news/aipl/202602240166.aspx"
+    },
+    {
+      "from": "2026民進黨立院黨團總召交接",
+      "to": "范雲",
+      "type": "event",
+      "detail": "2026年2月24日改選後擔任民進黨團書記長。",
+      "period": "2026-02-24",
+      "source": "中央社｜民進黨團改選",
+      "url": "https://www.cna.com.tw/news/aipl/202602240166.aspx"
+    },
+    {
+      "from": "2016新竹市立法委員選舉",
+      "to": "柯建銘",
+      "type": "event",
+      "detail": "民進黨候選人，2016年新竹市立委當選。",
+      "period": "2016-01",
+      "source": "柯建銘｜選舉生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "2016新竹市立法委員選舉",
+      "to": "鄭正鈐",
+      "type": "event",
+      "detail": "國民黨候選人，在該次新竹立委選舉中敗選。",
+      "period": "2016-01",
+      "source": "柯建銘｜選舉生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "2016新竹市立法委員選舉",
+      "to": "邱顯智",
+      "type": "event",
+      "detail": "時代力量提名之新竹立委候選人。",
+      "period": "2016-01",
+      "source": "柯建銘｜選舉生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "2013會計法第99條之1修法爭議",
+      "to": "柯建銘",
+      "type": "event",
+      "detail": "時任民進黨團總召，就2013年會計法修正案與媒體說明並受批評。",
+      "period": "2013-05–06",
+      "source": "柯建銘｜會計法修法",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "2013會計法第99條之1修法爭議",
+      "to": "林世嘉",
+      "type": "event",
+      "detail": "當時台聯黨團總召，亦曾就修法議題受媒體採訪。",
+      "period": "2013-05–06",
+      "source": "柯建銘｜會計法修法",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "2013會計法第99條之1修法爭議",
+      "to": "顏清標",
+      "type": "event",
+      "detail": "該修法範圍被部分評論者指與其特別費案件有關，屬公共爭議而非已確立的私人串聯。",
+      "period": "2013-05–06",
+      "source": "柯建銘｜會計法修法",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "2025柯建銘大罷免倡議",
+      "to": "柯建銘",
+      "type": "event",
+      "detail": "2025年1月舉行記者會公開提倡大罷免，並主張涉及國會正副院長職務改選。",
+      "period": "2025",
+      "source": "柯建銘｜2025大罷免",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "2025柯建銘大罷免倡議",
+      "to": "韓國瑜",
+      "type": "event",
+      "detail": "當時立法院長，為柯建銘公開倡議提及的職務改選對象。",
+      "period": "2025",
+      "source": "柯建銘｜2025大罷免",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "2025柯建銘大罷免倡議",
+      "to": "江啟臣",
+      "type": "event",
+      "detail": "當時立法院副院長，為柯建銘公開倡議提及的職務改選對象。",
+      "period": "2025",
+      "source": "柯建銘｜2025大罷免",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "2022柯建銘高虹安資料調閱爭議",
+      "to": "柯建銘",
+      "type": "event",
+      "detail": "2022年以民進黨團名義向資策會函調立委高虹安資料，因國會文件調閱權限引發爭議。",
+      "period": "2022",
+      "source": "柯建銘｜評價與爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "2022柯建銘高虹安資料調閱爭議",
+      "to": "高虹安",
+      "type": "event",
+      "detail": "時任民眾黨立委，個人任職資策會資料成為爭論標的。",
+      "period": "2022",
+      "source": "柯建銘｜評價與爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "柯建銘",
+      "to": "蔡其昌",
+      "type": "affiliation",
+      "detail": "2026年2月24日民進黨立院黨團總召由柯建銘交接給蔡其昌。",
+      "period": "2026-02-24",
+      "source": "中央社｜黨團總召交接",
+      "url": "https://www.cna.com.tw/news/aipl/202602240166.aspx"
+    },
+    {
+      "from": "柯建銘",
+      "to": "陳水扁",
+      "type": "affiliation",
+      "detail": "2004年陳水扁辭去民進黨主席後，柯建銘擔任代理主席。",
+      "period": "2004-12",
+      "source": "柯建銘｜代理主席",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "柯建銘",
+      "to": "蔡英文",
+      "type": "affiliation",
+      "detail": "2011年蔡英文為參與總統初選辭去民進黨主席，由柯建銘代理黨主席。",
+      "period": "2011-03",
+      "source": "柯建銘｜代理主席",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "柯建銘",
+      "to": "蘇貞昌",
+      "type": "affiliation",
+      "detail": "2005年1月柯建銘代理主席任滿後，蘇貞昌接任民進黨主席。",
+      "period": "2005-01",
+      "source": "柯建銘｜主席沿革",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "柯建銘",
+      "to": "鄭正鈐",
+      "type": "contest",
+      "detail": "2016年新竹市立委選舉競爭同一席次，柯建銘當選，鄭正鈐落選。",
+      "period": "2016-01",
+      "source": "中央社｜2016新竹立委選舉",
+      "url": "https://www.cna.com.tw/news/aipl/201601160368.aspx"
+    },
+    {
+      "from": "柯建銘",
+      "to": "邱顯智",
+      "type": "contest",
+      "detail": "2016年新竹市立委選舉同一選區候選人：柯建銘民進黨、邱顯智時代力量。",
+      "period": "2016-01",
+      "source": "柯建銘｜選舉生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "柯建銘",
+      "to": "黃國昌",
+      "type": "dispute",
+      "detail": "柯建銘任民進黨團總召時，與時任民眾黨團總召黃國昌在議事協商有公開爭執；不得推論私人關係。",
+      "period": "2024–2025",
+      "source": "柯建銘｜立院職務",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "柯建銘",
+      "to": "韓國瑜",
+      "type": "dispute",
+      "detail": "就立法院議事協商與程序雙方曾公開爭執，彼此為國會職務互動。",
+      "period": "2024–2025",
+      "source": "柯建銘｜立院職務",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "柯建銘",
+      "to": "林世嘉",
+      "type": "event",
+      "detail": "2013年擔任不同政黨立院黨團總召，就會計法修正案公開接受訪問。",
+      "period": "2013",
+      "source": "柯建銘｜會計法修法",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "柯建銘",
+      "to": "高虹安",
+      "type": "dispute",
+      "detail": "2022年以黨團名義函調高虹安資策會資料，引起文件調閱權是否合法的公開爭議。",
+      "period": "2022",
+      "source": "柯建銘｜評價",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98"
+    },
+    {
+      "from": "最高法院檢察署特別偵查組",
+      "to": "特偵組｜第一屆檢察官",
+      "type": "affiliation",
+      "detail": "特偵組依維基百科記錄之第一屆成員名單。",
+      "period": "2007–2008",
+      "source": "特偵組｜組織及歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第一屆檢察官",
+      "to": "陳雲南",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第一屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2007–2008",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第一屆檢察官",
+      "to": "沈明倫",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第一屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2007–2008",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第一屆檢察官",
+      "to": "侯寬仁",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第一屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2007–2008",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第一屆檢察官",
+      "to": "周士榆",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第一屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2007–2008",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第一屆檢察官",
+      "to": "林嚞慧",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第一屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2007–2008",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第一屆檢察官",
+      "to": "越方如",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第一屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2007–2008",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第一屆檢察官",
+      "to": "周志榮",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第一屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2007–2008",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第一屆檢察官",
+      "to": "朱朝亮",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第一屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2007–2008",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第一屆檢察官",
+      "to": "吳文忠",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第一屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2007–2008",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第一屆檢察官",
+      "to": "李海龍",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第一屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2007–2008",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "最高法院檢察署特別偵查組",
+      "to": "特偵組｜第二屆檢察官",
+      "type": "affiliation",
+      "detail": "特偵組依維基百科記錄之第二屆成員名單。",
+      "period": "2008–2009",
+      "source": "特偵組｜組織及歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第二屆檢察官",
+      "to": "陳雲南",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第二屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2008–2009",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第二屆檢察官",
+      "to": "林嚞慧",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第二屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2008–2009",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第二屆檢察官",
+      "to": "越方如",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第二屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2008–2009",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第二屆檢察官",
+      "to": "周士榆",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第二屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2008–2009",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第二屆檢察官",
+      "to": "李海龍",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第二屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2008–2009",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第二屆檢察官",
+      "to": "吳文忠",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第二屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2008–2009",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第二屆檢察官",
+      "to": "朱朝亮",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第二屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2008–2009",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第二屆檢察官",
+      "to": "沈明倫",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第二屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2008–2009",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "最高法院檢察署特別偵查組",
+      "to": "特偵組｜第三屆檢察官",
+      "type": "affiliation",
+      "detail": "特偵組依維基百科記錄之第三屆成員名單。",
+      "period": "2009-03起",
+      "source": "特偵組｜組織及歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第三屆檢察官",
+      "to": "陳雲南",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第三屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2009-03起",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第三屆檢察官",
+      "to": "林嚞慧",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第三屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2009-03起",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第三屆檢察官",
+      "to": "越方如",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第三屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2009-03起",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第三屆檢察官",
+      "to": "周士榆",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第三屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2009-03起",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第三屆檢察官",
+      "to": "李海龍",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第三屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2009-03起",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第三屆檢察官",
+      "to": "鄭富銘",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第三屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2009-03起",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第三屆檢察官",
+      "to": "姜貴昌",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第三屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2009-03起",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第三屆檢察官",
+      "to": "莊正",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第三屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2009-03起",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第三屆檢察官",
+      "to": "蔡宗熙",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第三屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2009-03起",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第三屆檢察官",
+      "to": "林弘政",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第三屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2009-03起",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第三屆檢察官",
+      "to": "汪南均",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第三屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2009-03起",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "最高法院檢察署特別偵查組",
+      "to": "特偵組｜第四屆檢察官",
+      "type": "affiliation",
+      "detail": "特偵組依維基百科記錄之第四屆成員名單。",
+      "period": "2010-05起（含2011年加入）",
+      "source": "特偵組｜組織及歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第四屆檢察官",
+      "to": "陳宏達",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第四屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2010-05起（含2011年加入）",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第四屆檢察官",
+      "to": "薛維平",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第四屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2010-05起（含2011年加入）",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第四屆檢察官",
+      "to": "張進豐",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第四屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2010-05起（含2011年加入）",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第四屆檢察官",
+      "to": "林豐文",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第四屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2010-05起（含2011年加入）",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第四屆檢察官",
+      "to": "郭永發",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第四屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2010-05起（含2011年加入）",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第四屆檢察官",
+      "to": "盧筱筠",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第四屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2010-05起（含2011年加入）",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第四屆檢察官",
+      "to": "柯宜汾",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第四屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2010-05起（含2011年加入）",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第四屆檢察官",
+      "to": "陳錫柱",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第四屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2010-05起（含2011年加入）",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第四屆檢察官",
+      "to": "謝謂誠",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第四屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2010-05起（含2011年加入）",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第四屆檢察官",
+      "to": "黃裕峰",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第四屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2010-05起（含2011年加入）",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第四屆檢察官",
+      "to": "蔡秋明",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第四屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2010-05起（含2011年加入）",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第四屆檢察官",
+      "to": "越方如",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第四屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2010-05起（含2011年加入）",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第四屆檢察官",
+      "to": "吳昭瑩",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第四屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2010-05起（含2011年加入）",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第四屆檢察官",
+      "to": "蔡鴻仁",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第四屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2010-05起（含2011年加入）",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第四屆檢察官",
+      "to": "鄭深元",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第四屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2010-05起（含2011年加入）",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜第四屆檢察官",
+      "to": "李鴻維",
+      "type": "affiliation",
+      "detail": "條目列為特偵組第四屆成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2010-05起（含2011年加入）",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "最高法院檢察署特別偵查組",
+      "to": "特偵組｜2013年國會監聽偵查",
+      "type": "affiliation",
+      "detail": "特偵組依維基百科記錄之2013年國會監聽成員名單。",
+      "period": "2013",
+      "source": "特偵組｜組織及歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜2013年國會監聽偵查",
+      "to": "黃世銘",
+      "type": "affiliation",
+      "detail": "條目列為特偵組2013年國會監聽成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2013",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜2013年國會監聽偵查",
+      "to": "楊榮宗",
+      "type": "affiliation",
+      "detail": "條目列為特偵組2013年國會監聽成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2013",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜2013年國會監聽偵查",
+      "to": "鄭深元",
+      "type": "affiliation",
+      "detail": "條目列為特偵組2013年國會監聽成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2013",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "最高法院檢察署特別偵查組",
+      "to": "特偵組｜2016年末期",
+      "type": "affiliation",
+      "detail": "特偵組依維基百科記錄之2016年末期成員名單。",
+      "period": "2016-09",
+      "source": "特偵組｜組織及歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜2016年末期",
+      "to": "郭文東",
+      "type": "affiliation",
+      "detail": "條目列為特偵組2016年末期成員或主管；不表示參與同一案件或在整個時段都任職。",
+      "period": "2016-09",
+      "source": "特偵組｜歷屆成員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "2016特偵組裁撤立法",
+      "to": "尤美女",
+      "type": "event",
+      "detail": "2016年司法及法制委員會討論修法並於2016年11月18日三讀後支持廢除特偵組。",
+      "period": "2016-09–11",
+      "source": "中央社｜特偵組裁撤",
+      "url": "https://www.cna.com.tw/news/aipl/201611180190.aspx"
+    },
+    {
+      "from": "2016特偵組裁撤立法",
+      "to": "林為洲",
+      "type": "event",
+      "detail": "2016年立法院司法及法制委員會審議時，表明反對廢除特偵組並要求列入紀錄。",
+      "period": "2016-09–11",
+      "source": "中央社｜特偵組裁撤",
+      "url": "https://www.cna.com.tw/news/aipl/201611180190.aspx"
+    },
+    {
+      "from": "2016特偵組裁撤立法",
+      "to": "林德福",
+      "type": "event",
+      "detail": "2016年三讀後公開提出對廢除特偵組的疑慮。",
+      "period": "2016-09–11",
+      "source": "中央社｜特偵組裁撤",
+      "url": "https://www.cna.com.tw/news/aipl/201611180190.aspx"
+    },
+    {
+      "from": "2016特偵組裁撤立法",
+      "to": "邱太三",
+      "type": "event",
+      "detail": "2016年時任法務部長，公開分析特偵組設置層級與程序的問題。",
+      "period": "2016-09–11",
+      "source": "中央社｜特偵組裁撤",
+      "url": "https://www.cna.com.tw/news/aipl/201611180190.aspx"
+    },
+    {
+      "from": "最高法院檢察署特別偵查組",
+      "to": "2016特偵組裁撤立法",
+      "type": "event",
+      "detail": "2016年11月18日立法院三讀修正法院組織法，2017年1月1日施行，特偵組正式裁撤。",
+      "period": "2016–2017",
+      "source": "中央社｜特偵組裁撤",
+      "url": "https://www.cna.com.tw/news/aipl/201611180190.aspx"
+    },
+    {
+      "from": "特偵組｜陳水扁家庭密帳案調查",
+      "to": "陳水扁",
+      "type": "event",
+      "detail": "前總統，特偵組曾偵辦其家庭密帳及國務機要費等案件；刑事案件不同審級裁判結果須逐案核實。",
+      "period": "2008–2009",
+      "source": "特偵組｜重大偵辦案件",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜陳水扁家庭密帳案調查",
+      "to": "吳淑珍",
+      "type": "event",
+      "detail": "條目記錄涉及相關刑事偵查及審理的前總統配偶；不以條目早年審判表認定最終結果。",
+      "period": "2008–2009",
+      "source": "特偵組｜重大偵辦案件",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜陳水扁家庭密帳案調查",
+      "to": "陳致中",
+      "type": "event",
+      "detail": "條目列為扁家海外財產相關案件被告之一；不因共屬案件推論已定罪。",
+      "period": "2008–2009",
+      "source": "特偵組｜重大偵辦案件",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜陳水扁家庭密帳案調查",
+      "to": "黃睿靚",
+      "type": "event",
+      "detail": "條目列為扁家海外財產相關案件被告之一；不因共屬案件推論已定罪。",
+      "period": "2008–2009",
+      "source": "特偵組｜重大偵辦案件",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜2012林益世案件偵查",
+      "to": "林益世",
+      "type": "event",
+      "detail": "2012年特偵組偵辦相關收賄索賄與施壓調查；此節點僅記錄偵查，不描述判決定讞。",
+      "period": "2012",
+      "source": "特偵組｜重大偵辦案件",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜拉法葉軍購案偵訊",
+      "to": "李登輝",
+      "type": "event",
+      "detail": "2006年就拉法葉軍購案曾接受相關司法機關偵訊；條目以查黑中心及特偵組時期並列，2006年早於特偵組成立。",
+      "period": "2006（特偵組成立前）",
+      "source": "特偵組｜案件史背景",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "特偵組｜拉法葉軍購案偵訊",
+      "to": "郝柏村",
+      "type": "event",
+      "detail": "2006年就拉法葉軍購案曾接受相關司法機關偵訊；條目以查黑中心及特偵組時期並列，2006年早於特偵組成立。",
+      "period": "2006（特偵組成立前）",
+      "source": "特偵組｜案件史背景",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "最高法院檢察署特別偵查組",
+      "to": "特偵組｜陳水扁家庭密帳案調查",
+      "type": "case",
+      "detail": "特偵組曾偵辦扁家海外財產等案件，詳細罪責應另核對每案裁判；同案出現不等於共犯。",
+      "period": "2008–2009",
+      "source": "特偵組｜重大偵辦案件",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "最高法院檢察署特別偵查組",
+      "to": "特偵組｜2012林益世案件偵查",
+      "type": "case",
+      "detail": "特偵組偵辦2012年林益世相關案件，未在此節點作裁判狀態總結。",
+      "period": "2012",
+      "source": "特偵組｜重大偵辦案件",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
+    },
+    {
+      "from": "最高法院檢察署特別偵查組",
+      "to": "2013國會監聽揭露",
+      "type": "event",
+      "detail": "特偵組為2013國會監聽事件涉及之偵查機關；法務部調查、監察程序和法院判決分別記錄。",
+      "period": "2013",
+      "source": "特偵組｜監聽國會",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84"
     }
   ]
 }

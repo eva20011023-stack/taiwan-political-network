@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "issue": "https://github.com/eva20011023-stack/taiwan-political-network/issues/1",
+  "issue_number": 1,
+  "processed": [],
+  "skipped": [],
+  "failed": [],
+  "last_run": "",
+  "notes": "Automated ChatGPT queue state. Only mark processed after successfully committing graph/source updates. Canonical key is normalized zh.wikipedia.org/wiki/<title>. Do not store personal data."
+}

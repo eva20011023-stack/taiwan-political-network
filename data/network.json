@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "臺灣政治人物關係圖譜｜政治人物 × 媒體節目",
+    "title": "臺灣政治人物關係圖譜｜持續擴充維基百科人物資料",
     "date": "2026-10-17",
-    "scope": "整合七篇政治人物與政爭條目，並新增《TVBS戰情室》維基百科條目明列之主持人、代班主持人、製作核心及常見來賓名單。節目名單不是完整逐集登場紀錄，也不等同於目前正式黨籍、私交或同場節目。",
+    "scope": "以公開維基條目逐篇加入人物、職務、競選、政治事件、媒體節目，保留年份、資料來源和限定解釋。",
     "sources": [
       {
         "name": "新黨",
@@ -35,6 +35,14 @@
       {
         "name": "TVBS戰情室",
         "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+      },
+      {
+        "name": "曾玟學",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+      },
+      {
+        "name": "陳培瑜",
+        "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
       }
     ],
     "relation_note": "節目主持／來賓／製作節點為媒體出演關係，不能解讀為政治合作、共識、私人往來或曾在同一集節目共現。黨籍標籤中僅依節目分組推定者非即時黨籍查證。",
@@ -2019,7 +2027,9 @@
       "id": "賴品妤",
       "label": "賴品妤",
       "group": "historical",
-      "notes": [],
+      "notes": [
+        "曾玟學的公開伴侶，兩人於2020年公布關係。"
+      ],
       "party": {
         "code": "DPP",
         "kind": "last_documented",
@@ -2086,7 +2096,9 @@
       "id": "黃國昌",
       "label": "黃國昌",
       "group": "historical",
-      "notes": [],
+      "notes": [
+        "2020年時代力量黨內錄音檔及曾玟學退黨相關爭議中提及。"
+      ],
       "party": {
         "code": "TPP",
         "kind": "current_documented",
@@ -2167,14 +2179,16 @@
     {
       "id": "曾玟學",
       "label": "曾玟學",
-      "group": "historical",
-      "notes": [],
+      "group": "current",
+      "notes": [
+        "2018年當選苗栗縣議員，2020年8月退出時代力量，2022年以無黨籍連任；條目記載2026年宣布參選頭份市長。"
+      ],
       "party": {
-        "code": "NPP",
-        "kind": "historical_only",
-        "as_of": "2018–2020（歷史紀錄，已離黨）",
-        "source": "https://zh.wikipedia.org/wiki/時代力量",
-        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+        "code": "IND",
+        "kind": "current_documented",
+        "as_of": "2026-06",
+        "source": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8",
+        "qualification": "條目資訊框列無黨籍，2022及2024選舉亦以無黨籍參選；2026選舉身分依條目，仍應以選舉公告核對"
       }
     },
     {
@@ -3427,14 +3441,16 @@
       "label": "陳培瑜",
       "group": "current",
       "notes": [
-        "管碧玲辭去2020年不分區立委職務後的遞補立委。"
+        "管碧玲辭去2020年不分區立委職務後的遞補立委。",
+        "2023年2月6日因管碧玲轉任海洋委員會主委而遞補不分區立委；2024年再次以民進黨不分區立委身分連任。",
+        "曾任國文教師、創辦凱風卡瑪兒童書店，推動兒童閱讀及多元文化教育；2025年2月條目載其接任民進黨立法院黨團書記長。"
       ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "尚未查證可靠的政黨歸屬"
+        "code": "DPP",
+        "kind": "current_documented",
+        "as_of": "2026-07（維基頁面黨內委員會名單）",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C",
+        "qualification": "維基2026年7月列表載民進黨中常委／中執委，非獨立查核最新名冊"
       }
     },
     {
@@ -4801,6 +4817,258 @@
         "source": "",
         "qualification": "尚未獨立查核黨籍"
       }
+    },
+    {
+      "id": "徐永明",
+      "label": "徐永明",
+      "group": "historical",
+      "notes": [
+        "曾玟學早期於時代力量工作時曾參與徐永明競選團隊。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍未另核對"
+      }
+    },
+    {
+      "id": "徐定禎",
+      "label": "徐定禎",
+      "group": "historical",
+      "notes": [
+        "2022年民進黨苗栗縣長候選人，曾玟學擔任競選總部發言人。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "historical_only",
+        "as_of": "2022",
+        "source": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8",
+        "qualification": "2022年苗栗縣長選舉民進黨候選人；非即時黨籍查核"
+      }
+    },
+    {
+      "id": "邱鎮軍",
+      "label": "邱鎮軍",
+      "group": "historical",
+      "notes": [
+        "2024苗栗縣第二選區立委選舉，與曾玟學為競選對手。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "2024",
+        "source": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8",
+        "qualification": "2024立委選舉候選人黨籍，須另核對目前黨籍"
+      }
+    },
+    {
+      "id": "鄭聚然",
+      "label": "鄭聚然",
+      "group": "historical",
+      "notes": [
+        "2019年南庄國中受中國酒商捐款爭論，與曾玟學先後提出議會質詢。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "2019",
+        "source": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8",
+        "qualification": "條目所載2019苗栗議員黨籍，非當前核實"
+      }
+    },
+    {
+      "id": "江村貴",
+      "label": "江村貴",
+      "group": "historical",
+      "notes": [
+        "2019年苗栗縣議會預算書資料調閱爭議中，與曾玟學有議場公開衝突。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍未另核對"
+      }
+    },
+    {
+      "id": "李文斌",
+      "label": "李文斌",
+      "group": "historical",
+      "notes": [
+        "第二十屆苗栗縣議會議長；與曾玟學同屬縣議會制度節點，未據此推論私交。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍未另核對"
+      }
+    },
+    {
+      "id": "2020曾玟學退出時代力量",
+      "label": "2020曾玟學退出時代力量",
+      "group": "hub",
+      "notes": [
+        "為公開事件或機關組織節點，同屬一事件不等於私人相識或政治合作。"
+      ]
+    },
+    {
+      "id": "2022徐定禎苗栗縣長競選團隊",
+      "label": "2022徐定禎苗栗縣長競選團隊",
+      "group": "hub",
+      "notes": [
+        "為公開事件或機關組織節點，同屬一事件不等於私人相識或政治合作。"
+      ]
+    },
+    {
+      "id": "2024苗栗縣第二選區立委選舉",
+      "label": "2024苗栗縣第二選區立委選舉",
+      "group": "hub",
+      "notes": [
+        "為公開事件或機關組織節點，同屬一事件不等於私人相識或政治合作。"
+      ]
+    },
+    {
+      "id": "2026頭份市長選舉",
+      "label": "2026頭份市長選舉",
+      "group": "hub",
+      "notes": [
+        "為公開事件或機關組織節點，同屬一事件不等於私人相識或政治合作。"
+      ]
+    },
+    {
+      "id": "2019苗栗縣議會資料調閱爭議",
+      "label": "2019苗栗縣議會資料調閱爭議",
+      "group": "hub",
+      "notes": [
+        "為公開事件或機關組織節點，同屬一事件不等於私人相識或政治合作。"
+      ]
+    },
+    {
+      "id": "蔡易餘",
+      "label": "蔡易餘",
+      "group": "historical",
+      "notes": [
+        "2025年民進黨立院黨團書記長前任，陳培瑜接任。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍未另核對"
+      }
+    },
+    {
+      "id": "張菊芳",
+      "label": "張菊芳",
+      "group": "historical",
+      "notes": [
+        "2023年民進黨不分區立委原定遞補順位人選，因已任監察委員未遞補。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍未另核對"
+      }
+    },
+    {
+      "id": "游錫堃",
+      "label": "游錫堃",
+      "group": "historical",
+      "notes": [
+        "第十屆立法院院長，為陳培瑜曾經任職的院會職務背景。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍未另核對"
+      }
+    },
+    {
+      "id": "范雲",
+      "label": "范雲",
+      "group": "historical",
+      "notes": [
+        "2026民進黨中常委名單人物，與陳培瑜同屬該組織，不代表合作。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍未另核對"
+      }
+    },
+    {
+      "id": "蔡其昌",
+      "label": "蔡其昌",
+      "group": "historical",
+      "notes": [
+        "民進黨立法院黨團重要幹部，陳培瑜履歷所屬黨團同僚。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍未另核對"
+      }
+    },
+    {
+      "id": "顧瑜君",
+      "label": "顧瑜君",
+      "group": "historical",
+      "notes": [
+        "陳培瑜國立東華大學教育研究所論文指導教授。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "黨籍未另核對"
+      }
+    },
+    {
+      "id": "2023陳培瑜遞補立委",
+      "label": "2023陳培瑜遞補立委",
+      "group": "hub",
+      "notes": [
+        "為公開事件或機關組織節點，同屬一事件不等於私人相識或政治合作。"
+      ]
+    },
+    {
+      "id": "2025民進黨立院黨團書記長交接",
+      "label": "2025民進黨立院黨團書記長交接",
+      "group": "hub",
+      "notes": [
+        "為公開事件或機關組織節點，同屬一事件不等於私人相識或政治合作。"
+      ]
+    },
+    {
+      "id": "2026民進黨中央常務委員會",
+      "label": "2026民進黨中央常務委員會",
+      "group": "hub",
+      "notes": [
+        "為公開事件或機關組織節點，同屬一事件不等於私人相識或政治合作。"
+      ]
+    },
+    {
+      "id": "凱風卡瑪兒童書店",
+      "label": "凱風卡瑪兒童書店",
+      "group": "hub",
+      "notes": [
+        "陳培瑜創辦的兒童獨立書店，主要從事兒童閱讀教育，不是政治關係。"
+      ]
     }
   ],
   "edges": [
@@ -9762,6 +10030,294 @@
       "period": "條目最後修訂：2026-07-01",
       "source": "〈TVBS戰情室〉｜節目製作",
       "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "曾玟學",
+      "to": "賴品妤",
+      "type": "family",
+      "detail": "條目列載兩人為公開伴侶，於2020年對外公布交往關係；非婚姻關係推論。",
+      "period": "2020年至條目查閱",
+      "source": "資訊框／家庭背景",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "曾玟學",
+      "to": "黃國昌",
+      "type": "dispute",
+      "detail": "2020年時代力量黨內錄音檔涉及黃國昌對曾玟學的評論，曾玟學公開表達失望並於8月退出時代力量。",
+      "period": "2020-08",
+      "source": "退出時代力量",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "曾玟學",
+      "to": "徐永明",
+      "type": "affiliation",
+      "detail": "曾玟學在時代力量臺中黨部服務時，曾參與徐永明競選團隊。",
+      "period": "2018以前",
+      "source": "從政",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "曾玟學",
+      "to": "徐定禎",
+      "type": "cooperate",
+      "detail": "2022年曾玟學擔任徐定禎苗栗縣長競選總部發言人。",
+      "period": "2022",
+      "source": "徐定禎競總發言人",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "曾玟學",
+      "to": "邱鎮軍",
+      "type": "contest",
+      "detail": "2024年第11屆立委選舉苗栗縣第二選區的兩位候選人，曾玟學未當選。",
+      "period": "2024",
+      "source": "參選立委",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "曾玟學",
+      "to": "鄭聚然",
+      "type": "dispute",
+      "detail": "2019年南庄國中中國酒商捐款案，兩人分別提出質詢，對捐款性質及統戰疑慮立場不同。",
+      "period": "2019-05",
+      "source": "苗栗縣議員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "曾玟學",
+      "to": "江村貴",
+      "type": "dispute",
+      "detail": "2019年曾玟學向苗栗縣政府索取預算資料遭拒後，議場內與江村貴發生公開口角。",
+      "period": "2019-11",
+      "source": "苗栗縣議員",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "2020曾玟學退出時代力量",
+      "to": "曾玟學",
+      "type": "event",
+      "detail": "2020年8月宣布退出時代力量。",
+      "period": "2020-08",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "2020曾玟學退出時代力量",
+      "to": "黃國昌",
+      "type": "event",
+      "detail": "黨內錄音檔出現其對曾玟學的評論，引發公開爭議。",
+      "period": "2020-08",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "2022徐定禎苗栗縣長競選團隊",
+      "to": "徐定禎",
+      "type": "event",
+      "detail": "2022年民進黨提名參選苗栗縣長。",
+      "period": "2022",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "2022徐定禎苗栗縣長競選團隊",
+      "to": "曾玟學",
+      "type": "event",
+      "detail": "擔任徐定禎競選總部發言人；自身以無黨籍競選議員連任。",
+      "period": "2022",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "2024苗栗縣第二選區立委選舉",
+      "to": "曾玟學",
+      "type": "event",
+      "detail": "以無黨籍身分與民進黨民主大聯盟合作參選，取得72,749票，未當選。",
+      "period": "2024",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "2024苗栗縣第二選區立委選舉",
+      "to": "邱鎮軍",
+      "type": "event",
+      "detail": "與曾玟學同選區競爭，依結果當選立委。",
+      "period": "2024",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "2026頭份市長選舉",
+      "to": "曾玟學",
+      "type": "event",
+      "detail": "2026年6月宣布參選頭份市長；此僅記候選意向，不預測結果。",
+      "period": "2026",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "2019苗栗縣議會資料調閱爭議",
+      "to": "曾玟學",
+      "type": "event",
+      "detail": "議會預算資料調閱及未拆封預算書照片引發爭議。",
+      "period": "2019-11–12",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "2019苗栗縣議會資料調閱爭議",
+      "to": "江村貴",
+      "type": "event",
+      "detail": "於議場公開反駁曾玟學，出現言語衝突。",
+      "period": "2019-11–12",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "二〇四六 台灣",
+      "to": "曾玟學",
+      "type": "event",
+      "detail": "2020年10月曾玟學與賴品妤、林昶佐、洪申翰等人共同籌組『二〇四六 台灣』；共同組織不等於私人交情。",
+      "period": "2020-10",
+      "source": "政治連線",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "民主鬥陣",
+      "to": "曾玟學",
+      "type": "affiliation",
+      "detail": "條目經歷欄列曾玟學曾任民主鬥陣總召集人。",
+      "period": "歷史經歷，年份待查",
+      "source": "資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8"
+    },
+    {
+      "from": "陳培瑜",
+      "to": "柯建銘",
+      "type": "affiliation",
+      "detail": "條目資訊框列陳培瑜2025年2月3日出任民進黨立法院黨團書記長時，總召為柯建銘；兩者為黨團職務關係。",
+      "period": "2025-02",
+      "source": "資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+    },
+    {
+      "from": "陳培瑜",
+      "to": "蔡易餘",
+      "type": "affiliation",
+      "detail": "民進黨立院黨團書記長職務前後任，陳培瑜於2025年2月接替蔡易餘。",
+      "period": "2025-02",
+      "source": "資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+    },
+    {
+      "from": "陳培瑜",
+      "to": "張菊芳",
+      "type": "event",
+      "detail": "2023年管碧玲辭任不分區立委後，原定遞補的張菊芳已任監察委員，因此由陳培瑜遞補；非私人關係。",
+      "period": "2023",
+      "source": "政治參與",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+    },
+    {
+      "from": "陳培瑜",
+      "to": "顧瑜君",
+      "type": "affiliation",
+      "detail": "陳培瑜東華大學教育研究所碩士論文指導教授為顧瑜君。",
+      "period": "求學期間（具體年份待查）",
+      "source": "個人背景",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+    },
+    {
+      "from": "2023陳培瑜遞補立委",
+      "to": "管碧玲",
+      "type": "event",
+      "detail": "2023年1月31日辭去不分區立委，改任海洋委員會主任委員。",
+      "period": "2023-01–02",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+    },
+    {
+      "from": "2023陳培瑜遞補立委",
+      "to": "陳培瑜",
+      "type": "event",
+      "detail": "2023年2月6日遞補民進黨不分區立委。",
+      "period": "2023-01–02",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+    },
+    {
+      "from": "2023陳培瑜遞補立委",
+      "to": "張菊芳",
+      "type": "event",
+      "detail": "原定遞補者，因已任監察委員未遞補。",
+      "period": "2023-01–02",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+    },
+    {
+      "from": "2025民進黨立院黨團書記長交接",
+      "to": "陳培瑜",
+      "type": "event",
+      "detail": "條目資訊框記載於2025年2月3日接任黨團書記長。",
+      "period": "2025-02",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+    },
+    {
+      "from": "2025民進黨立院黨團書記長交接",
+      "to": "蔡易餘",
+      "type": "event",
+      "detail": "書記長前任。",
+      "period": "2025-02",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+    },
+    {
+      "from": "2025民進黨立院黨團書記長交接",
+      "to": "柯建銘",
+      "type": "event",
+      "detail": "當時黨團總召。",
+      "period": "2025-02",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+    },
+    {
+      "from": "2026民進黨中央常務委員會",
+      "to": "陳培瑜",
+      "type": "event",
+      "detail": "條目所列2026年7月20日起的中常委名單。",
+      "period": "2026-07",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+    },
+    {
+      "from": "2026民進黨中央常務委員會",
+      "to": "賴清德",
+      "type": "event",
+      "detail": "條目所列2026年黨主席及當然中常委。",
+      "period": "2026-07",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+    },
+    {
+      "from": "2026民進黨中央常務委員會",
+      "to": "范雲",
+      "type": "event",
+      "detail": "條目所列2026年當然中常委；同組織不代表與陳培瑜私交。",
+      "period": "2026-07",
+      "source": "條目事件紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+    },
+    {
+      "from": "凱風卡瑪兒童書店",
+      "to": "陳培瑜",
+      "type": "affiliation",
+      "detail": "陳培瑜2007年在花蓮創辦，約於2013年結束經營。",
+      "period": "2007–2013",
+      "source": "個人背景",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
     }
   ]
 }

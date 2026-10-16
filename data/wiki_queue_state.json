@@ -50,25 +50,28 @@
       "summary": "增錄歷屆檢察官與組長分屆節點、特定司法偵查、2016年裁撤修法及2017年生效；未把偵查當成定罪。（本輪兩篇合計新增62節點、99筆關係；未按條目分攤計數。）",
       "commit_sha": "5a291a46f69f62998af56a13d40107da792774b5",
       "processed_at": "2026-10-16T22:11:34.269Z"
-    }
-  ],
-  "skipped": [],
-  "failed": [],
-  "last_run": "2026-10-16T22:18:39.754Z",
-  "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
-  "processing": [
+    },
     {
       "key": "zh:邱太三",
       "url": "https://zh.wikipedia.org/wiki/%E9%82%B1%E5%A4%AA%E4%B8%89",
       "title": "邱太三",
-      "started_at": "2026-10-16T22:18:39.754Z"
+      "summary": "補上高雄及桃園市府、法務部、國安會、陸委會職務沿革；區分2019年陳情爭議、監察院未通過彈劾及調查報告判斷。與王金平條目本輪合計新增48節點、89連線。",
+      "commit_sha": "bb24100e881d8c948b615bd5919bba181c5fe063",
+      "processed_at": "2026-10-16T22:23:24.226Z"
     },
     {
       "key": "zh:王金平",
       "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%87%91%E5%B9%B3",
       "title": "王金平",
-      "started_at": "2026-10-16T22:18:39.754Z"
+      "summary": "補上1999年立法院長改選與前後任、2000年國民黨副主席、2014年太陽花國會協商、2022高雄助選與2026最高顧問任命。與邱太三條目本輪合計新增48節點、89連線。",
+      "commit_sha": "bb24100e881d8c948b615bd5919bba181c5fe063",
+      "processed_at": "2026-10-16T22:23:24.226Z"
     }
   ],
-  "last_checked_at": "2026-10-16T22:18:39.754Z"
+  "skipped": [],
+  "failed": [],
+  "last_run": "2026-10-16T22:23:24.226Z",
+  "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
+  "processing": [],
+  "last_checked_at": "2026-10-16T22:23:24.226Z"
 }

@@ -2,7 +2,7 @@
 
 固定網址：https://eva20011023-stack.github.io/taiwan-political-network/
 
-這是一份持續擴充的、依公開來源整理的政治人物關係資料庫。現在整合維基百科〈新黨〉、〈張榮味〉、〈王鴻薇〉、〈吳崢〉、〈王建煊〉、〈九月政爭〉、〈管碧玲〉、〈TVBS戰情室〉。
+這是一份持續擴充的、依公開來源整理的政治人物關係資料庫。現在整合維基百科〈新黨〉、〈張榮味〉、〈王鴻薇〉、〈吳崢〉、〈王建煊〉、〈九月政爭〉、〈管碧玲〉、〈TVBS戰情室〉、〈陳為廷〉、〈監聽國會事件〉。
 
 ## 使用方式
 
@@ -61,3 +61,7 @@
 ## 維基網址投遞與進度
 
 使用者可在 [公開維基投遞箱（Issue #1）](https://github.com/eva20011023-stack/taiwan-political-network/issues/1) 以留言方式連續提交任意維基網址。支援 `/wiki/`、`/zh-tw/` 等維基路徑。公開 [投遞進度看板](https://eva20011023-stack.github.io/taiwan-political-network/queue.html) 讀取 GitHub 留言和 `data/wiki_queue_state.json`，顯示排隊、處理中、已完成、待重試與略過。每小時的 ChatGPT 排程最多嘗試兩篇，處理時間並非保證。網址須為 repository owner `eva20011023-stack` 發送的公開留言，以免開放 Issue 遭第三人任意注入資料。開始前寫入 `processing`，推送成功後才移到 `processed`，並在 `last_run`/`last_checked_at` 記錄時間。
+
+## 2013年監聽國會事件來源註記
+
+2013年法務部[監聽事件調查](https://www.moj.gov.tw/2204/2795/2796/56617/)認定未有證據證明故意監聽國會總機，但查證／監督存在違失；這是行政調查結果，應與個別民事訴訟或洩密罪刑事案件分開呈現。2019年馬英九洩密案更一審無罪確定，不能誤以2018年二審有罪判決為最終判決。

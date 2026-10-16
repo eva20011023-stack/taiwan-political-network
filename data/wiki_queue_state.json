@@ -34,12 +34,32 @@
       "summary": "補完法務部2013監聽調查小組11人及工作責任、院內通話疑雲、民事求償與2019年馬英九更一審無罪確定。行政報告與指控分開。",
       "commit_sha": "9614497b992cd4cf299124d46fbd19d8a8ba926e",
       "processed_at": "2026-10-16T22:02:03.724Z"
+    },
+    {
+      "key": "zh:柯建銘",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9F%AF%E5%BB%BA%E9%8A%98",
+      "title": "柯建銘",
+      "summary": "補充代理民進黨主席、2016年新竹立委選舉、2013會計法修法與2026年黨團總召交接，並區分公開政治事件與私人關係。",
+      "added_nodes": 13,
+      "added_edges": 23,
+      "commit_sha": "5a291a46f69f62998af56a13d40107da792774b5",
+      "processed_at": "2026-10-16T22:11:34.269Z"
+    },
+    {
+      "key": "zh:最高法院檢察署特別偵查組",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E6%AA%A2%E5%AF%9F%E7%BD%B2%E7%89%B9%E5%88%A5%E5%81%B5%E6%9F%A5%E7%B5%84",
+      "title": "最高法院檢察署特別偵查組",
+      "summary": "增錄歷屆檢察官與組長分屆節點、特定司法偵查、2016年裁撤修法及2017年生效；未把偵查當成定罪。",
+      "added_nodes": 49,
+      "added_edges": 76,
+      "commit_sha": "5a291a46f69f62998af56a13d40107da792774b5",
+      "processed_at": "2026-10-16T22:11:34.269Z"
     }
   ],
   "skipped": [],
   "failed": [],
-  "last_run": "2026-10-16T22:02:03.724Z",
+  "last_run": "2026-10-16T22:11:34.269Z",
   "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
   "processing": [],
-  "last_checked_at": "2026-10-16T22:02:03.724Z"
+  "last_checked_at": "2026-10-16T22:11:34.269Z"
 }

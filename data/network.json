@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "臺灣政治人物關係網｜新增管碧玲",
+    "title": "臺灣政治人物關係圖譜｜政治人物 × 媒體節目",
     "date": "2026-10-17",
-    "scope": "整合維基百科〈新黨〉〈張榮味〉〈王鴻薇〉〈吳崢〉〈王建煊〉〈九月政爭〉及〈管碧玲〉條目明確記錄的公開職務、親屬、選舉、政策與事件；共同事件不代表私交。",
+    "scope": "整合七篇政治人物與政爭條目，並新增《TVBS戰情室》維基百科條目明列之主持人、代班主持人、製作核心及常見來賓名單。節目名單不是完整逐集登場紀錄，也不等同於目前正式黨籍、私交或同場節目。",
     "sources": [
       {
         "name": "新黨",
@@ -31,9 +31,13 @@
       {
         "name": "管碧玲",
         "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+      },
+      {
+        "name": "TVBS戰情室",
+        "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
       }
     ],
-    "relation_note": "九月政爭條目包含當事人爭議性說法，關說／監聽／洩密指控與後來司法判決不能混為一談；同一案件出現不等於彼此認識或共同違法。",
+    "relation_note": "節目主持／來賓／製作節點為媒體出演關係，不能解讀為政治合作、共識、私人往來或曾在同一集節目共現。黨籍標籤中僅依節目分組推定者非即時黨籍查證。",
     "party": {
       "as_of": "2026-10-17",
       "policy": "有近期資料佐證者標近期黨籍，只有舊提名或黨職記錄則顯示為歷史／最近紀錄；離黨及未核對者不當成現任黨員。顏色只反映資料分類，非政治立場或私人關係。",
@@ -229,7 +233,8 @@
       "label": "侯漢廷",
       "group": "current",
       "notes": [
-        "條目所列全國委員會委員，臺北市議員。"
+        "條目所列全國委員會委員，臺北市議員。",
+        "《TVBS戰情室》條目列為「新黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
       ],
       "party": {
         "code": "NP",
@@ -424,7 +429,8 @@
       "label": "趙少康",
       "group": "founder",
       "notes": [
-        "條目列為新黨創黨成員。"
+        "條目列為新黨創黨成員。",
+        "《TVBS戰情室》條目列載主持／代班經歷。"
       ],
       "party": {
         "code": "KMT",
@@ -677,7 +683,9 @@
       "id": "賴士葆",
       "label": "賴士葆",
       "group": "historical",
-      "notes": [],
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
       "party": {
         "code": "KMT",
         "kind": "last_documented",
@@ -703,7 +711,9 @@
       "id": "費鴻泰",
       "label": "費鴻泰",
       "group": "historical",
-      "notes": [],
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
       "party": {
         "code": "KMT",
         "kind": "last_documented",
@@ -930,7 +940,8 @@
       "group": "current",
       "notes": [
         "條目稱2013年轉入中國國民黨，導致臺北市議會新黨黨團解散。",
-        "2006–2013年新黨籍，2013年轉入國民黨；2023年當選臺北市第三選區立委。"
+        "2006–2013年新黨籍，2013年轉入國民黨；2023年當選臺北市第三選區立委。",
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
       ],
       "party": {
         "code": "KMT",
@@ -960,7 +971,8 @@
       "label": "林郁方",
       "group": "historical",
       "notes": [
-        "曾列入條目新黨立委名單／選舉結果表。"
+        "曾列入條目新黨立委名單／選舉結果表。",
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
       ],
       "party": {
         "code": "KMT",
@@ -1408,7 +1420,8 @@
       "label": "張嘉郡",
       "group": "family",
       "notes": [
-        "張榮味長女，條目載有立委經歷與2015年是否參選的討論。"
+        "張榮味長女，條目載有立委經歷與2015年是否參選的討論。",
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
       ],
       "party": {
         "code": "KMT",
@@ -1853,7 +1866,8 @@
       "label": "吳崢",
       "group": "current",
       "notes": [
-        "曾任太陽花學運媒體組組長、時代力量與民進黨發言人，曾任林昶佐及林亮君幕僚。"
+        "曾任太陽花學運媒體組組長、時代力量與民進黨發言人，曾任林昶佐及林亮君幕僚。",
+        "《TVBS戰情室》條目列為「民進黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
       ],
       "party": {
         "code": "DPP",
@@ -1990,7 +2004,9 @@
       "id": "林亮君",
       "label": "林亮君",
       "group": "current",
-      "notes": [],
+      "notes": [
+        "《TVBS戰情室》條目列為「民進黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
       "party": {
         "code": "DPP",
         "kind": "current_documented",
@@ -2096,7 +2112,9 @@
       "id": "張之豪",
       "label": "張之豪",
       "group": "current",
-      "notes": [],
+      "notes": [
+        "《TVBS戰情室》條目列為「民進黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
       "party": {
         "code": "DPP",
         "kind": "last_documented",
@@ -2135,7 +2153,9 @@
       "id": "戴瑋姍",
       "label": "戴瑋姍",
       "group": "current",
-      "notes": [],
+      "notes": [
+        "《TVBS戰情室》條目列為「民進黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
       "party": {
         "code": "DPP",
         "kind": "last_documented",
@@ -2213,7 +2233,9 @@
       "id": "張志豪",
       "label": "張志豪",
       "group": "historical",
-      "notes": [],
+      "notes": [
+        "同名提醒：TVBS戰情室列有另一位「張志豪」（台灣民眾黨），已用另一個 ID 分開建檔。"
+      ],
       "party": {
         "code": "DPP",
         "kind": "last_documented",
@@ -2239,7 +2261,9 @@
       "id": "黃揚明",
       "label": "黃揚明",
       "group": "external",
-      "notes": [],
+      "notes": [
+        "《TVBS戰情室》條目列為「政治評論員」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
       "party": {
         "code": "OTHER",
         "kind": "uncertain",
@@ -2252,13 +2276,15 @@
       "id": "江怡臻",
       "label": "江怡臻",
       "group": "current",
-      "notes": [],
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
       }
     },
     {
@@ -3737,6 +3763,1044 @@
       "notes": [
         "此節點僅紀錄公開事件；同一事件不等於彼此有私人往來或共同立場。"
       ]
+    },
+    {
+      "id": "TVBS戰情室",
+      "label": "TVBS戰情室",
+      "group": "hub",
+      "notes": [
+        "TVBS政論／時事評論節目群：平日《少康戰情室》、週末《TVBS戰情室》及歷史時段；節目出場／名單不等於兩人直接認識。"
+      ]
+    },
+    {
+      "id": "TVBS戰情室｜主要主持",
+      "label": "TVBS戰情室｜主要主持",
+      "group": "hub",
+      "notes": [
+        "節目條目列載趙少康、錢怡君、陳諺瑩主持及代班時段；可能有歷史變動。"
+      ]
+    },
+    {
+      "id": "TVBS戰情室｜代班主持",
+      "label": "TVBS戰情室｜代班主持",
+      "group": "hub",
+      "notes": [
+        "條目「代班主持人」名單；未逐集核對登場時間。"
+      ]
+    },
+    {
+      "id": "TVBS戰情室｜2019週末戰情室",
+      "label": "TVBS戰情室｜2019週末戰情室",
+      "group": "hub",
+      "notes": [
+        "2019年《周末戰情室》姊妹節目主持；與後來《TVBS戰情室》週末時段不同，勿視為同一集出演。"
+      ]
+    },
+    {
+      "id": "TVBS戰情室｜2023至2024主持調整",
+      "label": "TVBS戰情室｜2023至2024主持調整",
+      "group": "hub",
+      "notes": [
+        "因趙少康參加2024年副總統選舉，2023年11月至2024年1月節目名稱和主持安排調整。"
+      ]
+    },
+    {
+      "id": "錢怡君",
+      "label": "錢怡君",
+      "group": "external",
+      "notes": [
+        "《TVBS戰情室》條目列載主持／代班經歷。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "陳諺瑩",
+      "label": "陳諺瑩",
+      "group": "external",
+      "notes": [
+        "《TVBS戰情室》條目列載主持／代班經歷。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "鄭麗文",
+      "label": "鄭麗文",
+      "group": "external",
+      "notes": [
+        "條目列為《TVBS戰情室》代班主持人，具體代班日期須另查各集。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "陳鳳馨",
+      "label": "陳鳳馨",
+      "group": "external",
+      "notes": [
+        "條目列為《TVBS戰情室》代班主持人，具體代班日期須另查各集。",
+        "《TVBS戰情室》條目列為「政治評論員」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "尹乃菁",
+      "label": "尹乃菁",
+      "group": "external",
+      "notes": [
+        "條目列為《TVBS戰情室》代班主持人，具體代班日期須另查各集。",
+        "《TVBS戰情室》條目列為「政治評論員」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "謝曜州",
+      "label": "謝曜州",
+      "group": "external",
+      "notes": [
+        "條目列為《TVBS戰情室》代班主持人，具體代班日期須另查各集。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "王淺秋",
+      "label": "王淺秋",
+      "group": "external",
+      "notes": [
+        "條目列為《TVBS戰情室》代班主持人，具體代班日期須另查各集。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "譚伊倫",
+      "label": "譚伊倫",
+      "group": "external",
+      "notes": [
+        "條目列為《TVBS戰情室》代班主持人，具體代班日期須另查各集。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "黃韻澄",
+      "label": "黃韻澄",
+      "group": "external",
+      "notes": [
+        "條目列為《TVBS戰情室》代班主持人，具體代班日期須另查各集。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "唐湘龍",
+      "label": "唐湘龍",
+      "group": "external",
+      "notes": [
+        "2019年《周末戰情室》主持人。",
+        "《TVBS戰情室》條目列為「政治評論員」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "蘭萱",
+      "label": "蘭萱",
+      "group": "external",
+      "notes": [
+        "2019年《周末戰情室》主持人。",
+        "《TVBS戰情室》條目列為「政治評論員」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "TVBS戰情室｜政治評論員",
+      "label": "TVBS戰情室｜政治評論員",
+      "group": "hub",
+      "notes": [
+        "《TVBS戰情室》條目「常見節目來賓」政治評論員分類；節目來賓紀錄不代表曾同集出現、私人交情或支持同一立場。"
+      ]
+    },
+    {
+      "id": "黃暐瀚",
+      "label": "黃暐瀚",
+      "group": "external",
+      "notes": [
+        "《TVBS戰情室》條目列為「政治評論員」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "江岷欽",
+      "label": "江岷欽",
+      "group": "external",
+      "notes": [
+        "《TVBS戰情室》條目列為「政治評論員」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "董智森",
+      "label": "董智森",
+      "group": "external",
+      "notes": [
+        "《TVBS戰情室》條目列為「政治評論員」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "葉慶元",
+      "label": "葉慶元",
+      "group": "external",
+      "notes": [
+        "《TVBS戰情室》條目列為「政治評論員」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "施正鋒",
+      "label": "施正鋒",
+      "group": "external",
+      "notes": [
+        "《TVBS戰情室》條目列為「政治評論員」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "楊永明",
+      "label": "楊永明",
+      "group": "external",
+      "notes": [
+        "《TVBS戰情室》條目列為「政治評論員」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "TVBS戰情室｜國民黨常見來賓",
+      "label": "TVBS戰情室｜國民黨常見來賓",
+      "group": "hub",
+      "notes": [
+        "《TVBS戰情室》條目「常見節目來賓」國民黨政治人物分類；節目來賓紀錄不代表曾同集出現、私人交情或支持同一立場。"
+      ]
+    },
+    {
+      "id": "李永萍",
+      "label": "李永萍",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "柯志恩",
+      "label": "柯志恩",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "游淑慧",
+      "label": "游淑慧",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "洪孟楷",
+      "label": "洪孟楷",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "張斯綱",
+      "label": "張斯綱",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "李柏毅",
+      "label": "李柏毅",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "葉元之",
+      "label": "葉元之",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "凌濤",
+      "label": "凌濤",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "鍾沛君",
+      "label": "鍾沛君",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "林沛祥",
+      "label": "林沛祥",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "徐弘庭",
+      "label": "徐弘庭",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "柳采葳",
+      "label": "柳采葳",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "李明賢",
+      "label": "李明賢",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "謝龍介",
+      "label": "謝龍介",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "萬美玲",
+      "label": "萬美玲",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "翁曉玲",
+      "label": "翁曉玲",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "王育敏",
+      "label": "王育敏",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "牛煦庭",
+      "label": "牛煦庭",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "李彥秀",
+      "label": "李彥秀",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "徐巧芯",
+      "label": "徐巧芯",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "吳宗憲",
+      "label": "吳宗憲",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "馬文君",
+      "label": "馬文君",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "陳玉珍",
+      "label": "陳玉珍",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "陳偉杰",
+      "label": "陳偉杰",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "TVBS戰情室｜民進黨常見來賓",
+      "label": "TVBS戰情室｜民進黨常見來賓",
+      "group": "hub",
+      "notes": [
+        "《TVBS戰情室》條目「常見節目來賓」民進黨政治人物分類；節目來賓紀錄不代表曾同集出現、私人交情或支持同一立場。"
+      ]
+    },
+    {
+      "id": "高嘉瑜",
+      "label": "高嘉瑜",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民進黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "陳亭妃",
+      "label": "陳亭妃",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民進黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "許智傑",
+      "label": "許智傑",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民進黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "顏蔚慈",
+      "label": "顏蔚慈",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民進黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "何孟樺",
+      "label": "何孟樺",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民進黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "張嘉玲",
+      "label": "張嘉玲",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民進黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "林秉宥",
+      "label": "林秉宥",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民進黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "李宇翔",
+      "label": "李宇翔",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民進黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "TVBS戰情室｜民眾黨常見來賓",
+      "label": "TVBS戰情室｜民眾黨常見來賓",
+      "group": "hub",
+      "notes": [
+        "《TVBS戰情室》條目「常見節目來賓」民眾黨政治人物分類；節目來賓紀錄不代表曾同集出現、私人交情或支持同一立場。"
+      ]
+    },
+    {
+      "id": "陳琬惠",
+      "label": "陳琬惠",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民眾黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "TPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "張啓楷",
+      "label": "張啓楷",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民眾黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "TPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "陳智菡",
+      "label": "陳智菡",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民眾黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "TPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "林珍羽",
+      "label": "林珍羽",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民眾黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "TPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "黃瀞瑩",
+      "label": "黃瀞瑩",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民眾黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "TPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "陳世軒",
+      "label": "陳世軒",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民眾黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "TPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "張志豪（台灣民眾黨）",
+      "label": "張志豪（民眾黨）",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民眾黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。",
+        "與既有民進黨人士「張志豪」為同名不同人，本資料庫刻意保留區別。參見：https://zh.wikipedia.org/wiki/張志豪_(台灣民眾黨)"
+      ],
+      "party": {
+        "code": "TPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "周榆修",
+      "label": "周榆修",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民眾黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "TPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "許甫",
+      "label": "許甫",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民眾黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "TPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "吳怡萱",
+      "label": "吳怡萱",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「民眾黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "TPP",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "TVBS戰情室｜新黨常見來賓",
+      "label": "TVBS戰情室｜新黨常見來賓",
+      "group": "hub",
+      "notes": [
+        "《TVBS戰情室》條目「常見節目來賓」新黨政治人物分類；節目來賓紀錄不代表曾同集出現、私人交情或支持同一立場。"
+      ]
+    },
+    {
+      "id": "TVBS戰情室｜無黨籍常見來賓",
+      "label": "TVBS戰情室｜無黨籍常見來賓",
+      "group": "hub",
+      "notes": [
+        "《TVBS戰情室》條目「常見節目來賓」無黨籍政治人物分類；節目來賓紀錄不代表曾同集出現、私人交情或支持同一立場。"
+      ]
+    },
+    {
+      "id": "沈富雄",
+      "label": "沈富雄",
+      "group": "historical",
+      "notes": [
+        "《TVBS戰情室》條目列為「無黨籍政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+      ],
+      "party": {
+        "code": "IND",
+        "kind": "last_documented",
+        "as_of": "節目條目最後修訂：2026-07-01",
+        "source": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4",
+        "qualification": "僅依《TVBS戰情室》維基條目的常見來賓政黨分類；尚未獨立確認2026年現有黨籍"
+      }
+    },
+    {
+      "id": "林莉琳",
+      "label": "林莉琳",
+      "group": "external",
+      "notes": [
+        "《TVBS戰情室》條目資訊框記載：條目列為製作人。與政治立場或私交無關。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "陳鉅志",
+      "label": "陳鉅志",
+      "group": "external",
+      "notes": [
+        "《TVBS戰情室》條目資訊框記載：條目資訊框列為製作人。與政治立場或私交無關。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
+    },
+    {
+      "id": "邵正祥",
+      "label": "邵正祥",
+      "group": "external",
+      "notes": [
+        "《TVBS戰情室》條目資訊框記載：條目資訊框列為監製。與政治立場或私交無關。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立查核黨籍"
+      }
     }
   ],
   "edges": [
@@ -7852,6 +8916,852 @@
       "period": "2014",
       "source": "言論及爭議",
       "url": "https://zh.wikipedia.org/wiki/%E7%AE%A1%E7%A2%A7%E7%8E%B2"
+    },
+    {
+      "from": "TVBS戰情室",
+      "to": "TVBS戰情室｜主要主持",
+      "type": "event",
+      "detail": "節目條目記載之節目主持角色分類。",
+      "period": "2014–2026條目記載",
+      "source": "〈TVBS戰情室〉｜節目架構",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室",
+      "to": "TVBS戰情室｜代班主持",
+      "type": "event",
+      "detail": "節目條目記載之代班主持分類。",
+      "period": "2014–2026條目記載",
+      "source": "〈TVBS戰情室〉｜節目架構",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室",
+      "to": "TVBS戰情室｜2019週末戰情室",
+      "type": "event",
+      "detail": "2019年周末姊妹節目。",
+      "period": "2014–2026條目記載",
+      "source": "〈TVBS戰情室〉｜節目架構",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室",
+      "to": "TVBS戰情室｜2023至2024主持調整",
+      "type": "event",
+      "detail": "2023年底至2024年初的特定節目安排。",
+      "period": "2014–2026條目記載",
+      "source": "〈TVBS戰情室〉｜節目架構",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜主要主持",
+      "to": "趙少康",
+      "type": "show_host",
+      "detail": "2014年起平日《少康戰情室》主持；2023-11-24因參選副總統暫離，2024-01-17恢復平日主持。",
+      "period": "2014年起（含2023–2024暫離）",
+      "source": "〈TVBS戰情室〉｜主持人",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜主要主持",
+      "to": "錢怡君",
+      "type": "show_host",
+      "detail": "2019年後多次週末《TVBS戰情室》主持；2023-11-27至2024-01-16平日主持。",
+      "period": "2019年起（各時段依條目）",
+      "source": "〈TVBS戰情室〉｜主持人",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜主要主持",
+      "to": "陳諺瑩",
+      "type": "show_host",
+      "detail": "條目列為主要代班主持；2023-12-02至2024-01-14主持週末。",
+      "period": "2023-12–2024-01",
+      "source": "〈TVBS戰情室〉｜主持人",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜代班主持",
+      "to": "鄭麗文",
+      "type": "show_host",
+      "detail": "列於《TVBS戰情室》條目的代班主持人名單；未逐集查核。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜代班主持",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜代班主持",
+      "to": "陳鳳馨",
+      "type": "show_host",
+      "detail": "列於《TVBS戰情室》條目的代班主持人名單；未逐集查核。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜代班主持",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜代班主持",
+      "to": "尹乃菁",
+      "type": "show_host",
+      "detail": "列於《TVBS戰情室》條目的代班主持人名單；未逐集查核。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜代班主持",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜代班主持",
+      "to": "謝曜州",
+      "type": "show_host",
+      "detail": "列於《TVBS戰情室》條目的代班主持人名單；未逐集查核。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜代班主持",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜代班主持",
+      "to": "王淺秋",
+      "type": "show_host",
+      "detail": "列於《TVBS戰情室》條目的代班主持人名單；未逐集查核。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜代班主持",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜代班主持",
+      "to": "譚伊倫",
+      "type": "show_host",
+      "detail": "列於《TVBS戰情室》條目的代班主持人名單；未逐集查核。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜代班主持",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜代班主持",
+      "to": "黃韻澄",
+      "type": "show_host",
+      "detail": "列於《TVBS戰情室》條目的代班主持人名單；未逐集查核。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜代班主持",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜2019週末戰情室",
+      "to": "唐湘龍",
+      "type": "show_host",
+      "detail": "2019年3月至11月主持週日姊妹節目《周末戰情室》，非證明主持同期其他版本的節目。",
+      "period": "2019-03–2019-11",
+      "source": "〈TVBS戰情室〉｜大事紀",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜2019週末戰情室",
+      "to": "蘭萱",
+      "type": "show_host",
+      "detail": "2019年3月至11月主持週日姊妹節目《周末戰情室》，非證明主持同期其他版本的節目。",
+      "period": "2019-03–2019-11",
+      "source": "〈TVBS戰情室〉｜大事紀",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜2023至2024主持調整",
+      "to": "趙少康",
+      "type": "show_host",
+      "detail": "參加2024副總統選舉期間暫離主持，後於2024-01-17回歸。",
+      "period": "2023-11–2024-01",
+      "source": "〈TVBS戰情室〉｜大事紀",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜2023至2024主持調整",
+      "to": "錢怡君",
+      "type": "show_host",
+      "detail": "趙少康參選期間暫代平日主持，2024-01-20恢復週末主持。",
+      "period": "2023-11–2024-01",
+      "source": "〈TVBS戰情室〉｜大事紀",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜2023至2024主持調整",
+      "to": "陳諺瑩",
+      "type": "show_host",
+      "detail": "2023年底至2024年1月中旬主持週末節目。",
+      "period": "2023-11–2024-01",
+      "source": "〈TVBS戰情室〉｜大事紀",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜2023至2024主持調整",
+      "to": "尹乃菁",
+      "type": "show_host",
+      "detail": "2023年11月24日首度暫代趙少康主持當晚節目。",
+      "period": "2023-11–2024-01",
+      "source": "〈TVBS戰情室〉｜大事紀",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室",
+      "to": "TVBS戰情室｜政治評論員",
+      "type": "event",
+      "detail": "節目條目列有「政治評論員」常見來賓名單，名單可能非即時且未逐集核對。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜政治評論員",
+      "to": "尹乃菁",
+      "type": "show_guest",
+      "detail": "條目列為「政治評論員」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜政治評論員",
+      "to": "黃暐瀚",
+      "type": "show_guest",
+      "detail": "條目列為「政治評論員」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜政治評論員",
+      "to": "蘭萱",
+      "type": "show_guest",
+      "detail": "條目列為「政治評論員」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜政治評論員",
+      "to": "陳鳳馨",
+      "type": "show_guest",
+      "detail": "條目列為「政治評論員」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜政治評論員",
+      "to": "唐湘龍",
+      "type": "show_guest",
+      "detail": "條目列為「政治評論員」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜政治評論員",
+      "to": "江岷欽",
+      "type": "show_guest",
+      "detail": "條目列為「政治評論員」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜政治評論員",
+      "to": "董智森",
+      "type": "show_guest",
+      "detail": "條目列為「政治評論員」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜政治評論員",
+      "to": "黃揚明",
+      "type": "show_guest",
+      "detail": "條目列為「政治評論員」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜政治評論員",
+      "to": "葉慶元",
+      "type": "show_guest",
+      "detail": "條目列為「政治評論員」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜政治評論員",
+      "to": "施正鋒",
+      "type": "show_guest",
+      "detail": "條目列為「政治評論員」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜政治評論員",
+      "to": "楊永明",
+      "type": "show_guest",
+      "detail": "條目列為「政治評論員」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室",
+      "to": "TVBS戰情室｜國民黨常見來賓",
+      "type": "event",
+      "detail": "節目條目列有「國民黨政治人物」常見來賓名單，名單可能非即時且未逐集核對。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "費鴻泰",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "賴士葆",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "林郁方",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "王鴻薇",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "李永萍",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "柯志恩",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "游淑慧",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "洪孟楷",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "張斯綱",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "李柏毅",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "葉元之",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "凌濤",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "鍾沛君",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "林沛祥",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "徐弘庭",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "柳采葳",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "李明賢",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "謝龍介",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "萬美玲",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "翁曉玲",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "王育敏",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "牛煦庭",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "李彥秀",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "徐巧芯",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "吳宗憲",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "馬文君",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "陳玉珍",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "張嘉郡",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "陳偉杰",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜國民黨常見來賓",
+      "to": "江怡臻",
+      "type": "show_guest",
+      "detail": "條目列為「國民黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室",
+      "to": "TVBS戰情室｜民進黨常見來賓",
+      "type": "event",
+      "detail": "節目條目列有「民進黨政治人物」常見來賓名單，名單可能非即時且未逐集核對。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民進黨常見來賓",
+      "to": "高嘉瑜",
+      "type": "show_guest",
+      "detail": "條目列為「民進黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民進黨常見來賓",
+      "to": "戴瑋姍",
+      "type": "show_guest",
+      "detail": "條目列為「民進黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民進黨常見來賓",
+      "to": "吳崢",
+      "type": "show_guest",
+      "detail": "條目列為「民進黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民進黨常見來賓",
+      "to": "林亮君",
+      "type": "show_guest",
+      "detail": "條目列為「民進黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民進黨常見來賓",
+      "to": "陳亭妃",
+      "type": "show_guest",
+      "detail": "條目列為「民進黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民進黨常見來賓",
+      "to": "許智傑",
+      "type": "show_guest",
+      "detail": "條目列為「民進黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民進黨常見來賓",
+      "to": "顏蔚慈",
+      "type": "show_guest",
+      "detail": "條目列為「民進黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民進黨常見來賓",
+      "to": "何孟樺",
+      "type": "show_guest",
+      "detail": "條目列為「民進黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民進黨常見來賓",
+      "to": "張嘉玲",
+      "type": "show_guest",
+      "detail": "條目列為「民進黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民進黨常見來賓",
+      "to": "林秉宥",
+      "type": "show_guest",
+      "detail": "條目列為「民進黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民進黨常見來賓",
+      "to": "張之豪",
+      "type": "show_guest",
+      "detail": "條目列為「民進黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民進黨常見來賓",
+      "to": "李宇翔",
+      "type": "show_guest",
+      "detail": "條目列為「民進黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室",
+      "to": "TVBS戰情室｜民眾黨常見來賓",
+      "type": "event",
+      "detail": "節目條目列有「民眾黨政治人物」常見來賓名單，名單可能非即時且未逐集核對。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民眾黨常見來賓",
+      "to": "陳琬惠",
+      "type": "show_guest",
+      "detail": "條目列為「民眾黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民眾黨常見來賓",
+      "to": "張啓楷",
+      "type": "show_guest",
+      "detail": "條目列為「民眾黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民眾黨常見來賓",
+      "to": "陳智菡",
+      "type": "show_guest",
+      "detail": "條目列為「民眾黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民眾黨常見來賓",
+      "to": "林珍羽",
+      "type": "show_guest",
+      "detail": "條目列為「民眾黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民眾黨常見來賓",
+      "to": "黃瀞瑩",
+      "type": "show_guest",
+      "detail": "條目列為「民眾黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民眾黨常見來賓",
+      "to": "陳世軒",
+      "type": "show_guest",
+      "detail": "條目列為「民眾黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民眾黨常見來賓",
+      "to": "張志豪（台灣民眾黨）",
+      "type": "show_guest",
+      "detail": "條目列為「民眾黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民眾黨常見來賓",
+      "to": "周榆修",
+      "type": "show_guest",
+      "detail": "條目列為「民眾黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民眾黨常見來賓",
+      "to": "許甫",
+      "type": "show_guest",
+      "detail": "條目列為「民眾黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜民眾黨常見來賓",
+      "to": "吳怡萱",
+      "type": "show_guest",
+      "detail": "條目列為「民眾黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室",
+      "to": "TVBS戰情室｜新黨常見來賓",
+      "type": "event",
+      "detail": "節目條目列有「新黨政治人物」常見來賓名單，名單可能非即時且未逐集核對。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜新黨常見來賓",
+      "to": "侯漢廷",
+      "type": "show_guest",
+      "detail": "條目列為「新黨政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室",
+      "to": "TVBS戰情室｜無黨籍常見來賓",
+      "type": "event",
+      "detail": "節目條目列有「無黨籍政治人物」常見來賓名單，名單可能非即時且未逐集核對。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室｜無黨籍常見來賓",
+      "to": "沈富雄",
+      "type": "show_guest",
+      "detail": "條目列為「無黨籍政治人物」常見節目來賓；不代表目前固定來賓、最近一次出演、同台或彼此私交。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室",
+      "to": "林莉琳",
+      "type": "show_producer",
+      "detail": "條目列為製作人。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜節目製作",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室",
+      "to": "陳鉅志",
+      "type": "show_producer",
+      "detail": "條目資訊框列為製作人。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜節目製作",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "TVBS戰情室",
+      "to": "邵正祥",
+      "type": "show_producer",
+      "detail": "條目資訊框列為監製。",
+      "period": "條目最後修訂：2026-07-01",
+      "source": "〈TVBS戰情室〉｜節目製作",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
     }
   ]
 }

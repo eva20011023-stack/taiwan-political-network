@@ -1,1 +1,44 @@
-# taiwan-political-network
+# 臺灣政治人物關係圖譜（Taiwan Political Network）
+
+固定網址：https://eva20011023-stack.github.io/taiwan-political-network/
+
+這是一份持續擴充的、依公開來源整理的政治人物關係資料庫。現在整合維基百科〈新黨〉、〈張榮味〉、〈王鴻薇〉、〈吳崢〉、〈王建煊〉。
+
+## 使用方式
+
+- 首頁提供「關係導向（力導向）」與「黨籍群集（力導向）」兩種排列。
+- 顏色代表資料庫中有來源的**最近紀錄／歷史政黨歸屬**，不代表即時、現存黨籍或政治立場。
+- 可以依黨籍篩選，也能只看已知不同黨籍標籤間的直接連線；跨黨線可能跨不同歷史年代。
+- 點擊節點可讀關係類型、年份與資料來源。手機支援拖曳與雙指縮放。
+- 可用「六度關係查詢」找現有紀錄的最短路徑；最短路徑不等於實際社交距離。
+- 原先靜態圖面保留在 [legacy.html](./legacy.html)。
+
+## 資料維護
+
+主要資料存於 [data/network.json](./data/network.json)，包含 `meta`、`nodes` 與 `edges`。
+
+`nodes[].id` 必須唯一，避免同名異人混淆。人物節點有 `group` 與可選 `party`：
+
+```json
+{
+  "id": "示意人物",
+  "label": "示意人物",
+  "group": "current",
+  "notes": [],
+  "party": {
+    "code": "UNKNOWN",
+    "kind": "uncertain",
+    "as_of": "",
+    "source": "",
+    "qualification": "尚未核對"
+  }
+}
+```
+
+黨籍 `code`：`KMT` 國民黨、`DPP` 民進黨、`NP` 新黨、`TPP` 民眾黨、`NPP` 時代力量、`PFP` 親民黨、`CCP` 中國共產黨、`IND` 無黨籍、`OTHER` 不適用、`UNKNOWN` 未核對。
+
+黨籍 `kind`：`current_documented` 近期具證據、`last_documented` 最後可查紀錄、`historical_only` 僅歷史黨籍、`uncertain` 尚待核實。請勿將候選人由某政黨提名直接等同於該人現在的黨員身分。
+
+`edges[]` 每筆均需保留 `from`、`to`、`type`、`detail`、`period`、`source`、`url`。選舉對手、批評、工作關係、同一事件與親屬必須區分；事件共現不表示私交，同一司法案件被提及不表示共同犯罪。
+
+更新資料時請保留既有人物 ID、避免重複節點，對衝突事實做來源對照，並檢查每條連線端點都存在。這是從少數條目累積的公開紀錄圖，不代表完整臺灣政治社會網絡。

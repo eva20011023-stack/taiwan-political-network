@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "新黨 × 張榮味｜跨條目人物關係網",
+    "title": "臺灣政治人物關係網｜新黨、張榮味、王鴻薇、吳崢",
     "date": "2026-10-17",
-    "scope": "以兩篇維基百科條目資訊框與本文明確具名人士為範圍；排除參考文獻作者、媒體標題附帶姓名；不是全面人脈查核",
+    "scope": "整合維基百科〈新黨〉〈張榮味〉〈王鴻薇〉〈吳崢〉本文與資訊框明確具名之政治人物，部分共同事件／組織為節點；非全臺人脈或私人交情驗證。",
     "sources": [
       {
         "name": "新黨",
@@ -11,9 +11,17 @@
       {
         "name": "張榮味",
         "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+      },
+      {
+        "name": "王鴻薇",
+        "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+      },
+      {
+        "name": "吳崢",
+        "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
       }
     ],
-    "relation_note": "職務銜接與共同事件非私人交情；司法案件被提及者不等同有罪。"
+    "relation_note": "直接政治合作、上下級職務、選舉對手、公開爭論、同一事件或機構、親屬必須分清；共同事件不等於個人交情，法院案件被提及不等於有罪。"
   },
   "nodes": [
     {
@@ -510,9 +518,10 @@
     {
       "id": "王鴻薇",
       "label": "王鴻薇",
-      "group": "historical",
+      "group": "current",
       "notes": [
-        "條目稱2013年轉入中國國民黨，導致臺北市議會新黨黨團解散。"
+        "條目稱2013年轉入中國國民黨，導致臺北市議會新黨黨團解散。",
+        "2006–2013年新黨籍，2013年轉入國民黨；2023年當選臺北市第三選區立委。"
       ]
     },
     {
@@ -997,7 +1006,8 @@
       ]
     },
     {
-      "id": "2014–15張派選舉布局",      "label": "2014–15張派選舉布局",
+      "id": "2014–15張派選舉布局",
+      "label": "2014–15張派選舉布局",
       "group": "hub",
       "notes": [
         "張麗善2014參選縣長及2015年張家立委布局事件。"
@@ -1009,6 +1019,336 @@
       "group": "hub",
       "notes": [
         "條目所述司法案件，不同涉案角色應個別確認，不意味所有被提及者都有罪。"
+      ]
+    },
+    {
+      "id": "蔣萬安",
+      "label": "蔣萬安",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "羅淑蕾",
+      "label": "羅淑蕾",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "吳怡農",
+      "label": "吳怡農",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "吳崢",
+      "label": "吳崢",
+      "group": "current",
+      "notes": [
+        "曾任太陽花學運媒體組組長、時代力量與民進黨發言人，曾任林昶佐及林亮君幕僚。"
+      ]
+    },
+    {
+      "id": "傅崐萁",
+      "label": "傅崐萁",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "王滬寧",
+      "label": "王滬寧",
+      "group": "external",
+      "notes": []
+    },
+    {
+      "id": "宋濤",
+      "label": "宋濤",
+      "group": "external",
+      "notes": []
+    },
+    {
+      "id": "陶允正",
+      "label": "陶允正",
+      "group": "family",
+      "notes": []
+    },
+    {
+      "id": "林智堅",
+      "label": "林智堅",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "江聰淵",
+      "label": "江聰淵",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "2015臺北三國民黨初選",
+      "label": "2015臺北三國民黨初選",
+      "group": "hub",
+      "notes": [
+        "共同事件或組織，不表示參與者彼此熟識。"
+      ]
+    },
+    {
+      "id": "2023臺北三立委補選",
+      "label": "2023臺北三立委補選",
+      "group": "hub",
+      "notes": [
+        "共同事件或組織，不表示參與者彼此熟識。"
+      ]
+    },
+    {
+      "id": "2022論文事件",
+      "label": "2022論文事件",
+      "group": "hub",
+      "notes": [
+        "共同事件或組織，不表示參與者彼此熟識。"
+      ]
+    },
+    {
+      "id": "2024國民黨立委赴陸",
+      "label": "2024國民黨立委赴陸",
+      "group": "hub",
+      "notes": [
+        "共同事件或組織，不表示參與者彼此熟識。"
+      ]
+    },
+    {
+      "id": "林昶佐",
+      "label": "林昶佐",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "林亮君",
+      "label": "林亮君",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "賴品妤",
+      "label": "賴品妤",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "蔡正元",
+      "label": "蔡正元",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "彭明敏",
+      "label": "彭明敏",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "黃守達",
+      "label": "黃守達",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "張芷菱",
+      "label": "張芷菱",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "黃國昌",
+      "label": "黃國昌",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "洪申翰",
+      "label": "洪申翰",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "張之豪",
+      "label": "張之豪",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "林穎孟",
+      "label": "林穎孟",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "黃郁芬",
+      "label": "黃郁芬",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "戴瑋姍",
+      "label": "戴瑋姍",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "曾玟學",
+      "label": "曾玟學",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "黃捷",
+      "label": "黃捷",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "高閔琳",
+      "label": "高閔琳",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "張智倫",
+      "label": "張智倫",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "賴清德",
+      "label": "賴清德",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "張志豪",
+      "label": "張志豪",
+      "group": "historical",
+      "notes": []
+    },
+    {
+      "id": "王義川",
+      "label": "王義川",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "黃揚明",
+      "label": "黃揚明",
+      "group": "external",
+      "notes": []
+    },
+    {
+      "id": "江怡臻",
+      "label": "江怡臻",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "楊懿珊",
+      "label": "楊懿珊",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "林右昌",
+      "label": "林右昌",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "何博文",
+      "label": "何博文",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "徐國勇",
+      "label": "徐國勇",
+      "group": "current",
+      "notes": []
+    },
+    {
+      "id": "2014太陽花學運",
+      "label": "2014太陽花學運",
+      "group": "hub",
+      "notes": [
+        "共同事件或組織，不表示參與者彼此熟識。"
+      ]
+    },
+    {
+      "id": "2014自救宣言座談",
+      "label": "2014自救宣言座談",
+      "group": "hub",
+      "notes": [
+        "共同事件或組織，不表示參與者彼此熟識。"
+      ]
+    },
+    {
+      "id": "2015反亞投行抗議",
+      "label": "2015反亞投行抗議",
+      "group": "hub",
+      "notes": [
+        "共同事件或組織，不表示參與者彼此熟識。"
+      ]
+    },
+    {
+      "id": "二〇四六 台灣",
+      "label": "二〇四六 台灣",
+      "group": "hub",
+      "notes": [
+        "共同事件或組織，不表示參與者彼此熟識。"
+      ]
+    },
+    {
+      "id": "民主鬥陣",
+      "label": "民主鬥陣",
+      "group": "hub",
+      "notes": [
+        "共同事件或組織，不表示參與者彼此熟識。"
+      ]
+    },
+    {
+      "id": "這個世代連線",
+      "label": "這個世代連線",
+      "group": "hub",
+      "notes": [
+        "共同事件或組織，不表示參與者彼此熟識。"
+      ]
+    },
+    {
+      "id": "2018臺北松信議員選舉",
+      "label": "2018臺北松信議員選舉",
+      "group": "hub",
+      "notes": [
+        "共同事件或組織，不表示參與者彼此熟識。"
+      ]
+    },
+    {
+      "id": "2022臺北松信議員選舉",
+      "label": "2022臺北松信議員選舉",
+      "group": "hub",
+      "notes": [
+        "共同事件或組織，不表示參與者彼此熟識。"
+      ]
+    },
+    {
+      "id": "2024新北八立委選舉",
+      "label": "2024新北八立委選舉",
+      "group": "hub",
+      "notes": [
+        "共同事件或組織，不表示參與者彼此熟識。"
+      ]
+    },
+    {
+      "id": "民進黨新聞輿情部",
+      "label": "民進黨新聞輿情部",
+      "group": "hub",
+      "notes": [
+        "共同事件或組織，不表示參與者彼此熟識。"
       ]
     }
   ],
@@ -1996,7 +2336,8 @@
     },
     {
       "from": "黃國鐘",
-      "to": "姚立明",      "type": "dispute",
+      "to": "姚立明",
+      "type": "dispute",
       "detail": "1997年與朱高正共同指控姚立明；此圖只記錄指控曾發生，不判斷真偽。",
       "period": "1997",
       "source": "歷史",
@@ -2919,6 +3260,618 @@
       "period": "2000年代–2018",
       "source": "張榮味條目｜林內焚化爐弊案",
       "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%A6%AE%E5%91%B3"
+    },
+    {
+      "from": "王鴻薇",
+      "to": "費鴻泰",
+      "type": "affiliation",
+      "detail": "2006年因費鴻泰當選立委留下議員席次而參選；2019年與費鴻泰在國民黨立委初選競爭。",
+      "period": "2006／2019",
+      "source": "臺北市議員／立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "王鴻薇",
+      "to": "楊世光",
+      "type": "event",
+      "detail": "王鴻薇2013年退出新黨後，新黨改提名楊世光競選該選區市議員。",
+      "period": "2013–2014",
+      "source": "臺北市議員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "王鴻薇",
+      "to": "蔣萬安",
+      "type": "contest",
+      "detail": "曾同場爭取2015年國民黨臺北市第三選區立委提名；2023年王鴻薇經補選接替蔣萬安的立委席次。",
+      "period": "2015／2023",
+      "source": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "王鴻薇",
+      "to": "羅淑蕾",
+      "type": "contest",
+      "detail": "曾同場爭取2015年國民黨臺北市第三選區立委提名。",
+      "period": "2015",
+      "source": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "王鴻薇",
+      "to": "吳怡農",
+      "type": "contest",
+      "detail": "2023年臺北市第三選區立委補選競爭對手。",
+      "period": "2023",
+      "source": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "王鴻薇",
+      "to": "吳崢",
+      "type": "dispute",
+      "detail": "吳崢公開批評王鴻薇參加2023年立委補選後，松山信義市議員席次出缺且不補選。",
+      "period": "2022–2023",
+      "source": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "王鴻薇",
+      "to": "傅崐萁",
+      "type": "cooperate",
+      "detail": "2024年與傅崐萁及其他國民黨立委共同赴中國大陸參訪。",
+      "period": "2024",
+      "source": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "王鴻薇",
+      "to": "陶允正",
+      "type": "family",
+      "detail": "兩人為配偶，維基條目記載大學時相識，約1990年前後結婚。",
+      "period": "約1990年前後至今（依條目）",
+      "source": "個人生活",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "2015臺北三國民黨初選",
+      "to": "王鴻薇",
+      "type": "event",
+      "detail": "國民黨臺北市第三選區立委黨內提名競爭者。",
+      "period": "2015",
+      "source": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "2015臺北三國民黨初選",
+      "to": "蔣萬安",
+      "type": "event",
+      "detail": "國民黨臺北市第三選區立委黨內提名競爭者。",
+      "period": "2015",
+      "source": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "2015臺北三國民黨初選",
+      "to": "羅淑蕾",
+      "type": "event",
+      "detail": "國民黨臺北市第三選區立委黨內提名競爭者。",
+      "period": "2015",
+      "source": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "2023臺北三立委補選",
+      "to": "王鴻薇",
+      "type": "event",
+      "detail": "國民黨徵召參選並當選。",
+      "period": "2022–2023",
+      "source": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "2023臺北三立委補選",
+      "to": "吳怡農",
+      "type": "event",
+      "detail": "民進黨參選人。",
+      "period": "2022–2023",
+      "source": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "2023臺北三立委補選",
+      "to": "蔣萬安",
+      "type": "event",
+      "detail": "因轉任臺北市長而留下立委缺額。",
+      "period": "2022–2023",
+      "source": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "2023臺北三立委補選",
+      "to": "吳崢",
+      "type": "event",
+      "detail": "針對王鴻薇參選後議員缺額不補選公開批評。",
+      "period": "2022–2023",
+      "source": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "2022論文事件",
+      "to": "王鴻薇",
+      "type": "event",
+      "detail": "公開揭發參選人的碩士論文涉嫌抄襲。",
+      "period": "2022",
+      "source": "臺北市議員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "2022論文事件",
+      "to": "林智堅",
+      "type": "event",
+      "detail": "論文被指涉及抄襲，條目記載其學位遭撤銷。",
+      "period": "2022",
+      "source": "臺北市議員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "2022論文事件",
+      "to": "江聰淵",
+      "type": "event",
+      "detail": "論文被指涉及抄襲，條目記載其學位遭撤銷。",
+      "period": "2022",
+      "source": "臺北市議員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "2024國民黨立委赴陸",
+      "to": "王鴻薇",
+      "type": "event",
+      "detail": "與其他國民黨立委共同赴陸參訪。",
+      "period": "2024",
+      "source": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "2024國民黨立委赴陸",
+      "to": "傅崐萁",
+      "type": "event",
+      "detail": "與其他國民黨立委共同赴陸參訪。",
+      "period": "2024",
+      "source": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "2024國民黨立委赴陸",
+      "to": "王滬寧",
+      "type": "event",
+      "detail": "赴陸參訪期間會見的中國大陸官員。",
+      "period": "2024",
+      "source": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "2024國民黨立委赴陸",
+      "to": "宋濤",
+      "type": "event",
+      "detail": "赴陸參訪期間會見的中國大陸官員。",
+      "period": "2024",
+      "source": "立法委員",
+      "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%B4%BB%E8%96%87"
+    },
+    {
+      "from": "吳崢",
+      "to": "林昶佐",
+      "type": "affiliation",
+      "detail": "2015–2016年擔任林昶佐總幹事；2016–2018年擔任立委林昶佐助理。",
+      "period": "2015–2018",
+      "source": "經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "吳崢",
+      "to": "林亮君",
+      "type": "affiliation",
+      "detail": "2019–2022年擔任臺北市議員林亮君特別助理。",
+      "period": "2019–2022",
+      "source": "經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "吳崢",
+      "to": "蔡正元",
+      "type": "dispute",
+      "detail": "太陽花學運期間兩人在政論節目就立委監督等議題發生公開爭論。",
+      "period": "2014",
+      "source": "太陽花學運",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "吳崢",
+      "to": "郝柏村",
+      "type": "dispute",
+      "detail": "吳崢2014年公開反駁郝柏村對太陽花學運的評價。",
+      "period": "2014",
+      "source": "太陽花學運",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "吳崢",
+      "to": "張智倫",
+      "type": "contest",
+      "detail": "2024年新北市第八選區立委選舉競爭對手；吳崢未當選。",
+      "period": "2024",
+      "source": "民主進步黨",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "吳崢",
+      "to": "王鴻薇",
+      "type": "dispute",
+      "detail": "吳崢於2022年批評王鴻薇轉參選立委補選後的議員席次未補選情況。",
+      "period": "2022",
+      "source": "臺北市議員",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "吳崢",
+      "to": "張志豪",
+      "type": "affiliation",
+      "detail": "2024年1月22日接任民進黨新聞輿情部主任兼發言人，前任為張志豪。此為職務沿革。",
+      "period": "2024",
+      "source": "資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "吳崢",
+      "to": "黃揚明",
+      "type": "dispute",
+      "detail": "2026年7月在食用油苯駢芘超標事件相關政論節目中發生公開辯論。",
+      "period": "2026-07",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "吳崢",
+      "to": "江怡臻",
+      "type": "dispute",
+      "detail": "江怡臻於2026年7月對吳崢在食安事件中的說法公開提出批評。",
+      "period": "2026-07",
+      "source": "爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "2014太陽花學運",
+      "to": "吳崢",
+      "type": "event",
+      "detail": "擔任太陽花學運媒體組組長。",
+      "period": "2014",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "2014自救宣言座談",
+      "to": "吳崢",
+      "type": "event",
+      "detail": "座談參與者。",
+      "period": "2014-09-13",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "2014自救宣言座談",
+      "to": "彭明敏",
+      "type": "event",
+      "detail": "跨世代座談參與者。",
+      "period": "2014-09-13",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "2014自救宣言座談",
+      "to": "黃守達",
+      "type": "event",
+      "detail": "座談參與者。",
+      "period": "2014-09-13",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "2014自救宣言座談",
+      "to": "張芷菱",
+      "type": "event",
+      "detail": "座談參與者。",
+      "period": "2014-09-13",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "2015反亞投行抗議",
+      "to": "吳崢",
+      "type": "event",
+      "detail": "參與並共同帶領後續集會。",
+      "period": "2015-03–04",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "2015反亞投行抗議",
+      "to": "賴品妤",
+      "type": "event",
+      "detail": "參與並共同帶領後續集會。",
+      "period": "2015-03–04",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "二〇四六 台灣",
+      "to": "吳崢",
+      "type": "event",
+      "detail": "2020年以共同發起人身分參與。",
+      "period": "2020-10",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "二〇四六 台灣",
+      "to": "林昶佐",
+      "type": "event",
+      "detail": "發起該跨黨派連線。",
+      "period": "2020-10",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "二〇四六 台灣",
+      "to": "洪申翰",
+      "type": "event",
+      "detail": "共同發起／參與連線。",
+      "period": "2020-10",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "二〇四六 台灣",
+      "to": "賴品妤",
+      "type": "event",
+      "detail": "共同發起／參與連線。",
+      "period": "2020-10",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "二〇四六 台灣",
+      "to": "張之豪",
+      "type": "event",
+      "detail": "共同發起／參與連線。",
+      "period": "2020-10",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "二〇四六 台灣",
+      "to": "林亮君",
+      "type": "event",
+      "detail": "共同發起／參與連線。",
+      "period": "2020-10",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "二〇四六 台灣",
+      "to": "林穎孟",
+      "type": "event",
+      "detail": "共同發起／參與連線。",
+      "period": "2020-10",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "二〇四六 台灣",
+      "to": "黃郁芬",
+      "type": "event",
+      "detail": "共同發起／參與連線。",
+      "period": "2020-10",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "二〇四六 台灣",
+      "to": "戴瑋姍",
+      "type": "event",
+      "detail": "共同發起／參與連線。",
+      "period": "2020-10",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "二〇四六 台灣",
+      "to": "曾玟學",
+      "type": "event",
+      "detail": "共同發起／參與連線。",
+      "period": "2020-10",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "二〇四六 台灣",
+      "to": "黃守達",
+      "type": "event",
+      "detail": "共同發起／參與連線。",
+      "period": "2020-10",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "二〇四六 台灣",
+      "to": "黃捷",
+      "type": "event",
+      "detail": "共同發起／參與連線。",
+      "period": "2020-10",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "二〇四六 台灣",
+      "to": "高閔琳",
+      "type": "event",
+      "detail": "共同發起／參與連線。",
+      "period": "2020-10",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "民主鬥陣",
+      "to": "吳崢",
+      "type": "event",
+      "detail": "擔任成員與發言人。",
+      "period": "2014起（依條目）",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "這個世代連線",
+      "to": "吳崢",
+      "type": "event",
+      "detail": "條目列為成員。",
+      "period": "2020年代",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "這個世代連線",
+      "to": "林昶佐",
+      "type": "event",
+      "detail": "條目註釋列為與2046台灣連線重複成員。",
+      "period": "2020年代",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "這個世代連線",
+      "to": "賴品妤",
+      "type": "event",
+      "detail": "條目註釋列為重複成員。",
+      "period": "2020年代",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "這個世代連線",
+      "to": "曾玟學",
+      "type": "event",
+      "detail": "條目註釋列為重複成員。",
+      "period": "2020年代",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "這個世代連線",
+      "to": "黃捷",
+      "type": "event",
+      "detail": "條目註釋列為重複成員。",
+      "period": "2020年代",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "2018臺北松信議員選舉",
+      "to": "吳崢",
+      "type": "event",
+      "detail": "代表時代力量參選臺北市松山信義區議員，未當選。",
+      "period": "2018",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "2022臺北松信議員選舉",
+      "to": "吳崢",
+      "type": "event",
+      "detail": "以無黨籍參選臺北市松山信義區議員，未當選。",
+      "period": "2022",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "2024新北八立委選舉",
+      "to": "吳崢",
+      "type": "event",
+      "detail": "民進黨徵召參選，未當選。",
+      "period": "2024",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "2024新北八立委選舉",
+      "to": "張智倫",
+      "type": "event",
+      "detail": "國民黨候選人，當選。",
+      "period": "2024",
+      "source": "政治活動",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "民進黨新聞輿情部",
+      "to": "吳崢",
+      "type": "event",
+      "detail": "2024年1月22日就任主任兼發言人。",
+      "period": "2024起",
+      "source": "組織／職務",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "民進黨新聞輿情部",
+      "to": "張志豪",
+      "type": "event",
+      "detail": "條目所列前任主任兼發言人。",
+      "period": "2024起",
+      "source": "組織／職務",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "民進黨新聞輿情部",
+      "to": "賴清德",
+      "type": "event",
+      "detail": "條目資訊框所列主席（僅表示組織期間）。",
+      "period": "2024起",
+      "source": "組織／職務",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "民進黨新聞輿情部",
+      "to": "楊懿珊",
+      "type": "event",
+      "detail": "條目資訊框所列任內代理秘書長（非私人關係）。",
+      "period": "2024起",
+      "source": "組織／職務",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "民進黨新聞輿情部",
+      "to": "林右昌",
+      "type": "event",
+      "detail": "條目資訊框所列任內秘書長（非私人關係）。",
+      "period": "2024起",
+      "source": "組織／職務",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "民進黨新聞輿情部",
+      "to": "何博文",
+      "type": "event",
+      "detail": "條目資訊框所列任內代理秘書長（非私人關係）。",
+      "period": "2024起",
+      "source": "組織／職務",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
+    },
+    {
+      "from": "民進黨新聞輿情部",
+      "to": "徐國勇",
+      "type": "event",
+      "detail": "條目資訊框所列任內秘書長（非私人關係）。",
+      "period": "2024起",
+      "source": "組織／職務",
+      "url": "https://zh.wikipedia.org/wiki/%E5%90%B3%E5%B4%A2"
     }
   ]
 }

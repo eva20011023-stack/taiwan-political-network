@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "臺灣政治人物關係圖譜｜持續擴充維基百科人物資料",
+    "title": "臺灣政治人物關係圖譜｜太陽花、國會監聽與媒體政治",
     "date": "2026-10-17",
-    "scope": "以公開維基條目逐篇加入人物、職務、競選、政治事件、媒體節目，保留年份、資料來源和限定解釋。",
+    "scope": "以公開來源累積臺灣政治人物、政黨、重大事件與媒體節目之角色網絡；本輪增錄陳為廷及監聽國會事件。條目來源不是全面核查，重要司法裁判與行政調查各別標明時間與裁判階段。",
     "sources": [
       {
         "name": "新黨",
@@ -43,9 +43,17 @@
       {
         "name": "陳培瑜",
         "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+      },
+      {
+        "name": "陳為廷",
+        "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+      },
+      {
+        "name": "監聽國會事件",
+        "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
       }
     ],
-    "relation_note": "節目主持／來賓／製作節點為媒體出演關係，不能解讀為政治合作、共識、私人往來或曾在同一集節目共現。黨籍標籤中僅依節目分組推定者非即時黨籍查證。",
+    "relation_note": "事件共現不等於私交；監聽是否故意與不同司法案件之判決須區分。2013年法務部調查認定無證據證明故意監聽立法院總機、但存在查證監督違失；2019年馬英九涉洩密案更一審無罪確定。",
     "party": {
       "as_of": "2026-10-17",
       "policy": "有近期資料佐證者標近期黨籍，只有舊提名或黨職記錄則顯示為歷史／最近紀錄；離黨及未核對者不當成現任黨員。顏色只反映資料分類，非政治立場或私人關係。",
@@ -2358,7 +2366,8 @@
       "label": "2014太陽花學運",
       "group": "hub",
       "notes": [
-        "共同事件或組織，不表示參與者彼此熟識。"
+        "共同事件或組織，不表示參與者彼此熟識。",
+        "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。"
       ]
     },
     {
@@ -3318,7 +3327,8 @@
       "label": "2013國會監聽揭露",
       "group": "hub",
       "notes": [
-        "歷史事件節點，各參與者角色不同；同一事件不代表私交、同盟或共同責任。"
+        "歷史事件節點，各參與者角色不同；同一事件不代表私交、同盟或共同責任。",
+        "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。"
       ]
     },
     {
@@ -3548,14 +3558,15 @@
       "label": "陳為廷",
       "group": "historical",
       "notes": [
-        "管碧玲2014年對其事件曾發表給予機會的評論；不據此推論私人交情。"
+        "管碧玲2014年對其事件曾發表給予機會的評論；不據此推論私人交情。",
+        "2014年太陽花學運總指揮，曾參與大埔、華隆、反媒體壟斷等社會運動；2015–2016年曾加入時代力量，2016年1月退黨。"
       ],
       "party": {
         "code": "UNKNOWN",
         "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "尚未查證可靠的政黨歸屬"
+        "as_of": "2016-01-18 退出時代力量（最近已知黨籍變動）",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7",
+        "qualification": "2015–2016年有時代力量黨籍、2016年公開退黨；目前黨籍未核實，故灰色標註，不把舊黨籍當現在黨籍"
       }
     },
     {
@@ -4983,7 +4994,8 @@
       "label": "游錫堃",
       "group": "historical",
       "notes": [
-        "第十屆立法院院長，為陳培瑜曾經任職的院會職務背景。"
+        "第十屆立法院院長，為陳培瑜曾經任職的院會職務背景。",
+        "2014年陳為廷退選苗栗立委相關爭議曾公開評論的人物。"
       ],
       "party": {
         "code": "UNKNOWN",
@@ -5068,6 +5080,471 @@
       "group": "hub",
       "notes": [
         "陳培瑜創辦的兒童獨立書店，主要從事兒童閱讀教育，不是政治關係。"
+      ]
+    },
+    {
+      "id": "林飛帆",
+      "label": "林飛帆",
+      "group": "historical",
+      "notes": [
+        "2014年太陽花學運的重要領導人物，2014年與陳為廷等人曾赴香港聲援佔中運動。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "劉政鴻",
+      "label": "劉政鴻",
+      "group": "historical",
+      "notes": [
+        "2013年苗栗縣長，苗栗大埔抗爭中與陳為廷及抗爭團體發生公開衝突。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "張森文",
+      "label": "張森文",
+      "group": "historical",
+      "notes": [
+        "苗栗大埔拆遷戶張藥房原主人，2013年拆遷抗爭事件中的當事人。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "楊長鎮",
+      "label": "楊長鎮",
+      "group": "historical",
+      "notes": [
+        "2011–2012年民進黨立委參選人，陳為廷曾於其服務處及青年後援會參與志工。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "邱顯智",
+      "label": "邱顯智",
+      "group": "historical",
+      "notes": [
+        "2015年時代力量新竹立委候選人，陳為廷擔任其競選總幹事。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "林彥甫",
+      "label": "林彥甫",
+      "group": "historical",
+      "notes": [
+        "2018年當選新竹市議員後，陳為廷曾擔任其議員助理。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "高鈺婷",
+      "label": "高鈺婷",
+      "group": "historical",
+      "notes": [
+        "2019年時代力量新竹立委候選人，陳為廷加入其競選團隊。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "蔣偉寧",
+      "label": "蔣偉寧",
+      "group": "historical",
+      "notes": [
+        "2012年時任教育部長，陳為廷於立法院備詢時公開批評大學學費政策。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "余天",
+      "label": "余天",
+      "group": "historical",
+      "notes": [
+        "2014年陳為廷退選苗栗立委相關爭議曾公開評論的人物。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "2013苗栗大埔抗爭",
+      "label": "2013苗栗大埔抗爭",
+      "group": "hub",
+      "notes": [
+        "苗栗大埔拆遷爭議；事件節點中的當事人、縣長和抗爭者立場不同。",
+        "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。"
+      ]
+    },
+    {
+      "id": "2012華隆工人罷工與聲援",
+      "label": "2012華隆工人罷工與聲援",
+      "group": "hub",
+      "notes": [
+        "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。"
+      ]
+    },
+    {
+      "id": "2014香港佔中聲援出境事件",
+      "label": "2014香港佔中聲援出境事件",
+      "group": "hub",
+      "notes": [
+        "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。"
+      ]
+    },
+    {
+      "id": "2014苗栗縣立委補選參選與退選",
+      "label": "2014苗栗縣立委補選參選與退選",
+      "group": "hub",
+      "notes": [
+        "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。"
+      ]
+    },
+    {
+      "id": "陳為廷｜時代力量團隊職務",
+      "label": "陳為廷｜時代力量團隊職務",
+      "group": "hub",
+      "notes": [
+        "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。"
+      ]
+    },
+    {
+      "id": "陳為廷｜2012反高學費政策質詢",
+      "label": "陳為廷｜2012反高學費政策質詢",
+      "group": "hub",
+      "notes": [
+        "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。"
+      ]
+    },
+    {
+      "id": "蔡衛民",
+      "label": "蔡衛民",
+      "group": "historical",
+      "notes": [
+        "2013年時任立法院總務處處長，向社會說明立法院節費電話與總機使用方式。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "蔡碧玉",
+      "label": "蔡碧玉",
+      "group": "historical",
+      "notes": [
+        "2013年時任法務部常務次長、監聽事件調查小組召集人。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "陳明堂",
+      "label": "陳明堂",
+      "group": "historical",
+      "notes": [
+        "2013年時任法務部政務次長，公開說明監聽事件調查結果。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "周占春",
+      "label": "周占春",
+      "group": "historical",
+      "notes": [
+        "2013年遭林秀濤提起民事求償的核發監聽票法官之一；2016年一審判決是否負責不可由被告身分推論。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "黃東熊",
+      "label": "黃東熊",
+      "group": "historical",
+      "notes": [
+        "法律學者，2013年對特偵組監聽總機事件提出公開評論。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "劉宏恩",
+      "label": "劉宏恩",
+      "group": "historical",
+      "notes": [
+        "法律學者，2013年公開批評候任法務部長羅瑩雪的監聽事件說明。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "林春榮",
+      "label": "林春榮",
+      "group": "historical",
+      "notes": [
+        "2013年法務部監聽事件調查小組委員，時任律師公會全國聯合會理事長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "高思博",
+      "label": "高思博",
+      "group": "historical",
+      "notes": [
+        "2013年法務部監聽事件調查小組委員，時任臺灣法曹協會理事長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "張明偉",
+      "label": "張明偉",
+      "group": "historical",
+      "notes": [
+        "2013年法務部監聽事件調查小組委員、法學學者。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "陳彥希",
+      "label": "陳彥希",
+      "group": "historical",
+      "notes": [
+        "2013年法務部監聽事件調查小組委員，時任臺北律師公會理事長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "何賴傑",
+      "label": "何賴傑",
+      "group": "historical",
+      "notes": [
+        "2013年法務部監聽事件調查小組委員、法學教授。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "余振華",
+      "label": "余振華",
+      "group": "historical",
+      "notes": [
+        "2013年法務部監聽事件調查小組委員、刑法學者。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "蔡瑞宗",
+      "label": "蔡瑞宗",
+      "group": "historical",
+      "notes": [
+        "2013年法務部監聽事件調查小組委員，時任高雄地檢署檢察長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "張文政",
+      "label": "張文政",
+      "group": "historical",
+      "notes": [
+        "2013年法務部監聽事件調查小組委員，時任法務部檢察司司長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "鄭銘謙",
+      "label": "鄭銘謙",
+      "group": "historical",
+      "notes": [
+        "2013年法務部監聽事件調查小組委員，時任廉政署副署長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "王俊力",
+      "label": "王俊力",
+      "group": "historical",
+      "notes": [
+        "2013年法務部監聽事件調查小組委員，時任高雄高分檢檢察官。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未確認目前黨籍"
+      }
+    },
+    {
+      "id": "最高法院檢察署特別偵查組",
+      "label": "最高法院檢察署特別偵查組",
+      "group": "hub",
+      "notes": [
+        "最高法院檢察署特別偵查組（2007–2016），監聽國會爭議的偵查機關。它是機構節點，並非人物間私人關係。",
+        "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。"
+      ]
+    },
+    {
+      "id": "2013法務部國會監聽調查小組",
+      "label": "2013法務部國會監聽調查小組",
+      "group": "hub",
+      "notes": [
+        "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。"
+      ]
+    },
+    {
+      "id": "2013法務部監聽事件調查結論",
+      "label": "2013法務部監聽事件調查結論",
+      "group": "hub",
+      "notes": [
+        "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。"
+      ]
+    },
+    {
+      "id": "2016林秀濤監聽求償一審",
+      "label": "2016林秀濤監聽求償一審",
+      "group": "hub",
+      "notes": [
+        "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。"
+      ]
+    },
+    {
+      "id": "2019馬英九洩密案更一審",
+      "label": "2019馬英九洩密案更一審",
+      "group": "hub",
+      "notes": [
+        "依公開條目與引用來源建立的事件／機構節點；同事件不等於私人交往、政治同盟或刑事責任。"
       ]
     }
   ],
@@ -10318,6 +10795,546 @@
       "period": "2007–2013",
       "source": "個人背景",
       "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%9F%B9%E7%91%9C"
+    },
+    {
+      "from": "2013苗栗大埔抗爭",
+      "to": "陳為廷",
+      "type": "event",
+      "detail": "參與抗爭並擔任捍衛苗栗青年聯盟總召集人，曾在劉政鴻官邸抗議及丟鞋。",
+      "period": "2013",
+      "source": "陳為廷｜大埔事件",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "2013苗栗大埔抗爭",
+      "to": "劉政鴻",
+      "type": "event",
+      "detail": "時任苗栗縣長，大埔拆遷政策及抗爭相關對象。",
+      "period": "2013",
+      "source": "陳為廷｜大埔事件",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "2013苗栗大埔抗爭",
+      "to": "張森文",
+      "type": "event",
+      "detail": "大埔張藥房拆遷戶，2013年身亡；不將死亡原因未釐清部分視為已證實之事。",
+      "period": "2013",
+      "source": "陳為廷｜大埔事件",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "2012華隆工人罷工與聲援",
+      "to": "陳為廷",
+      "type": "event",
+      "detail": "參與2012年華隆工人罷工支援並號召學生巡守隊。",
+      "period": "2012",
+      "source": "陳為廷｜華隆自救會抗爭",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "2014太陽花學運",
+      "to": "陳為廷",
+      "type": "event",
+      "detail": "2014年3月18日起擔任太陽花學運的總指揮。",
+      "period": "2014-03–04",
+      "source": "陳為廷｜大學時期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "2014太陽花學運",
+      "to": "林飛帆",
+      "type": "event",
+      "detail": "太陽花學運的重要領導人物之一。",
+      "period": "2014-03–04",
+      "source": "陳為廷｜大學時期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "2014香港佔中聲援出境事件",
+      "to": "陳為廷",
+      "type": "event",
+      "detail": "2014年6月與其他學運人士前往香港聲援七一遊行，遭拒絕入境。",
+      "period": "2014-06",
+      "source": "陳為廷｜大學時期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "2014香港佔中聲援出境事件",
+      "to": "林飛帆",
+      "type": "event",
+      "detail": "與陳為廷等學運人士同赴香港，遭拒絕入境。",
+      "period": "2014-06",
+      "source": "陳為廷｜大學時期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "2014苗栗縣立委補選參選與退選",
+      "to": "陳為廷",
+      "type": "event",
+      "detail": "2014年12月宣布參與2015年苗栗縣第二選區補選，隨後因性騷擾舊案曝光於12月25日退選。",
+      "period": "2014-12",
+      "source": "陳為廷｜大學時期與爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "陳為廷｜時代力量團隊職務",
+      "to": "陳為廷",
+      "type": "event",
+      "detail": "2015年曾加入時代力量並協助競選，2016年1月退黨，之後仍參與相關政治團隊工作。",
+      "period": "2015–2019",
+      "source": "陳為廷｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "陳為廷｜時代力量團隊職務",
+      "to": "邱顯智",
+      "type": "event",
+      "detail": "2015年新竹立委候選人，陳為廷任競選總幹事。",
+      "period": "2015–2019",
+      "source": "陳為廷｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "陳為廷｜時代力量團隊職務",
+      "to": "林彥甫",
+      "type": "event",
+      "detail": "2018年後新竹市議員，陳為廷任助理。",
+      "period": "2015–2019",
+      "source": "陳為廷｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "陳為廷｜時代力量團隊職務",
+      "to": "高鈺婷",
+      "type": "event",
+      "detail": "2019年新竹立委候選人，陳為廷加入其團隊。",
+      "period": "2015–2019",
+      "source": "陳為廷｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "陳為廷｜2012反高學費政策質詢",
+      "to": "陳為廷",
+      "type": "event",
+      "detail": "2012年在立法院抗議學費調整方案。",
+      "period": "2012",
+      "source": "陳為廷｜大學時期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "陳為廷｜2012反高學費政策質詢",
+      "to": "蔣偉寧",
+      "type": "event",
+      "detail": "當時教育部長，接受與學費政策相關的公開質疑。",
+      "period": "2012",
+      "source": "陳為廷｜大學時期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "陳為廷",
+      "to": "劉政鴻",
+      "type": "dispute",
+      "detail": "2013年大埔抗爭時，陳為廷向時任苗栗縣長劉政鴻丟鞋；2015年二審認定構成強暴侮辱但免刑定讞。",
+      "period": "2013–2015",
+      "source": "陳為廷｜大埔丟鞋案",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "陳為廷",
+      "to": "楊長鎮",
+      "type": "cooperate",
+      "detail": "2011至2012年陳為廷協助楊長鎮競選相關志工及青年後援會工作。",
+      "period": "2011–2012",
+      "source": "陳為廷｜大學時期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "陳為廷",
+      "to": "蔡英文",
+      "type": "support",
+      "detail": "陳為廷2011至2012年間曾參與蔡英文青年志工及青年後援會；這是特定年份的選舉支援。",
+      "period": "2011–2012",
+      "source": "陳為廷｜大學時期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "陳為廷",
+      "to": "邱顯智",
+      "type": "cooperate",
+      "detail": "2015年擔任邱顯智新竹立委競選總幹事。",
+      "period": "2015",
+      "source": "陳為廷｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "陳為廷",
+      "to": "林彥甫",
+      "type": "affiliation",
+      "detail": "2018年後擔任林彥甫新竹市議員辦公室助理。",
+      "period": "2018–2019",
+      "source": "陳為廷｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "陳為廷",
+      "to": "高鈺婷",
+      "type": "cooperate",
+      "detail": "2019年加入高鈺婷立委選舉競選團隊。",
+      "period": "2019",
+      "source": "陳為廷｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "陳為廷",
+      "to": "林飛帆",
+      "type": "cooperate",
+      "detail": "2014年共同參與太陽花學運的學生領導工作，亦同赴香港聲援社會運動。",
+      "period": "2014",
+      "source": "陳為廷｜大學時期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "陳為廷",
+      "to": "蔣偉寧",
+      "type": "dispute",
+      "detail": "2012年立法院反高學費政策備詢中公開批評當時教育部長蔣偉寧。",
+      "period": "2012",
+      "source": "陳為廷｜反學費調整",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7"
+    },
+    {
+      "from": "最高法院檢察署特別偵查組",
+      "to": "黃世銘",
+      "type": "event",
+      "detail": "2013年時任檢察總長，負責監督特偵組運作。",
+      "period": "2013",
+      "source": "監聽國會事件｜機關背景",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "最高法院檢察署特別偵查組",
+      "to": "楊榮宗",
+      "type": "event",
+      "detail": "2013年特偵組組長及案件調查人員。",
+      "period": "2013",
+      "source": "監聽國會事件｜機關背景",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "最高法院檢察署特別偵查組",
+      "to": "鄭深元",
+      "type": "event",
+      "detail": "2013年特偵組承辦檢察官。",
+      "period": "2013",
+      "source": "監聽國會事件｜機關背景",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "2013國會監聽揭露",
+      "to": "柯建銘",
+      "type": "event",
+      "detail": "2013年9月27日收到通訊監察通知書，當中包括立法院總機門號。",
+      "period": "2013-09",
+      "source": "監聽國會事件｜事件披露與立法院意見",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "2013國會監聽揭露",
+      "to": "王金平",
+      "type": "event",
+      "detail": "時任立法院長，要求釐清檢方監聽院內電話事件。",
+      "period": "2013-09",
+      "source": "監聽國會事件｜事件披露與立法院意見",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "2013國會監聽揭露",
+      "to": "蔡衛民",
+      "type": "event",
+      "detail": "時任立法院總務處長，公開說明經節費電話通訊可能涉及的監聽問題。",
+      "period": "2013-09",
+      "source": "監聽國會事件｜事件披露與立法院意見",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "2013國會監聽揭露",
+      "to": "鄭深元",
+      "type": "event",
+      "detail": "當時參與特偵組相關案件之承辦檢察官。",
+      "period": "2013-09",
+      "source": "監聽國會事件｜事件披露與立法院意見",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "2013法務部國會監聽調查小組",
+      "to": "蔡碧玉",
+      "type": "event",
+      "detail": "法務部常務次長，2013年10月擔任調查小組召集人。",
+      "period": "2013-10",
+      "source": "法務部｜監聽事件調查小組成員",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56613/"
+    },
+    {
+      "from": "2013法務部國會監聽調查小組",
+      "to": "林春榮",
+      "type": "event",
+      "detail": "調查小組委員、律師公會全國聯合會理事長。",
+      "period": "2013-10",
+      "source": "法務部｜監聽事件調查小組成員",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56613/"
+    },
+    {
+      "from": "2013法務部國會監聽調查小組",
+      "to": "高思博",
+      "type": "event",
+      "detail": "調查小組委員、臺灣法曹協會理事長。",
+      "period": "2013-10",
+      "source": "法務部｜監聽事件調查小組成員",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56613/"
+    },
+    {
+      "from": "2013法務部國會監聽調查小組",
+      "to": "張明偉",
+      "type": "event",
+      "detail": "調查小組委員、司法人權促進會理事及法學學者。",
+      "period": "2013-10",
+      "source": "法務部｜監聽事件調查小組成員",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56613/"
+    },
+    {
+      "from": "2013法務部國會監聽調查小組",
+      "to": "陳彥希",
+      "type": "event",
+      "detail": "調查小組委員、臺北律師公會理事長。",
+      "period": "2013-10",
+      "source": "法務部｜監聽事件調查小組成員",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56613/"
+    },
+    {
+      "from": "2013法務部國會監聽調查小組",
+      "to": "何賴傑",
+      "type": "event",
+      "detail": "調查小組委員、政治大學法律學系教授。",
+      "period": "2013-10",
+      "source": "法務部｜監聽事件調查小組成員",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56613/"
+    },
+    {
+      "from": "2013法務部國會監聽調查小組",
+      "to": "余振華",
+      "type": "event",
+      "detail": "調查小組委員、刑法學者。",
+      "period": "2013-10",
+      "source": "法務部｜監聽事件調查小組成員",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56613/"
+    },
+    {
+      "from": "2013法務部國會監聽調查小組",
+      "to": "蔡瑞宗",
+      "type": "event",
+      "detail": "調查小組委員、檢察官。",
+      "period": "2013-10",
+      "source": "法務部｜監聽事件調查小組成員",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56613/"
+    },
+    {
+      "from": "2013法務部國會監聽調查小組",
+      "to": "張文政",
+      "type": "event",
+      "detail": "調查小組委員、法務部檢察司司長。",
+      "period": "2013-10",
+      "source": "法務部｜監聽事件調查小組成員",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56613/"
+    },
+    {
+      "from": "2013法務部國會監聽調查小組",
+      "to": "鄭銘謙",
+      "type": "event",
+      "detail": "調查小組委員、法務部廉政署副署長。",
+      "period": "2013-10",
+      "source": "法務部｜監聽事件調查小組成員",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56613/"
+    },
+    {
+      "from": "2013法務部國會監聽調查小組",
+      "to": "王俊力",
+      "type": "event",
+      "detail": "調查小組委員、檢察官。",
+      "period": "2013-10",
+      "source": "法務部｜監聽事件調查小組成員",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56613/"
+    },
+    {
+      "from": "2013法務部監聽事件調查結論",
+      "to": "黃世銘",
+      "type": "event",
+      "detail": "報告指檢察總長監督有違失，移送檢察官評鑑委員會；並未認定故意監聽國會總機。",
+      "period": "2013-10",
+      "source": "法務部｜監聽事件調查結果",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56617/"
+    },
+    {
+      "from": "2013法務部監聽事件調查結論",
+      "to": "楊榮宗",
+      "type": "event",
+      "detail": "報告認定督導查證有違失，移送檢察官評鑑委員會。",
+      "period": "2013-10",
+      "source": "法務部｜監聽事件調查結果",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56617/"
+    },
+    {
+      "from": "2013法務部監聽事件調查結論",
+      "to": "鄭深元",
+      "type": "event",
+      "detail": "報告認定承辦案件查證有違失，移送檢察官評鑑委員會。",
+      "period": "2013-10",
+      "source": "法務部｜監聽事件調查結果",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56617/"
+    },
+    {
+      "from": "2013法務部監聽事件調查結論",
+      "to": "蔡碧玉",
+      "type": "event",
+      "detail": "擔任法務部調查小組召集人，報告認為未有證據證明故意監聽國會。",
+      "period": "2013-10",
+      "source": "法務部｜監聽事件調查結果",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56617/"
+    },
+    {
+      "from": "2013法務部監聽事件調查結論",
+      "to": "陳明堂",
+      "type": "event",
+      "detail": "時任法務部政務次長，對外說明調查結論。",
+      "period": "2013-10",
+      "source": "法務部｜監聽事件調查結果",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56617/"
+    },
+    {
+      "from": "2016林秀濤監聽求償一審",
+      "to": "林秀濤",
+      "type": "event",
+      "detail": "認為曾遭違法監聽，對相關檢察官及法官提起損害賠償訴訟；2016年臺北地院一審部分勝訴。",
+      "period": "2016-10-31",
+      "source": "監聽國會事件｜相關判決",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "2016林秀濤監聽求償一審",
+      "to": "黃世銘",
+      "type": "event",
+      "detail": "2016年臺北地院一審判賠林秀濤30萬元，判決當時尚可上訴。",
+      "period": "2016-10-31",
+      "source": "監聽國會事件｜相關判決",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "2016林秀濤監聽求償一審",
+      "to": "楊榮宗",
+      "type": "event",
+      "detail": "林秀濤民事求償訴訟被告之一；不能推論最終確定責任。",
+      "period": "2016-10-31",
+      "source": "監聽國會事件｜相關判決",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "2016林秀濤監聽求償一審",
+      "to": "鄭深元",
+      "type": "event",
+      "detail": "林秀濤民事求償訴訟被告之一；不能推論最終確定責任。",
+      "period": "2016-10-31",
+      "source": "監聽國會事件｜相關判決",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "2016林秀濤監聽求償一審",
+      "to": "周占春",
+      "type": "event",
+      "detail": "林秀濤民事求償訴訟被告之一、曾核發監聽票。",
+      "period": "2016-10-31",
+      "source": "監聽國會事件｜相關判決",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "2019馬英九洩密案更一審",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "2019年高等法院更一審無罪確定；非2018年二審暫時判決所述最終結果。",
+      "period": "2019-07-12",
+      "source": "監聽國會事件｜相關判決",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "2019馬英九洩密案更一審",
+      "to": "江宜樺",
+      "type": "event",
+      "detail": "2013年時任行政院長，曾聽取馬英九討論特偵組偵查資訊。",
+      "period": "2019-07-12",
+      "source": "監聽國會事件｜相關判決",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "2019馬英九洩密案更一審",
+      "to": "羅智強",
+      "type": "event",
+      "detail": "2013年時任總統府副秘書長，曾參與馬英九討論特偵組偵查資訊。",
+      "period": "2019-07-12",
+      "source": "監聽國會事件｜相關判決",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "管碧玲",
+      "to": "蔡衛民",
+      "type": "event",
+      "detail": "2013年國會總機監聽爭議期間，管碧玲公開質疑監聽對象，蔡衛民則以立法院總務處長身分說明節費總機通話狀況。",
+      "period": "2013-09",
+      "source": "監聽國會事件｜立法院意見",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "黃世銘",
+      "to": "楊榮宗",
+      "type": "affiliation",
+      "detail": "2013年檢察總長與特偵組組長的業務監督關係；法務部調查認定兩人相關查證／監督有違失。",
+      "period": "2013",
+      "source": "法務部｜監聽事件調查結果",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56617/"
+    },
+    {
+      "from": "楊榮宗",
+      "to": "鄭深元",
+      "type": "affiliation",
+      "detail": "2013年特偵組組長與承辦檢察官共同處理涉立法院節費門號之案件，查證違失後遭移送評鑑。",
+      "period": "2013",
+      "source": "法務部｜監聽事件調查結果",
+      "url": "https://www.moj.gov.tw/2204/2795/2796/56617/"
+    },
+    {
+      "from": "林秀濤",
+      "to": "黃世銘",
+      "type": "case",
+      "detail": "林秀濤提起民事求償，2016年臺北地院判黃世銘賠償30萬元，當時仍可上訴；不得視為最終已確定。",
+      "period": "2016-10",
+      "source": "監聽國會事件｜相關判決",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "羅瑩雪",
+      "to": "劉宏恩",
+      "type": "dispute",
+      "detail": "2013年羅瑩雪於法部調查前表示特偵組沒有主觀監聽意圖，法學者劉宏恩質疑應待事實調查。",
+      "period": "2013-09",
+      "source": "監聽國會事件｜各界評論",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
+    },
+    {
+      "from": "蔡英文",
+      "to": "黃世銘",
+      "type": "dispute",
+      "detail": "2013年蔡英文針對國會監聽爭議呼籲獨立調查與依法究責；屬公開政治評論，非兩人私交。",
+      "period": "2013",
+      "source": "監聽國會事件｜各界評論",
+      "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "臺灣政治人物關係圖譜｜邱太三與王金平",
+    "title": "臺灣政治人物關係圖譜｜新增羅智強與尹乃菁",
     "date": "2026-10-17",
-    "scope": "整合公開來源可辨認的公職職務交接、黨務、選舉與重大政治事件，新增邱太三與王金平條目關係。人物共現於事件不代表私交，黨籍以時間及來源標示。",
+    "scope": "累積公開政治人物、議會、黨職、歷史政治事件及政治媒體節目的具體職務／言論／合作關係。本輪補入羅智強及尹乃菁，使用立法院、中選會、中央社等核對近期人事；媒體同節目不得解讀為私人關係，黨籍按可查年份註記。",
     "sources": [
       {
         "name": "新黨",
@@ -67,9 +67,17 @@
       {
         "name": "王金平",
         "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%87%91%E5%B9%B3"
+      },
+      {
+        "name": "羅智強",
+        "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+      },
+      {
+        "name": "尹乃菁",
+        "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
       }
     ],
-    "relation_note": "2019邱太三陳情疑雲須區分當事人否認、監察院調查意見、兩次彈劾未通過；1999劉王改選與2013九月政爭不同；2014太陽花人物間的事件互動不等於政治結盟。",
+    "relation_note": "尹乃菁2026年6月22日已卸任國民黨文傳會主委（中央社），不將維基過時摘要當成現任職務。羅智強2025罷免案依中選會公告為否決。2006年等未經足夠公開證據核實之私人傳聞不加入私人連線。",
     "party": {
       "as_of": "2026-10-17",
       "policy": "有近期資料佐證者標近期黨籍，只有舊提名或黨職記錄則顯示為歷史／最近紀錄；離黨及未核對者不當成現任黨員。顏色只反映資料分類，非政治立場或私人關係。",
@@ -2824,16 +2832,18 @@
     {
       "id": "羅智強",
       "label": "羅智強",
-      "group": "historical",
+      "group": "current",
       "notes": [
-        "2013年時任總統府副秘書長，參與馬英九與江宜樺討論案情的會議，政爭後請辭。"
+        "2013年時任總統府副秘書長，參與馬英九與江宜樺討論案情的會議，政爭後請辭。",
+        "1994年曾參與新黨相關活動，2006年起轉屬國民黨；歷任總統府發言人、副秘書長、2018年臺北市議員，2024年2月起擔任臺北市第六選區第11屆立法委員。",
+        "2025年7月26日臺北市第六選區罷免投票結果為否決（依中選會2025年8月公告），不能與選舉候選人身份混淆。"
       ],
       "party": {
         "code": "KMT",
-        "kind": "historical_only",
-        "as_of": "2013",
-        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
-        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
+        "kind": "current_documented",
+        "as_of": "2026-10（立法院第11屆委員頁面）",
+        "source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46859",
+        "qualification": "立法院公開資料列為中國國民黨籍；這代表資料查詢時的公職黨籍，不預測之後變動。"
       }
     },
     {
@@ -3890,14 +3900,15 @@
       "group": "external",
       "notes": [
         "條目列為《TVBS戰情室》代班主持人，具體代班日期須另查各集。",
-        "2026年1月以國民黨主席身分聘王金平為國民黨最高顧問。"
+        "2026年1月以國民黨主席身分聘王金平為國民黨最高顧問。",
+        "2026年3月及6月國民黨主席，決定文傳會人事安排。"
       ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "尚未獨立查核黨籍"
+        "code": "KMT",
+        "kind": "current_documented",
+        "as_of": "2026-06-22",
+        "source": "https://www.cna.com.tw/news/aipl/202606220126.aspx",
+        "qualification": "2026年6月公開報導以中國國民黨主席身份參與人事決策。"
       }
     },
     {
@@ -3919,17 +3930,19 @@
     {
       "id": "尹乃菁",
       "label": "尹乃菁",
-      "group": "external",
+      "group": "current",
       "notes": [
         "條目列為《TVBS戰情室》代班主持人，具體代班日期須另查各集。",
-        "《TVBS戰情室》條目列為「政治評論員」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+        "《TVBS戰情室》條目列為「政治評論員」常見來賓；**未核實是否在同一集與其他來賓同台**。",
+        "新聞工作者與政論、廣播主持人，曾任中國時報、TVBS及年代電視新聞相關職務，主持多種新聞及談話節目。",
+        "2026年2月任國民黨文傳會副主委、3月18日接任主委，2026年6月22日由陳以信接任；此為歷史職務，不代表10月現職。"
       ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "尚未獨立查核黨籍"
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "2026-06-22（國民黨文傳會主委卸任）",
+        "source": "https://www.cna.com.tw/news/aipl/202606220126.aspx",
+        "qualification": "2026年擔任國民黨黨務主管至6月22日；當日已卸任，不得標示目前仍任文傳會主委。現在是否仍保有正式黨員資格未獨立查證。"
       }
     },
     {
@@ -3952,7 +3965,8 @@
       "label": "王淺秋",
       "group": "external",
       "notes": [
-        "條目列為《TVBS戰情室》代班主持人，具體代班日期須另查各集。"
+        "條目列為《TVBS戰情室》代班主持人，具體代班日期須另查各集。",
+        "2026年6月29日主持飛碟晚餐訪問已卸任文傳會主委的尹乃菁。"
       ],
       "party": {
         "code": "UNKNOWN",
@@ -4435,7 +4449,8 @@
       "label": "吳宗憲",
       "group": "historical",
       "notes": [
-        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+        "《TVBS戰情室》條目列為「國民黨政治人物」常見來賓；**未核實是否在同一集與其他來賓同台**。",
+        "2026年3月18日為投入宜蘭縣長選舉卸任國民黨文傳會主委，由尹乃菁接任。"
       ],
       "party": {
         "code": "KMT",
@@ -6863,7 +6878,8 @@
       "label": "蕭旭岑",
       "group": "historical",
       "notes": [
-        "2026年1月隨鄭麗文同赴王金平辦公室的國民黨副主席。"
+        "2026年1月隨鄭麗文同赴王金平辦公室的國民黨副主席。",
+        "2013年羅智強請辭總統府副秘書長後接任者。"
       ],
       "party": {
         "code": "UNKNOWN",
@@ -7015,6 +7031,352 @@
       "group": "hub",
       "notes": [
         "依公開資料建立之歷史事件／職務節點；同事件不代表有私交、政治立場一致或共同責任。"
+      ]
+    },
+    {
+      "id": "趙天麟",
+      "label": "趙天麟",
+      "group": "historical",
+      "notes": [
+        "羅智強學生時代共同創辦中華演說與辯論協會者。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未查證目前黨籍"
+      }
+    },
+    {
+      "id": "陳長文",
+      "label": "陳長文",
+      "group": "historical",
+      "notes": [
+        "羅智強法律研究及出版階段曾擔任兼職助理，並參與合著作品。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未查證目前黨籍"
+      }
+    },
+    {
+      "id": "林奕華",
+      "label": "林奕華",
+      "group": "historical",
+      "notes": [
+        "2018–2022年曾任大安區立委，羅智強2024年當選該選區立委；亦為羅智強在革命實踐研究院的職務接任者。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未查證目前黨籍"
+      }
+    },
+    {
+      "id": "王郁琦",
+      "label": "王郁琦",
+      "group": "historical",
+      "notes": [
+        "2010年羅智強接任總統府發言人職務的前任。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未查證目前黨籍"
+      }
+    },
+    {
+      "id": "范姜泰基",
+      "label": "范姜泰基",
+      "group": "historical",
+      "notes": [
+        "2011年接任羅智強後的總統府發言人。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未查證目前黨籍"
+      }
+    },
+    {
+      "id": "楊進添",
+      "label": "楊進添",
+      "group": "historical",
+      "notes": [
+        "2013年羅智強任總統府副秘書長期間的總統府秘書長之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未查證目前黨籍"
+      }
+    },
+    {
+      "id": "林火旺",
+      "label": "林火旺",
+      "group": "historical",
+      "notes": [
+        "羅智強接任革命實踐研究院院長的前任。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未查證目前黨籍"
+      }
+    },
+    {
+      "id": "丁守中",
+      "label": "丁守中",
+      "group": "historical",
+      "notes": [
+        "2018年參選臺北市長，羅智強加入其團隊擔任青年與網路總策畫。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未查證目前黨籍"
+      }
+    },
+    {
+      "id": "張善政",
+      "label": "張善政",
+      "group": "historical",
+      "notes": [
+        "2022年桃園市長選舉國民黨候選人，羅智強後擔任其競選總部副主任委員。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未查證目前黨籍"
+      }
+    },
+    {
+      "id": "周庭諭",
+      "label": "周庭諭",
+      "group": "historical",
+      "notes": [
+        "2025年臺北市第六選區立委羅智強罷免案的提議領銜人，屬法定選舉事件身分。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未查證目前黨籍"
+      }
+    },
+    {
+      "id": "羅智強｜總統府發言及副秘書長任期",
+      "label": "羅智強｜總統府發言及副秘書長任期",
+      "group": "hub",
+      "notes": [
+        "可查證的公開事件與職務網絡；共現不證明私人往來、同台或政治同盟。"
+      ]
+    },
+    {
+      "id": "羅智強｜國民黨革命實踐研究院職務",
+      "label": "羅智強｜國民黨革命實踐研究院職務",
+      "group": "hub",
+      "notes": [
+        "可查證的公開事件與職務網絡；共現不證明私人往來、同台或政治同盟。"
+      ]
+    },
+    {
+      "id": "2018丁守中臺北市長競選團隊",
+      "label": "2018丁守中臺北市長競選團隊",
+      "group": "hub",
+      "notes": [
+        "可查證的公開事件與職務網絡；共現不證明私人往來、同台或政治同盟。"
+      ]
+    },
+    {
+      "id": "2022張善政桃園市長競選團隊",
+      "label": "2022張善政桃園市長競選團隊",
+      "group": "hub",
+      "notes": [
+        "可查證的公開事件與職務網絡；共現不證明私人往來、同台或政治同盟。"
+      ]
+    },
+    {
+      "id": "2024臺北市第六選區立委交接",
+      "label": "2024臺北市第六選區立委交接",
+      "group": "hub",
+      "notes": [
+        "可查證的公開事件與職務網絡；共現不證明私人往來、同台或政治同盟。"
+      ]
+    },
+    {
+      "id": "2025臺北市第六選區立委罷免投票",
+      "label": "2025臺北市第六選區立委罷免投票",
+      "group": "hub",
+      "notes": [
+        "可查證的公開事件與職務網絡；共現不證明私人往來、同台或政治同盟。"
+      ]
+    },
+    {
+      "id": "1994羅智強參與新黨活動",
+      "label": "1994羅智強參與新黨活動",
+      "group": "hub",
+      "notes": [
+        "可查證的公開事件與職務網絡；共現不證明私人往來、同台或政治同盟。"
+      ]
+    },
+    {
+      "id": "2012馬吳總統競選團隊",
+      "label": "2012馬吳總統競選團隊",
+      "group": "hub",
+      "notes": [
+        "可查證的公開事件與職務網絡；共現不證明私人往來、同台或政治同盟。"
+      ]
+    },
+    {
+      "id": "陳以信",
+      "label": "陳以信",
+      "group": "current",
+      "notes": [
+        "2026年6月22日經中國國民黨公布接任文傳會主委。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "current_documented",
+        "as_of": "2026-06-22",
+        "source": "https://www.cna.com.tw/news/aipl/202606220126.aspx",
+        "qualification": "2026年6月22日國民黨正式公布文傳會主委人事，之後仍可能變動。"
+      }
+    },
+    {
+      "id": "胡瓜",
+      "label": "胡瓜",
+      "group": "external",
+      "notes": [
+        "尹乃菁曾共同主持中天娛樂台《娛樂圈圈看》的藝人。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未查證目前黨籍"
+      }
+    },
+    {
+      "id": "徐乃麟",
+      "label": "徐乃麟",
+      "group": "external",
+      "notes": [
+        "尹乃菁與其曾共同主持中視《歡聚世博 全家都來賽》。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未查證目前黨籍"
+      }
+    },
+    {
+      "id": "林益諄",
+      "label": "林益諄",
+      "group": "external",
+      "notes": [
+        "2026年2月尹乃菁出任文傳會副主委時，其前任為林益諄。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未查證目前黨籍"
+      }
+    },
+    {
+      "id": "2026國民黨文傳會主委交接",
+      "label": "2026國民黨文傳會主委交接",
+      "group": "hub",
+      "notes": [
+        "可查證的公開事件與職務網絡；共現不證明私人往來、同台或政治同盟。"
+      ]
+    },
+    {
+      "id": "尹乃菁｜中視《政治3缺1》",
+      "label": "尹乃菁｜中視《政治3缺1》",
+      "group": "hub",
+      "notes": [
+        "媒體節目／節目組：節目共同主持是公開工作分工，不等同政治同盟；播出年代參考尹乃菁維基條目，未逐集查證。"
+      ]
+    },
+    {
+      "id": "尹乃菁｜緯來《火線雙嬌》",
+      "label": "尹乃菁｜緯來《火線雙嬌》",
+      "group": "hub",
+      "notes": [
+        "媒體節目／節目組：節目共同主持是公開工作分工，不等同政治同盟；播出年代參考尹乃菁維基條目，未逐集查證。"
+      ]
+    },
+    {
+      "id": "尹乃菁｜News98政論廣播",
+      "label": "尹乃菁｜News98政論廣播",
+      "group": "hub",
+      "notes": [
+        "媒體節目／節目組：節目共同主持是公開工作分工，不等同政治同盟；播出年代參考尹乃菁維基條目，未逐集查證。"
+      ]
+    },
+    {
+      "id": "尹乃菁｜飛碟電台廣播",
+      "label": "尹乃菁｜飛碟電台廣播",
+      "group": "hub",
+      "notes": [
+        "媒體節目／節目組：節目共同主持是公開工作分工，不等同政治同盟；播出年代參考尹乃菁維基條目，未逐集查證。"
+      ]
+    },
+    {
+      "id": "尹乃菁｜Yahoo TV《鄉民來衝康》",
+      "label": "尹乃菁｜Yahoo TV《鄉民來衝康》",
+      "group": "hub",
+      "notes": [
+        "媒體節目／節目組：節目共同主持是公開工作分工，不等同政治同盟；播出年代參考尹乃菁維基條目，未逐集查證。"
+      ]
+    },
+    {
+      "id": "尹乃菁｜Bang TV《菁英PK SHOW》",
+      "label": "尹乃菁｜Bang TV《菁英PK SHOW》",
+      "group": "hub",
+      "notes": [
+        "媒體節目／節目組：節目共同主持是公開工作分工，不等同政治同盟；播出年代參考尹乃菁維基條目，未逐集查證。"
+      ]
+    },
+    {
+      "id": "尹乃菁｜中天《娛樂圈圈看》",
+      "label": "尹乃菁｜中天《娛樂圈圈看》",
+      "group": "hub",
+      "notes": [
+        "媒體節目／節目組：節目共同主持是公開工作分工，不等同政治同盟；播出年代參考尹乃菁維基條目，未逐集查證。"
+      ]
+    },
+    {
+      "id": "2026尹乃菁辭任文傳會主委",
+      "label": "2026尹乃菁辭任文傳會主委",
+      "group": "hub",
+      "notes": [
+        "可查證的公開事件與職務網絡；共現不證明私人往來、同台或政治同盟。"
       ]
     }
   ],
@@ -14497,6 +14859,591 @@
       "period": "2014-04",
       "source": "公視｜國會協商",
       "url": "https://news.pts.org.tw/article/266124"
+    },
+    {
+      "from": "羅智強｜總統府發言及副秘書長任期",
+      "to": "羅智強",
+      "type": "event",
+      "detail": "2010–2011年擔任總統府發言人，2012–2013年任總統府副秘書長。",
+      "period": "2010–2013",
+      "source": "羅智強｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強｜總統府發言及副秘書長任期",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "2010–2013年為羅智強總統府任職期間的總統。",
+      "period": "2010–2013",
+      "source": "羅智強｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強｜總統府發言及副秘書長任期",
+      "to": "王郁琦",
+      "type": "event",
+      "detail": "總統府發言人的前任。",
+      "period": "2010–2013",
+      "source": "羅智強｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強｜總統府發言及副秘書長任期",
+      "to": "范姜泰基",
+      "type": "event",
+      "detail": "總統府發言人的後任。",
+      "period": "2010–2013",
+      "source": "羅智強｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強｜總統府發言及副秘書長任期",
+      "to": "曾永權",
+      "type": "event",
+      "detail": "2012年羅智強任總統府副秘書長初期的總統府秘書長。",
+      "period": "2010–2013",
+      "source": "羅智強｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強｜總統府發言及副秘書長任期",
+      "to": "楊進添",
+      "type": "event",
+      "detail": "2012–2013年與羅智強有總統府正副秘書長的職務關係。",
+      "period": "2010–2013",
+      "source": "羅智強｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強｜總統府發言及副秘書長任期",
+      "to": "蕭旭岑",
+      "type": "event",
+      "detail": "2013年羅智強請辭後接任總統府副秘書長。",
+      "period": "2010–2013",
+      "source": "羅智強｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強｜國民黨革命實踐研究院職務",
+      "to": "羅智強",
+      "type": "event",
+      "detail": "2020年3月26日至2021年10月5日擔任革命實踐研究院院長。",
+      "period": "2020–2021",
+      "source": "羅智強｜資訊框任期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強｜國民黨革命實踐研究院職務",
+      "to": "江啟臣",
+      "type": "event",
+      "detail": "2020年接任國民黨主席後，羅智強擔任革命實踐研究院院長。",
+      "period": "2020–2021",
+      "source": "羅智強｜資訊框任期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強｜國民黨革命實踐研究院職務",
+      "to": "林火旺",
+      "type": "event",
+      "detail": "羅智強的革命實踐研究院院長前任。",
+      "period": "2020–2021",
+      "source": "羅智強｜資訊框任期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強｜國民黨革命實踐研究院職務",
+      "to": "林奕華",
+      "type": "event",
+      "detail": "羅智強的革命實踐研究院院長後任。",
+      "period": "2020–2021",
+      "source": "羅智強｜資訊框任期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強｜國民黨革命實踐研究院職務",
+      "to": "朱立倫",
+      "type": "event",
+      "detail": "2021年羅智強卸任研究院院長並轉任國民黨副秘書長時的國民黨主席。",
+      "period": "2020–2021",
+      "source": "羅智強｜資訊框任期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "2018丁守中臺北市長競選團隊",
+      "to": "丁守中",
+      "type": "event",
+      "detail": "2018年國民黨臺北市長參選人。",
+      "period": "2018",
+      "source": "中央社｜競選合作",
+      "url": "https://www.cna.com.tw/news/aipl/201801150085.aspx"
+    },
+    {
+      "from": "2018丁守中臺北市長競選團隊",
+      "to": "羅智強",
+      "type": "event",
+      "detail": "2018年1月擔任丁守中競選團隊青年及網路總策畫。",
+      "period": "2018",
+      "source": "中央社｜競選合作",
+      "url": "https://www.cna.com.tw/news/aipl/201801150085.aspx"
+    },
+    {
+      "from": "2022張善政桃園市長競選團隊",
+      "to": "張善政",
+      "type": "event",
+      "detail": "2022年國民黨桃園市長候選人。",
+      "period": "2022",
+      "source": "羅智強｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "2022張善政桃園市長競選團隊",
+      "to": "羅智強",
+      "type": "event",
+      "detail": "曾考慮桃園市長參選並退選，後擔任張善政競選總部副主任委員。",
+      "period": "2022",
+      "source": "羅智強｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "2024臺北市第六選區立委交接",
+      "to": "羅智強",
+      "type": "event",
+      "detail": "2024年1月當選、2月1日起擔任臺北市第六選區立委。",
+      "period": "2023–2024",
+      "source": "立法院｜羅智強委員",
+      "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46859"
+    },
+    {
+      "from": "2024臺北市第六選區立委交接",
+      "to": "林奕華",
+      "type": "event",
+      "detail": "2024年羅智強就任大安區立委之前任（林奕華曾於2023年離職）。",
+      "period": "2023–2024",
+      "source": "立法院｜羅智強委員",
+      "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46859"
+    },
+    {
+      "from": "2025臺北市第六選區立委罷免投票",
+      "to": "羅智強",
+      "type": "event",
+      "detail": "2025年7月26日罷免投票被罷免人；中選會8月1日公告結果否決。",
+      "period": "2025-07–08",
+      "source": "中選會公告及中央社",
+      "url": "https://www.cna.com.tw/news/aipl/202508010192.aspx"
+    },
+    {
+      "from": "2025臺北市第六選區立委罷免投票",
+      "to": "周庭諭",
+      "type": "event",
+      "detail": "2025年羅智強罷免案提議領銜人；與羅智強為依法制程序相對方。",
+      "period": "2025-07–08",
+      "source": "中選會公告及中央社",
+      "url": "https://www.cna.com.tw/news/aipl/202508010192.aspx"
+    },
+    {
+      "from": "1994羅智強參與新黨活動",
+      "to": "羅智強",
+      "type": "event",
+      "detail": "1994年曾響應新黨政治活動，後在2006年以前經歷無黨籍參選；不得視作現在的新黨黨籍。",
+      "period": "1994",
+      "source": "羅智強｜早年生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "1994羅智強參與新黨活動",
+      "to": "王建煊",
+      "type": "event",
+      "detail": "1990年代新黨人士，羅智強回憶曾響應其號召。",
+      "period": "1994",
+      "source": "羅智強｜早年生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "2012馬吳總統競選團隊",
+      "to": "羅智強",
+      "type": "event",
+      "detail": "2012年馬英九、吳敦義競選總部副執行總幹事。",
+      "period": "2012",
+      "source": "羅智強｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "2012馬吳總統競選團隊",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "2012年總統候選人。",
+      "period": "2012",
+      "source": "羅智強｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "2012馬吳總統競選團隊",
+      "to": "吳敦義",
+      "type": "event",
+      "detail": "2012年副總統候選人。",
+      "period": "2012",
+      "source": "羅智強｜公職經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強",
+      "to": "陳長文",
+      "type": "affiliation",
+      "detail": "羅智強曾任陳長文的兼職助理，亦曾與其合著法律相關著作。",
+      "period": "2000年代–2014",
+      "source": "羅智強｜早年及著作",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強",
+      "to": "趙天麟",
+      "type": "cooperate",
+      "detail": "兩人在學生時期共同成立中華演說與辯論協會。",
+      "period": "1990年代",
+      "source": "羅智強｜經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強",
+      "to": "丁守中",
+      "type": "cooperate",
+      "detail": "2018年1月羅智強加入丁守中臺北市長競選團隊，擔任青年及網路總策畫。",
+      "period": "2018",
+      "source": "中央社｜臺北市長競選",
+      "url": "https://www.cna.com.tw/news/aipl/201801150085.aspx"
+    },
+    {
+      "from": "羅智強",
+      "to": "張善政",
+      "type": "cooperate",
+      "detail": "2022年羅智強退出桃園市長選舉後，擔任張善政競選總部副主任委員。",
+      "period": "2022",
+      "source": "羅智強｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強",
+      "to": "林奕華",
+      "type": "affiliation",
+      "detail": "2020–2021年羅智強與林奕華前後任國民黨革命實踐研究院院長；2024年羅智強就任大安區立委前任為林奕華。",
+      "period": "2021／2024",
+      "source": "羅智強｜職務沿革",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強",
+      "to": "江啟臣",
+      "type": "affiliation",
+      "detail": "江啟臣擔任國民黨主席期間，羅智強接任革命實踐研究院院長。",
+      "period": "2020–2021",
+      "source": "羅智強｜黨務職務",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強",
+      "to": "朱立倫",
+      "type": "affiliation",
+      "detail": "羅智強於2021年10月接任國民黨副秘書長，當時主席為朱立倫。",
+      "period": "2021–2022",
+      "source": "羅智強｜黨務職務",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強",
+      "to": "王郁琦",
+      "type": "affiliation",
+      "detail": "羅智強於2010年接替王郁琦出任總統府發言人。",
+      "period": "2010",
+      "source": "羅智強｜總統府職務",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強",
+      "to": "范姜泰基",
+      "type": "affiliation",
+      "detail": "范姜泰基2011年接任羅智強之後的總統府發言人。",
+      "period": "2011",
+      "source": "羅智強｜總統府職務",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強",
+      "to": "蕭旭岑",
+      "type": "affiliation",
+      "detail": "2013年羅智強辭總統府副秘書長，蕭旭岑同年9月接任。",
+      "period": "2013",
+      "source": "羅智強｜九月政爭後續",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%99%BA%E5%BC%B7"
+    },
+    {
+      "from": "羅智強",
+      "to": "周庭諭",
+      "type": "contest",
+      "detail": "2025年立委羅智強罷免案中，周庭諭為提議領銜人、羅智強為被罷免人；罷免最終遭否決。",
+      "period": "2025",
+      "source": "中央社／中選會｜罷免程序",
+      "url": "https://www.cna.com.tw/news/aipl/202508010192.aspx"
+    },
+    {
+      "from": "2026國民黨文傳會主委交接",
+      "to": "吳宗憲",
+      "type": "event",
+      "detail": "2026年3月18日卸任文傳會主委，後為投入宜蘭縣長選舉工作。",
+      "period": "2026-02–06",
+      "source": "中央社｜文傳會人事交接",
+      "url": "https://www.cna.com.tw/news/aipl/202606220126.aspx"
+    },
+    {
+      "from": "2026國民黨文傳會主委交接",
+      "to": "尹乃菁",
+      "type": "event",
+      "detail": "2026年3月18日由副主委升任主委；2026年6月請辭獲准。",
+      "period": "2026-02–06",
+      "source": "中央社｜文傳會人事交接",
+      "url": "https://www.cna.com.tw/news/aipl/202606220126.aspx"
+    },
+    {
+      "from": "2026國民黨文傳會主委交接",
+      "to": "陳以信",
+      "type": "event",
+      "detail": "2026年6月22日國民黨宣布接任文傳會主委。",
+      "period": "2026-02–06",
+      "source": "中央社｜文傳會人事交接",
+      "url": "https://www.cna.com.tw/news/aipl/202606220126.aspx"
+    },
+    {
+      "from": "2026國民黨文傳會主委交接",
+      "to": "鄭麗文",
+      "type": "event",
+      "detail": "2026年國民黨主席，對外宣布並核准相關人事。",
+      "period": "2026-02–06",
+      "source": "中央社｜文傳會人事交接",
+      "url": "https://www.cna.com.tw/news/aipl/202606220126.aspx"
+    },
+    {
+      "from": "2026國民黨文傳會主委交接",
+      "to": "江怡臻",
+      "type": "event",
+      "detail": "2026年3月尹乃菁升任主委後，接任副主委。",
+      "period": "2026-02–06",
+      "source": "中央社｜文傳會人事交接",
+      "url": "https://www.cna.com.tw/news/aipl/202606220126.aspx"
+    },
+    {
+      "from": "尹乃菁｜中視《政治3缺1》",
+      "to": "尹乃菁",
+      "type": "show_host",
+      "detail": "《政治3缺1》：主持人。",
+      "period": "歷年（各節目期別待補）",
+      "source": "尹乃菁｜歷任節目",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
+    },
+    {
+      "from": "尹乃菁｜中視《政治3缺1》",
+      "to": "蘭萱",
+      "type": "show_host",
+      "detail": "《政治3缺1》：共同主持人。",
+      "period": "歷年（各節目期別待補）",
+      "source": "尹乃菁｜歷任節目",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
+    },
+    {
+      "from": "尹乃菁｜中視《政治3缺1》",
+      "to": "陳鳳馨",
+      "type": "show_host",
+      "detail": "《政治3缺1》：共同主持人。",
+      "period": "歷年（各節目期別待補）",
+      "source": "尹乃菁｜歷任節目",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
+    },
+    {
+      "from": "尹乃菁｜緯來《火線雙嬌》",
+      "to": "尹乃菁",
+      "type": "show_host",
+      "detail": "《火線雙嬌》：共同主持人。",
+      "period": "歷年（各節目期別待補）",
+      "source": "尹乃菁｜歷任節目",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
+    },
+    {
+      "from": "尹乃菁｜緯來《火線雙嬌》",
+      "to": "蘭萱",
+      "type": "show_host",
+      "detail": "《火線雙嬌》：共同主持人。",
+      "period": "歷年（各節目期別待補）",
+      "source": "尹乃菁｜歷任節目",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
+    },
+    {
+      "from": "尹乃菁｜News98政論廣播",
+      "to": "尹乃菁",
+      "type": "show_host",
+      "detail": "News98《世界一把抓》、《今晚亮菁菁》：兩檔廣播節目的歷任主持人。",
+      "period": "歷年（各節目期別待補）",
+      "source": "尹乃菁｜歷任節目",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
+    },
+    {
+      "from": "尹乃菁｜飛碟電台廣播",
+      "to": "尹乃菁",
+      "type": "show_host",
+      "detail": "飛碟電台《飛碟午餐》等：2019年起主持《飛碟午餐》等節目。",
+      "period": "歷年（各節目期別待補）",
+      "source": "尹乃菁｜歷任節目",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
+    },
+    {
+      "from": "尹乃菁｜Yahoo TV《鄉民來衝康》",
+      "to": "尹乃菁",
+      "type": "show_host",
+      "detail": "Yahoo TV《鄉民來衝康》：共同主持人。",
+      "period": "歷年（各節目期別待補）",
+      "source": "尹乃菁｜歷任節目",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
+    },
+    {
+      "from": "尹乃菁｜Yahoo TV《鄉民來衝康》",
+      "to": "趙少康",
+      "type": "show_host",
+      "detail": "Yahoo TV《鄉民來衝康》：共同主持人。",
+      "period": "歷年（各節目期別待補）",
+      "source": "尹乃菁｜歷任節目",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
+    },
+    {
+      "from": "尹乃菁｜Bang TV《菁英PK SHOW》",
+      "to": "尹乃菁",
+      "type": "show_host",
+      "detail": "Bang TV《菁英PK SHOW》：2024年11月至2026年1月主持。",
+      "period": "2024-11–2026-01",
+      "source": "尹乃菁｜歷任節目",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
+    },
+    {
+      "from": "尹乃菁｜中天《娛樂圈圈看》",
+      "to": "尹乃菁",
+      "type": "show_host",
+      "detail": "《娛樂圈圈看》：主持人。",
+      "period": "歷年（各節目期別待補）",
+      "source": "尹乃菁｜歷任節目",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
+    },
+    {
+      "from": "尹乃菁｜中天《娛樂圈圈看》",
+      "to": "胡瓜",
+      "type": "show_host",
+      "detail": "《娛樂圈圈看》：共同主持人。",
+      "period": "歷年（各節目期別待補）",
+      "source": "尹乃菁｜歷任節目",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
+    },
+    {
+      "from": "TVBS戰情室｜政治評論員",
+      "to": "尹乃菁",
+      "type": "show_guest",
+      "detail": "《TVBS戰情室》來源列有尹乃菁作為常見政治評論員；與其他嘉賓不推定曾同集出演。",
+      "period": "歷年（節目名單）",
+      "source": "TVBS戰情室｜常見節目來賓",
+      "url": "https://zh.wikipedia.org/wiki/TVBS%E6%88%B0%E6%83%85%E5%AE%A4"
+    },
+    {
+      "from": "2026尹乃菁辭任文傳會主委",
+      "to": "尹乃菁",
+      "type": "event",
+      "detail": "2026年5月表示已提出辭呈、6月22日國民黨宣布辭職獲准。",
+      "period": "2026-05–06",
+      "source": "中央社｜文傳會人事",
+      "url": "https://www.cna.com.tw/news/aipl/202606220126.aspx"
+    },
+    {
+      "from": "2026尹乃菁辭任文傳會主委",
+      "to": "鄭麗文",
+      "type": "event",
+      "detail": "2026年國民黨主席，收受並核准尹乃菁請辭。",
+      "period": "2026-05–06",
+      "source": "中央社｜文傳會人事",
+      "url": "https://www.cna.com.tw/news/aipl/202606220126.aspx"
+    },
+    {
+      "from": "2026尹乃菁辭任文傳會主委",
+      "to": "陳以信",
+      "type": "event",
+      "detail": "2026年6月22日接任國民黨文傳會主委。",
+      "period": "2026-05–06",
+      "source": "中央社｜文傳會人事",
+      "url": "https://www.cna.com.tw/news/aipl/202606220126.aspx"
+    },
+    {
+      "from": "尹乃菁",
+      "to": "鄭麗文",
+      "type": "affiliation",
+      "detail": "2026年鄭麗文任國民黨主席期間，尹乃菁先後擔任文傳會副主委及主委，6月正式卸任。",
+      "period": "2026-02–06",
+      "source": "中央社｜國民黨文傳會",
+      "url": "https://www.cna.com.tw/news/aipl/202606220126.aspx"
+    },
+    {
+      "from": "尹乃菁",
+      "to": "吳宗憲",
+      "type": "affiliation",
+      "detail": "2026年3月18日國民黨文傳會主委由吳宗憲交接給尹乃菁。",
+      "period": "2026-03-18",
+      "source": "中央社｜文傳會人事",
+      "url": "https://www.cna.com.tw/news/aipl/202603180266.aspx"
+    },
+    {
+      "from": "尹乃菁",
+      "to": "陳以信",
+      "type": "affiliation",
+      "detail": "尹乃菁卸任國民黨文傳會主委後，國民黨於2026年6月22日公布陳以信接任。",
+      "period": "2026-06-22",
+      "source": "中央社｜文傳會人事",
+      "url": "https://www.cna.com.tw/news/aipl/202606220126.aspx"
+    },
+    {
+      "from": "尹乃菁",
+      "to": "江怡臻",
+      "type": "affiliation",
+      "detail": "2026年3月尹乃菁由副主委升任文傳會主委，江怡臻接替副主委一職。",
+      "period": "2026-03",
+      "source": "尹乃菁｜文傳會資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
+    },
+    {
+      "from": "尹乃菁",
+      "to": "趙少康",
+      "type": "cooperate",
+      "detail": "兩人曾共同主持Yahoo TV《鄉民來衝康》；此為媒體節目合作，不代表相同政治立場。",
+      "period": "歷年（未逐集核對）",
+      "source": "尹乃菁｜媒體節目",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
+    },
+    {
+      "from": "尹乃菁",
+      "to": "蘭萱",
+      "type": "cooperate",
+      "detail": "兩人曾共同主持《火線雙嬌》與中視政論節目。",
+      "period": "歷年（未逐集核對）",
+      "source": "尹乃菁｜媒體節目",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
+    },
+    {
+      "from": "尹乃菁",
+      "to": "陳鳳馨",
+      "type": "cooperate",
+      "detail": "中視《新聞三缺一》、《政治3缺1》主持團隊之一，與尹乃菁合作節目。",
+      "period": "歷年（未逐集核對）",
+      "source": "尹乃菁｜媒體節目",
+      "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
+    },
+    {
+      "from": "尹乃菁",
+      "to": "王淺秋",
+      "type": "event",
+      "detail": "2026年6月29日晚間王淺秋主持廣播訪問剛卸任國民黨文傳會主委的尹乃菁。",
+      "period": "2026-06-29",
+      "source": "TVBS｜訪談",
+      "url": "https://news.tvbs.com.tw/politics/3244564"
     }
   ]
 }

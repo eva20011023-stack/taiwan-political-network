@@ -18,25 +18,28 @@
       "summary": "補充民進黨黨籍、管碧玲不分區立委遞補、2025年黨團職務與出版／教育經歷。",
       "processed_at": "2026-10-16T21:51:25.098Z",
       "commit_sha": "b6a36b23d649f214415931f667da1043aff1cccf"
-    }
-  ],
-  "skipped": [],
-  "failed": [],
-  "last_run": "2026-10-16T21:58:31.607Z",
-  "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
-  "processing": [
+    },
     {
       "key": "zh:陳為廷",
       "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E7%82%BA%E5%BB%B7",
       "title": "陳為廷",
-      "started_at": "2026-10-16T21:58:31.607Z"
+      "summary": "補完大埔與華隆抗爭、2014太陽花學運、苗栗立委補選、2015–2019年邱顯智等團隊的公開關係；2016年退黨後黨籍標未核實。",
+      "commit_sha": "9614497b992cd4cf299124d46fbd19d8a8ba926e",
+      "processed_at": "2026-10-16T22:02:03.724Z"
     },
     {
       "key": "zh:監聽國會事件",
       "url": "https://zh.wikipedia.org/wiki/%E7%9B%A3%E8%81%BD%E5%9C%8B%E6%9C%83%E4%BA%8B%E4%BB%B6",
       "title": "監聽國會事件",
-      "started_at": "2026-10-16T21:58:31.607Z"
+      "summary": "補完法務部2013監聽調查小組11人及工作責任、院內通話疑雲、民事求償與2019年馬英九更一審無罪確定。行政報告與指控分開。",
+      "commit_sha": "9614497b992cd4cf299124d46fbd19d8a8ba926e",
+      "processed_at": "2026-10-16T22:02:03.724Z"
     }
   ],
-  "last_checked_at": "2026-10-16T21:58:31.607Z"
+  "skipped": [],
+  "failed": [],
+  "last_run": "2026-10-16T22:02:03.724Z",
+  "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
+  "processing": [],
+  "last_checked_at": "2026-10-16T22:02:03.724Z"
 }

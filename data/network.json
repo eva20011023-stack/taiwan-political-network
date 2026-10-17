@@ -83,6 +83,10 @@
       {
         "name": "賴素如",
         "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
+      },
+      {
+        "name": "蔡正元",
+        "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
       }
     ],
     "relation_note": "同案被調查不等於共同定罪；賴素如2020年定讞判決與2014／2016年較早審級區分，2024年已假釋出監。殷瑋2025年轉任臺北市研考會主委；黨籍標籤標註來源時間，非永久身份。",
@@ -2085,14 +2089,15 @@
       "label": "蔡正元",
       "group": "historical",
       "notes": [
-        "2013年時任國民黨立委，公開批評特偵組監聽國會。"
+        "2013年時任國民黨立委，公開批評特偵組監聽國會。",
+        "曾任第5至8屆立法委員、國民黨文傳會主委及政策會執行長；2018至2019年曾任國會政黨聯盟總顧問。"
       ],
       "party": {
         "code": "KMT",
-        "kind": "historical_only",
-        "as_of": "2013",
-        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
-        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
+        "kind": "last_documented",
+        "as_of": "2016–2019（歷年黨務及國會政黨聯盟顧問經歷）",
+        "source": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83",
+        "qualification": "維基記載國民黨籍及曾任國會政黨聯盟顧問；尚未以2026年正式黨員名冊獨立確認現時黨籍。"
       }
     },
     {
@@ -7693,6 +7698,54 @@
       "group": "hub",
       "notes": [
         "公開組織／事件的參與及職務紀錄；共同事件不表示人物私交或共犯。"
+      ]
+    },
+    {
+      "id": "1998馬英九臺北市長競選團隊",
+      "label": "1998馬英九臺北市長競選團隊",
+      "group": "hub",
+      "notes": [
+        "政治選舉、黨務或公開職務紀錄；共同參與事件不代表私人交情。"
+      ]
+    },
+    {
+      "id": "2000連蕭總統競選團隊",
+      "label": "2000連蕭總統競選團隊",
+      "group": "hub",
+      "notes": [
+        "政治選舉、黨務或公開職務紀錄；共同參與事件不代表私人交情。"
+      ]
+    },
+    {
+      "id": "2004連宋總統競選團隊",
+      "label": "2004連宋總統競選團隊",
+      "group": "hub",
+      "notes": [
+        "政治選舉、黨務或公開職務紀錄；共同參與事件不代表私人交情。"
+      ]
+    },
+    {
+      "id": "2014連勝文臺北市長競選團隊",
+      "label": "2014連勝文臺北市長競選團隊",
+      "group": "hub",
+      "notes": [
+        "政治選舉、黨務或公開職務紀錄；共同參與事件不代表私人交情。"
+      ]
+    },
+    {
+      "id": "2016國民黨政策會執行長交接",
+      "label": "2016國民黨政策會執行長交接",
+      "group": "hub",
+      "notes": [
+        "政治選舉、黨務或公開職務紀錄；共同參與事件不代表私人交情。"
+      ]
+    },
+    {
+      "id": "2018國會政黨聯盟總顧問",
+      "label": "2018國會政黨聯盟總顧問",
+      "group": "hub",
+      "notes": [
+        "政治選舉、黨務或公開職務紀錄；共同參與事件不代表私人交情。"
       ]
     }
   ],
@@ -16264,6 +16317,213 @@
       "period": "2014",
       "source": "賴素如｜選舉紀錄",
       "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
+    },
+    {
+      "from": "1998馬英九臺北市長競選團隊",
+      "to": "蔡正元",
+      "type": "event",
+      "detail": "副總幹事及發言人",
+      "period": "1998",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "1998馬英九臺北市長競選團隊",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "臺北市長候選人",
+      "period": "1998",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "2000連蕭總統競選團隊",
+      "to": "蔡正元",
+      "type": "event",
+      "detail": "競選總部發言人",
+      "period": "2000",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "2000連蕭總統競選團隊",
+      "to": "連戰",
+      "type": "event",
+      "detail": "總統候選人",
+      "period": "2000",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "2000連蕭總統競選團隊",
+      "to": "蕭萬長",
+      "type": "event",
+      "detail": "副總統候選人",
+      "period": "2000",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "2004連宋總統競選團隊",
+      "to": "蔡正元",
+      "type": "event",
+      "detail": "競選總部文宣部主任與發言人",
+      "period": "2004",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "2004連宋總統競選團隊",
+      "to": "連戰",
+      "type": "event",
+      "detail": "總統候選人",
+      "period": "2004",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "2004連宋總統競選團隊",
+      "to": "宋楚瑜",
+      "type": "event",
+      "detail": "副總統候選人",
+      "period": "2004",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "2014連勝文臺北市長競選團隊",
+      "to": "蔡正元",
+      "type": "event",
+      "detail": "競選總部執行總幹事",
+      "period": "2014",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "2014連勝文臺北市長競選團隊",
+      "to": "連勝文",
+      "type": "event",
+      "detail": "臺北市長候選人",
+      "period": "2014",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "2016國民黨政策會執行長交接",
+      "to": "蔡正元",
+      "type": "event",
+      "detail": "2016年4月就任政策會執行長",
+      "period": "2016–2017",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "2016國民黨政策會執行長交接",
+      "to": "洪秀柱",
+      "type": "event",
+      "detail": "2016年國民黨主席",
+      "period": "2016–2017",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "2016國民黨政策會執行長交接",
+      "to": "賴士葆",
+      "type": "event",
+      "detail": "政策會執行長前任",
+      "period": "2016–2017",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "2016國民黨政策會執行長交接",
+      "to": "林德福",
+      "type": "event",
+      "detail": "政策會執行長後任",
+      "period": "2016–2017",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "2018國會政黨聯盟總顧問",
+      "to": "蔡正元",
+      "type": "event",
+      "detail": "2018年10月至2019年6月擔任總顧問",
+      "period": "2018–2019",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "蔡正元",
+      "to": "馬英九",
+      "type": "cooperate",
+      "detail": "1998年馬英九臺北市長競選團隊，蔡正元任副總幹事兼發言人。",
+      "period": "1998",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "蔡正元",
+      "to": "連戰",
+      "type": "cooperate",
+      "detail": "2000年連蕭及2004年連宋總統選舉，蔡正元任競選總部發言及文宣職務。",
+      "period": "2000、2004",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "蔡正元",
+      "to": "蕭萬長",
+      "type": "cooperate",
+      "detail": "2000年連戰、蕭萬長總統選舉團隊，蔡正元任發言人。",
+      "period": "2000",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "蔡正元",
+      "to": "宋楚瑜",
+      "type": "cooperate",
+      "detail": "2004年連戰、宋楚瑜總統選舉團隊，蔡正元任文宣部主任及發言人。",
+      "period": "2004",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "蔡正元",
+      "to": "連勝文",
+      "type": "cooperate",
+      "detail": "2014年蔡正元受連勝文邀請擔任臺北市長競選總部執行總幹事。",
+      "period": "2014",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "蔡正元",
+      "to": "洪秀柱",
+      "type": "affiliation",
+      "detail": "洪秀柱擔任國民黨主席期間，蔡正元於2016年4月就任政策會執行長。",
+      "period": "2016",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "蔡正元",
+      "to": "賴士葆",
+      "type": "affiliation",
+      "detail": "國民黨政策會執行長前後任職務關係：蔡正元2016年接任賴士葆。",
+      "period": "2016",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "蔡正元",
+      "to": "林德福",
+      "type": "affiliation",
+      "detail": "國民黨政策會執行長前後任職務關係：林德福2017年接任蔡正元。",
+      "period": "2017",
+      "source": "蔡正元｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
     }
   ]
 }

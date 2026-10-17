@@ -86,8 +86,21 @@
   ],
   "skipped": [],
   "failed": [],
-  "last_run": "2026-10-16T22:32:19.879Z",
+  "last_run": "2026-10-17T05:33:23.451Z",
   "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
-  "processing": [],
-  "last_checked_at": "2026-10-16T22:32:19.879Z"
+  "processing": [
+    {
+      "key": "zh:殷瑋",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B",
+      "title": "殷瑋",
+      "started_at": "2026-10-17T05:33:23.451Z"
+    },
+    {
+      "key": "zh:賴素如",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82",
+      "title": "賴素如",
+      "started_at": "2026-10-17T05:33:23.451Z"
+    }
+  ],
+  "last_checked_at": "2026-10-17T05:33:23.451Z"
 }

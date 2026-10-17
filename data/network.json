@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "臺灣政治人物關係圖譜｜新增羅智強與尹乃菁",
+    "title": "臺灣政治人物關係圖譜｜殷瑋、賴素如與臺北政治",
     "date": "2026-10-17",
-    "scope": "累積公開政治人物、議會、黨職、歷史政治事件及政治媒體節目的具體職務／言論／合作關係。本輪補入羅智強及尹乃菁，使用立法院、中選會、中央社等核對近期人事；媒體同節目不得解讀為私人關係，黨籍按可查年份註記。",
+    "scope": "人物、歷史政治事件、司法案件與媒體節目公開關係網；本輪新增殷瑋與賴素如條目，並以臺北市政府與中央社核對現有公職及最終司法判決。",
     "sources": [
       {
         "name": "新黨",
@@ -75,9 +75,17 @@
       {
         "name": "尹乃菁",
         "url": "https://zh.wikipedia.org/wiki/%E5%B0%B9%E4%B9%83%E8%8F%81"
+      },
+      {
+        "name": "殷瑋",
+        "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B"
+      },
+      {
+        "name": "賴素如",
+        "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
       }
     ],
-    "relation_note": "尹乃菁2026年6月22日已卸任國民黨文傳會主委（中央社），不將維基過時摘要當成現任職務。羅智強2025罷免案依中選會公告為否決。2006年等未經足夠公開證據核實之私人傳聞不加入私人連線。",
+    "relation_note": "同案被調查不等於共同定罪；賴素如2020年定讞判決與2014／2016年較早審級區分，2024年已假釋出監。殷瑋2025年轉任臺北市研考會主委；黨籍標籤標註來源時間，非永久身份。",
     "party": {
       "as_of": "2026-10-17",
       "policy": "有近期資料佐證者標近期黨籍，只有舊提名或黨職記錄則顯示為歷史／最近紀錄；離黨及未核對者不當成現任黨員。顏色只反映資料分類，非政治立場或私人關係。",
@@ -1879,7 +1887,9 @@
       "id": "羅淑蕾",
       "label": "羅淑蕾",
       "group": "historical",
-      "notes": [],
+      "notes": [
+        "2013年就賴素如擔任林益世辯護律師的收費問題公開批評。"
+      ],
       "party": {
         "code": "KMT",
         "kind": "last_documented",
@@ -2896,7 +2906,8 @@
       "label": "連勝文",
       "group": "historical",
       "notes": [
-        "2013年國民黨中常委，公開主張處理王金平爭議應遵守正當程序。"
+        "2013年國民黨中常委，公開主張處理王金平爭議應遵守正當程序。",
+        "2014年國民黨臺北市長候選人，賴素如列其北投區後援會榮譽會長。"
       ],
       "party": {
         "code": "KMT",
@@ -2909,16 +2920,18 @@
     {
       "id": "殷瑋",
       "label": "殷瑋",
-      "group": "historical",
+      "group": "current",
       "notes": [
-        "2013年時任國民黨文傳會副主委，曾轉述假處分抗告相關決策。"
+        "2013年時任國民黨文傳會副主委，曾轉述假處分抗告相關決策。",
+        "2011–2013年擔任馬英九競選連任辦公室發言人、國民黨發言人及文傳會副主委，之後曾任總統府秘書；2022年加入蔣萬安市府，歷任發言人、青年局長、研考會主委。",
+        "臺北市研考會公開首長資料曾於2025年3月18日更新，列職稱為主任委員；2026年10月最新任職情形以市府後續公告為準。"
       ],
       "party": {
         "code": "KMT",
-        "kind": "historical_only",
-        "as_of": "2013",
-        "source": "https://zh.wikipedia.org/wiki/%E4%B9%9D%E6%9C%88%E6%94%BF%E7%88%AD",
-        "qualification": "僅代表條目記載當年政治身分；不證明現在仍屬該黨"
+        "kind": "last_documented",
+        "as_of": "2025-03-18（臺北市研考會主委官方履歷；維基2026版仍記載國民黨籍）",
+        "source": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B",
+        "qualification": "政治人物履歷可查，黨籍仍以維基資訊框為主；官方任職證明不等同黨員資格證明。"
       }
     },
     {
@@ -3342,7 +3355,8 @@
       "label": "2013王金平黨籍爭議",
       "group": "hub",
       "notes": [
-        "歷史事件節點，各參與者角色不同；同一事件不代表私交、同盟或共同責任。"
+        "歷史事件節點，各參與者角色不同；同一事件不代表私交、同盟或共同責任。",
+        "公開組織／事件的參與及職務紀錄；共同事件不表示人物私交或共犯。"
       ]
     },
     {
@@ -3574,7 +3588,8 @@
       "label": "林益世",
       "group": "historical",
       "notes": [
-        "2008年立法院朝野衝突時曾反對民進黨所提議案。"
+        "2008年立法院朝野衝突時曾反對民進黨所提議案。",
+        "2012年涉案時曾委任賴素如辯護，賴於羈押程序後解除委任。"
       ],
       "party": {
         "code": "UNKNOWN",
@@ -7244,7 +7259,8 @@
       "label": "2012馬吳總統競選團隊",
       "group": "hub",
       "notes": [
-        "可查證的公開事件與職務網絡；共現不證明私人往來、同台或政治同盟。"
+        "可查證的公開事件與職務網絡；共現不證明私人往來、同台或政治同盟。",
+        "公開組織／事件的參與及職務紀錄；共同事件不表示人物私交或共犯。"
       ]
     },
     {
@@ -7377,6 +7393,306 @@
       "group": "hub",
       "notes": [
         "可查證的公開事件與職務網絡；共現不證明私人往來、同台或政治同盟。"
+      ]
+    },
+    {
+      "id": "賴素如",
+      "label": "賴素如",
+      "group": "historical",
+      "notes": [
+        "1998–2014年擔任臺北市議員（士林／北投），曾任國民黨中常委、發言人及文傳會副主委；2014年因停權以無黨籍身分參選並落選。",
+        "臺北雙子星收賄案經2020年12月最高法院駁回上訴定讞，刑期7年6月、褫奪公權4年、沒收犯罪所得100萬元；2024年10月14日獲准假釋出監。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "2014無黨籍參選；此前國民黨籍遭停權",
+        "source": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82",
+        "qualification": "資訊框寫中國國民黨（停權中），2014年以無黨籍身分參選；不據此推斷2026年具正式黨籍或無黨籍"
+      }
+    },
+    {
+      "id": "周羿希",
+      "label": "周羿希",
+      "group": "historical",
+      "notes": [
+        "2025年3月接任殷瑋之後的臺北市政府青年局局長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未核實現任黨籍"
+      }
+    },
+    {
+      "id": "陳揮文",
+      "label": "陳揮文",
+      "group": "historical",
+      "notes": [
+        "政論評論員，2012年就馬英九競選的愛台十二建設公開提問殷瑋。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未核實現任黨籍"
+      }
+    },
+    {
+      "id": "孫立群",
+      "label": "孫立群",
+      "group": "historical",
+      "notes": [
+        "2014年時任行政院發言人，對行政院新媒體徵人爭議公開回應。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未核實現任黨籍"
+      }
+    },
+    {
+      "id": "李政軒",
+      "label": "李政軒",
+      "group": "historical",
+      "notes": [
+        "2025年3月後接任臺北市政府發言人。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未核實現任黨籍"
+      }
+    },
+    {
+      "id": "陳萬水",
+      "label": "陳萬水",
+      "group": "historical",
+      "notes": [
+        "2000年前後興票案的受指控當事人之一；此為法律事件角色，不代表定罪。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未核實現任黨籍"
+      }
+    },
+    {
+      "id": "程宏道",
+      "label": "程宏道",
+      "group": "historical",
+      "notes": [
+        "臺北雙子星開發案的太極雙星團隊幕後操盤者；2013年曾與賴素如在相關偵查被收押。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未核實現任黨籍"
+      }
+    },
+    {
+      "id": "彭建銘",
+      "label": "彭建銘",
+      "group": "historical",
+      "notes": [
+        "臺北雙子星案賄款往來關鍵證人／中間人，2014年其證詞受到賴素如辯護團隊質疑。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未核實現任黨籍"
+      }
+    },
+    {
+      "id": "邱大展",
+      "label": "邱大展",
+      "group": "historical",
+      "notes": [
+        "臺北市財政局前局長，臺北雙子星開發案另案被告，2014年一審判決無罪；未確認後續最終裁判。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未核實現任黨籍"
+      }
+    },
+    {
+      "id": "賈二慶",
+      "label": "賈二慶",
+      "group": "historical",
+      "notes": [
+        "2013年太極雙星開發案偵查中的顧問／被告，曾交保；不得推論最終罪責。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未核實現任黨籍"
+      }
+    },
+    {
+      "id": "姚文成",
+      "label": "姚文成",
+      "group": "historical",
+      "notes": [
+        "賴素如前辦公室主任，相關聘用推薦曾在林益世案件出現爭論；未據此認定不法。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未核實現任黨籍"
+      }
+    },
+    {
+      "id": "陳松棟",
+      "label": "陳松棟",
+      "group": "historical",
+      "notes": [
+        "2012年賴素如退出林益世辯護團後接任的律師之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未核實現任黨籍"
+      }
+    },
+    {
+      "id": "殷瑋｜國民黨青年團及文傳會職務",
+      "label": "殷瑋｜國民黨青年團及文傳會職務",
+      "group": "hub",
+      "notes": [
+        "公開組織／事件的參與及職務紀錄；共同事件不表示人物私交或共犯。"
+      ]
+    },
+    {
+      "id": "2012愛台十二建設政論訪問",
+      "label": "2012愛台十二建設政論訪問",
+      "group": "hub",
+      "notes": [
+        "公開組織／事件的參與及職務紀錄；共同事件不表示人物私交或共犯。"
+      ]
+    },
+    {
+      "id": "2022至2025殷瑋臺北市政府職務",
+      "label": "2022至2025殷瑋臺北市政府職務",
+      "group": "hub",
+      "notes": [
+        "公開組織／事件的參與及職務紀錄；共同事件不表示人物私交或共犯。"
+      ]
+    },
+    {
+      "id": "2024臺北市政府青年局成立",
+      "label": "2024臺北市政府青年局成立",
+      "group": "hub",
+      "notes": [
+        "公開組織／事件的參與及職務紀錄；共同事件不表示人物私交或共犯。"
+      ]
+    },
+    {
+      "id": "2025臺北市研考會主委交接",
+      "label": "2025臺北市研考會主委交接",
+      "group": "hub",
+      "notes": [
+        "公開組織／事件的參與及職務紀錄；共同事件不表示人物私交或共犯。"
+      ]
+    },
+    {
+      "id": "賴素如｜臺北市議員及國民黨職務",
+      "label": "賴素如｜臺北市議員及國民黨職務",
+      "group": "hub",
+      "notes": [
+        "公開組織／事件的參與及職務紀錄；共同事件不表示人物私交或共犯。"
+      ]
+    },
+    {
+      "id": "2014賴素如臺北市議員選舉",
+      "label": "2014賴素如臺北市議員選舉",
+      "group": "hub",
+      "notes": [
+        "公開組織／事件的參與及職務紀錄；共同事件不表示人物私交或共犯。"
+      ]
+    },
+    {
+      "id": "王奕凱",
+      "label": "王奕凱",
+      "group": "historical",
+      "notes": [
+        "2014年臺北市士林、北投議員選舉參選人，與賴素如同選區競爭。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "未核實現任黨籍"
+      }
+    },
+    {
+      "id": "2014連勝文臺北市長競選北投後援會",
+      "label": "2014連勝文臺北市長競選北投後援會",
+      "group": "hub",
+      "notes": [
+        "公開組織／事件的參與及職務紀錄；共同事件不表示人物私交或共犯。"
+      ]
+    },
+    {
+      "id": "賴素如｜興票案法律委任",
+      "label": "賴素如｜興票案法律委任",
+      "group": "hub",
+      "notes": [
+        "公開組織／事件的參與及職務紀錄；共同事件不表示人物私交或共犯。"
+      ]
+    },
+    {
+      "id": "2012林益世案辯護律師變更",
+      "label": "2012林益世案辯護律師變更",
+      "group": "hub",
+      "notes": [
+        "公開組織／事件的參與及職務紀錄；共同事件不表示人物私交或共犯。"
+      ]
+    },
+    {
+      "id": "2013臺北雙子星案偵查及審理",
+      "label": "2013臺北雙子星案偵查及審理",
+      "group": "hub",
+      "notes": [
+        "公開組織／事件的參與及職務紀錄；共同事件不表示人物私交或共犯。"
+      ]
+    },
+    {
+      "id": "2020賴素如收賄罪定讞",
+      "label": "2020賴素如收賄罪定讞",
+      "group": "hub",
+      "notes": [
+        "公開組織／事件的參與及職務紀錄；共同事件不表示人物私交或共犯。"
+      ]
+    },
+    {
+      "id": "2024賴素如假釋出監",
+      "label": "2024賴素如假釋出監",
+      "group": "hub",
+      "notes": [
+        "公開組織／事件的參與及職務紀錄；共同事件不表示人物私交或共犯。"
       ]
     }
   ],
@@ -15444,6 +15760,510 @@
       "period": "2026-06-29",
       "source": "TVBS｜訪談",
       "url": "https://news.tvbs.com.tw/politics/3244564"
+    },
+    {
+      "from": "2012馬吳總統競選團隊",
+      "to": "殷瑋",
+      "type": "event",
+      "detail": "2011年6月起為馬英九總統連任辦公室發言人，競選時期持續發言。",
+      "period": "2011–2012",
+      "source": "殷瑋及賴素如｜政治經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B"
+    },
+    {
+      "from": "2012馬吳總統競選團隊",
+      "to": "賴素如",
+      "type": "event",
+      "detail": "2011年10月至2012年1月擔任馬吳競選辦公室主任。",
+      "period": "2011–2012",
+      "source": "殷瑋及賴素如｜政治經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B"
+    },
+    {
+      "from": "2012馬吳總統競選團隊",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "2012年國民黨總統候選人。",
+      "period": "2011–2012",
+      "source": "殷瑋及賴素如｜政治經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B"
+    },
+    {
+      "from": "2012馬吳總統競選團隊",
+      "to": "金溥聰",
+      "type": "event",
+      "detail": "馬英九競選幕僚、重要選舉組織成員。",
+      "period": "2011–2012",
+      "source": "殷瑋及賴素如｜政治經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B"
+    },
+    {
+      "from": "殷瑋｜國民黨青年團及文傳會職務",
+      "to": "殷瑋",
+      "type": "event",
+      "detail": "2012年起擔任國民黨發言人兼青年團執行長，2013年擔任文傳會副主委。",
+      "period": "2012–2014",
+      "source": "殷瑋｜黨務工作",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B"
+    },
+    {
+      "from": "殷瑋｜國民黨青年團及文傳會職務",
+      "to": "賴素如",
+      "type": "event",
+      "detail": "2013年涉案後殷瑋接替其國民黨文傳會副主委職務。",
+      "period": "2012–2014",
+      "source": "殷瑋｜黨務工作",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B"
+    },
+    {
+      "from": "殷瑋｜國民黨青年團及文傳會職務",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "2013年任國民黨主席，殷瑋為黨發言團隊成員。",
+      "period": "2012–2014",
+      "source": "殷瑋｜黨務工作",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B"
+    },
+    {
+      "from": "2012愛台十二建設政論訪問",
+      "to": "殷瑋",
+      "type": "event",
+      "detail": "2012年以馬英九競選辦公室發言人身份在政論節目回答競選政見詢問。",
+      "period": "2012",
+      "source": "殷瑋｜新聞事件",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B"
+    },
+    {
+      "from": "2012愛台十二建設政論訪問",
+      "to": "陳揮文",
+      "type": "event",
+      "detail": "2012年政論節目詢問殷瑋『愛台十二項建設』內容。",
+      "period": "2012",
+      "source": "殷瑋｜新聞事件",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B"
+    },
+    {
+      "from": "2012愛台十二建設政論訪問",
+      "to": "金溥聰",
+      "type": "event",
+      "detail": "2012年競選幕僚主管，對殷瑋節目表現發表公開評論。",
+      "period": "2012",
+      "source": "殷瑋｜新聞事件",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B"
+    },
+    {
+      "from": "2022至2025殷瑋臺北市政府職務",
+      "to": "殷瑋",
+      "type": "event",
+      "detail": "2022年任市政顧問，後任市府發言人；2024年青年局首任局長，2025年3月轉任研考會主任委員。",
+      "period": "2022–2025",
+      "source": "臺北市府／中央社｜首長人事",
+      "url": "https://www.cna.com.tw/news/aloc/202503160062.aspx"
+    },
+    {
+      "from": "2022至2025殷瑋臺北市政府職務",
+      "to": "蔣萬安",
+      "type": "event",
+      "detail": "2022年底起任臺北市長，任命殷瑋為市府幕僚及一級機關首長。",
+      "period": "2022–2025",
+      "source": "臺北市府／中央社｜首長人事",
+      "url": "https://www.cna.com.tw/news/aloc/202503160062.aspx"
+    },
+    {
+      "from": "2022至2025殷瑋臺北市政府職務",
+      "to": "周羿希",
+      "type": "event",
+      "detail": "2025年3月接任殷瑋之後的青年局長。",
+      "period": "2022–2025",
+      "source": "臺北市府／中央社｜首長人事",
+      "url": "https://www.cna.com.tw/news/aloc/202503160062.aspx"
+    },
+    {
+      "from": "2022至2025殷瑋臺北市政府職務",
+      "to": "李政軒",
+      "type": "event",
+      "detail": "2025年3月接任臺北市府發言人。",
+      "period": "2022–2025",
+      "source": "臺北市府／中央社｜首長人事",
+      "url": "https://www.cna.com.tw/news/aloc/202503160062.aspx"
+    },
+    {
+      "from": "2024臺北市政府青年局成立",
+      "to": "殷瑋",
+      "type": "event",
+      "detail": "2024年6月1日青年局正式揭牌成立時為首任局長。",
+      "period": "2024-06-01",
+      "source": "中央社｜青年局成立",
+      "url": "https://www.cna.com.tw/news/aloc/202406010101.aspx"
+    },
+    {
+      "from": "2024臺北市政府青年局成立",
+      "to": "蔣萬安",
+      "type": "event",
+      "detail": "2024年市長，出席青年局成立活動並推動設立該機關。",
+      "period": "2024-06-01",
+      "source": "中央社｜青年局成立",
+      "url": "https://www.cna.com.tw/news/aloc/202406010101.aspx"
+    },
+    {
+      "from": "2025臺北市研考會主委交接",
+      "to": "殷瑋",
+      "type": "event",
+      "detail": "2025年3月18日轉任臺北市政府研究發展考核委員會主任委員。",
+      "period": "2025-03",
+      "source": "臺北市研考會／中央社",
+      "url": "https://rdec.gov.taipei/News_Content_Leader.aspx?n=EF294B929AECB4B3&s=795CB1B9621EDDC8"
+    },
+    {
+      "from": "2025臺北市研考會主委交接",
+      "to": "蔣萬安",
+      "type": "event",
+      "detail": "2025年3月宣布包括研考會主委等市府小內閣異動。",
+      "period": "2025-03",
+      "source": "臺北市研考會／中央社",
+      "url": "https://rdec.gov.taipei/News_Content_Leader.aspx?n=EF294B929AECB4B3&s=795CB1B9621EDDC8"
+    },
+    {
+      "from": "2025臺北市研考會主委交接",
+      "to": "周羿希",
+      "type": "event",
+      "detail": "2025年殷瑋轉研考會，周羿希接任青年局。",
+      "period": "2025-03",
+      "source": "臺北市研考會／中央社",
+      "url": "https://rdec.gov.taipei/News_Content_Leader.aspx?n=EF294B929AECB4B3&s=795CB1B9621EDDC8"
+    },
+    {
+      "from": "2013王金平黨籍爭議",
+      "to": "殷瑋",
+      "type": "event",
+      "detail": "2013年以國民黨文傳會副主委身分轉述馬英九決定不就王金平假處分案繼續抗告。",
+      "period": "2013-10",
+      "source": "公視｜王金平黨籍假處分",
+      "url": "https://news.pts.org.tw/article/251878"
+    },
+    {
+      "from": "賴素如｜臺北市議員及國民黨職務",
+      "to": "賴素如",
+      "type": "event",
+      "detail": "1998–2014年臺北市議員，歷任國民黨發言人、文傳會副主委及黨主席辦公室主任。",
+      "period": "1998–2014",
+      "source": "賴素如｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
+    },
+    {
+      "from": "賴素如｜臺北市議員及國民黨職務",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "2012年任國民黨主席，由賴素如擔任主席辦公室主任。",
+      "period": "1998–2014",
+      "source": "賴素如｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
+    },
+    {
+      "from": "2014賴素如臺北市議員選舉",
+      "to": "賴素如",
+      "type": "event",
+      "detail": "曾遭國民黨停權，2014年以無黨籍參選士林、北投市議員並落選。",
+      "period": "2014-11",
+      "source": "賴素如｜選舉紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
+    },
+    {
+      "from": "2014賴素如臺北市議員選舉",
+      "to": "王奕凱",
+      "type": "event",
+      "detail": "同選區2014年市議員參選人，依條目選舉紀錄得票超過賴素如。",
+      "period": "2014-11",
+      "source": "賴素如｜選舉紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
+    },
+    {
+      "from": "2014連勝文臺北市長競選北投後援會",
+      "to": "連勝文",
+      "type": "event",
+      "detail": "2014年國民黨臺北市長候選人。",
+      "period": "2014",
+      "source": "賴素如｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
+    },
+    {
+      "from": "2014連勝文臺北市長競選北投後援會",
+      "to": "賴素如",
+      "type": "event",
+      "detail": "曾擔任連勝文北投區後援會榮譽會長。",
+      "period": "2014",
+      "source": "賴素如｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
+    },
+    {
+      "from": "賴素如｜興票案法律委任",
+      "to": "賴素如",
+      "type": "event",
+      "detail": "國民黨在興票案曾委任其擔任律師。",
+      "period": "2000年前後",
+      "source": "賴素如｜興票案",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
+    },
+    {
+      "from": "賴素如｜興票案法律委任",
+      "to": "宋楚瑜",
+      "type": "event",
+      "detail": "興票案遭國民黨指控者，刑事調查結果為不起訴，不推定有罪。",
+      "period": "2000年前後",
+      "source": "賴素如｜興票案",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
+    },
+    {
+      "from": "賴素如｜興票案法律委任",
+      "to": "陳萬水",
+      "type": "event",
+      "detail": "興票案同受指控當事人。",
+      "period": "2000年前後",
+      "source": "賴素如｜興票案",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
+    },
+    {
+      "from": "2012林益世案辯護律師變更",
+      "to": "賴素如",
+      "type": "event",
+      "detail": "2012年6月底至7月初短暫任林益世辯護律師，之後解除委任退出辯護團。",
+      "period": "2012-06–07",
+      "source": "公視新聞｜林益世案辯護",
+      "url": "https://news.pts.org.tw/article/214383"
+    },
+    {
+      "from": "2012林益世案辯護律師變更",
+      "to": "林益世",
+      "type": "event",
+      "detail": "2012年刑事案件被告，曾聘任賴素如。",
+      "period": "2012-06–07",
+      "source": "公視新聞｜林益世案辯護",
+      "url": "https://news.pts.org.tw/article/214383"
+    },
+    {
+      "from": "2012林益世案辯護律師變更",
+      "to": "陳松棟",
+      "type": "event",
+      "detail": "賴素如退出林益世辯護團後加入的律師。",
+      "period": "2012-06–07",
+      "source": "公視新聞｜林益世案辯護",
+      "url": "https://news.pts.org.tw/article/214383"
+    },
+    {
+      "from": "2013臺北雙子星案偵查及審理",
+      "to": "賴素如",
+      "type": "event",
+      "detail": "2013年因臺北雙子星開發案相關收賄指控被起訴，2020年收賄罪判決定讞。",
+      "period": "2013–2020",
+      "source": "賴素如條目／中央社／公視",
+      "url": "https://www.cna.com.tw/news/firstnews/202012230107.aspx"
+    },
+    {
+      "from": "2013臺北雙子星案偵查及審理",
+      "to": "程宏道",
+      "type": "event",
+      "detail": "太極雙星團隊幕後操盤者；2013年遭相關案件偵查及收押，不在此紀錄推定其最終刑責。",
+      "period": "2013–2020",
+      "source": "賴素如條目／中央社／公視",
+      "url": "https://www.cna.com.tw/news/firstnews/202012230107.aspx"
+    },
+    {
+      "from": "2013臺北雙子星案偵查及審理",
+      "to": "彭建銘",
+      "type": "event",
+      "detail": "此案居間者及重要證人，相關證詞曾受辯護團質疑。",
+      "period": "2013–2020",
+      "source": "賴素如條目／中央社／公視",
+      "url": "https://www.cna.com.tw/news/firstnews/202012230107.aspx"
+    },
+    {
+      "from": "2013臺北雙子星案偵查及審理",
+      "to": "邱大展",
+      "type": "event",
+      "detail": "涉及雙子星開發案相關另案，一審判無罪，未查其後審級結果。",
+      "period": "2013–2020",
+      "source": "賴素如條目／中央社／公視",
+      "url": "https://www.cna.com.tw/news/firstnews/202012230107.aspx"
+    },
+    {
+      "from": "2013臺北雙子星案偵查及審理",
+      "to": "賈二慶",
+      "type": "event",
+      "detail": "太極雙星顧問；涉案偵查期間曾獲交保，不推定定罪。",
+      "period": "2013–2020",
+      "source": "賴素如條目／中央社／公視",
+      "url": "https://www.cna.com.tw/news/firstnews/202012230107.aspx"
+    },
+    {
+      "from": "2020賴素如收賄罪定讞",
+      "to": "賴素如",
+      "type": "event",
+      "detail": "2020年12月23日最高法院駁回上訴；收賄罪7年6月、褫奪公權4年、沒收犯罪所得100萬元定讞。",
+      "period": "2020-12-23",
+      "source": "中央社｜最高法院定讞",
+      "url": "https://www.cna.com.tw/news/firstnews/202012230107.aspx"
+    },
+    {
+      "from": "2024賴素如假釋出監",
+      "to": "賴素如",
+      "type": "event",
+      "detail": "2024年10月14日法務部矯正署核准假釋，自宜蘭監獄出監，赴地檢署執行保護管束。",
+      "period": "2024-10-14",
+      "source": "中央社｜假釋出監",
+      "url": "https://www.cna.com.tw/news/asoc/202410140258.aspx"
+    },
+    {
+      "from": "殷瑋",
+      "to": "馬英九",
+      "type": "affiliation",
+      "detail": "2010年起任國安會與馬英九幕僚，2011年擔任總統連任競選辦公室發言人，後任國民黨文傳會副主委。",
+      "period": "2010–2014",
+      "source": "殷瑋｜公職與黨務",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B"
+    },
+    {
+      "from": "殷瑋",
+      "to": "吳敦義",
+      "type": "cooperate",
+      "detail": "2012年馬英九、吳敦義總統副總統競選團隊成員，殷瑋擔任發言人。",
+      "period": "2012",
+      "source": "殷瑋｜馬吳競選",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B"
+    },
+    {
+      "from": "殷瑋",
+      "to": "金溥聰",
+      "type": "affiliation",
+      "detail": "馬英九競選辦公室發言人殷瑋與幕僚主管金溥聰有公開工作關係；金曾就其節目表現發表評論。",
+      "period": "2011–2012",
+      "source": "殷瑋｜競選工作",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B"
+    },
+    {
+      "from": "殷瑋",
+      "to": "賴素如",
+      "type": "affiliation",
+      "detail": "2013年賴素如涉案後，殷瑋接任國民黨文傳會副主委職務；為黨職前後任，不等於私人關係。",
+      "period": "2013",
+      "source": "殷瑋｜黨職沿革",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B"
+    },
+    {
+      "from": "殷瑋",
+      "to": "蔣萬安",
+      "type": "affiliation",
+      "detail": "2022年起於蔣萬安市府任顧問、發言人、青年局長及研考會主委。",
+      "period": "2022–2025",
+      "source": "臺北市府｜人事",
+      "url": "https://rdec.gov.taipei/News_Content_Leader.aspx?n=EF294B929AECB4B3&s=795CB1B9621EDDC8"
+    },
+    {
+      "from": "殷瑋",
+      "to": "周羿希",
+      "type": "affiliation",
+      "detail": "2025年3月殷瑋轉任研考會主委，周羿希接任市府青年局長。",
+      "period": "2025-03",
+      "source": "中央社｜市府人事",
+      "url": "https://www.cna.com.tw/news/aloc/202503160062.aspx"
+    },
+    {
+      "from": "殷瑋",
+      "to": "陳揮文",
+      "type": "event",
+      "detail": "2012年殷瑋在政論節目接受陳揮文詢問馬英九競選政見愛台十二項建設。",
+      "period": "2012",
+      "source": "殷瑋｜政論訪問",
+      "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B"
+    },
+    {
+      "from": "殷瑋",
+      "to": "王金平",
+      "type": "event",
+      "detail": "2013年文傳會副主委殷瑋轉述馬英九不再抗告王金平黨籍假處分的決定；為記者會發言與事件關係。",
+      "period": "2013-10",
+      "source": "公視｜九月政爭",
+      "url": "https://news.pts.org.tw/article/251878"
+    },
+    {
+      "from": "賴素如",
+      "to": "馬英九",
+      "type": "affiliation",
+      "detail": "賴素如曾任馬英九所領導之國民黨的主席辦公室主任、總統府法律顧問及競選團隊人員。",
+      "period": "2008–2013",
+      "source": "賴素如｜黨職與競選工作",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
+    },
+    {
+      "from": "賴素如",
+      "to": "連勝文",
+      "type": "support",
+      "detail": "2014年國民黨臺北市長候選人連勝文之北投區後援會榮譽會長為賴素如。",
+      "period": "2014",
+      "source": "賴素如｜選舉經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
+    },
+    {
+      "from": "賴素如",
+      "to": "林益世",
+      "type": "affiliation",
+      "detail": "2012年賴素如短暫為林益世刑事案件辯護律師，後於7月解除委任。",
+      "period": "2012",
+      "source": "公視｜林益世案",
+      "url": "https://news.pts.org.tw/article/214383"
+    },
+    {
+      "from": "賴素如",
+      "to": "羅秉成",
+      "type": "affiliation",
+      "detail": "2014年雙子星案一審判決時，羅秉成為賴素如的委任律師之一並公開回應。",
+      "period": "2014",
+      "source": "公視｜臺北雙子星一審",
+      "url": "https://news.pts.org.tw/article/282734"
+    },
+    {
+      "from": "賴素如",
+      "to": "宋楚瑜",
+      "type": "case",
+      "detail": "興票案期間賴素如以國民黨委任律師身分參與對宋楚瑜的法律訴訟，相關刑案未起訴定讞。",
+      "period": "2000年前後",
+      "source": "賴素如｜興票案",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
+    },
+    {
+      "from": "賴素如",
+      "to": "程宏道",
+      "type": "case",
+      "detail": "臺北雙子星案的案件當事人：賴素如在收賄部分遭定讞，程宏道另涉調查，不能據此推定其最終裁判。",
+      "period": "2013–2020",
+      "source": "中央社｜雙子星案",
+      "url": "https://www.cna.com.tw/news/firstnews/202012230107.aspx"
+    },
+    {
+      "from": "賴素如",
+      "to": "彭建銘",
+      "type": "case",
+      "detail": "雙子星收賄案件中彭建銘為居間人及證人，其供詞遭辯護團質疑；法院判決以其他卷證綜合認定。",
+      "period": "2013–2020",
+      "source": "賴素如｜案件審理",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
+    },
+    {
+      "from": "賴素如",
+      "to": "羅淑蕾",
+      "type": "dispute",
+      "detail": "2013年羅淑蕾公開質疑賴素如2012年擔任林益世案律師收費；該金額為羅淑蕾的指稱，非此處核定事實。",
+      "period": "2013",
+      "source": "賴素如｜政治爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
+    },
+    {
+      "from": "賴素如",
+      "to": "王奕凱",
+      "type": "contest",
+      "detail": "2014年臺北市第一選區市議員選舉的不同候選人。",
+      "period": "2014",
+      "source": "賴素如｜選舉紀錄",
+      "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82"
     }
   ]
 }

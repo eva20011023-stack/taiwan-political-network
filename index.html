@@ -345,4 +345,4 @@ svg.addEventListener("dblclick",e=>{e.preventDefault();zoom(0.7,e.clientX,e.clie
 window.graphLabelState=()=>({selected,route:routeSet?.nodes||[],edges:db?.edges||[]});
 fetch("./data/network.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(boot).catch(e=>{svg.replaceChildren(el("text",{x:-900,y:0,fill:"#e9f2ff","font-size":30},"無法載入資料："+e.message));$("stats").textContent="資料載入失敗，請重新整理頁面。"});
 })();
-</script><script src="./assets/label-clutter-fix.js" defer></script></body></html>
+</script><script src="./assets/label-clutter-fix.js?v=20261017-coordinatefix" defer></script></body></html>

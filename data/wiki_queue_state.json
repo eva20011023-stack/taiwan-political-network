@@ -82,25 +82,28 @@
       "summary": "完成新聞媒體與電台、政論節目主持網絡；2026年國民黨文傳會副主委／主委並於6月卸任由陳以信接任，避免誤標現任職務。（本輪兩篇合計新增31節點、65筆連線，未分攤單篇數量。）",
       "processed_at": "2026-10-16T22:32:19.879Z",
       "commit_sha": "622aefb68d7a0e1c45ead19ad1e660ea5b3f6ba5"
-    }
-  ],
-  "skipped": [],
-  "failed": [],
-  "last_run": "2026-10-17T05:33:23.451Z",
-  "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
-  "processing": [
+    },
     {
       "key": "zh:殷瑋",
       "url": "https://zh.wikipedia.org/wiki/%E6%AE%B7%E7%91%8B",
       "title": "殷瑋",
-      "started_at": "2026-10-17T05:33:23.451Z"
+      "summary": "補完馬英九競選及國民黨黨務、賴素如文傳會副主委前後任、蔣萬安市府發言人／青年局長／研考會主委關係；本輪兩篇合計新增26節點及56連線。",
+      "processed_at": "2026-10-17T05:37:53.657Z",
+      "commit_sha": "3bde3e1de23116a9bfdc8dde3d4198bce92f3761"
     },
     {
       "key": "zh:賴素如",
       "url": "https://zh.wikipedia.org/wiki/%E8%B3%B4%E7%B4%A0%E5%A6%82",
       "title": "賴素如",
-      "started_at": "2026-10-17T05:33:23.451Z"
+      "summary": "補完國民黨歷史黨職、2014無黨籍選舉、興票案法律委任、林益世辯護、臺北雙子星案件2020定讞和2024假釋；現黨籍待核實。本輪兩篇合計新增26節點及56連線。",
+      "processed_at": "2026-10-17T05:37:53.657Z",
+      "commit_sha": "3bde3e1de23116a9bfdc8dde3d4198bce92f3761"
     }
   ],
-  "last_checked_at": "2026-10-17T05:33:23.451Z"
+  "skipped": [],
+  "failed": [],
+  "last_run": "2026-10-17T05:37:53.657Z",
+  "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
+  "processing": [],
+  "last_checked_at": "2026-10-17T05:37:53.657Z"
 }

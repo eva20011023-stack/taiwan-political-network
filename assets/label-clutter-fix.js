@@ -73,8 +73,10 @@
        box={x:left,y:baseline-fontPx-3,w:width,h:fontPx+6};
      }
      if(!chosen)continue;
-     item.label.setAttribute("x",item.wx+(chosen.x-item.x)/scale);
-     item.label.setAttribute("y",item.wy+(chosen.y-item.y)/scale);
+     // The label belongs to a <g transform="translate(wx wy)">. SVG text x/y are LOCAL to that group.
+     // Adding wx/wy here a second time displaced text far away from its person dot.
+     item.label.setAttribute("x",(chosen.x-item.x)/scale);
+     item.label.setAttribute("y",(chosen.y-item.y)/scale);
      item.label.setAttribute("text-anchor",chosen.anchor);
      item.label.setAttribute("font-size",(fontPx/scale).toFixed(3));
      item.label.setAttribute("stroke-width",(2.4/scale).toFixed(3));

@@ -2,7 +2,7 @@
   "meta": {
     "title": "臺灣政治人物關係圖譜｜殷瑋、賴素如與臺北政治",
     "date": "2026-10-18",
-    "scope": "人物、歷史政治事件、司法案件與媒體節目公開關係網；本輪新增殷瑋與賴素如條目，並以臺北市政府與中央社核對現有公職及最終司法判決。",
+    "scope": "維基條目與正式公職、中央社、公視來源整理之臺灣公眾政治人物、選舉、黨職、政治事件、媒體與家庭公開關係。歷史關係須看年份，僅同場參與不等於熟識或支持。",
     "sources": [
       {
         "name": "新黨",
@@ -91,6 +91,10 @@
       {
         "name": "鄭聚然",
         "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E8%81%9A%E7%84%B6"
+      },
+      {
+        "name": "陳水扁",
+        "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
       }
     ],
     "relation_note": "同案被調查不等於共同定罪；賴素如2020年定讞判決與2014／2016年較早審級區分，2024年已假釋出監。殷瑋2025年轉任臺北市研考會主委；黨籍標籤標註來源時間，非永久身份。",
@@ -1269,14 +1273,15 @@
       "label": "許信良",
       "group": "external",
       "notes": [
-        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。",
+        "1999年民進黨總統候選人提名程序中，曾與陳水扁在黨內競爭。"
       ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+        "code": "DPP",
+        "kind": "historical_only",
+        "as_of": "歷史任職／所屬政黨（非2026現況）",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81",
+        "qualification": "僅代表相關歷史報導、背景，不推定此刻黨籍"
       }
     },
     {
@@ -2660,7 +2665,8 @@
       "label": "1998臺北市長選舉",
       "group": "hub",
       "notes": [
-        "公開共同事件或職務銜接，不直接代表私人交情或政治同盟。"
+        "公開共同事件或職務銜接，不直接代表私人交情或政治同盟。",
+        "依公開紀錄建立的歷史選舉／人事／政治事件節點；參與同一事件不代表私人交情、同盟或直接往來。"
       ]
     },
     {
@@ -5620,14 +5626,17 @@
       "label": "陳水扁",
       "group": "historical",
       "notes": [
-        "2004年民進黨主席卸任後，由柯建銘暫代主席。"
+        "2004年民進黨主席卸任後，由柯建銘暫代主席。",
+        "前中華民國第10、11任總統（2000年5月20日至2008年5月20日），曾任臺北市議員、立法委員、臺北市長及民進黨主席。",
+        "曾為1979年美麗島事件被告辯護律師；1994年當選臺北市長、1998年競選連任敗給馬英九。",
+        "陳水扁與呂秀蓮搭檔贏得2000年、2004年總統選舉；2000年成為首次政黨輪替的當選總統。"
       ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "黨籍／身份未單獨核實"
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2013-08-14",
+        "source": "https://news.pts.org.tw/article/247707",
+        "qualification": "2008年主動退黨、2013年8月14日再入黨獲准；缺乏2026年黨員名冊確認現在黨籍，並非現任黨職。"
       }
     },
     {
@@ -7882,6 +7891,311 @@
       "group": "hub",
       "notes": [
         "2019年苗栗縣議會就性別教育與德育的公開政策辯論；當事人間的對立為公開言論紀錄，不等於私人關係。"
+      ]
+    },
+    {
+      "id": "呂秀蓮",
+      "label": "呂秀蓮",
+      "group": "historical",
+      "notes": [
+        "2000至2008年間任中華民國副總統，與陳水扁兩度搭檔參選。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "historical_only",
+        "as_of": "歷史任職／所屬政黨（非2026現況）",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81",
+        "qualification": "僅代表相關歷史報導、背景，不推定此刻黨籍"
+      }
+    },
+    {
+      "id": "唐飛",
+      "label": "唐飛",
+      "group": "historical",
+      "notes": [
+        "2000年5月20日至10月4日擔任陳水扁政府首任行政院長；在任時具國民黨背景。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "歷史任職／所屬政黨（非2026現況）",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81",
+        "qualification": "僅代表相關歷史報導、背景，不推定此刻黨籍"
+      }
+    },
+    {
+      "id": "張俊雄",
+      "label": "張俊雄",
+      "group": "historical",
+      "notes": [
+        "2000年與2007年兩度出任陳水扁政府行政院長，曾任總統府秘書長。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "historical_only",
+        "as_of": "歷史任職／所屬政黨（非2026現況）",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81",
+        "qualification": "僅代表相關歷史報導、背景，不推定此刻黨籍"
+      }
+    },
+    {
+      "id": "黃大洲",
+      "label": "黃大洲",
+      "group": "historical",
+      "notes": [
+        "1994年首屆民選臺北市長選舉參選人、時任官派臺北市長。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "歷史任職／所屬政黨（非2026現況）",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81",
+        "qualification": "僅代表相關歷史報導、背景，不推定此刻黨籍"
+      }
+    },
+    {
+      "id": "李雅樵",
+      "label": "李雅樵",
+      "group": "historical",
+      "notes": [
+        "1985年臺南縣長選舉與陳水扁競爭的國民黨候選人。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "歷史任職／所屬政黨（非2026現況）",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81",
+        "qualification": "僅代表相關歷史報導、背景，不推定此刻黨籍"
+      }
+    },
+    {
+      "id": "黃信介",
+      "label": "黃信介",
+      "group": "historical",
+      "notes": [
+        "美麗島事件受審者，陳水扁曾加入律師團為其辯護。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "historical_only",
+        "as_of": "歷史任職／所屬政黨（非2026現況）",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81",
+        "qualification": "僅代表相關歷史報導、背景，不推定此刻黨籍"
+      }
+    },
+    {
+      "id": "江鵬堅",
+      "label": "江鵬堅",
+      "group": "historical",
+      "notes": [
+        "1979年美麗島事件律師團成員；後參與黨外、民進黨政治活動。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "historical_only",
+        "as_of": "歷史任職／所屬政黨（非2026現況）",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81",
+        "qualification": "僅代表相關歷史報導、背景，不推定此刻黨籍"
+      }
+    },
+    {
+      "id": "尤清",
+      "label": "尤清",
+      "group": "historical",
+      "notes": [
+        "1979年美麗島事件律師團成員；後投入民進黨政治。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "historical_only",
+        "as_of": "歷史任職／所屬政黨（非2026現況）",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81",
+        "qualification": "僅代表相關歷史報導、背景，不推定此刻黨籍"
+      }
+    },
+    {
+      "id": "姚嘉文",
+      "label": "姚嘉文",
+      "group": "historical",
+      "notes": [
+        "1979年美麗島事件受審者，當時由謝長廷、蘇貞昌等辯護。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "historical_only",
+        "as_of": "歷史任職／所屬政黨（非2026現況）",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81",
+        "qualification": "僅代表相關歷史報導、背景，不推定此刻黨籍"
+      }
+    },
+    {
+      "id": "陳唐山",
+      "label": "陳唐山",
+      "group": "historical",
+      "notes": [
+        "2013年發起民進黨內連署主張陳水扁恢復黨籍。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "historical_only",
+        "as_of": "歷史任職／所屬政黨（非2026現況）",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81",
+        "qualification": "僅代表相關歷史報導、背景，不推定此刻黨籍"
+      }
+    },
+    {
+      "id": "林俊憲",
+      "label": "林俊憲",
+      "group": "historical",
+      "notes": [
+        "2013年擔任民進黨發言人，說明陳水扁重新入黨處理。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "historical_only",
+        "as_of": "歷史任職／所屬政黨（非2026現況）",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81",
+        "qualification": "僅代表相關歷史報導、背景，不推定此刻黨籍"
+      }
+    },
+    {
+      "id": "陳幸妤",
+      "label": "陳幸妤",
+      "group": "historical",
+      "notes": [
+        "陳水扁與吳淑珍之女；此為公開家屬關係。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立確認目前黨籍"
+      }
+    },
+    {
+      "id": "趙建銘",
+      "label": "趙建銘",
+      "group": "historical",
+      "notes": [
+        "陳幸妤的配偶，為陳水扁女婿；公開家屬關係。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立確認目前黨籍"
+      }
+    },
+    {
+      "id": "陳哲男",
+      "label": "陳哲男",
+      "group": "historical",
+      "notes": [
+        "2000年陳水扁總統任內曾任總統府副秘書長、代秘書長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未獨立確認目前黨籍"
+      }
+    },
+    {
+      "id": "邱義仁",
+      "label": "邱義仁",
+      "group": "historical",
+      "notes": [
+        "2000年5月20日曾任國安會副秘書長，後於陳水扁政府任職。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "historical_only",
+        "as_of": "歷史任職／所屬政黨（非2026現況）",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81",
+        "qualification": "僅代表相關歷史報導、背景，不推定此刻黨籍"
+      }
+    },
+    {
+      "id": "1979美麗島事件律師辯護團",
+      "label": "1979美麗島事件律師辯護團",
+      "group": "hub",
+      "notes": [
+        "依公開紀錄建立的歷史選舉／人事／政治事件節點；參與同一事件不代表私人交情、同盟或直接往來。"
+      ]
+    },
+    {
+      "id": "1985臺南縣長選舉",
+      "label": "1985臺南縣長選舉",
+      "group": "hub",
+      "notes": [
+        "依公開紀錄建立的歷史選舉／人事／政治事件節點；參與同一事件不代表私人交情、同盟或直接往來。"
+      ]
+    },
+    {
+      "id": "1994臺北市長首次民選",
+      "label": "1994臺北市長首次民選",
+      "group": "hub",
+      "notes": [
+        "依公開紀錄建立的歷史選舉／人事／政治事件節點；參與同一事件不代表私人交情、同盟或直接往來。"
+      ]
+    },
+    {
+      "id": "2000總統選舉首次政黨輪替",
+      "label": "2000總統選舉首次政黨輪替",
+      "group": "hub",
+      "notes": [
+        "依公開紀錄建立的歷史選舉／人事／政治事件節點；參與同一事件不代表私人交情、同盟或直接往來。"
+      ]
+    },
+    {
+      "id": "2004總統選舉陳呂連任",
+      "label": "2004總統選舉陳呂連任",
+      "group": "hub",
+      "notes": [
+        "依公開紀錄建立的歷史選舉／人事／政治事件節點；參與同一事件不代表私人交情、同盟或直接往來。"
+      ]
+    },
+    {
+      "id": "2000–2008陳水扁政府行政院長沿革",
+      "label": "2000–2008陳水扁政府行政院長沿革",
+      "group": "hub",
+      "notes": [
+        "依公開紀錄建立的歷史選舉／人事／政治事件節點；參與同一事件不代表私人交情、同盟或直接往來。"
+      ]
+    },
+    {
+      "id": "2000陳水扁政府首任閣員就職",
+      "label": "2000陳水扁政府首任閣員就職",
+      "group": "hub",
+      "notes": [
+        "依公開紀錄建立的歷史選舉／人事／政治事件節點；參與同一事件不代表私人交情、同盟或直接往來。"
+      ]
+    },
+    {
+      "id": "2002–2004民進黨主席任期",
+      "label": "2002–2004民進黨主席任期",
+      "group": "hub",
+      "notes": [
+        "依公開紀錄建立的歷史選舉／人事／政治事件節點；參與同一事件不代表私人交情、同盟或直接往來。"
+      ]
+    },
+    {
+      "id": "2007–2008民進黨主席交接",
+      "label": "2007–2008民進黨主席交接",
+      "group": "hub",
+      "notes": [
+        "依公開紀錄建立的歷史選舉／人事／政治事件節點；參與同一事件不代表私人交情、同盟或直接往來。"
+      ]
+    },
+    {
+      "id": "2013陳水扁重新申請民進黨籍",
+      "label": "2013陳水扁重新申請民進黨籍",
+      "group": "hub",
+      "notes": [
+        "依公開紀錄建立的歷史選舉／人事／政治事件節點；參與同一事件不代表私人交情、同盟或直接往來。"
       ]
     }
   ],
@@ -16813,6 +17127,717 @@
       "period": "2019-11",
       "source": "中央社｜苗栗議會教育質詢",
       "url": "https://www.cna.com.tw/news/aipl/201911210285.aspx"
+    },
+    {
+      "from": "1979美麗島事件律師辯護團",
+      "to": "陳水扁",
+      "type": "event",
+      "detail": "曾參與美麗島事件辯護律師團，為黃信介辯護。",
+      "period": "1979–1980",
+      "source": "總統府訪談｜美麗島事件律師團",
+      "url": "https://www.president.gov.tw/NEWS/11456"
+    },
+    {
+      "from": "1979美麗島事件律師辯護團",
+      "to": "黃信介",
+      "type": "event",
+      "detail": "美麗島事件被告之一，陳水扁當時協助辯護。",
+      "period": "1979–1980",
+      "source": "總統府訪談｜美麗島事件律師團",
+      "url": "https://www.president.gov.tw/NEWS/11456"
+    },
+    {
+      "from": "1979美麗島事件律師辯護團",
+      "to": "謝長廷",
+      "type": "event",
+      "detail": "美麗島事件辯護律師團成員。",
+      "period": "1979–1980",
+      "source": "總統府訪談｜美麗島事件律師團",
+      "url": "https://www.president.gov.tw/NEWS/11456"
+    },
+    {
+      "from": "1979美麗島事件律師辯護團",
+      "to": "蘇貞昌",
+      "type": "event",
+      "detail": "美麗島事件辯護律師團成員。",
+      "period": "1979–1980",
+      "source": "總統府訪談｜美麗島事件律師團",
+      "url": "https://www.president.gov.tw/NEWS/11456"
+    },
+    {
+      "from": "1979美麗島事件律師辯護團",
+      "to": "張俊雄",
+      "type": "event",
+      "detail": "美麗島事件辯護律師團成員。",
+      "period": "1979–1980",
+      "source": "總統府訪談｜美麗島事件律師團",
+      "url": "https://www.president.gov.tw/NEWS/11456"
+    },
+    {
+      "from": "1979美麗島事件律師辯護團",
+      "to": "江鵬堅",
+      "type": "event",
+      "detail": "美麗島事件辯護律師團成員。",
+      "period": "1979–1980",
+      "source": "總統府訪談｜美麗島事件律師團",
+      "url": "https://www.president.gov.tw/NEWS/11456"
+    },
+    {
+      "from": "1979美麗島事件律師辯護團",
+      "to": "尤清",
+      "type": "event",
+      "detail": "美麗島事件辯護律師團成員。",
+      "period": "1979–1980",
+      "source": "總統府訪談｜美麗島事件律師團",
+      "url": "https://www.president.gov.tw/NEWS/11456"
+    },
+    {
+      "from": "1979美麗島事件律師辯護團",
+      "to": "姚嘉文",
+      "type": "event",
+      "detail": "美麗島事件被告之一；由律師團辯護。",
+      "period": "1979–1980",
+      "source": "總統府訪談｜美麗島事件律師團",
+      "url": "https://www.president.gov.tw/NEWS/11456"
+    },
+    {
+      "from": "1985臺南縣長選舉",
+      "to": "陳水扁",
+      "type": "event",
+      "detail": "1985年以黨外人士身份挑戰臺南縣長。",
+      "period": "1985",
+      "source": "陳水扁｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "1985臺南縣長選舉",
+      "to": "李雅樵",
+      "type": "event",
+      "detail": "1985年國民黨籍臺南縣長選舉候選人，選舉勝出。",
+      "period": "1985",
+      "source": "陳水扁｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "1994臺北市長首次民選",
+      "to": "陳水扁",
+      "type": "event",
+      "detail": "1994年民進黨臺北市長候選人，選舉勝出。",
+      "period": "1994",
+      "source": "陳水扁｜臺北市長選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "1994臺北市長首次民選",
+      "to": "黃大洲",
+      "type": "event",
+      "detail": "1994年國民黨臺北市長候選人，原任官派市長。",
+      "period": "1994",
+      "source": "陳水扁｜臺北市長選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "1994臺北市長首次民選",
+      "to": "趙少康",
+      "type": "event",
+      "detail": "1994年新黨臺北市長候選人。",
+      "period": "1994",
+      "source": "陳水扁｜臺北市長選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "1994臺北市長首次民選",
+      "to": "謝長廷",
+      "type": "event",
+      "detail": "1994年民進黨臺北市長提名初選競爭者；退出第二階段後陳水扁獲提名。",
+      "period": "1994",
+      "source": "陳水扁｜臺北市長選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "1998臺北市長選舉",
+      "to": "陳水扁",
+      "type": "event",
+      "detail": "1998年民進黨臺北市長尋求連任候選人，未當選。",
+      "period": "1998",
+      "source": "陳水扁｜1998臺北市長選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "1998臺北市長選舉",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "1998年國民黨臺北市長候選人，選舉勝出。",
+      "period": "1998",
+      "source": "陳水扁｜1998臺北市長選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "1998臺北市長選舉",
+      "to": "王建煊",
+      "type": "event",
+      "detail": "1998年新黨臺北市長候選人。",
+      "period": "1998",
+      "source": "陳水扁｜1998臺北市長選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "2000總統選舉首次政黨輪替",
+      "to": "陳水扁",
+      "type": "event",
+      "detail": "2000年民進黨總統候選人，當選第10任總統。",
+      "period": "1999–2000",
+      "source": "總統府｜陳水扁歷任總統資料、維基選舉生涯",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "2000總統選舉首次政黨輪替",
+      "to": "呂秀蓮",
+      "type": "event",
+      "detail": "2000年陳水扁搭檔的副總統候選人，當選。",
+      "period": "1999–2000",
+      "source": "總統府｜陳水扁歷任總統資料、維基選舉生涯",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "2000總統選舉首次政黨輪替",
+      "to": "連戰",
+      "type": "event",
+      "detail": "2000年中國國民黨總統候選人。",
+      "period": "1999–2000",
+      "source": "總統府｜陳水扁歷任總統資料、維基選舉生涯",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "2000總統選舉首次政黨輪替",
+      "to": "宋楚瑜",
+      "type": "event",
+      "detail": "2000年無黨籍總統候選人，敗選後另成立親民黨。",
+      "period": "1999–2000",
+      "source": "總統府｜陳水扁歷任總統資料、維基選舉生涯",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "2000總統選舉首次政黨輪替",
+      "to": "許信良",
+      "type": "event",
+      "detail": "1999年民進黨總統提名程序曾與陳水扁競爭，後退黨參選2000年總統。",
+      "period": "1999–2000",
+      "source": "總統府｜陳水扁歷任總統資料、維基選舉生涯",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "2004總統選舉陳呂連任",
+      "to": "陳水扁",
+      "type": "event",
+      "detail": "2004年民進黨總統候選人，獲連任第11任總統。",
+      "period": "2004",
+      "source": "總統府｜歷任總統、2004選舉",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "2004總統選舉陳呂連任",
+      "to": "呂秀蓮",
+      "type": "event",
+      "detail": "2004年陳水扁搭檔的副總統候選人，獲連任。",
+      "period": "2004",
+      "source": "總統府｜歷任總統、2004選舉",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "2004總統選舉陳呂連任",
+      "to": "連戰",
+      "type": "event",
+      "detail": "2004年國民黨及泛藍聯盟總統候選人。",
+      "period": "2004",
+      "source": "總統府｜歷任總統、2004選舉",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "2004總統選舉陳呂連任",
+      "to": "宋楚瑜",
+      "type": "event",
+      "detail": "2004年連戰搭檔的副總統候選人。",
+      "period": "2004",
+      "source": "總統府｜歷任總統、2004選舉",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "2000–2008陳水扁政府行政院長沿革",
+      "to": "陳水扁",
+      "type": "event",
+      "detail": "2000至2008年總統，任內依憲政體制任命六屆內閣的行政院長。",
+      "period": "2000–2008",
+      "source": "總統府公告及陳水扁政府歷任內閣",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "2000–2008陳水扁政府行政院長沿革",
+      "to": "唐飛",
+      "type": "event",
+      "detail": "2000年5月至10月首任行政院長。",
+      "period": "2000–2008",
+      "source": "總統府公告及陳水扁政府歷任內閣",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "2000–2008陳水扁政府行政院長沿革",
+      "to": "張俊雄",
+      "type": "event",
+      "detail": "2000–2002年、2007–2008年兩度擔任行政院長。",
+      "period": "2000–2008",
+      "source": "總統府公告及陳水扁政府歷任內閣",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "2000–2008陳水扁政府行政院長沿革",
+      "to": "游錫堃",
+      "type": "event",
+      "detail": "2002–2005年擔任行政院長。",
+      "period": "2000–2008",
+      "source": "總統府公告及陳水扁政府歷任內閣",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "2000–2008陳水扁政府行政院長沿革",
+      "to": "謝長廷",
+      "type": "event",
+      "detail": "2005–2006年擔任行政院長。",
+      "period": "2000–2008",
+      "source": "總統府公告及陳水扁政府歷任內閣",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "2000–2008陳水扁政府行政院長沿革",
+      "to": "蘇貞昌",
+      "type": "event",
+      "detail": "2006–2007年擔任行政院長。",
+      "period": "2000–2008",
+      "source": "總統府公告及陳水扁政府歷任內閣",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "2000陳水扁政府首任閣員就職",
+      "to": "陳水扁",
+      "type": "event",
+      "detail": "2000年5月20日就任總統，簽署行政院長及總統府要職任命令並主持宣誓。",
+      "period": "2000-05-20",
+      "source": "總統府新聞｜新任首長宣誓",
+      "url": "https://www.president.gov.tw/NEWS/6741"
+    },
+    {
+      "from": "2000陳水扁政府首任閣員就職",
+      "to": "呂秀蓮",
+      "type": "event",
+      "detail": "2000年5月20日就任副總統，出席就職首日宣誓典禮。",
+      "period": "2000-05-20",
+      "source": "總統府新聞｜新任首長宣誓",
+      "url": "https://www.president.gov.tw/NEWS/6741"
+    },
+    {
+      "from": "2000陳水扁政府首任閣員就職",
+      "to": "唐飛",
+      "type": "event",
+      "detail": "2000年5月20日就任行政院長。",
+      "period": "2000-05-20",
+      "source": "總統府新聞｜新任首長宣誓",
+      "url": "https://www.president.gov.tw/NEWS/6741"
+    },
+    {
+      "from": "2000陳水扁政府首任閣員就職",
+      "to": "張俊雄",
+      "type": "event",
+      "detail": "2000年5月20日就任總統府秘書長。",
+      "period": "2000-05-20",
+      "source": "總統府新聞｜新任首長宣誓",
+      "url": "https://www.president.gov.tw/NEWS/6741"
+    },
+    {
+      "from": "2000陳水扁政府首任閣員就職",
+      "to": "游錫堃",
+      "type": "event",
+      "detail": "2000年5月20日擔任行政院副院長。",
+      "period": "2000-05-20",
+      "source": "總統府新聞｜新任首長宣誓",
+      "url": "https://www.president.gov.tw/NEWS/6741"
+    },
+    {
+      "from": "2000陳水扁政府首任閣員就職",
+      "to": "陳哲男",
+      "type": "event",
+      "detail": "2000年5月20日任總統府副秘書長。",
+      "period": "2000-05-20",
+      "source": "總統府新聞｜新任首長宣誓",
+      "url": "https://www.president.gov.tw/NEWS/6741"
+    },
+    {
+      "from": "2000陳水扁政府首任閣員就職",
+      "to": "邱義仁",
+      "type": "event",
+      "detail": "2000年5月20日任國安會副秘書長。",
+      "period": "2000-05-20",
+      "source": "總統府新聞｜新任首長宣誓",
+      "url": "https://www.president.gov.tw/NEWS/6741"
+    },
+    {
+      "from": "2000陳水扁政府首任閣員就職",
+      "to": "蔡英文",
+      "type": "event",
+      "detail": "2000年5月20日新政府大陸委員會主任委員。",
+      "period": "2000-05-20",
+      "source": "總統府新聞｜新任首長宣誓",
+      "url": "https://www.president.gov.tw/NEWS/6741"
+    },
+    {
+      "from": "2000陳水扁政府首任閣員就職",
+      "to": "陳菊",
+      "type": "event",
+      "detail": "2000年5月20日新政府勞工委員會主任委員。",
+      "period": "2000-05-20",
+      "source": "總統府新聞｜新任首長宣誓",
+      "url": "https://www.president.gov.tw/NEWS/6741"
+    },
+    {
+      "from": "2002–2004民進黨主席任期",
+      "to": "陳水扁",
+      "type": "event",
+      "detail": "2002年7月至2004年12月擔任民進黨主席。",
+      "period": "2002–2004",
+      "source": "陳水扁｜民進黨主席職務",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "2002–2004民進黨主席任期",
+      "to": "張俊雄",
+      "type": "event",
+      "detail": "民進黨主席任期內擔任秘書長。",
+      "period": "2002–2004",
+      "source": "陳水扁｜民進黨主席職務",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "2002–2004民進黨主席任期",
+      "to": "謝長廷",
+      "type": "event",
+      "detail": "2002年陳水扁黨主席任期前任。",
+      "period": "2002–2004",
+      "source": "陳水扁｜民進黨主席職務",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "2002–2004民進黨主席任期",
+      "to": "柯建銘",
+      "type": "event",
+      "detail": "2004年陳水扁卸任黨主席後代理主席。",
+      "period": "2002–2004",
+      "source": "陳水扁｜民進黨主席職務",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "2007–2008民進黨主席交接",
+      "to": "陳水扁",
+      "type": "event",
+      "detail": "2007年10月至2008年1月再次出任民進黨主席。",
+      "period": "2007–2008",
+      "source": "陳水扁｜民進黨主席職務",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "2007–2008民進黨主席交接",
+      "to": "游錫堃",
+      "type": "event",
+      "detail": "2007年陳水扁再任民進黨主席的前任。",
+      "period": "2007–2008",
+      "source": "陳水扁｜民進黨主席職務",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "2007–2008民進黨主席交接",
+      "to": "卓榮泰",
+      "type": "event",
+      "detail": "2007年陳水扁再任民進黨主席期間的民進黨秘書長。",
+      "period": "2007–2008",
+      "source": "陳水扁｜民進黨主席職務",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "2007–2008民進黨主席交接",
+      "to": "謝長廷",
+      "type": "event",
+      "detail": "2008年陳水扁卸任後代理黨主席。",
+      "period": "2007–2008",
+      "source": "陳水扁｜民進黨主席職務",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "2007–2008民進黨主席交接",
+      "to": "蔡英文",
+      "type": "event",
+      "detail": "2008年接任民進黨主席。",
+      "period": "2007–2008",
+      "source": "陳水扁｜民進黨主席職務",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "2013陳水扁重新申請民進黨籍",
+      "to": "陳水扁",
+      "type": "event",
+      "detail": "2008年自行退黨，2013年8月14日重新加入民進黨申請獲准。",
+      "period": "2013-05–08",
+      "source": "公視新聞｜陳水扁再入黨程序",
+      "url": "https://news.pts.org.tw/article/247707"
+    },
+    {
+      "from": "2013陳水扁重新申請民進黨籍",
+      "to": "柯建銘",
+      "type": "event",
+      "detail": "2013年5月協助陳水扁向民進黨臺北市黨部送交重新入黨申請書。",
+      "period": "2013-05–08",
+      "source": "公視新聞｜陳水扁再入黨程序",
+      "url": "https://news.pts.org.tw/article/247707"
+    },
+    {
+      "from": "2013陳水扁重新申請民進黨籍",
+      "to": "管碧玲",
+      "type": "event",
+      "detail": "2013年陳水扁再入黨複審小組召集人，主持通過申請的審查。",
+      "period": "2013-05–08",
+      "source": "公視新聞｜陳水扁再入黨程序",
+      "url": "https://news.pts.org.tw/article/247707"
+    },
+    {
+      "from": "2013陳水扁重新申請民進黨籍",
+      "to": "陳唐山",
+      "type": "event",
+      "detail": "2013年原擬推動恢復陳水扁黨籍提案，後改由重新入黨程序。",
+      "period": "2013-05–08",
+      "source": "公視新聞｜陳水扁再入黨程序",
+      "url": "https://news.pts.org.tw/article/247707"
+    },
+    {
+      "from": "2013陳水扁重新申請民進黨籍",
+      "to": "林俊憲",
+      "type": "event",
+      "detail": "2013年以民進黨發言人身份對外說明審查與入黨結果。",
+      "period": "2013-05–08",
+      "source": "公視新聞｜陳水扁再入黨程序",
+      "url": "https://news.pts.org.tw/article/247707"
+    },
+    {
+      "from": "2013陳水扁重新申請民進黨籍",
+      "to": "陳致中",
+      "type": "event",
+      "detail": "2013年以陳水扁家屬身份回應父親重新加入民進黨。",
+      "period": "2013-05–08",
+      "source": "公視新聞｜陳水扁再入黨程序",
+      "url": "https://news.pts.org.tw/article/247707"
+    },
+    {
+      "from": "陳水扁",
+      "to": "呂秀蓮",
+      "type": "cooperate",
+      "detail": "2000年及2004年兩度搭檔參選中華民國正副總統並當選，任期至2008年。",
+      "period": "2000–2008",
+      "source": "總統府｜歷任總統",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "陳水扁",
+      "to": "李登輝",
+      "type": "affiliation",
+      "detail": "1998年臺北市長選舉落敗後，1999年仍於李登輝總統任內活動；2000年5月20日李登輝總統卸任，陳水扁接任。",
+      "period": "2000-05-20",
+      "source": "總統府｜歷任總統",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "陳水扁",
+      "to": "馬英九",
+      "type": "contest",
+      "detail": "1998年臺北市長選舉中，陳水扁尋求連任，敗給國民黨馬英九；2008年馬英九亦接任陳水扁總統職務。",
+      "period": "1998／2008",
+      "source": "陳水扁｜選舉經歷及歷任總統",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "陳水扁",
+      "to": "趙少康",
+      "type": "contest",
+      "detail": "1994年臺北市長選舉，陳水扁與新黨候選人趙少康競爭。",
+      "period": "1994",
+      "source": "陳水扁｜臺北市長選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "陳水扁",
+      "to": "王建煊",
+      "type": "contest",
+      "detail": "1998年臺北市長選舉，新黨候選人王建煊與陳水扁、馬英九共同競選。",
+      "period": "1998",
+      "source": "陳水扁｜臺北市長選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "陳水扁",
+      "to": "黃大洲",
+      "type": "contest",
+      "detail": "1994年臺北市長選舉，與國民黨候選人黃大洲競選。",
+      "period": "1994",
+      "source": "陳水扁｜臺北市長選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "陳水扁",
+      "to": "連戰",
+      "type": "contest",
+      "detail": "2000年及2004年兩次總統選舉中，陳水扁與國民黨候選人連戰競爭。",
+      "period": "2000／2004",
+      "source": "總統府｜歷任總統及選舉",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "陳水扁",
+      "to": "宋楚瑜",
+      "type": "contest",
+      "detail": "2000年總統選舉宋楚瑜獨立參選，2004年搭檔連戰參選副總統，與陳水扁陣營競爭。",
+      "period": "2000／2004",
+      "source": "陳水扁｜總統選舉",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "陳水扁",
+      "to": "謝長廷",
+      "type": "cooperate",
+      "detail": "兩人同參與美麗島事件辯護工作；1994年民進黨臺北市長黨內初選後，陳水扁取得提名。",
+      "period": "1979–1980／1994",
+      "source": "總統府｜美麗島律師與黨內提名",
+      "url": "https://www.president.gov.tw/NEWS/11456"
+    },
+    {
+      "from": "陳水扁",
+      "to": "唐飛",
+      "type": "affiliation",
+      "detail": "2000年5月20日陳水扁就任總統首日任命唐飛擔任行政院長，10月改任張俊雄。",
+      "period": "2000",
+      "source": "總統府｜新任首長宣誓及人事任免",
+      "url": "https://www.president.gov.tw/Page/294/35542"
+    },
+    {
+      "from": "陳水扁",
+      "to": "張俊雄",
+      "type": "affiliation",
+      "detail": "張俊雄2000年擔任總統府秘書長，2000年10月獲陳水扁任命為行政院長，2007年再度組閣。",
+      "period": "2000–2008",
+      "source": "總統府｜行政院長人事",
+      "url": "https://www.president.gov.tw/NEWS/7262"
+    },
+    {
+      "from": "陳水扁",
+      "to": "游錫堃",
+      "type": "affiliation",
+      "detail": "游錫堃在陳水扁政府先任行政院副院長、總統府秘書長及行政院長。",
+      "period": "2000–2005",
+      "source": "總統府｜任免官員與新任首長",
+      "url": "https://www.president.gov.tw/NEWS/6741"
+    },
+    {
+      "from": "陳水扁",
+      "to": "謝長廷",
+      "type": "affiliation",
+      "detail": "2005年1月25日陳水扁特任謝長廷為行政院長，接替游錫堃。",
+      "period": "2005–2006",
+      "source": "總統府公報｜行政院長任命",
+      "url": "https://www.president.gov.tw/Page/294/36410"
+    },
+    {
+      "from": "陳水扁",
+      "to": "蘇貞昌",
+      "type": "affiliation",
+      "detail": "2006–2007年蘇貞昌任行政院長，為陳水扁總統任內閣揆。",
+      "period": "2006–2007",
+      "source": "總統府｜歷任總統及閣員",
+      "url": "https://www.president.gov.tw/Page/87"
+    },
+    {
+      "from": "陳水扁",
+      "to": "柯建銘",
+      "type": "cooperate",
+      "detail": "2004年陳水扁卸任民進黨主席後由柯建銘代理；2013年柯建銘代送陳水扁重新入黨申請。",
+      "period": "2004／2013",
+      "source": "公視新聞｜2013再入黨",
+      "url": "https://news.pts.org.tw/article/241059"
+    },
+    {
+      "from": "陳水扁",
+      "to": "管碧玲",
+      "type": "affiliation",
+      "detail": "2013年管碧玲擔任陳水扁重新入黨審查小組召集人，經複審通過再入黨申請。",
+      "period": "2013-08",
+      "source": "公視新聞｜再入黨申請通過",
+      "url": "https://news.pts.org.tw/article/247707"
+    },
+    {
+      "from": "陳水扁",
+      "to": "陳唐山",
+      "type": "support",
+      "detail": "2013年陳唐山發起連署支持恢復陳水扁民進黨籍，後改採重新申請入黨程序。",
+      "period": "2013",
+      "source": "公視新聞｜再入黨程序",
+      "url": "https://news.pts.org.tw/article/241059"
+    },
+    {
+      "from": "陳水扁",
+      "to": "黃信介",
+      "type": "case",
+      "detail": "1979–1980年陳水扁加入美麗島事件被告辯護律師團，為被告黃信介辯護。",
+      "period": "1979–1980",
+      "source": "陳水扁｜從政初期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "陳水扁",
+      "to": "吳淑珍",
+      "type": "family",
+      "detail": "1975年結婚；兩人為夫妻。",
+      "period": "1975起",
+      "source": "陳水扁｜家庭",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "陳水扁",
+      "to": "陳致中",
+      "type": "family",
+      "detail": "陳致中為陳水扁與吳淑珍的兒子。",
+      "period": "1979起",
+      "source": "陳水扁｜家庭",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "陳水扁",
+      "to": "陳幸妤",
+      "type": "family",
+      "detail": "陳幸妤為陳水扁與吳淑珍的女兒。",
+      "period": "1976起",
+      "source": "陳水扁｜家庭",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "陳幸妤",
+      "to": "趙建銘",
+      "type": "family",
+      "detail": "陳幸妤與趙建銘為夫妻，屬公開的家族關係。",
+      "period": "歷年",
+      "source": "陳水扁｜家庭",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "陳致中",
+      "to": "黃睿靚",
+      "type": "family",
+      "detail": "陳致中與黃睿靚為夫妻，屬公開的家族關係。",
+      "period": "歷年",
+      "source": "陳水扁｜家庭",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
     }
   ]
 }

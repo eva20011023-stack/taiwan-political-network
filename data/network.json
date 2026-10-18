@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "臺灣政治人物關係圖譜｜殷瑋、賴素如與臺北政治",
-    "date": "2026-10-17",
+    "date": "2026-10-18",
     "scope": "人物、歷史政治事件、司法案件與媒體節目公開關係網；本輪新增殷瑋與賴素如條目，並以臺北市政府與中央社核對現有公職及最終司法判決。",
     "sources": [
       {
@@ -87,6 +87,10 @@
       {
         "name": "蔡正元",
         "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+      },
+      {
+        "name": "鄭聚然",
+        "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E8%81%9A%E7%84%B6"
       }
     ],
     "relation_note": "同案被調查不等於共同定罪；賴素如2020年定讞判決與2014／2016年較早審級區分，2024年已假釋出監。殷瑋2025年轉任臺北市研考會主委；黨籍標籤標註來源時間，非永久身份。",
@@ -4936,16 +4940,18 @@
     {
       "id": "鄭聚然",
       "label": "鄭聚然",
-      "group": "historical",
+      "group": "current",
       "notes": [
-        "2019年南庄國中受中國酒商捐款爭論，與曾玟學先後提出議會質詢。"
+        "2019年南庄國中受中國酒商捐款爭論，與曾玟學先後提出議會質詢。",
+        "2018年起擔任第19屆苗栗縣議員，2022年選舉未直接當選；2024年4月9日因同選區黃聲全當選無效確定，依法遞補第20屆議員。",
+        "2019年與曾玟學、陳光軒在南庄國中收受中國廠商午餐捐款議題上發生公開立場爭論，後就粉專不雅留言發表道歉聲明。"
       ],
       "party": {
         "code": "KMT",
-        "kind": "historical_only",
-        "as_of": "2019",
-        "source": "https://zh.wikipedia.org/wiki/%E6%9B%BE%E7%8E%9F%E5%AD%B8",
-        "qualification": "條目所載2019苗栗議員黨籍，非當前核實"
+        "kind": "last_documented",
+        "as_of": "2024-04-09",
+        "source": "https://www.cna.com.tw/news/aloc/202404090145.aspx",
+        "qualification": "中央社2024年遞補就職報導明載國民黨籍；未另查核2026年正式名冊及後續變動。"
       }
     },
     {
@@ -4968,7 +4974,8 @@
       "label": "李文斌",
       "group": "historical",
       "notes": [
-        "第二十屆苗栗縣議會議長；與曾玟學同屬縣議會制度節點，未據此推論私交。"
+        "第二十屆苗栗縣議會議長；與曾玟學同屬縣議會制度節點，未據此推論私交。",
+        "2024年4月9日以苗栗縣議會議長身份出席鄭聚然遞補就職典禮。"
       ],
       "party": {
         "code": "UNKNOWN",
@@ -7746,6 +7753,135 @@
       "group": "hub",
       "notes": [
         "政治選舉、黨務或公開職務紀錄；共同參與事件不代表私人交情。"
+      ]
+    },
+    {
+      "id": "黃聲全",
+      "label": "黃聲全",
+      "group": "historical",
+      "notes": [
+        "2022年苗栗縣第20屆議員第五選區當選，因選舉期間不當利益案的民事當選無效訴訟於2024年3月確定、解除議員職務，鄭聚然依法遞補。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證現時黨籍"
+      }
+    },
+    {
+      "id": "鍾東錦",
+      "label": "鍾東錦",
+      "group": "historical",
+      "notes": [
+        "2024年4月9日出席鄭聚然遞補議員就職典禮，時任苗栗縣長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證現時黨籍"
+      }
+    },
+    {
+      "id": "徐耀昌",
+      "label": "徐耀昌",
+      "group": "historical",
+      "notes": [
+        "2024年4月9日以苗栗前縣長身份出席鄭聚然議員遞補就職典禮。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證現時黨籍"
+      }
+    },
+    {
+      "id": "張淑芬",
+      "label": "張淑芬",
+      "group": "historical",
+      "notes": [
+        "2024年4月9日以苗栗縣議會副議長身份出席鄭聚然遞補就職典禮。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證現時黨籍"
+      }
+    },
+    {
+      "id": "王漢章",
+      "label": "王漢章",
+      "group": "historical",
+      "notes": [
+        "2024年4月9日以苗栗地方法院院長身份監誓鄭聚然遞補就職。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證現時黨籍"
+      }
+    },
+    {
+      "id": "陳光軒",
+      "label": "陳光軒",
+      "group": "historical",
+      "notes": [
+        "2019年與曾玟學先後公開轉述鄭聚然南庄國中捐款質詢發言，表達不同看法。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證現時黨籍"
+      }
+    },
+    {
+      "id": "徐永鴻",
+      "label": "徐永鴻",
+      "group": "historical",
+      "notes": [
+        "2019年苗栗縣教育處長，曾就國小性教育與反毒教育接受鄭聚然議會質詢。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查證現時黨籍"
+      }
+    },
+    {
+      "id": "2024苗栗第五選區議員遞補",
+      "label": "2024苗栗第五選區議員遞補",
+      "group": "hub",
+      "notes": [
+        "2024年黃聲全民事當選無效判決確定解職，鄭聚然依票數遞補；事件程序不代表黃聲全與鄭聚然之間有私人聯繫。"
+      ]
+    },
+    {
+      "id": "2019南庄國中中國廠商捐款爭議",
+      "label": "2019南庄國中中國廠商捐款爭議",
+      "group": "hub",
+      "notes": [
+        "2019年南庄國中受中國企業午餐捐款，引發統戰風險相關公開質詢與網路言論爭議。"
+      ]
+    },
+    {
+      "id": "2019苗栗議會性別教育質詢爭論",
+      "label": "2019苗栗議會性別教育質詢爭論",
+      "group": "hub",
+      "notes": [
+        "2019年苗栗縣議會就性別教育與德育的公開政策辯論；當事人間的對立為公開言論紀錄，不等於私人關係。"
       ]
     }
   ],
@@ -16524,6 +16660,159 @@
       "period": "2017",
       "source": "蔡正元｜政治生涯",
       "url": "https://zh.wikipedia.org/wiki/%E8%94%A1%E6%AD%A3%E5%85%83"
+    },
+    {
+      "from": "2024苗栗第五選區議員遞補",
+      "to": "鄭聚然",
+      "type": "event",
+      "detail": "2024年4月9日苗栗縣議員第五選區遞補就職，國民黨籍。",
+      "period": "2024-03–04",
+      "source": "中央社｜苗栗縣議員遞補",
+      "url": "https://www.cna.com.tw/news/aloc/202404090145.aspx"
+    },
+    {
+      "from": "2024苗栗第五選區議員遞補",
+      "to": "黃聲全",
+      "type": "event",
+      "detail": "2024年3月苗栗縣議員選舉當選無效判決確定，原席次出缺。",
+      "period": "2024-03–04",
+      "source": "中央社｜苗栗縣議員遞補",
+      "url": "https://www.cna.com.tw/news/aloc/202404090145.aspx"
+    },
+    {
+      "from": "2024苗栗第五選區議員遞補",
+      "to": "鍾東錦",
+      "type": "event",
+      "detail": "時任縣長，出席遞補宣誓就職典禮並致贈牌匾。",
+      "period": "2024-03–04",
+      "source": "中央社｜苗栗縣議員遞補",
+      "url": "https://www.cna.com.tw/news/aloc/202404090145.aspx"
+    },
+    {
+      "from": "2024苗栗第五選區議員遞補",
+      "to": "徐耀昌",
+      "type": "event",
+      "detail": "前任縣長，出席遞補就職典禮。",
+      "period": "2024-03–04",
+      "source": "中央社｜苗栗縣議員遞補",
+      "url": "https://www.cna.com.tw/news/aloc/202404090145.aspx"
+    },
+    {
+      "from": "2024苗栗第五選區議員遞補",
+      "to": "李文斌",
+      "type": "event",
+      "detail": "時任議長，出席遞補就職典禮。",
+      "period": "2024-03–04",
+      "source": "中央社｜苗栗縣議員遞補",
+      "url": "https://www.cna.com.tw/news/aloc/202404090145.aspx"
+    },
+    {
+      "from": "2024苗栗第五選區議員遞補",
+      "to": "張淑芬",
+      "type": "event",
+      "detail": "時任副議長，出席遞補就職典禮。",
+      "period": "2024-03–04",
+      "source": "中央社｜苗栗縣議員遞補",
+      "url": "https://www.cna.com.tw/news/aloc/202404090145.aspx"
+    },
+    {
+      "from": "2024苗栗第五選區議員遞補",
+      "to": "王漢章",
+      "type": "event",
+      "detail": "時任苗栗地方法院院長，擔任監誓人。",
+      "period": "2024-03–04",
+      "source": "中央社｜苗栗縣議員遞補",
+      "url": "https://www.cna.com.tw/news/aloc/202404090145.aspx"
+    },
+    {
+      "from": "鄭聚然",
+      "to": "黃聲全",
+      "type": "contest",
+      "detail": "鄭聚然於2024年依法遞補黃聲全因當選無效確定而出缺的議員席次；不推定兩人私人往來。",
+      "period": "2024-03–04",
+      "source": "中央社｜苗栗縣議員遞補",
+      "url": "https://www.cna.com.tw/news/aloc/202404090145.aspx"
+    },
+    {
+      "from": "2019南庄國中中國廠商捐款爭議",
+      "to": "鄭聚然",
+      "type": "event",
+      "detail": "2019年議會質詢提及營養午餐捐款，引起輿論討論。",
+      "period": "2019-05",
+      "source": "中央社｜南庄國中捐款爭議",
+      "url": "https://www.cna.com.tw/news/aloc/201905290217.aspx"
+    },
+    {
+      "from": "2019南庄國中中國廠商捐款爭議",
+      "to": "曾玟學",
+      "type": "event",
+      "detail": "2019年同選區議員，公開質疑並分享鄭聚然質詢發言。",
+      "period": "2019-05",
+      "source": "中央社｜南庄國中捐款爭議",
+      "url": "https://www.cna.com.tw/news/aloc/201905290217.aspx"
+    },
+    {
+      "from": "2019南庄國中中國廠商捐款爭議",
+      "to": "陳光軒",
+      "type": "event",
+      "detail": "2019年同選區議員，與曾玟學公開發布相關言論紀錄。",
+      "period": "2019-05",
+      "source": "中央社｜南庄國中捐款爭議",
+      "url": "https://www.cna.com.tw/news/aloc/201905290217.aspx"
+    },
+    {
+      "from": "鄭聚然",
+      "to": "曾玟學",
+      "type": "dispute",
+      "detail": "2019年鄭聚然就南庄國中中國廠商捐款的公開質詢言論受到曾玟學質疑；兩人於11月亦在議會公開爭辯性別教育。",
+      "period": "2019-05–11",
+      "source": "中央社｜苗栗議會質詢爭議",
+      "url": "https://www.cna.com.tw/news/aipl/201911210285.aspx"
+    },
+    {
+      "from": "鄭聚然",
+      "to": "陳光軒",
+      "type": "dispute",
+      "detail": "陳光軒2019年公開發布鄭聚然對南庄國中中國廠商捐款質詢發言並表達關切。",
+      "period": "2019-05",
+      "source": "中央社｜南庄國中捐款爭議",
+      "url": "https://www.cna.com.tw/news/aloc/201905290217.aspx"
+    },
+    {
+      "from": "鄭聚然",
+      "to": "徐永鴻",
+      "type": "event",
+      "detail": "2019年鄭聚然於苗栗縣議會教育處工作報告時，針對性教育與反毒教育向教育處長徐永鴻質詢。",
+      "period": "2019-11",
+      "source": "中央社｜苗栗議會教育質詢",
+      "url": "https://www.cna.com.tw/news/aipl/201911210285.aspx"
+    },
+    {
+      "from": "2019苗栗議會性別教育質詢爭論",
+      "to": "鄭聚然",
+      "type": "event",
+      "detail": "2019年11月20日向教育處長質詢國小性教育課程適當性。",
+      "period": "2019-11",
+      "source": "中央社｜苗栗議會教育質詢",
+      "url": "https://www.cna.com.tw/news/aipl/201911210285.aspx"
+    },
+    {
+      "from": "2019苗栗議會性別教育質詢爭論",
+      "to": "曾玟學",
+      "type": "event",
+      "detail": "2019年11月20日至21日回應鄭聚然性別教育相關質疑，雙方有議會發言交鋒。",
+      "period": "2019-11",
+      "source": "中央社｜苗栗議會教育質詢",
+      "url": "https://www.cna.com.tw/news/aipl/201911210285.aspx"
+    },
+    {
+      "from": "2019苗栗議會性別教育質詢爭論",
+      "to": "徐永鴻",
+      "type": "event",
+      "detail": "2019年11月時任教育處長，在議會接受質詢。",
+      "period": "2019-11",
+      "source": "中央社｜苗栗議會教育質詢",
+      "url": "https://www.cna.com.tw/news/aipl/201911210285.aspx"
     }
   ]
 }

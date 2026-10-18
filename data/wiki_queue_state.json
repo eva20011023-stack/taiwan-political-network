@@ -106,25 +106,28 @@
       "processed_at": "2026-10-18T13:46:56.180Z",
       "commit_sha": "55fc4e9ded1087fd40fc4e93b30d737705039e56",
       "summary": "1998馬英九、2000連蕭、2004連宋、2014連勝文選舉合作及國民黨政策會歷史職務；新增6節點、23筆連線，來源已收錄主圖譜。"
+    },
+    {
+      "key": "zh:鄭聚然",
+      "title": "鄭聚然",
+      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E8%81%9A%E7%84%B6",
+      "commit_sha": "01053399cb775abdb059c41fb2aeb382c01706b2",
+      "summary": "新增10節點、17筆關係：2024黃聲全議員當選無效後遞補程序、苗栗縣政府及議會出席儀式角色、2019南庄國中捐款與性別教育公開議題討論。敏感爭議主要依中央社資料。",
+      "processed_at": "2026-10-18T13:53:10.754Z"
+    },
+    {
+      "key": "zh:陳水扁",
+      "title": "陳水扁",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81",
+      "commit_sha": "8c385afeac52f06eab308b83be1ae3962eb3e383",
+      "summary": "新增25節點、79筆關係：美麗島事件律師團、臺北市長選舉、正副總統與歷任行政院長、民進黨黨主席、2013再入黨及公開家庭關係。",
+      "processed_at": "2026-10-18T13:53:10.754Z"
     }
   ],
   "skipped": [],
   "failed": [],
-  "last_run": "2026-10-18T13:46:56.180Z",
+  "last_run": "2026-10-18T13:53:10.754Z",
   "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
-  "processing": [
-    {
-      "title": "鄭聚然",
-      "key": "zh:鄭聚然",
-      "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E8%81%9A%E7%84%B6",
-      "started_at": "2026-10-18T13:46:56.180Z"
-    },
-    {
-      "title": "陳水扁",
-      "key": "zh:陳水扁",
-      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81",
-      "started_at": "2026-10-18T13:46:56.180Z"
-    }
-  ],
-  "last_checked_at": "2026-10-18T13:46:56.180Z"
+  "processing": [],
+  "last_checked_at": "2026-10-18T13:53:10.754Z"
 }

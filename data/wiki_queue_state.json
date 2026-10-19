@@ -126,8 +126,21 @@
   ],
   "skipped": [],
   "failed": [],
-  "last_run": "2026-10-18T13:53:10.754Z",
+  "last_run": "2026-10-19T13:53:47.954Z",
   "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
-  "processing": [],
-  "last_checked_at": "2026-10-18T13:53:10.754Z"
+  "processing": [
+    {
+      "key": "zh:連戰",
+      "title": "連戰",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0",
+      "started_at": "2026-10-19T13:53:47.954Z"
+    },
+    {
+      "key": "zh:陳履安",
+      "title": "陳履安",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89",
+      "started_at": "2026-10-19T13:53:47.954Z"
+    }
+  ],
+  "last_checked_at": "2026-10-19T13:53:47.954Z"
 }

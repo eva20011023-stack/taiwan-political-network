@@ -122,25 +122,28 @@
       "commit_sha": "8c385afeac52f06eab308b83be1ae3962eb3e383",
       "summary": "新增25節點、79筆關係：美麗島事件律師團、臺北市長選舉、正副總統與歷任行政院長、民進黨黨主席、2013再入黨及公開家庭關係。",
       "processed_at": "2026-10-18T13:53:10.754Z"
-    }
-  ],
-  "skipped": [],
-  "failed": [],
-  "last_run": "2026-10-19T13:53:47.954Z",
-  "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
-  "processing": [
+    },
     {
       "key": "zh:連戰",
       "title": "連戰",
       "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0",
-      "started_at": "2026-10-19T13:53:47.954Z"
+      "summary": "1996首次總統直選、行政院長／副總統／國民黨主席職務、2000與2004總統選舉及2005連胡會；新增可核對家庭及職務節點。 本輪合計39個新增節點及74筆新連線。",
+      "processed_at": "2026-10-19T13:58:35.698Z",
+      "commit_sha": "347873f6bc953e5e73f755223d9458e9c7e311aa"
     },
     {
       "key": "zh:陳履安",
       "title": "陳履安",
       "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89",
-      "started_at": "2026-10-19T13:53:47.954Z"
+      "summary": "國科會主委、經濟部長、國防部長、監察院長歷史職務，1996無黨籍參選及2000公開支持連戰，並補入可核實之親屬節點。 本輪合計39個新增節點及74筆新連線。",
+      "processed_at": "2026-10-19T13:58:35.698Z",
+      "commit_sha": "347873f6bc953e5e73f755223d9458e9c7e311aa"
     }
   ],
-  "last_checked_at": "2026-10-19T13:53:47.954Z"
+  "skipped": [],
+  "failed": [],
+  "last_run": "2026-10-19T13:58:35.698Z",
+  "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
+  "processing": [],
+  "last_checked_at": "2026-10-19T13:58:35.698Z"
 }

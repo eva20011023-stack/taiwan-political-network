@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "臺灣政治人物關係圖譜｜殷瑋、賴素如與臺北政治",
-    "date": "2026-10-18",
-    "scope": "維基條目與正式公職、中央社、公視來源整理之臺灣公眾政治人物、選舉、黨職、政治事件、媒體與家庭公開關係。歷史關係須看年份，僅同場參與不等於熟識或支持。",
+    "title": "臺灣政治人物關係圖譜｜連戰、陳履安與1990年代總統直選",
+    "date": "2026-10-19",
+    "scope": "從維基百科、中央社、歷史新聞建立具時間來源的公開政治人物職務、選舉、親屬、爭論、合作與公開支持網絡；同一選舉候選人為競爭者而非互相支持，媒體同場名單不推定私交。",
     "sources": [
       {
         "name": "新黨",
@@ -95,6 +95,14 @@
       {
         "name": "陳水扁",
         "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+      },
+      {
+        "name": "連戰",
+        "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+      },
+      {
+        "name": "陳履安",
+        "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
       }
     ],
     "relation_note": "同案被調查不等於共同定罪；賴素如2020年定讞判決與2014／2016年較早審級區分，2024年已假釋出監。殷瑋2025年轉任臺北市研考會主委；黨籍標籤標註來源時間，非永久身份。",
@@ -1227,7 +1235,8 @@
       "label": "李登輝",
       "group": "external",
       "notes": [
-        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。"
+        "條目提到的非新黨核心人物；不應據此推論具新黨黨籍。",
+        "1996年國民黨總統候選人，與連戰搭檔當選。"
       ],
       "party": {
         "code": "OTHER",
@@ -1739,14 +1748,16 @@
       "group": "yunlin",
       "notes": [
         "2004年國民黨總統候選人，張榮味任連宋雲林競選總部主委。",
-        "2013年對王金平事件的處理程序提出反對意見。"
+        "2013年對王金平事件的處理程序提出反對意見。",
+        "歷任行政院院長（1993–1997）、副總統（1996–2000）、國民黨主席（2000–2005）；1996、2000、2004年三次參與總統選舉，1996年為副總統候選人。",
+        "2005年4月29日與中共總書記胡錦濤在北京會晤，屬政黨間正式訪問，不表示私人交情。"
       ],
       "party": {
         "code": "KMT",
         "kind": "last_documented",
-        "as_of": "近年及過往公職／選舉紀錄",
-        "source": "https://zh.wikipedia.org/wiki/中國國民黨",
-        "qualification": "僅有指定年份的黨籍或提名紀錄；不保證現在仍有黨籍"
+        "as_of": "2000–2005黨主席；2025中央社稱前國民黨主席",
+        "source": "https://www.cna.com.tw/news/acn/202504290224.aspx",
+        "qualification": "截至本次查詢，足以證明歷史黨職與持續被稱為前主席，非正式2026黨員名冊。"
       }
     },
     {
@@ -2113,13 +2124,15 @@
       "id": "彭明敏",
       "label": "彭明敏",
       "group": "historical",
-      "notes": [],
+      "notes": [
+        "1996年民進黨總統候選人，搭檔謝長廷。"
+      ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "尚未核對可靠的目前黨籍或最後主要政治歸屬"
+        "code": "DPP",
+        "kind": "historical_only",
+        "as_of": "1996",
+        "source": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0",
+        "qualification": "僅可推定指定歷史期間之公開政黨身分，不代表現在黨籍。"
       }
     },
     {
@@ -6589,14 +6602,15 @@
       "label": "王清峰",
       "group": "historical",
       "notes": [
-        "曾任法務部長，邱太三被條目與之比較為任內未簽准執行死刑的部長，屬相似職務政策記錄，不代表二人有往來。"
+        "曾任法務部長，邱太三被條目與之比較為任內未簽准執行死刑的部長，屬相似職務政策記錄，不代表二人有往來。",
+        "1996年陳履安總統候選人的無黨籍副總統搭檔。"
       ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "目前黨籍尚未獨立查核"
+        "code": "IND",
+        "kind": "historical_only",
+        "as_of": "1996",
+        "source": "https://www.cna.com.tw/news/aipl/202603225003.aspx",
+        "qualification": "僅可推定指定歷史期間之公開政黨身分，不代表現在黨籍。"
       }
     },
     {
@@ -6764,14 +6778,15 @@
       "label": "江丙坤",
       "group": "historical",
       "notes": [
-        "王金平任立法院長期間曾任副院長。"
+        "王金平任立法院長期間曾任副院長。",
+        "2005年3月先率國民黨團訪中，為連戰訪問前置交流。"
       ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "目前黨籍尚未獨立查核"
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "2005",
+        "source": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0",
+        "qualification": "僅可推定指定歷史期間之公開政黨身分，不代表現在黨籍。"
       }
     },
     {
@@ -6899,14 +6914,15 @@
       "label": "張榮恭",
       "group": "historical",
       "notes": [
-        "2026年1月隨鄭麗文同赴王金平辦公室的國民黨副主席。"
+        "2026年1月隨鄭麗文同赴王金平辦公室的國民黨副主席。",
+        "2005年連胡會後曾代表國民黨宣讀新聞公報。"
       ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "目前黨籍尚未獨立查核"
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "2005",
+        "source": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0",
+        "qualification": "僅可推定指定歷史期間之公開政黨身分，不代表現在黨籍。"
       }
     },
     {
@@ -8196,6 +8212,509 @@
       "group": "hub",
       "notes": [
         "依公開紀錄建立的歷史選舉／人事／政治事件節點；參與同一事件不代表私人交情、同盟或直接往來。"
+      ]
+    },
+    {
+      "id": "陳履安",
+      "label": "陳履安",
+      "group": "historical",
+      "notes": [
+        "前經濟部長（1988–1990）、國防部長（1990–1993）、監察院長（1993–1995）；1996年退出國民黨、與王清峰搭檔參選總統並獲9.98%選票。",
+        "2000年總統選舉期間曾公開支持國民黨候選人連戰；與1996年作為連戰對手的政治關係分屬不同年份。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "2001年起（維基條目資訊框）",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89",
+        "qualification": "1996–2001年為無黨籍，2001年起條目記為國民黨；未有可確認2026年在籍之獨立文件。1996競選時不可標為國民黨候選人。"
+      }
+    },
+    {
+      "id": "林洋港",
+      "label": "林洋港",
+      "group": "historical",
+      "notes": [
+        "1996年脫離國民黨，搭檔郝柏村以無黨籍獨立參選、獲新黨支持。"
+      ],
+      "party": {
+        "code": "IND",
+        "kind": "historical_only",
+        "as_of": "1996",
+        "source": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0",
+        "qualification": "僅可推定指定歷史期間之公開政黨身分，不代表現在黨籍。"
+      }
+    },
+    {
+      "id": "陳誠",
+      "label": "陳誠",
+      "group": "historical",
+      "notes": [
+        "前副總統，為陳履安父親。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "1960年代",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89",
+        "qualification": "僅可推定指定歷史期間之公開政黨身分，不代表現在黨籍。"
+      }
+    },
+    {
+      "id": "譚祥",
+      "label": "譚祥",
+      "group": "historical",
+      "notes": [
+        "陳履安母親，陳誠配偶。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "連震東",
+      "label": "連震東",
+      "group": "historical",
+      "notes": [
+        "連戰父親，曾任內政部長。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "1950–1960年代",
+        "source": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0",
+        "qualification": "僅可推定指定歷史期間之公開政黨身分，不代表現在黨籍。"
+      }
+    },
+    {
+      "id": "趙蘭坤",
+      "label": "趙蘭坤",
+      "group": "historical",
+      "notes": [
+        "連戰母親，連震東配偶。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "連方瑀",
+      "label": "連方瑀",
+      "group": "historical",
+      "notes": [
+        "連戰配偶，曾協助連勝文2014年臺北市長選舉。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "連勝武",
+      "label": "連勝武",
+      "group": "historical",
+      "notes": [
+        "連戰兒子。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "連惠心",
+      "label": "連惠心",
+      "group": "historical",
+      "notes": [
+        "連戰女兒。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "連詠心",
+      "label": "連詠心",
+      "group": "historical",
+      "notes": [
+        "連戰女兒。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "連橫",
+      "label": "連橫",
+      "group": "historical",
+      "notes": [
+        "連戰祖父，歷史學者，著《臺灣通史》。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "胡錦濤",
+      "label": "胡錦濤",
+      "group": "historical",
+      "notes": [
+        "2005年擔任中國共產黨總書記，與國民黨主席連戰會談。"
+      ],
+      "party": {
+        "code": "CCP",
+        "kind": "historical_only",
+        "as_of": "2005",
+        "source": "https://www.cna.com.tw/news/acn/202504290224.aspx",
+        "qualification": "僅可推定指定歷史期間之公開政黨身分，不代表現在黨籍。"
+      }
+    },
+    {
+      "id": "賈慶林",
+      "label": "賈慶林",
+      "group": "historical",
+      "notes": [
+        "2005年中共中央政治局常委、全國政協主席，參與國共訪問前期接洽。"
+      ],
+      "party": {
+        "code": "CCP",
+        "kind": "historical_only",
+        "as_of": "2005",
+        "source": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0",
+        "qualification": "僅可推定指定歷史期間之公開政黨身分，不代表現在黨籍。"
+      }
+    },
+    {
+      "id": "林豐正",
+      "label": "林豐正",
+      "group": "historical",
+      "notes": [
+        "2005年國民黨秘書長，參與連戰訪中溝通安排。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "2005",
+        "source": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0",
+        "qualification": "僅可推定指定歷史期間之公開政黨身分，不代表現在黨籍。"
+      }
+    },
+    {
+      "id": "黃尊秋",
+      "label": "黃尊秋",
+      "group": "historical",
+      "notes": [
+        "監察院長，1993年由陳履安接任。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "鄭水枝",
+      "label": "鄭水枝",
+      "group": "historical",
+      "notes": [
+        "陳履安1995年卸任後代理監察院長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "王作榮",
+      "label": "王作榮",
+      "group": "historical",
+      "notes": [
+        "陳履安後的正式監察院長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "孫震",
+      "label": "孫震",
+      "group": "historical",
+      "notes": [
+        "1993年接任陳履安後的國防部長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "李達海",
+      "label": "李達海",
+      "group": "historical",
+      "notes": [
+        "經濟部長，1988年由陳履安接任。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "李元簇",
+      "label": "李元簇",
+      "group": "historical",
+      "notes": [
+        "1996年由連戰接任副總統。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "俞國華",
+      "label": "俞國華",
+      "group": "historical",
+      "notes": [
+        "1987–1988年連戰擔任行政院副院長期間的行政院長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "丁懋時",
+      "label": "丁懋時",
+      "group": "historical",
+      "notes": [
+        "1988年連戰接任外交部長之前任。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "邱創煥",
+      "label": "邱創煥",
+      "group": "historical",
+      "notes": [
+        "1990年連戰接任臺灣省主席之前任。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "譚延闓",
+      "label": "譚延闓",
+      "group": "historical",
+      "notes": [
+        "陳履安外公，歷史政治人物。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "張忠謀",
+      "label": "張忠謀",
+      "group": "historical",
+      "notes": [
+        "曾任工研院院長，陳履安擔任國科會主委時，兩人在晶圓代工政策主張上有不同立場。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "1996首次總統直選｜四組候選人",
+      "label": "1996首次總統直選｜四組候選人",
+      "group": "hub",
+      "notes": [
+        "這是歷史事件／組織的參與角色節點。人物同場參與不等於私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "連戰｜1993–1997行政院院長任期",
+      "label": "連戰｜1993–1997行政院院長任期",
+      "group": "hub",
+      "notes": [
+        "這是歷史事件／組織的參與角色節點。人物同場參與不等於私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "徐立德",
+      "label": "徐立德",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "連戰｜1996–2000副總統任期",
+      "label": "連戰｜1996–2000副總統任期",
+      "group": "hub",
+      "notes": [
+        "這是歷史事件／組織的參與角色節點。人物同場參與不等於私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "連戰｜2000–2005國民黨主席任期",
+      "label": "連戰｜2000–2005國民黨主席任期",
+      "group": "hub",
+      "notes": [
+        "這是歷史事件／組織的參與角色節點。人物同場參與不等於私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "2005連胡會與國民黨和平之旅",
+      "label": "2005連胡會與國民黨和平之旅",
+      "group": "hub",
+      "notes": [
+        "這是歷史事件／組織的參與角色節點。人物同場參與不等於私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "陳履安｜1984–1988國科會主委",
+      "label": "陳履安｜1984–1988國科會主委",
+      "group": "hub",
+      "notes": [
+        "這是歷史事件／組織的參與角色節點。人物同場參與不等於私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "張明哲",
+      "label": "張明哲",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "夏漢民",
+      "label": "夏漢民",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠資料核實黨籍"
+      }
+    },
+    {
+      "id": "陳履安｜1988–1990經濟部長",
+      "label": "陳履安｜1988–1990經濟部長",
+      "group": "hub",
+      "notes": [
+        "這是歷史事件／組織的參與角色節點。人物同場參與不等於私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "陳履安｜1990–1993國防部長",
+      "label": "陳履安｜1990–1993國防部長",
+      "group": "hub",
+      "notes": [
+        "這是歷史事件／組織的參與角色節點。人物同場參與不等於私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "陳履安｜1993–1995監察院長",
+      "label": "陳履安｜1993–1995監察院長",
+      "group": "hub",
+      "notes": [
+        "這是歷史事件／組織的參與角色節點。人物同場參與不等於私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "2000陳履安公開支持連戰",
+      "label": "2000陳履安公開支持連戰",
+      "group": "hub",
+      "notes": [
+        "這是歷史事件／組織的參與角色節點。人物同場參與不等於私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "2014連勝文臺北市長家庭助選",
+      "label": "2014連勝文臺北市長家庭助選",
+      "group": "hub",
+      "notes": [
+        "這是歷史事件／組織的參與角色節點。人物同場參與不等於私人交情或政治同盟。"
       ]
     }
   ],
@@ -17838,6 +18357,672 @@
       "period": "歷年",
       "source": "陳水扁｜家庭",
       "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E6%B0%B4%E6%89%81"
+    },
+    {
+      "from": "1996首次總統直選｜四組候選人",
+      "to": "李登輝",
+      "type": "event",
+      "detail": "中國國民黨總統候選人，與連戰搭檔當選（54.00%）。",
+      "period": "1996-03-23",
+      "source": "中央社｜1996總統直選30週年回顧",
+      "url": "https://www.cna.com.tw/news/aipl/202603225003.aspx"
+    },
+    {
+      "from": "1996首次總統直選｜四組候選人",
+      "to": "連戰",
+      "type": "event",
+      "detail": "中國國民黨副總統候選人，與李登輝搭檔當選。",
+      "period": "1996-03-23",
+      "source": "中央社｜1996總統直選30週年回顧",
+      "url": "https://www.cna.com.tw/news/aipl/202603225003.aspx"
+    },
+    {
+      "from": "1996首次總統直選｜四組候選人",
+      "to": "彭明敏",
+      "type": "event",
+      "detail": "民主進步黨總統候選人（21.13%）。",
+      "period": "1996-03-23",
+      "source": "中央社｜1996總統直選30週年回顧",
+      "url": "https://www.cna.com.tw/news/aipl/202603225003.aspx"
+    },
+    {
+      "from": "1996首次總統直選｜四組候選人",
+      "to": "謝長廷",
+      "type": "event",
+      "detail": "彭明敏副總統搭檔。",
+      "period": "1996-03-23",
+      "source": "中央社｜1996總統直選30週年回顧",
+      "url": "https://www.cna.com.tw/news/aipl/202603225003.aspx"
+    },
+    {
+      "from": "1996首次總統直選｜四組候選人",
+      "to": "林洋港",
+      "type": "event",
+      "detail": "無黨籍總統候選人，新黨支持（14.90%）。",
+      "period": "1996-03-23",
+      "source": "中央社｜1996總統直選30週年回顧",
+      "url": "https://www.cna.com.tw/news/aipl/202603225003.aspx"
+    },
+    {
+      "from": "1996首次總統直選｜四組候選人",
+      "to": "郝柏村",
+      "type": "event",
+      "detail": "林洋港副總統搭檔。",
+      "period": "1996-03-23",
+      "source": "中央社｜1996總統直選30週年回顧",
+      "url": "https://www.cna.com.tw/news/aipl/202603225003.aspx"
+    },
+    {
+      "from": "1996首次總統直選｜四組候選人",
+      "to": "陳履安",
+      "type": "event",
+      "detail": "無黨籍總統候選人（9.98%）。",
+      "period": "1996-03-23",
+      "source": "中央社｜1996總統直選30週年回顧",
+      "url": "https://www.cna.com.tw/news/aipl/202603225003.aspx"
+    },
+    {
+      "from": "1996首次總統直選｜四組候選人",
+      "to": "王清峰",
+      "type": "event",
+      "detail": "陳履安副總統搭檔。",
+      "period": "1996-03-23",
+      "source": "中央社｜1996總統直選30週年回顧",
+      "url": "https://www.cna.com.tw/news/aipl/202603225003.aspx"
+    },
+    {
+      "from": "連戰｜1993–1997行政院院長任期",
+      "to": "連戰",
+      "type": "event",
+      "detail": "1993年2月27日至1997年9月1日行政院院長。",
+      "period": "1993–1997",
+      "source": "連戰｜行政院院長資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰｜1993–1997行政院院長任期",
+      "to": "李登輝",
+      "type": "event",
+      "detail": "任內總統。",
+      "period": "1993–1997",
+      "source": "連戰｜行政院院長資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰｜1993–1997行政院院長任期",
+      "to": "郝柏村",
+      "type": "event",
+      "detail": "連戰前任行政院長。",
+      "period": "1993–1997",
+      "source": "連戰｜行政院院長資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰｜1993–1997行政院院長任期",
+      "to": "蕭萬長",
+      "type": "event",
+      "detail": "連戰後任行政院長。",
+      "period": "1993–1997",
+      "source": "連戰｜行政院院長資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰｜1993–1997行政院院長任期",
+      "to": "徐立德",
+      "type": "event",
+      "detail": "任內行政院副院長。",
+      "period": "1993–1997",
+      "source": "連戰｜行政院院長資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰｜1996–2000副總統任期",
+      "to": "連戰",
+      "type": "event",
+      "detail": "第9任副總統。",
+      "period": "1996–2000",
+      "source": "連戰｜副總統任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰｜1996–2000副總統任期",
+      "to": "李登輝",
+      "type": "event",
+      "detail": "第9任總統。",
+      "period": "1996–2000",
+      "source": "連戰｜副總統任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰｜1996–2000副總統任期",
+      "to": "李元簇",
+      "type": "event",
+      "detail": "連戰前任副總統。",
+      "period": "1996–2000",
+      "source": "連戰｜副總統任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰｜1996–2000副總統任期",
+      "to": "呂秀蓮",
+      "type": "event",
+      "detail": "連戰後任副總統。",
+      "period": "1996–2000",
+      "source": "連戰｜副總統任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰｜2000–2005國民黨主席任期",
+      "to": "連戰",
+      "type": "event",
+      "detail": "2000年國民黨敗選後接任主席，2005年卸任。",
+      "period": "2000–2005",
+      "source": "連戰｜黨主席任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰｜2000–2005國民黨主席任期",
+      "to": "李登輝",
+      "type": "event",
+      "detail": "連戰黨主席職務前任。",
+      "period": "2000–2005",
+      "source": "連戰｜黨主席任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰｜2000–2005國民黨主席任期",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "2005年接任黨主席。",
+      "period": "2000–2005",
+      "source": "連戰｜黨主席任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰｜2000–2005國民黨主席任期",
+      "to": "王金平",
+      "type": "event",
+      "detail": "連戰主席任內副主席之一。",
+      "period": "2000–2005",
+      "source": "連戰｜黨主席任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰｜2000–2005國民黨主席任期",
+      "to": "江丙坤",
+      "type": "event",
+      "detail": "連戰主席任內副主席之一。",
+      "period": "2000–2005",
+      "source": "連戰｜黨主席任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰｜2000–2005國民黨主席任期",
+      "to": "蕭萬長",
+      "type": "event",
+      "detail": "連戰主席任內副主席之一。",
+      "period": "2000–2005",
+      "source": "連戰｜黨主席任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "2005連胡會與國民黨和平之旅",
+      "to": "連戰",
+      "type": "event",
+      "detail": "2005年4月29日以國民黨主席身分與胡錦濤會晤。",
+      "period": "2005-03–05",
+      "source": "中央社｜連胡會20週年回顧",
+      "url": "https://www.cna.com.tw/news/acn/202504290224.aspx"
+    },
+    {
+      "from": "2005連胡會與國民黨和平之旅",
+      "to": "胡錦濤",
+      "type": "event",
+      "detail": "時任中共中央總書記，與連戰會談並發布五點共識。",
+      "period": "2005-03–05",
+      "source": "中央社｜連胡會20週年回顧",
+      "url": "https://www.cna.com.tw/news/acn/202504290224.aspx"
+    },
+    {
+      "from": "2005連胡會與國民黨和平之旅",
+      "to": "江丙坤",
+      "type": "event",
+      "detail": "2005年3月率團進行訪中前期接觸。",
+      "period": "2005-03–05",
+      "source": "中央社｜連胡會20週年回顧",
+      "url": "https://www.cna.com.tw/news/acn/202504290224.aspx"
+    },
+    {
+      "from": "2005連胡會與國民黨和平之旅",
+      "to": "賈慶林",
+      "type": "event",
+      "detail": "中國大陸方面參與訪中前期接洽。",
+      "period": "2005-03–05",
+      "source": "中央社｜連胡會20週年回顧",
+      "url": "https://www.cna.com.tw/news/acn/202504290224.aspx"
+    },
+    {
+      "from": "2005連胡會與國民黨和平之旅",
+      "to": "張榮恭",
+      "type": "event",
+      "detail": "連胡會結束後對外宣讀新聞公報。",
+      "period": "2005-03–05",
+      "source": "中央社｜連胡會20週年回顧",
+      "url": "https://www.cna.com.tw/news/acn/202504290224.aspx"
+    },
+    {
+      "from": "2005連胡會與國民黨和平之旅",
+      "to": "林豐正",
+      "type": "event",
+      "detail": "國民黨方面參與訪問安排。",
+      "period": "2005-03–05",
+      "source": "中央社｜連胡會20週年回顧",
+      "url": "https://www.cna.com.tw/news/acn/202504290224.aspx"
+    },
+    {
+      "from": "陳履安｜1984–1988國科會主委",
+      "to": "陳履安",
+      "type": "event",
+      "detail": "第4任國科會主委。",
+      "period": "1984–1988",
+      "source": "陳履安｜歷任職務",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安｜1984–1988國科會主委",
+      "to": "張明哲",
+      "type": "event",
+      "detail": "前任國科會主委。",
+      "period": "1984–1988",
+      "source": "陳履安｜歷任職務",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安｜1984–1988國科會主委",
+      "to": "夏漢民",
+      "type": "event",
+      "detail": "後任國科會主委。",
+      "period": "1984–1988",
+      "source": "陳履安｜歷任職務",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安｜1988–1990經濟部長",
+      "to": "陳履安",
+      "type": "event",
+      "detail": "第18任經濟部長。",
+      "period": "1988–1990",
+      "source": "陳履安｜經濟部長任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安｜1988–1990經濟部長",
+      "to": "李達海",
+      "type": "event",
+      "detail": "前任經濟部長。",
+      "period": "1988–1990",
+      "source": "陳履安｜經濟部長任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安｜1988–1990經濟部長",
+      "to": "蕭萬長",
+      "type": "event",
+      "detail": "後任經濟部長。",
+      "period": "1988–1990",
+      "source": "陳履安｜經濟部長任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安｜1988–1990經濟部長",
+      "to": "俞國華",
+      "type": "event",
+      "detail": "陳履安擔任經濟部長初期的行政院長。",
+      "period": "1988–1990",
+      "source": "陳履安｜經濟部長任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安｜1990–1993國防部長",
+      "to": "陳履安",
+      "type": "event",
+      "detail": "第18任國防部長。",
+      "period": "1990–1993",
+      "source": "陳履安｜國防部長任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安｜1990–1993國防部長",
+      "to": "郝柏村",
+      "type": "event",
+      "detail": "國防部長前任，後擔任陳履安任內的行政院長。",
+      "period": "1990–1993",
+      "source": "陳履安｜國防部長任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安｜1990–1993國防部長",
+      "to": "孫震",
+      "type": "event",
+      "detail": "陳履安國防部長後任。",
+      "period": "1990–1993",
+      "source": "陳履安｜國防部長任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安｜1990–1993國防部長",
+      "to": "李登輝",
+      "type": "event",
+      "detail": "陳履安國防部長任內的總統。",
+      "period": "1990–1993",
+      "source": "陳履安｜國防部長任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安｜1993–1995監察院長",
+      "to": "陳履安",
+      "type": "event",
+      "detail": "第5任監察院院長。",
+      "period": "1993–1995",
+      "source": "陳履安｜監察院院長任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安｜1993–1995監察院長",
+      "to": "黃尊秋",
+      "type": "event",
+      "detail": "監察院院長前任。",
+      "period": "1993–1995",
+      "source": "陳履安｜監察院院長任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安｜1993–1995監察院長",
+      "to": "鄭水枝",
+      "type": "event",
+      "detail": "陳履安卸任後代理院長。",
+      "period": "1993–1995",
+      "source": "陳履安｜監察院院長任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安｜1993–1995監察院長",
+      "to": "王作榮",
+      "type": "event",
+      "detail": "陳履安卸任後的正式監察院長。",
+      "period": "1993–1995",
+      "source": "陳履安｜監察院院長任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安｜1993–1995監察院長",
+      "to": "李登輝",
+      "type": "event",
+      "detail": "陳履安擔任監察院長任內的總統。",
+      "period": "1993–1995",
+      "source": "陳履安｜監察院院長任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "2000陳履安公開支持連戰",
+      "to": "陳履安",
+      "type": "event",
+      "detail": "2000年2月28日公開支持國民黨總統候選人連戰。",
+      "period": "2000-02-28",
+      "source": "Taipei Times｜2000年2月29日報導",
+      "url": "https://www.taipeitimes.com/News/local/archives/2000/02/29/0000026007"
+    },
+    {
+      "from": "2000陳履安公開支持連戰",
+      "to": "連戰",
+      "type": "event",
+      "detail": "2000年總統候選人，獲陳履安公開支持。",
+      "period": "2000-02-28",
+      "source": "Taipei Times｜2000年2月29日報導",
+      "url": "https://www.taipeitimes.com/News/local/archives/2000/02/29/0000026007"
+    },
+    {
+      "from": "2014連勝文臺北市長家庭助選",
+      "to": "連勝文",
+      "type": "event",
+      "detail": "2014年國民黨臺北市長候選人。",
+      "period": "2014",
+      "source": "中央社｜連戰連方瑀為連勝文助選",
+      "url": "https://www.cna.com.tw/news/aipl/201411160273.aspx"
+    },
+    {
+      "from": "2014連勝文臺北市長家庭助選",
+      "to": "連戰",
+      "type": "event",
+      "detail": "2014年11月16日為兒子連勝文助選。",
+      "period": "2014",
+      "source": "中央社｜連戰連方瑀為連勝文助選",
+      "url": "https://www.cna.com.tw/news/aipl/201411160273.aspx"
+    },
+    {
+      "from": "2014連勝文臺北市長家庭助選",
+      "to": "連方瑀",
+      "type": "event",
+      "detail": "2014年11月16日與丈夫連戰一起為兒子連勝文助選。",
+      "period": "2014",
+      "source": "中央社｜連戰連方瑀為連勝文助選",
+      "url": "https://www.cna.com.tw/news/aipl/201411160273.aspx"
+    },
+    {
+      "from": "連戰",
+      "to": "連方瑀",
+      "type": "family",
+      "detail": "夫妻，1965年結婚。",
+      "period": "家庭／歷史公開記載",
+      "source": "連戰／陳履安維基百科親屬資訊",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰",
+      "to": "連勝文",
+      "type": "family",
+      "detail": "父子。",
+      "period": "家庭／歷史公開記載",
+      "source": "連戰／陳履安維基百科親屬資訊",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰",
+      "to": "連勝武",
+      "type": "family",
+      "detail": "父子。",
+      "period": "家庭／歷史公開記載",
+      "source": "連戰／陳履安維基百科親屬資訊",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰",
+      "to": "連惠心",
+      "type": "family",
+      "detail": "父女。",
+      "period": "家庭／歷史公開記載",
+      "source": "連戰／陳履安維基百科親屬資訊",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰",
+      "to": "連詠心",
+      "type": "family",
+      "detail": "父女。",
+      "period": "家庭／歷史公開記載",
+      "source": "連戰／陳履安維基百科親屬資訊",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰",
+      "to": "連震東",
+      "type": "family",
+      "detail": "父子。",
+      "period": "家庭／歷史公開記載",
+      "source": "連戰／陳履安維基百科親屬資訊",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰",
+      "to": "趙蘭坤",
+      "type": "family",
+      "detail": "母子。",
+      "period": "家庭／歷史公開記載",
+      "source": "連戰／陳履安維基百科親屬資訊",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰",
+      "to": "連橫",
+      "type": "family",
+      "detail": "祖孫。",
+      "period": "家庭／歷史公開記載",
+      "source": "連戰／陳履安維基百科親屬資訊",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "陳履安",
+      "to": "陳誠",
+      "type": "family",
+      "detail": "父子，陳誠為前中華民國副總統。",
+      "period": "家庭／歷史公開記載",
+      "source": "連戰／陳履安維基百科親屬資訊",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安",
+      "to": "譚祥",
+      "type": "family",
+      "detail": "母子。",
+      "period": "家庭／歷史公開記載",
+      "source": "連戰／陳履安維基百科親屬資訊",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安",
+      "to": "譚延闓",
+      "type": "family",
+      "detail": "外祖孫。",
+      "period": "家庭／歷史公開記載",
+      "source": "連戰／陳履安維基百科親屬資訊",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "連戰",
+      "to": "李登輝",
+      "type": "cooperate",
+      "detail": "1996年兩人搭檔總統、副總統選舉並當選。",
+      "period": "1996",
+      "source": "中央社｜1996總統直選",
+      "url": "https://www.cna.com.tw/news/aipl/202603225003.aspx"
+    },
+    {
+      "from": "連戰",
+      "to": "蕭萬長",
+      "type": "cooperate",
+      "detail": "2000年兩人搭檔代表國民黨競選總統、副總統；兩人亦為前後任行政院院長。",
+      "period": "1997、2000",
+      "source": "中央社｜歷屆總統選舉",
+      "url": "https://www.cna.com.tw/project/20191107-election/part4.html"
+    },
+    {
+      "from": "連戰",
+      "to": "宋楚瑜",
+      "type": "cooperate",
+      "detail": "2004年國民黨與親民黨共推連戰、宋楚瑜競選正副總統。",
+      "period": "2004",
+      "source": "中央社｜歷屆總統選舉",
+      "url": "https://www.cna.com.tw/project/20191107-election/part4.html"
+    },
+    {
+      "from": "連戰",
+      "to": "馬英九",
+      "type": "affiliation",
+      "detail": "2005年馬英九接任連戰的國民黨主席職務。",
+      "period": "2005",
+      "source": "連戰｜國民黨主席任期",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰",
+      "to": "胡錦濤",
+      "type": "event",
+      "detail": "2005年4月29日國民黨主席與中共總書記在北京人民大會堂正式會談。",
+      "period": "2005-04-29",
+      "source": "中央社｜連胡會20週年",
+      "url": "https://www.cna.com.tw/news/acn/202504290224.aspx"
+    },
+    {
+      "from": "連戰",
+      "to": "陳履安",
+      "type": "contest",
+      "detail": "1996年首次總統直選，連戰是李登輝副手、陳履安則為另一組無黨籍總統候選人；兩組競選。",
+      "period": "1996",
+      "source": "中央社｜首次總統直選",
+      "url": "https://www.cna.com.tw/news/aipl/202603225003.aspx"
+    },
+    {
+      "from": "陳履安",
+      "to": "王清峰",
+      "type": "cooperate",
+      "detail": "1996年以無黨籍共同搭檔參選正副總統。",
+      "period": "1996",
+      "source": "中央社｜首次總統直選",
+      "url": "https://www.cna.com.tw/news/aipl/202603225003.aspx"
+    },
+    {
+      "from": "陳履安",
+      "to": "連戰",
+      "type": "support",
+      "detail": "陳履安2000年2月28日對外宣布支持國民黨總統候選人連戰。",
+      "period": "2000-02-28",
+      "source": "Taipei Times｜歷史新聞",
+      "url": "https://www.taipeitimes.com/News/local/archives/2000/02/29/0000026007"
+    },
+    {
+      "from": "陳履安",
+      "to": "張忠謀",
+      "type": "dispute",
+      "detail": "陳履安擔任國科會主委時，對工研院院長張忠謀提出之晶圓代工設廠方案持不同立場；此為當年產業政策分歧，不推定私人恩怨。",
+      "period": "1984–1988（未核實確切日期）",
+      "source": "陳履安｜仕途",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安",
+      "to": "郝柏村",
+      "type": "affiliation",
+      "detail": "郝柏村擔任行政院院長期間，陳履安擔任國防部長。",
+      "period": "1990–1993",
+      "source": "陳履安｜國防部長資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "陳履安",
+      "to": "孫震",
+      "type": "affiliation",
+      "detail": "1993年孫震接任陳履安國防部長。",
+      "period": "1993",
+      "source": "陳履安｜國防部長資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+    },
+    {
+      "from": "連戰",
+      "to": "王金平",
+      "type": "affiliation",
+      "detail": "連戰2000–2005年國民黨主席任內，王金平擔任國民黨副主席。",
+      "period": "2000–2005",
+      "source": "連戰｜國民黨主席資訊框",
+      "url": "https://zh.wikipedia.org/wiki/%E9%80%A3%E6%88%B0"
+    },
+    {
+      "from": "連戰",
+      "to": "連勝文",
+      "type": "cooperate",
+      "detail": "2014年連戰為兒子連勝文臺北市長競選公開站台。",
+      "period": "2014",
+      "source": "中央社｜連戰連方瑀助選",
+      "url": "https://www.cna.com.tw/news/aipl/201411160273.aspx"
     }
   ]
 }

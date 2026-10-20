@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "臺灣政治人物關係圖譜｜連戰、陳履安與1990年代總統直選",
-    "date": "2026-10-19",
-    "scope": "從維基百科、中央社、歷史新聞建立具時間來源的公開政治人物職務、選舉、親屬、爭論、合作與公開支持網絡；同一選舉候選人為競爭者而非互相支持，媒體同場名單不推定私交。",
+    "title": "臺灣政治人物關係圖譜｜國民黨四公子、羅文嘉與海基會／黨務史",
+    "date": "2026-10-20",
+    "scope": "公開職務、選舉與親屬關係採年代及具體來源標註；「國民黨四公子」為歷史媒體稱呼，並非正式組織或黨內派系。羅文嘉的陳水扁幕僚、2019–2020民進黨黨務、2024–2026海基會任職分期建檔。",
     "sources": [
       {
         "name": "新黨",
@@ -103,9 +103,17 @@
       {
         "name": "陳履安",
         "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%B1%A5%E5%AE%89"
+      },
+      {
+        "name": "國民黨四公子",
+        "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%B0%91%E9%BB%A8%E5%9B%9B%E5%85%AC%E5%AD%90"
+      },
+      {
+        "name": "羅文嘉",
+        "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
       }
     ],
-    "relation_note": "同案被調查不等於共同定罪；賴素如2020年定讞判決與2014／2016年較早審級區分，2024年已假釋出監。殷瑋2025年轉任臺北市研考會主委；黨籍標籤標註來源時間，非永久身份。",
+    "relation_note": "資料中共同任職某單位、被媒體並列、選舉競爭都不當作私人交情或相互支持；人物政黨歸屬只按最近可查資料來源年份，不等同2026即時正式黨籍；海基會董事長歷次交接不可視為多人同時擔任。",
     "party": {
       "as_of": "2026-10-17",
       "policy": "有近期資料佐證者標近期黨籍，只有舊提名或黨職記錄則顯示為歷史／最近紀錄；離黨及未核對者不當成現任黨員。顏色只反映資料分類，非政治立場或私人關係。",
@@ -2554,7 +2562,8 @@
       "label": "錢復",
       "group": "historical",
       "notes": [
-        "條目列為王建煊擔任監察院長之前任。"
+        "條目列為王建煊擔任監察院長之前任。",
+        "歷任外交部長、監察院院長，是1970至1990年代媒體稱「國民黨四公子」的四人之一。"
       ],
       "party": {
         "code": "UNKNOWN",
@@ -5715,16 +5724,17 @@
     {
       "id": "羅文嘉",
       "label": "羅文嘉",
-      "group": "historical",
+      "group": "current",
       "notes": [
-        "民進黨前秘書長，曾公開評論柯建銘國會折衝與黨內經驗。"
+        "民進黨前秘書長，曾公開評論柯建銘國會折衝與黨內經驗。",
+        "早年任陳水扁立委國會助理、臺北市政府新聞處長，2002–2004年任第五屆立委，2004–2005年任行政院客委會主委，2019–2020年任民主進步黨秘書長；2024年6月起任海基會副董事長兼秘書長。"
       ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "黨籍／身份未單獨核實"
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2019–2020年民進黨秘書長任期；2024–2026年擔任海基會要職",
+        "source": "https://www.cna.com.tw/news/firstnews/201901135006.aspx",
+        "qualification": "2019年中央社證實受卓榮泰邀請任民進黨秘書長；2024年後任海基會公職不等於現任黨職或可證2026年仍具黨籍。"
       }
     },
     {
@@ -8250,7 +8260,8 @@
       "label": "陳誠",
       "group": "historical",
       "notes": [
-        "前副總統，為陳履安父親。"
+        "前副總統，為陳履安父親。",
+        "陳誠為陳履安之父；曾任中華民國副總統。"
       ],
       "party": {
         "code": "KMT",
@@ -8280,7 +8291,8 @@
       "label": "連震東",
       "group": "historical",
       "notes": [
-        "連戰父親，曾任內政部長。"
+        "連戰父親，曾任內政部長。",
+        "連震東為連戰之父；連震東曾任內政部長。"
       ],
       "party": {
         "code": "KMT",
@@ -8715,6 +8727,346 @@
       "group": "hub",
       "notes": [
         "這是歷史事件／組織的參與角色節點。人物同場參與不等於私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "國民黨四公子（歷史稱呼）",
+      "label": "國民黨四公子（歷史稱呼）",
+      "group": "hub",
+      "notes": [
+        "約1970至1990年代的臺灣政壇媒體稱呼，特指連戰、錢復、陳履安、沈君山。並非中國國民黨的正式組織、派系或共同競選團隊；不能因並列就推論彼此私交。條目稱此詞在1978年由康寧祥提出，聯合報1988年的「四大公子」相關文章有公開存檔。"
+      ]
+    },
+    {
+      "id": "沈君山",
+      "label": "沈君山",
+      "group": "historical",
+      "notes": [
+        "臺灣物理學者與教育行政人士；1994至1997年擔任國立清華大學校長，此為清華大學校史記錄。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "錢思亮",
+      "label": "錢思亮",
+      "group": "external",
+      "notes": [
+        "錢思亮為錢復之父；曾任中央研究院院長。",
+        "曾任國立臺灣大學校長、中央研究院院長；為錢復之父。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "沈宗瀚",
+      "label": "沈宗瀚",
+      "group": "external",
+      "notes": [
+        "沈宗瀚為沈君山之父；曾任農復會主委。",
+        "農學家，曾任農村復興聯合委員會主委；為沈君山之父。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "康寧祥",
+      "label": "康寧祥",
+      "group": "historical",
+      "notes": [
+        "維基〈國民黨四公子〉條目稱康寧祥於1978年使用「四公子」一詞；屬政治論述及稱呼，不代表四人和康寧祥隸屬同一組織。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "沈君山｜清華大學校長任期",
+      "label": "沈君山｜清華大學校長任期",
+      "group": "hub",
+      "notes": [
+        "學術行政職務的年代對照，非政黨或私人交友網絡。"
+      ]
+    },
+    {
+      "id": "劉兆玄",
+      "label": "劉兆玄",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "李家同",
+      "label": "李家同",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "林錫耀",
+      "label": "林錫耀",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "洪耀福",
+      "label": "洪耀福",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "吳豊山",
+      "label": "吳豊山",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "周錫瑋",
+      "label": "周錫瑋",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "李永得",
+      "label": "李永得",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "葉菊蘭",
+      "label": "葉菊蘭",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "李慶安",
+      "label": "李慶安",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "林錦昌",
+      "label": "林錦昌",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "羅文嘉｜陳水扁立委及臺北市府團隊",
+      "label": "羅文嘉｜陳水扁立委及臺北市府團隊",
+      "group": "hub",
+      "notes": [
+        "公開幕僚、公職與新聞處長職務，按實際任期描述。"
+      ]
+    },
+    {
+      "id": "1994陳水扁臺北市長競選團隊",
+      "label": "1994陳水扁臺北市長競選團隊",
+      "group": "hub",
+      "notes": [
+        "競選團隊的公開職務；不是未經證實的私人關係。"
+      ]
+    },
+    {
+      "id": "1998陳水扁臺北市長連任競選",
+      "label": "1998陳水扁臺北市長連任競選",
+      "group": "hub",
+      "notes": [
+        "1998年公開選舉：參選與幕僚合作、不同陣營選舉競爭應分開記錄。"
+      ]
+    },
+    {
+      "id": "羅文嘉｜2000文建會至2004客委會",
+      "label": "羅文嘉｜2000文建會至2004客委會",
+      "group": "hub",
+      "notes": [
+        "不同階段行政職務合併查詢用，並非同時共事。"
+      ]
+    },
+    {
+      "id": "陳郁秀",
+      "label": "陳郁秀",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "2005臺北縣縣長選舉｜周羅競爭",
+      "label": "2005臺北縣縣長選舉｜周羅競爭",
+      "group": "hub",
+      "notes": [
+        "依法定選舉競爭關係建檔，非兩人政治合作。"
+      ]
+    },
+    {
+      "id": "2019民進黨卓榮泰與羅文嘉黨務團隊",
+      "label": "2019民進黨卓榮泰與羅文嘉黨務團隊",
+      "group": "hub",
+      "notes": [
+        "民進黨黨務職務編制，非永久現任或私人派系結盟。"
+      ]
+    },
+    {
+      "id": "徐佳青",
+      "label": "徐佳青",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "林鶴明",
+      "label": "林鶴明",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "高幸雪",
+      "label": "高幸雪",
+      "group": "historical",
+      "notes": [],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未確認目前政黨歸屬或是否適用黨籍"
+      }
+    },
+    {
+      "id": "2020民進黨黨務秘書長交接",
+      "label": "2020民進黨黨務秘書長交接",
+      "group": "hub",
+      "notes": [
+        "黨務接任及任職關係，不代表私人交情。"
+      ]
+    },
+    {
+      "id": "2024海基會人事｜羅文嘉就任",
+      "label": "2024海基會人事｜羅文嘉就任",
+      "group": "hub",
+      "notes": [
+        "海基會公職業務分工，不表示政治派系或私人關係。"
+      ]
+    },
+    {
+      "id": "2024–2026海基會董事長交接",
+      "label": "2024–2026海基會董事長交接",
+      "group": "hub",
+      "notes": [
+        "各董事長任期先後不同，四人不是同時在任；羅文嘉副董事長兼秘書長任期另見海基會官網。"
+      ]
+    },
+    {
+      "id": "1995臺北電台公共化質詢",
+      "label": "1995臺北電台公共化質詢",
+      "group": "hub",
+      "notes": [
+        "為公職議事質詢紀錄，不代表任何私人往來或違法定論。"
       ]
     }
   ],
@@ -19023,6 +19375,564 @@
       "period": "2014",
       "source": "中央社｜連戰連方瑀助選",
       "url": "https://www.cna.com.tw/news/aipl/201411160273.aspx"
+    },
+    {
+      "from": "國民黨四公子（歷史稱呼）",
+      "to": "連戰",
+      "type": "event",
+      "detail": "四公子之一；父親連震東，曾任內政部長。",
+      "period": "1978–1990年代（媒體歷史稱呼）",
+      "source": "聯合報歷史報導｜國民黨四公子",
+      "url": "https://time.udn.com/udntime/story/122833/8813937"
+    },
+    {
+      "from": "國民黨四公子（歷史稱呼）",
+      "to": "錢復",
+      "type": "event",
+      "detail": "四公子之一；父親錢思亮，曾任中央研究院院長。",
+      "period": "1978–1990年代（媒體歷史稱呼）",
+      "source": "聯合報歷史報導｜國民黨四公子",
+      "url": "https://time.udn.com/udntime/story/122833/8813937"
+    },
+    {
+      "from": "國民黨四公子（歷史稱呼）",
+      "to": "陳履安",
+      "type": "event",
+      "detail": "四公子之一；父親陳誠，曾任副總統；1996年以無黨籍身分競選總統。",
+      "period": "1978–1990年代（媒體歷史稱呼）",
+      "source": "聯合報歷史報導｜國民黨四公子",
+      "url": "https://time.udn.com/udntime/story/122833/8813937"
+    },
+    {
+      "from": "國民黨四公子（歷史稱呼）",
+      "to": "沈君山",
+      "type": "event",
+      "detail": "四公子之一；父親沈宗瀚，曾任農復會主委；1994至1997年擔任國立清華大學校長。",
+      "period": "1978–1990年代（媒體歷史稱呼）",
+      "source": "聯合報歷史報導｜國民黨四公子",
+      "url": "https://time.udn.com/udntime/story/122833/8813937"
+    },
+    {
+      "from": "連戰",
+      "to": "連震東",
+      "type": "family",
+      "detail": "連震東為連戰之父；連震東曾任內政部長。",
+      "period": "生平（歷史親子關係）",
+      "source": "國民黨四公子｜人物家世",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%B0%91%E9%BB%A8%E5%9B%9B%E5%85%AC%E5%AD%90"
+    },
+    {
+      "from": "錢復",
+      "to": "錢思亮",
+      "type": "family",
+      "detail": "錢思亮為錢復之父；曾任中央研究院院長。",
+      "period": "生平（歷史親子關係）",
+      "source": "國民黨四公子｜人物家世",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%B0%91%E9%BB%A8%E5%9B%9B%E5%85%AC%E5%AD%90"
+    },
+    {
+      "from": "陳履安",
+      "to": "陳誠",
+      "type": "family",
+      "detail": "陳誠為陳履安之父；曾任中華民國副總統。",
+      "period": "生平（歷史親子關係）",
+      "source": "國民黨四公子｜人物家世",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%B0%91%E9%BB%A8%E5%9B%9B%E5%85%AC%E5%AD%90"
+    },
+    {
+      "from": "沈君山",
+      "to": "沈宗瀚",
+      "type": "family",
+      "detail": "沈宗瀚為沈君山之父；曾任農復會主委。",
+      "period": "生平（歷史親子關係）",
+      "source": "國民黨四公子｜人物家世",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%B0%91%E9%BB%A8%E5%9B%9B%E5%85%AC%E5%AD%90"
+    },
+    {
+      "from": "國民黨四公子（歷史稱呼）",
+      "to": "康寧祥",
+      "type": "event",
+      "detail": "條目記述此一政壇稱呼約1978年由黨外人士康寧祥使用；詞源應視為來源記載，不是政治共事或人際往來。",
+      "period": "1978（條目所記）",
+      "source": "國民黨四公子｜詞源",
+      "url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E6%B0%91%E9%BB%A8%E5%9B%9B%E5%85%AC%E5%AD%90"
+    },
+    {
+      "from": "沈君山｜清華大學校長任期",
+      "to": "沈君山",
+      "type": "event",
+      "detail": "國立清華大學校長，校史列任期為1994至1997年。",
+      "period": "1987–1997",
+      "source": "國立清華大學數位校史館｜歷任校長",
+      "url": "https://archives.lib.nthu.edu.tw/history/people/president.html"
+    },
+    {
+      "from": "沈君山｜清華大學校長任期",
+      "to": "劉兆玄",
+      "type": "event",
+      "detail": "清華大學歷任校長名錄列劉兆玄為1987至1993年的前任校長；兩人前後任期間另有代理校長李家同。",
+      "period": "1987–1997",
+      "source": "國立清華大學數位校史館｜歷任校長",
+      "url": "https://archives.lib.nthu.edu.tw/history/people/president.html"
+    },
+    {
+      "from": "沈君山｜清華大學校長任期",
+      "to": "李家同",
+      "type": "event",
+      "detail": "1993至1994年代理校長，沈君山就任前的清華校長。",
+      "period": "1987–1997",
+      "source": "國立清華大學數位校史館｜歷任校長",
+      "url": "https://archives.lib.nthu.edu.tw/history/people/president.html"
+    },
+    {
+      "from": "羅文嘉｜陳水扁立委及臺北市府團隊",
+      "to": "羅文嘉",
+      "type": "event",
+      "detail": "1991–1993年任陳水扁國會助理及辦公室主任，1994年任臺北市政府新聞處長及發言人。",
+      "period": "1991–1997",
+      "source": "立法院｜羅文嘉委員經歷／羅文嘉條目",
+      "url": "https://www.ly.gov.tw/EngPages/List.aspx?nodeid=1303"
+    },
+    {
+      "from": "羅文嘉｜陳水扁立委及臺北市府團隊",
+      "to": "陳水扁",
+      "type": "event",
+      "detail": "時任立委、1994年當選臺北市長，羅文嘉在其團隊任幕僚與新聞處長。",
+      "period": "1991–1997",
+      "source": "立法院｜羅文嘉委員經歷／羅文嘉條目",
+      "url": "https://www.ly.gov.tw/EngPages/List.aspx?nodeid=1303"
+    },
+    {
+      "from": "羅文嘉｜陳水扁立委及臺北市府團隊",
+      "to": "林錦昌",
+      "type": "event",
+      "detail": "1997年羅文嘉請辭臺北市新聞處長後接任；此為歷史職務接任，並非推測兩人私交。",
+      "period": "1991–1997",
+      "source": "立法院｜羅文嘉委員經歷／羅文嘉條目",
+      "url": "https://www.ly.gov.tw/EngPages/List.aspx?nodeid=1303"
+    },
+    {
+      "from": "1994陳水扁臺北市長競選團隊",
+      "to": "陳水扁",
+      "type": "event",
+      "detail": "1994年民進黨臺北市長候選人；當選。",
+      "period": "1994",
+      "source": "立法院｜羅文嘉委員經歷",
+      "url": "https://www.ly.gov.tw/EngPages/List.aspx?nodeid=1303"
+    },
+    {
+      "from": "1994陳水扁臺北市長競選團隊",
+      "to": "羅文嘉",
+      "type": "event",
+      "detail": "1994年陳水扁臺北市長競選團隊執行總幹事。",
+      "period": "1994",
+      "source": "立法院｜羅文嘉委員經歷",
+      "url": "https://www.ly.gov.tw/EngPages/List.aspx?nodeid=1303"
+    },
+    {
+      "from": "1998陳水扁臺北市長連任競選",
+      "to": "陳水扁",
+      "type": "event",
+      "detail": "1998年競選臺北市長連任，最終敗選。",
+      "period": "1998",
+      "source": "羅文嘉｜政治經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+    },
+    {
+      "from": "1998陳水扁臺北市長連任競選",
+      "to": "羅文嘉",
+      "type": "event",
+      "detail": "1998年陳水扁連任競選團隊執行總幹事。",
+      "period": "1998",
+      "source": "羅文嘉｜政治經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+    },
+    {
+      "from": "1998陳水扁臺北市長連任競選",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "1998年臺北市長選舉勝出者，與陳水扁競選對手。",
+      "period": "1998",
+      "source": "羅文嘉｜政治經歷",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+    },
+    {
+      "from": "羅文嘉｜2000文建會至2004客委會",
+      "to": "羅文嘉",
+      "type": "event",
+      "detail": "2000–2001年任文建會副主委；2004–2005年任行政院客委會主委。",
+      "period": "2000–2005",
+      "source": "羅文嘉｜行政院職務任期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+    },
+    {
+      "from": "羅文嘉｜2000文建會至2004客委會",
+      "to": "陳郁秀",
+      "type": "event",
+      "detail": "羅文嘉2000–2001年擔任副主委時的文建會主委。",
+      "period": "2000–2005",
+      "source": "羅文嘉｜行政院職務任期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+    },
+    {
+      "from": "羅文嘉｜2000文建會至2004客委會",
+      "to": "葉菊蘭",
+      "type": "event",
+      "detail": "羅文嘉2004年接任客委會主委之前任。",
+      "period": "2000–2005",
+      "source": "羅文嘉｜行政院職務任期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+    },
+    {
+      "from": "羅文嘉｜2000文建會至2004客委會",
+      "to": "李永得",
+      "type": "event",
+      "detail": "羅文嘉2005年卸任客委會主委後任。",
+      "period": "2000–2005",
+      "source": "羅文嘉｜行政院職務任期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+    },
+    {
+      "from": "羅文嘉｜2000文建會至2004客委會",
+      "to": "游錫堃",
+      "type": "event",
+      "detail": "羅文嘉2004年開始擔任客委會主委時的行政院院長。",
+      "period": "2000–2005",
+      "source": "羅文嘉｜行政院職務任期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+    },
+    {
+      "from": "羅文嘉｜2000文建會至2004客委會",
+      "to": "謝長廷",
+      "type": "event",
+      "detail": "羅文嘉2005年卸任客委會主委時的行政院院長。",
+      "period": "2000–2005",
+      "source": "羅文嘉｜行政院職務任期",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+    },
+    {
+      "from": "2005臺北縣縣長選舉｜周羅競爭",
+      "to": "羅文嘉",
+      "type": "event",
+      "detail": "2005年民進黨臺北縣長候選人，獲798,233票，未當選。",
+      "period": "2005-12-03",
+      "source": "臺北時報｜臺北縣選舉結果",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2005/12/04/2003282913"
+    },
+    {
+      "from": "2005臺北縣縣長選舉｜周羅競爭",
+      "to": "周錫瑋",
+      "type": "event",
+      "detail": "2005年國民黨臺北縣長候選人，獲988,739票，當選。",
+      "period": "2005-12-03",
+      "source": "臺北時報｜臺北縣選舉結果",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2005/12/04/2003282913"
+    },
+    {
+      "from": "2019民進黨卓榮泰與羅文嘉黨務團隊",
+      "to": "卓榮泰",
+      "type": "event",
+      "detail": "2019年民進黨主席，邀請羅文嘉擔任黨秘書長。",
+      "period": "2019–2020",
+      "source": "中央社｜2019羅文嘉接任秘書長與林飛帆副秘書長",
+      "url": "https://www.cna.com.tw/news/aipl/201907140156.aspx"
+    },
+    {
+      "from": "2019民進黨卓榮泰與羅文嘉黨務團隊",
+      "to": "羅文嘉",
+      "type": "event",
+      "detail": "2019年1月至2020年5月擔任民進黨秘書長。",
+      "period": "2019–2020",
+      "source": "中央社｜2019羅文嘉接任秘書長與林飛帆副秘書長",
+      "url": "https://www.cna.com.tw/news/aipl/201907140156.aspx"
+    },
+    {
+      "from": "2019民進黨卓榮泰與羅文嘉黨務團隊",
+      "to": "林飛帆",
+      "type": "event",
+      "detail": "2019年7月經羅文嘉邀請擔任民進黨副秘書長。",
+      "period": "2019–2020",
+      "source": "中央社｜2019羅文嘉接任秘書長與林飛帆副秘書長",
+      "url": "https://www.cna.com.tw/news/aipl/201907140156.aspx"
+    },
+    {
+      "from": "2019民進黨卓榮泰與羅文嘉黨務團隊",
+      "to": "徐佳青",
+      "type": "event",
+      "detail": "2019年曾任民進黨副秘書長；本節點代表歷史黨務任職。",
+      "period": "2019–2020",
+      "source": "中央社｜2019羅文嘉接任秘書長與林飛帆副秘書長",
+      "url": "https://www.cna.com.tw/news/aipl/201907140156.aspx"
+    },
+    {
+      "from": "2019民進黨卓榮泰與羅文嘉黨務團隊",
+      "to": "林鶴明",
+      "type": "event",
+      "detail": "2019–2020年任民進黨副秘書長。",
+      "period": "2019–2020",
+      "source": "中央社｜2019羅文嘉接任秘書長與林飛帆副秘書長",
+      "url": "https://www.cna.com.tw/news/aipl/201907140156.aspx"
+    },
+    {
+      "from": "2019民進黨卓榮泰與羅文嘉黨務團隊",
+      "to": "高幸雪",
+      "type": "event",
+      "detail": "2019–2020年任民進黨副秘書長。",
+      "period": "2019–2020",
+      "source": "中央社｜2019羅文嘉接任秘書長與林飛帆副秘書長",
+      "url": "https://www.cna.com.tw/news/aipl/201907140156.aspx"
+    },
+    {
+      "from": "2020民進黨黨務秘書長交接",
+      "to": "羅文嘉",
+      "type": "event",
+      "detail": "2019–2020年秘書長，2020年5月交接。",
+      "period": "2020-05-20",
+      "source": "中央社｜民進黨中央交接",
+      "url": "https://www.cna.com.tw/news/firstnews/202005190292.aspx"
+    },
+    {
+      "from": "2020民進黨黨務秘書長交接",
+      "to": "林錫耀",
+      "type": "event",
+      "detail": "2020年5月20日起接任民進黨秘書長。",
+      "period": "2020-05-20",
+      "source": "中央社｜民進黨中央交接",
+      "url": "https://www.cna.com.tw/news/firstnews/202005190292.aspx"
+    },
+    {
+      "from": "2020民進黨黨務秘書長交接",
+      "to": "蔡英文",
+      "type": "event",
+      "detail": "2020年5月20日回任民進黨主席。",
+      "period": "2020-05-20",
+      "source": "中央社｜民進黨中央交接",
+      "url": "https://www.cna.com.tw/news/firstnews/202005190292.aspx"
+    },
+    {
+      "from": "2020民進黨黨務秘書長交接",
+      "to": "林飛帆",
+      "type": "event",
+      "detail": "民進黨副秘書長留任。",
+      "period": "2020-05-20",
+      "source": "中央社｜民進黨中央交接",
+      "url": "https://www.cna.com.tw/news/firstnews/202005190292.aspx"
+    },
+    {
+      "from": "2024海基會人事｜羅文嘉就任",
+      "to": "羅文嘉",
+      "type": "event",
+      "detail": "2024年6月7日起擔任海基會副董事長兼秘書長。",
+      "period": "2024-06",
+      "source": "中央社｜海基會人事",
+      "url": "https://www.cna.com.tw/news/acn/202405240188.aspx"
+    },
+    {
+      "from": "2024海基會人事｜羅文嘉就任",
+      "to": "鄭文燦",
+      "type": "event",
+      "detail": "2024年6月任海基會董事長；羅文嘉就任同期。",
+      "period": "2024-06",
+      "source": "中央社｜海基會人事",
+      "url": "https://www.cna.com.tw/news/acn/202405240188.aspx"
+    },
+    {
+      "from": "2024海基會人事｜羅文嘉就任",
+      "to": "邱垂正",
+      "type": "event",
+      "detail": "2024年羅文嘉接任海基會副董事長兼秘書長時的職務前任。",
+      "period": "2024-06",
+      "source": "中央社｜海基會人事",
+      "url": "https://www.cna.com.tw/news/acn/202405240188.aspx"
+    },
+    {
+      "from": "2024–2026海基會董事長交接",
+      "to": "羅文嘉",
+      "type": "event",
+      "detail": "2024年6月起為海基會副董事長兼秘書長；2026年1月仍以秘書長身分主持公開說明。",
+      "period": "2024–2026-01",
+      "source": "中央社｜2026海基會董事長人事",
+      "url": "https://www.cna.com.tw/news/acn/202601230277.aspx"
+    },
+    {
+      "from": "2024–2026海基會董事長交接",
+      "to": "鄭文燦",
+      "type": "event",
+      "detail": "2024年擔任海基會董事長，之後卸任。",
+      "period": "2024–2026-01",
+      "source": "中央社｜2026海基會董事長人事",
+      "url": "https://www.cna.com.tw/news/acn/202601230277.aspx"
+    },
+    {
+      "from": "2024–2026海基會董事長交接",
+      "to": "吳豊山",
+      "type": "event",
+      "detail": "2024年起擔任海基會董事長，2026年1月前卸任。",
+      "period": "2024–2026-01",
+      "source": "中央社｜2026海基會董事長人事",
+      "url": "https://www.cna.com.tw/news/acn/202601230277.aspx"
+    },
+    {
+      "from": "2024–2026海基會董事長交接",
+      "to": "蘇嘉全",
+      "type": "event",
+      "detail": "2026年1月23日獲推選為海基會董事長。",
+      "period": "2024–2026-01",
+      "source": "中央社｜2026海基會董事長人事",
+      "url": "https://www.cna.com.tw/news/acn/202601230277.aspx"
+    },
+    {
+      "from": "1995臺北電台公共化質詢",
+      "to": "羅文嘉",
+      "type": "event",
+      "detail": "時任臺北市新聞處長，曾就臺北電台公共化承諾接受議會質詢。",
+      "period": "1995–1996",
+      "source": "羅文嘉｜臺北電台公共化爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+    },
+    {
+      "from": "1995臺北電台公共化質詢",
+      "to": "李慶安",
+      "type": "event",
+      "detail": "時任臺北市議員，曾就臺北電台公共化議題向羅文嘉質詢。",
+      "period": "1995–1996",
+      "source": "羅文嘉｜臺北電台公共化爭議",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+    },
+    {
+      "from": "羅文嘉",
+      "to": "陳水扁",
+      "type": "affiliation",
+      "detail": "1991–1993年任陳水扁國會助理及辦公室主任；1994年陳水扁當選臺北市長後羅任市府新聞處長。",
+      "period": "1991–1997",
+      "source": "立法院｜羅文嘉委員經歷",
+      "url": "https://www.ly.gov.tw/EngPages/List.aspx?nodeid=1303"
+    },
+    {
+      "from": "羅文嘉",
+      "to": "陳水扁",
+      "type": "cooperate",
+      "detail": "1994年、1998年陳水扁臺北市長選舉團隊羅文嘉任執行總幹事。",
+      "period": "1994／1998",
+      "source": "立法院｜羅文嘉委員經歷",
+      "url": "https://www.ly.gov.tw/EngPages/List.aspx?nodeid=1303"
+    },
+    {
+      "from": "羅文嘉",
+      "to": "陳郁秀",
+      "type": "affiliation",
+      "detail": "2000–2001年羅文嘉為文建會副主委，陳郁秀任主委。",
+      "period": "2000–2001",
+      "source": "羅文嘉｜任職歷史",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+    },
+    {
+      "from": "羅文嘉",
+      "to": "葉菊蘭",
+      "type": "affiliation",
+      "detail": "2004年行政院客家委員會主任委員前後任，羅文嘉接任葉菊蘭。",
+      "period": "2004",
+      "source": "羅文嘉｜客委會職務",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+    },
+    {
+      "from": "羅文嘉",
+      "to": "李永得",
+      "type": "affiliation",
+      "detail": "2005年行政院客家委員會主任委員前後任，李永得接任羅文嘉。",
+      "period": "2005",
+      "source": "羅文嘉｜客委會職務",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+    },
+    {
+      "from": "羅文嘉",
+      "to": "周錫瑋",
+      "type": "contest",
+      "detail": "2005年臺北縣長選舉對手：羅文嘉為民進黨候選人（44.3%），周錫瑋為國民黨候選人（約54.9%，當選）。",
+      "period": "2005-12-03",
+      "source": "臺北時報｜臺北縣長選舉",
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2005/12/04/2003282913"
+    },
+    {
+      "from": "羅文嘉",
+      "to": "卓榮泰",
+      "type": "cooperate",
+      "detail": "2019年1月卓榮泰出任民進黨主席後，邀請羅文嘉擔任中央黨部秘書長，共同處理2019–2020黨務。",
+      "period": "2019–2020",
+      "source": "中央社｜羅文嘉出任秘書長",
+      "url": "https://www.cna.com.tw/news/firstnews/201901135006.aspx"
+    },
+    {
+      "from": "羅文嘉",
+      "to": "林飛帆",
+      "type": "cooperate",
+      "detail": "羅文嘉2019年先後邀請林飛帆加入民進黨副秘書長職務；2019年7月正式接任。",
+      "period": "2019-01–07",
+      "source": "中央社｜林飛帆副秘書長人事",
+      "url": "https://www.cna.com.tw/news/aipl/201907140156.aspx"
+    },
+    {
+      "from": "羅文嘉",
+      "to": "林錫耀",
+      "type": "affiliation",
+      "detail": "2020年5月20日民進黨秘書長由羅文嘉交接林錫耀。",
+      "period": "2020-05-20",
+      "source": "中央社｜2020黨務人事",
+      "url": "https://www.cna.com.tw/news/firstnews/202005190292.aspx"
+    },
+    {
+      "from": "羅文嘉",
+      "to": "鄭文燦",
+      "type": "affiliation",
+      "detail": "2024年6月羅文嘉出任海基會副董事長兼秘書長、鄭文燦同期任董事長。",
+      "period": "2024-06",
+      "source": "中央社｜海基會人事",
+      "url": "https://www.cna.com.tw/news/acn/202405240188.aspx"
+    },
+    {
+      "from": "羅文嘉",
+      "to": "蘇嘉全",
+      "type": "affiliation",
+      "detail": "2026年1月蘇嘉全接任海基會董事長，與海基會副董事長兼秘書長羅文嘉形成公開職務關係。",
+      "period": "2026-01",
+      "source": "中央社｜海基會人事",
+      "url": "https://www.cna.com.tw/news/acn/202601230277.aspx"
+    },
+    {
+      "from": "羅文嘉",
+      "to": "吳豊山",
+      "type": "affiliation",
+      "detail": "海基會董事長先後任職期間，羅文嘉擔任副董事長兼秘書長；吳豊山於2026年1月卸任董事長。",
+      "period": "2024–2026-01",
+      "source": "中央社｜海基會人事",
+      "url": "https://www.cna.com.tw/news/acn/202601230277.aspx"
+    },
+    {
+      "from": "羅文嘉",
+      "to": "邱垂正",
+      "type": "affiliation",
+      "detail": "羅文嘉2024年6月接任海基會副董事長兼秘書長，接續邱垂正的職務。",
+      "period": "2024-06",
+      "source": "羅文嘉｜職務沿革",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+    },
+    {
+      "from": "羅文嘉",
+      "to": "李慶安",
+      "type": "dispute",
+      "detail": "1995年臺北市議會就臺北廣播電台公共化承諾的公開質詢，後續涉及臺北電台預算爭議。",
+      "period": "1995–1996",
+      "source": "羅文嘉｜市府新聞處長",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+    },
+    {
+      "from": "羅文嘉",
+      "to": "林錦昌",
+      "type": "affiliation",
+      "detail": "1997年羅文嘉辭臺北市新聞處長，林錦昌接任新聞處長。",
+      "period": "1997",
+      "source": "羅文嘉｜市府新聞處長",
+      "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
     }
   ]
 }

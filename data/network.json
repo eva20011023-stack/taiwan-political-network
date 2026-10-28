@@ -2,7 +2,7 @@
   "meta": {
     "title": "臺灣政治人物關係圖譜｜國民黨四公子、羅文嘉與海基會／黨務史",
     "date": "2026-10-29",
-    "scope": "持續依維基條目及可信的當期報導建立臺灣政治、政府職務、選舉、媒體的公共關係網。此輪補入陳建仁2026中研院院長現職、張善政2026桃園市長候選人資訊；不同年代黨籍必須分開核對。",
+    "scope": "臺灣政治人物與政治媒體公開關係圖譜。本輪新增李正皓2019國民黨開除、2020親民黨選舉、2022無黨籍選舉、2023民主大聯盟退選、2024王義川輔選、2026政論主持，嚴格按事件與黨籍年份區分；不得推定民進黨正式黨籍或私人關係。",
     "sources": [
       {
         "name": "新黨",
@@ -119,6 +119,10 @@
       {
         "name": "張善政",
         "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%96%84%E6%94%BF"
+      },
+      {
+        "name": "李正皓",
+        "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%AD%A3%E7%9A%93"
       }
     ],
     "relation_note": "資料中共同任職某單位、被媒體並列、選舉競爭都不當作私人交情或相互支持；人物政黨歸屬只按最近可查資料來源年份，不等同2026即時正式黨籍；海基會董事長歷次交接不可視為多人同時擔任。",
@@ -9380,6 +9384,252 @@
       "group": "hub",
       "notes": [
         "此為公開職務或選舉事件的關係節點；不推定私人熟識、同盟或曾同場出現。"
+      ]
+    },
+    {
+      "id": "李正皓",
+      "label": "李正皓",
+      "group": "external",
+      "notes": [
+        "政治評論員、主持人；曾任中國國民黨青年團執行長，2019年10月遭開除國民黨籍；2019年11月加入親民黨並參與2020年新北中和立委選舉。",
+        "2022年以無黨籍參選新北市議員未當選；2023年以無黨籍身分獲民進黨合作支持參選新北永和立委，於6月8日宣布退選，並未出現在2024年該選區正式投票名單。",
+        "2023年至2024年與卓冠廷發起「搶救王義川大兵」活動；2026年3月2日三立《新台派上線》節目接替同時段《新台灣加油》，李正皓主持至2026年10月有節目紀錄。"
+      ],
+      "party": {
+        "code": "IND",
+        "kind": "last_documented",
+        "as_of": "2022無黨籍參選；2023-06無黨籍與民進黨合作後退選",
+        "source": "https://www.cna.com.tw/news/aipl/202305240280.aspx",
+        "qualification": "歷史曾屬國民黨（至2019年被開除）、親民黨（2019–2022年）；2022/2023年無黨籍，2023年民進黨『合作』不等於入黨；2026年未核實正式黨籍。"
+      }
+    },
+    {
+      "id": "鄭佩芬",
+      "label": "鄭佩芬",
+      "group": "historical",
+      "notes": [
+        "2019年與李正皓同時遭中國國民黨中常會決議開除黨籍。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍未查證"
+      }
+    },
+    {
+      "id": "邱烽堯",
+      "label": "邱烽堯",
+      "group": "historical",
+      "notes": [
+        "2020年新北中和第八選區國民黨立委候選人，與李正皓競選。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "2020第10屆區域立委選舉",
+        "source": "https://www.cna.com.tw/news/aipl/201911210329.aspx",
+        "qualification": "2020年國民黨中和立委候選人，不代表現在公職／黨籍。"
+      }
+    },
+    {
+      "id": "江永昌",
+      "label": "江永昌",
+      "group": "historical",
+      "notes": [
+        "2020年中和第八選區尋求連任的民進黨立委，與李正皓競選。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "historical_only",
+        "as_of": "2020第10屆區域立委選舉",
+        "source": "https://www.cna.com.tw/news/aipl/201911210329.aspx",
+        "qualification": "2020年民進黨在任立委並競選連任，未核對2026年現況。"
+      }
+    },
+    {
+      "id": "余湘",
+      "label": "余湘",
+      "group": "historical",
+      "notes": [
+        "2020年親民黨副總統候選人，2019年11月陪同李正皓登記立委參選。"
+      ],
+      "party": {
+        "code": "PFP",
+        "kind": "historical_only",
+        "as_of": "2020副總統候選人",
+        "source": "https://www.cna.com.tw/news/aipl/201912280069.aspx",
+        "qualification": "2020年親民黨副總統候選人，非2026現任黨職。"
+      }
+    },
+    {
+      "id": "于美人",
+      "label": "于美人",
+      "group": "historical",
+      "notes": [
+        "2019年親民黨總統競選辦公室發言人，11月陪同李正皓登記選舉。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍未查證"
+      }
+    },
+    {
+      "id": "卓冠廷",
+      "label": "卓冠廷",
+      "group": "historical",
+      "notes": [
+        "2024年立委選舉期間與李正皓共同發起「搶救王義川大兵」活動的新北市議員。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2024-11",
+        "source": "https://www.cna.com.tw/news/aipl/202411260010.aspx",
+        "qualification": "2024年新北市民進黨議員公開合作紀錄，未以2026年黨員名冊確認。"
+      }
+    },
+    {
+      "id": "陳柏惟",
+      "label": "陳柏惟",
+      "group": "historical",
+      "notes": [
+        "2023–2024年「搶救王義川大兵」活動中與王義川及發起團隊討論掃街形式。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍未查證"
+      }
+    },
+    {
+      "id": "曾柏瑜",
+      "label": "曾柏瑜",
+      "group": "historical",
+      "notes": [
+        "2023年民進黨新北第11選區立委提名人，與吳崢、李正皓共同列入民主大聯盟跨世代選區合作新聞。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "historical_only",
+        "as_of": "2023新北第11選區立委提名",
+        "source": "https://www.cna.com.tw/news/aipl/202305240280.aspx",
+        "qualification": "2023年民進黨立委參選人，未核對2026年現任身分。"
+      }
+    },
+    {
+      "id": "羅明才",
+      "label": "羅明才",
+      "group": "historical",
+      "notes": [
+        "2023年爭取新北第11選區連任的國民黨立委，為曾柏瑜的競選對手。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "2023新北第11選區立委選戰",
+        "source": "https://www.cna.com.tw/news/aipl/202305240280.aspx",
+        "qualification": "2023年國民黨立委競選身分，不保證最新黨籍。"
+      }
+    },
+    {
+      "id": "許立明",
+      "label": "許立明",
+      "group": "historical",
+      "notes": [
+        "2023年6月9日以民進黨秘書長身份回應李正皓退選，表示尊重並支持持續合作。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍未查證"
+      }
+    },
+    {
+      "id": "許貴雅",
+      "label": "許貴雅",
+      "group": "historical",
+      "notes": [
+        "2026年2月27日結束三立《新台灣加油》主持，3月2日起轉往《94要客訴》網路平台。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "目前黨籍未查證"
+      }
+    },
+    {
+      "id": "2019國民黨開除李正皓與鄭佩芬黨籍",
+      "label": "2019國民黨開除李正皓與鄭佩芬黨籍",
+      "group": "hub",
+      "notes": [
+        "公眾可以查證的黨紀處分，兩人同被處分不代表雙方私人關係。"
+      ]
+    },
+    {
+      "id": "2020親民黨李正皓新北中和立委競選",
+      "label": "2020親民黨李正皓新北中和立委競選",
+      "group": "hub",
+      "notes": [
+        "公職／媒體／選舉關係的公開事件節點，不推定私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "2022李正皓無黨籍新北市議員選舉",
+      "label": "2022李正皓無黨籍新北市議員選舉",
+      "group": "hub",
+      "notes": [
+        "公職／媒體／選舉關係的公開事件節點，不推定私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "2023民進黨民主大聯盟新北立委合作",
+      "label": "2023民進黨民主大聯盟新北立委合作",
+      "group": "hub",
+      "notes": [
+        "公職／媒體／選舉關係的公開事件節點，不推定私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "2023李正皓退出新北永和立委選舉",
+      "label": "2023李正皓退出新北永和立委選舉",
+      "group": "hub",
+      "notes": [
+        "中性紀錄候選資格與退選，不收錄未經獨立核實的私人爭議指控。"
+      ]
+    },
+    {
+      "id": "2024搶救王義川大兵輔選活動",
+      "label": "2024搶救王義川大兵輔選活動",
+      "group": "hub",
+      "notes": [
+        "公職／媒體／選舉關係的公開事件節點，不推定私人交情或政治同盟。"
+      ]
+    },
+    {
+      "id": "2026三立晚間政論節目交接",
+      "label": "2026三立晚間政論節目交接",
+      "group": "hub",
+      "notes": [
+        "同時段不同節目主持更替，不能推論政治立場相同。"
+      ]
+    },
+    {
+      "id": "三立《新台派上線》政論節目",
+      "label": "三立《新台派上線》政論節目",
+      "group": "hub",
+      "notes": [
+        "節目與主持人的公開職務關係；不自動建立與所有來賓的人際連線。"
       ]
     }
   ],
@@ -20822,6 +21072,357 @@
       "period": "2022–2026",
       "source": "桃園市府｜現職",
       "url": "https://www.tycg.gov.tw/cp.aspx?n=20"
+    },
+    {
+      "from": "2019國民黨開除李正皓與鄭佩芬黨籍",
+      "to": "李正皓",
+      "type": "event",
+      "detail": "2019年10月23日國民黨中常會通過開除黨籍決議；李正皓公開表示反對處分。",
+      "period": "2019-10-23",
+      "source": "中央社｜國民黨中常會",
+      "url": "https://www.cna.com.tw/news/firstnews/201910230209.aspx"
+    },
+    {
+      "from": "2019國民黨開除李正皓與鄭佩芬黨籍",
+      "to": "鄭佩芬",
+      "type": "event",
+      "detail": "2019年10月23日與李正皓同時被決議開除國民黨籍。",
+      "period": "2019-10-23",
+      "source": "中央社｜國民黨中常會",
+      "url": "https://www.cna.com.tw/news/firstnews/201910230209.aspx"
+    },
+    {
+      "from": "2020親民黨李正皓新北中和立委競選",
+      "to": "李正皓",
+      "type": "event",
+      "detail": "2019年11月加入親民黨、參選2020年新北第8選區立委。",
+      "period": "2019-11–2020-01",
+      "source": "中央社｜立委選舉",
+      "url": "https://www.cna.com.tw/news/aipl/201912280069.aspx"
+    },
+    {
+      "from": "2020親民黨李正皓新北中和立委競選",
+      "to": "宋楚瑜",
+      "type": "event",
+      "detail": "2019年12月28日為李正皓競選總部成立站台輔選。",
+      "period": "2019-11–2020-01",
+      "source": "中央社｜立委選舉",
+      "url": "https://www.cna.com.tw/news/aipl/201912280069.aspx"
+    },
+    {
+      "from": "2020親民黨李正皓新北中和立委競選",
+      "to": "郭台銘",
+      "type": "event",
+      "detail": "2019年12月28日與宋楚瑜一同站台支持李正皓競選。",
+      "period": "2019-11–2020-01",
+      "source": "中央社｜立委選舉",
+      "url": "https://www.cna.com.tw/news/aipl/201912280069.aspx"
+    },
+    {
+      "from": "2020親民黨李正皓新北中和立委競選",
+      "to": "余湘",
+      "type": "event",
+      "detail": "親民黨副總統候選人，2019年11月22日陪同李正皓登記參選。",
+      "period": "2019-11–2020-01",
+      "source": "中央社｜立委選舉",
+      "url": "https://www.cna.com.tw/news/aipl/201912280069.aspx"
+    },
+    {
+      "from": "2020親民黨李正皓新北中和立委競選",
+      "to": "于美人",
+      "type": "event",
+      "detail": "親民黨競選辦公室發言人，2019年11月陪同李正皓登記。",
+      "period": "2019-11–2020-01",
+      "source": "中央社｜立委選舉",
+      "url": "https://www.cna.com.tw/news/aipl/201912280069.aspx"
+    },
+    {
+      "from": "2020親民黨李正皓新北中和立委競選",
+      "to": "邱烽堯",
+      "type": "event",
+      "detail": "2020年國民黨新北第8選區立委候選人。",
+      "period": "2019-11–2020-01",
+      "source": "中央社｜立委選舉",
+      "url": "https://www.cna.com.tw/news/aipl/201912280069.aspx"
+    },
+    {
+      "from": "2020親民黨李正皓新北中和立委競選",
+      "to": "江永昌",
+      "type": "event",
+      "detail": "2020年民進黨新北第8選區競選連任的立委。",
+      "period": "2019-11–2020-01",
+      "source": "中央社｜立委選舉",
+      "url": "https://www.cna.com.tw/news/aipl/201912280069.aspx"
+    },
+    {
+      "from": "2022李正皓無黨籍新北市議員選舉",
+      "to": "李正皓",
+      "type": "event",
+      "detail": "2022年以無黨籍身分參選新北市第6選區市議員，結果未當選。",
+      "period": "2022",
+      "source": "臺灣選舉資料庫｜2022選舉紀錄",
+      "url": "https://votetw.com/data/candidate/%E6%9D%8E%E6%AD%A3%E7%9A%93"
+    },
+    {
+      "from": "2023民進黨民主大聯盟新北立委合作",
+      "to": "李正皓",
+      "type": "event",
+      "detail": "2023年5月24日民進黨表達合作支持其以無黨籍參選新北第9選區立委，6月8日退選。",
+      "period": "2023-05–06",
+      "source": "中央社｜新北立委提名與退選",
+      "url": "https://www.cna.com.tw/news/aipl/202305240280.aspx"
+    },
+    {
+      "from": "2023民進黨民主大聯盟新北立委合作",
+      "to": "賴清德",
+      "type": "event",
+      "detail": "2023年民進黨主席，曾與李正皓會面討論跨黨派新北選區合作。",
+      "period": "2023-05–06",
+      "source": "中央社｜新北立委提名與退選",
+      "url": "https://www.cna.com.tw/news/aipl/202305240280.aspx"
+    },
+    {
+      "from": "2023民進黨民主大聯盟新北立委合作",
+      "to": "吳崢",
+      "type": "event",
+      "detail": "2023年民進黨新北第8選區立委參選人，同屬民主大聯盟選區布局。",
+      "period": "2023-05–06",
+      "source": "中央社｜新北立委提名與退選",
+      "url": "https://www.cna.com.tw/news/aipl/202305240280.aspx"
+    },
+    {
+      "from": "2023民進黨民主大聯盟新北立委合作",
+      "to": "曾柏瑜",
+      "type": "event",
+      "detail": "2023年民進黨新北第11選區立委參選人，同屬民主大聯盟選區布局。",
+      "period": "2023-05–06",
+      "source": "中央社｜新北立委提名與退選",
+      "url": "https://www.cna.com.tw/news/aipl/202305240280.aspx"
+    },
+    {
+      "from": "2023民進黨民主大聯盟新北立委合作",
+      "to": "林德福",
+      "type": "event",
+      "detail": "2023年當時爭取新北第9選區連任的國民黨立委，原為李正皓預定競選對手。",
+      "period": "2023-05–06",
+      "source": "中央社｜新北立委提名與退選",
+      "url": "https://www.cna.com.tw/news/aipl/202305240280.aspx"
+    },
+    {
+      "from": "2023民進黨民主大聯盟新北立委合作",
+      "to": "羅明才",
+      "type": "event",
+      "detail": "2023年新北第11選區國民黨立委，為曾柏瑜的選舉對手。",
+      "period": "2023-05–06",
+      "source": "中央社｜新北立委提名與退選",
+      "url": "https://www.cna.com.tw/news/aipl/202305240280.aspx"
+    },
+    {
+      "from": "2023李正皓退出新北永和立委選舉",
+      "to": "李正皓",
+      "type": "event",
+      "detail": "2023年6月8日宣布退選新北第9選區立委，退選後回歸媒體工作。",
+      "period": "2023-06-08–09",
+      "source": "中央社｜退選與民進黨回應",
+      "url": "https://www.cna.com.tw/news/aipl/202306080389.aspx"
+    },
+    {
+      "from": "2023李正皓退出新北永和立委選舉",
+      "to": "賴清德",
+      "type": "event",
+      "detail": "2023年民進黨主席，李正皓退選發文提及與民進黨決策層討論。",
+      "period": "2023-06-08–09",
+      "source": "中央社｜退選與民進黨回應",
+      "url": "https://www.cna.com.tw/news/aipl/202306080389.aspx"
+    },
+    {
+      "from": "2023李正皓退出新北永和立委選舉",
+      "to": "許立明",
+      "type": "event",
+      "detail": "2023年6月9日以民進黨秘書長身分回應表示尊重但惋惜。",
+      "period": "2023-06-08–09",
+      "source": "中央社｜退選與民進黨回應",
+      "url": "https://www.cna.com.tw/news/aipl/202306080389.aspx"
+    },
+    {
+      "from": "2024搶救王義川大兵輔選活動",
+      "to": "李正皓",
+      "type": "event",
+      "detail": "2023年11月提出後援會概念，與卓冠廷等人發起活動，2024年初輔選。",
+      "period": "2023-11–2024-01",
+      "source": "中央社｜活動採訪",
+      "url": "https://www.cna.com.tw/news/aipl/202402100029.aspx"
+    },
+    {
+      "from": "2024搶救王義川大兵輔選活動",
+      "to": "卓冠廷",
+      "type": "event",
+      "detail": "與李正皓共同發起活動。",
+      "period": "2023-11–2024-01",
+      "source": "中央社｜活動採訪",
+      "url": "https://www.cna.com.tw/news/aipl/202402100029.aspx"
+    },
+    {
+      "from": "2024搶救王義川大兵輔選活動",
+      "to": "王義川",
+      "type": "event",
+      "detail": "2024年民進黨不分區立委候選人，為活動支持對象。",
+      "period": "2023-11–2024-01",
+      "source": "中央社｜活動採訪",
+      "url": "https://www.cna.com.tw/news/aipl/202402100029.aspx"
+    },
+    {
+      "from": "2024搶救王義川大兵輔選活動",
+      "to": "陳柏惟",
+      "type": "event",
+      "detail": "參與活動後期街頭掃街策略討論。",
+      "period": "2023-11–2024-01",
+      "source": "中央社｜活動採訪",
+      "url": "https://www.cna.com.tw/news/aipl/202402100029.aspx"
+    },
+    {
+      "from": "2026三立晚間政論節目交接",
+      "to": "李正皓",
+      "type": "event",
+      "detail": "2026年3月2日起《新台派上線》接替同時段節目播出，擔任主持。",
+      "period": "2026-02–03",
+      "source": "TVBS｜三立節目調整",
+      "url": "https://news.tvbs.com.tw/entertainment/3138088"
+    },
+    {
+      "from": "2026三立晚間政論節目交接",
+      "to": "許貴雅",
+      "type": "event",
+      "detail": "《新台灣加油》主持至2026年2月27日，3月起轉主持網路《94要客訴》。",
+      "period": "2026-02–03",
+      "source": "TVBS｜三立節目調整",
+      "url": "https://news.tvbs.com.tw/entertainment/3138088"
+    },
+    {
+      "from": "三立《新台派上線》政論節目",
+      "to": "李正皓",
+      "type": "event",
+      "detail": "2026年3月2日起主持《新台派上線》，2026年10月下旬仍有節目紀錄。",
+      "period": "2026-03–10",
+      "source": "三立節目頁及新聞",
+      "url": "https://d2hv3b3fvf92tw.cloudfront.net/live/4316/22395"
+    },
+    {
+      "from": "李正皓",
+      "to": "韓國瑜",
+      "type": "dispute",
+      "detail": "2019年李正皓公開批評時任國民黨總統候選人韓國瑜，遭國民黨紀律處分；此為公開政治分歧。",
+      "period": "2019",
+      "source": "中央社｜黨紀處分",
+      "url": "https://www.cna.com.tw/news/firstnews/201910230209.aspx"
+    },
+    {
+      "from": "李正皓",
+      "to": "宋楚瑜",
+      "type": "support",
+      "detail": "宋楚瑜於2019年12月28日為親民黨立委候選人李正皓競選總部成立站台支持。",
+      "period": "2019-12-28",
+      "source": "中央社｜親民黨輔選",
+      "url": "https://www.cna.com.tw/news/aipl/201912280069.aspx"
+    },
+    {
+      "from": "李正皓",
+      "to": "郭台銘",
+      "type": "support",
+      "detail": "2019年12月28日郭台銘與宋楚瑜為李正皓立委競選總部成立站台。",
+      "period": "2019-12-28",
+      "source": "中央社｜中和立委競選",
+      "url": "https://www.cna.com.tw/news/aipl/201912280069.aspx"
+    },
+    {
+      "from": "李正皓",
+      "to": "邱烽堯",
+      "type": "contest",
+      "detail": "2020年中和立委選舉，親民黨李正皓與國民黨邱烽堯為正式參選對手。",
+      "period": "2020",
+      "source": "中央社｜2020選舉",
+      "url": "https://www.cna.com.tw/news/aipl/201911210329.aspx"
+    },
+    {
+      "from": "李正皓",
+      "to": "江永昌",
+      "type": "contest",
+      "detail": "2020年中和立委選舉，親民黨李正皓與民進黨江永昌為正式參選對手。",
+      "period": "2020",
+      "source": "中央社｜2020選舉",
+      "url": "https://www.cna.com.tw/news/aipl/201911210329.aspx"
+    },
+    {
+      "from": "李正皓",
+      "to": "賴清德",
+      "type": "cooperate",
+      "detail": "2023年民進黨主席賴清德與無黨籍李正皓討論民主大聯盟跨黨派選區合作，李正皓6月8日退選。",
+      "period": "2023-05–06",
+      "source": "中央社｜新北選舉合作",
+      "url": "https://www.cna.com.tw/news/aipl/202305240280.aspx"
+    },
+    {
+      "from": "李正皓",
+      "to": "林德福",
+      "type": "contest",
+      "detail": "2023年李正皓一度宣布無黨籍參選永和立委、預計挑戰國民黨林德福，但6月8日退選；不是2024年正式投票對手。",
+      "period": "2023-05–06",
+      "source": "中央社｜參選後退選",
+      "url": "https://www.cna.com.tw/news/aipl/202306080389.aspx"
+    },
+    {
+      "from": "李正皓",
+      "to": "吳崢",
+      "type": "event",
+      "detail": "2023年民進黨民主大聯盟新北選區布局，李正皓曾受支持參選第9選區，吳崢受提名第8選區；不推論兩人私人合作。",
+      "period": "2023-05",
+      "source": "中央社｜民主大聯盟",
+      "url": "https://www.cna.com.tw/news/aipl/202305240280.aspx"
+    },
+    {
+      "from": "李正皓",
+      "to": "卓冠廷",
+      "type": "cooperate",
+      "detail": "2023至2024年李正皓與卓冠廷共同發起「搶救王義川大兵」選舉活動。",
+      "period": "2023-11–2024-01",
+      "source": "中央社｜輔選合作",
+      "url": "https://www.cna.com.tw/news/aipl/202402100029.aspx"
+    },
+    {
+      "from": "李正皓",
+      "to": "王義川",
+      "type": "support",
+      "detail": "2024年立委選舉期間李正皓與卓冠廷等人發起活動支持民進黨不分區立委候選人王義川；王義川最終未因該次選舉直接當選。",
+      "period": "2023–2024",
+      "source": "中央社｜王義川輔選",
+      "url": "https://www.cna.com.tw/news/aipl/202402100029.aspx"
+    },
+    {
+      "from": "李正皓",
+      "to": "陳柏惟",
+      "type": "cooperate",
+      "detail": "2023至2024年「搶救王義川大兵」活動，李正皓等人與陳柏惟討論由網路活動轉街頭掃街。",
+      "period": "2024",
+      "source": "中央社｜活動規劃",
+      "url": "https://www.cna.com.tw/news/aipl/202402100029.aspx"
+    },
+    {
+      "from": "李正皓",
+      "to": "許貴雅",
+      "type": "affiliation",
+      "detail": "2026年2月27日三立《新台灣加油》結束，3月2日同時段由李正皓主持《新台派上線》接棒；許貴雅改主持《94要客訴》。",
+      "period": "2026-02–03",
+      "source": "TVBS｜節目時段交接",
+      "url": "https://news.tvbs.com.tw/entertainment/3138088"
+    },
+    {
+      "from": "李正皓",
+      "to": "許立明",
+      "type": "event",
+      "detail": "2023年李正皓宣布退選後，民進黨秘書長許立明公開發言尊重並表示惋惜。",
+      "period": "2023-06-09",
+      "source": "中央社｜政黨回應",
+      "url": "https://www.cna.com.tw/news/aipl/202306090038.aspx"
     }
   ]
 }

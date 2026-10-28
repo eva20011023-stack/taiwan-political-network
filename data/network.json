@@ -2,7 +2,7 @@
   "meta": {
     "title": "臺灣政治人物關係圖譜｜國民黨四公子、羅文嘉與海基會／黨務史",
     "date": "2026-10-29",
-    "scope": "公開政治人物、媒體主持、政府職務及選舉關係網絡。2026-10新增馬郁雯、于美人，嚴格分辨記者報導與司法案件當事人、黨內初選與正式選舉、無黨籍與候選人代言職務，以及公開交往伴侶與婚姻關係。",
+    "scope": "以公開可查來源整理政府人事、政治關係、政策修法與媒體事件的圖譜。本輪陳冲以不同時期公職、2025黨智庫任職連結；2023臺灣＃MeToo以官方性平申訴制度調查與性平三法立法事件連結，未建立未經法定認定的個人性騷指控連線。",
     "sources": [
       {
         "name": "新黨",
@@ -131,6 +131,14 @@
       {
         "name": "于美人",
         "url": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
+      },
+      {
+        "name": "陳冲 (臺灣)",
+        "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%86%B2_%28%E8%87%BA%E7%81%A3%29"
+      },
+      {
+        "name": "2023年臺灣＃MeToo運動",
+        "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E8%87%BA%E7%81%A3%EF%BC%83MeToo%E9%81%8B%E5%8B%95"
       }
     ],
     "relation_note": "資料中共同任職某單位、被媒體並列、選舉競爭都不當作私人交情或相互支持；人物政黨歸屬只按最近可查資料來源年份，不等同2026即時正式黨籍；海基會董事長歷次交接不可視為多人同時擔任。",
@@ -4201,7 +4209,8 @@
       "label": "楊永明",
       "group": "external",
       "notes": [
-        "《TVBS戰情室》條目列為「政治評論員」常見來賓；**未核實是否在同一集與其他來賓同台**。"
+        "《TVBS戰情室》條目列為「政治評論員」常見來賓；**未核實是否在同一集與其他來賓同台**。",
+        "2025年12月2日國民黨智庫新任董事。"
       ],
       "party": {
         "code": "UNKNOWN",
@@ -9948,6 +9957,244 @@
       "group": "hub",
       "notes": [
         "由公開報導或維基整理的事件／節目關係：共列於一個節點不等於互相熟識或同台。"
+      ]
+    },
+    {
+      "id": "陳冲",
+      "label": "陳冲",
+      "group": "historical",
+      "notes": [
+        "曾任行政院金融監督管理委員會主委（2008–2010）、行政院副院長（2010–2012）、院長（2012年2月6日至2013年2月18日）。勿與其他姓名讀音相同之人混淆。",
+        "2025年12月2日國民黨智庫國家政策研究基金會改選，鄭麗文任董事長，陳冲與李鴻源任副董事長；是2025年公開職務紀錄，不表示其他未核實現職。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "2025-12-02 黨智庫副董事長",
+        "source": "https://www.cna.com.tw/news/aipl/202512020207.aspx",
+        "qualification": "2025年中央社稱前閣揆、國民黨智庫副董事長並記錄黨務關係；此非2026年正式黨員名冊。"
+      }
+    },
+    {
+      "id": "陳樹",
+      "label": "陳樹",
+      "group": "historical",
+      "notes": [
+        "2008年12月1日前任金管會主任委員，由陳冲接任。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠獨立現行黨籍資料"
+      }
+    },
+    {
+      "id": "陳裕璋",
+      "label": "陳裕璋",
+      "group": "historical",
+      "notes": [
+        "2010年5月17日接任陳冲後的金管會主任委員。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠獨立現行黨籍資料"
+      }
+    },
+    {
+      "id": "李鴻源",
+      "label": "李鴻源",
+      "group": "historical",
+      "notes": [
+        "2025年12月2日與陳冲同獲選國民黨智庫國家政策研究基金會副董事長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠獨立現行黨籍資料"
+      }
+    },
+    {
+      "id": "邱淑媞",
+      "label": "邱淑媞",
+      "group": "historical",
+      "notes": [
+        "2025年12月2日國民黨智庫新任董事。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠獨立現行黨籍資料"
+      }
+    },
+    {
+      "id": "蘇宏達",
+      "label": "蘇宏達",
+      "group": "historical",
+      "notes": [
+        "2025年12月2日國民黨智庫新任董事。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠獨立現行黨籍資料"
+      }
+    },
+    {
+      "id": "2008至2010陳冲金管會主委任期",
+      "label": "2008至2010陳冲金管會主委任期",
+      "group": "hub",
+      "notes": [
+        "官方或媒體可查證的公共事件／職務網絡；出現在同一事件不代表私人熟識、合作或司法認定。"
+      ]
+    },
+    {
+      "id": "2010至2012陳冲行政院副院長任期",
+      "label": "2010至2012陳冲行政院副院長任期",
+      "group": "hub",
+      "notes": [
+        "官方或媒體可查證的公共事件／職務網絡；出現在同一事件不代表私人熟識、合作或司法認定。"
+      ]
+    },
+    {
+      "id": "2012至2013陳冲內閣",
+      "label": "2012至2013陳冲內閣",
+      "group": "hub",
+      "notes": [
+        "官方或媒體可查證的公共事件／職務網絡；出現在同一事件不代表私人熟識、合作或司法認定。"
+      ]
+    },
+    {
+      "id": "2025國民黨國家政策研究基金會董事改選",
+      "label": "2025國民黨國家政策研究基金會董事改選",
+      "group": "hub",
+      "notes": [
+        "官方或媒體可查證的公共事件／職務網絡；出現在同一事件不代表私人熟識、合作或司法認定。"
+      ]
+    },
+    {
+      "id": "2023年臺灣＃MeToo運動",
+      "label": "2023年臺灣＃MeToo運動",
+      "group": "hub",
+      "notes": [
+        "2023年5月起臺灣各界公開討論性騷擾防治及申訴制度改革；人物僅因有公開行動或職務被列入，不代表受到指控或與受害者私交。"
+      ]
+    },
+    {
+      "id": "李晏榕",
+      "label": "李晏榕",
+      "group": "historical",
+      "notes": [
+        "2023年民進黨性別平等事務部主任，參與調查及性平機制檢討與對外說明。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠獨立現行黨籍資料"
+      }
+    },
+    {
+      "id": "周威佑",
+      "label": "周威佑",
+      "group": "historical",
+      "notes": [
+        "2023年民進黨主席室主任，參與黨中央性平調查與制度改善說明。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠獨立現行黨籍資料"
+      }
+    },
+    {
+      "id": "許嘉恬",
+      "label": "許嘉恬",
+      "group": "historical",
+      "notes": [
+        "2023年民進黨前副秘書長；6月9日民進黨調查報告認定其2022年在婦女部處理疑似性騷申訴時有行政疏漏，屬黨內行政調查結論，不表示法院裁判或證明其為性騷行為人。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠獨立現行黨籍資料"
+      }
+    },
+    {
+      "id": "林月琴",
+      "label": "林月琴",
+      "group": "historical",
+      "notes": [
+        "2024年與范雲、林宜瑾提出立委行為法第7條防性騷修正草案的立委。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠獨立現行黨籍資料"
+      }
+    },
+    {
+      "id": "林宜瑾",
+      "label": "林宜瑾",
+      "group": "historical",
+      "notes": [
+        "2024年與范雲、林月琴共同提出立委行為法防性騷修正草案的立委。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "無足夠獨立現行黨籍資料"
+      }
+    },
+    {
+      "id": "2023民進黨性平申訴處理調查與改善",
+      "label": "2023民進黨性平申訴處理調查與改善",
+      "group": "hub",
+      "notes": [
+        "官方黨內行政調查和制度改革；調查結論須完整說明，不得把被調查職務責任直接畫成性騷加害者或犯罪。"
+      ]
+    },
+    {
+      "id": "2023性平三法修法三讀",
+      "label": "2023性平三法修法三讀",
+      "group": "hub",
+      "notes": [
+        "行政與立法程序，跨政治人物連線代表制度工作，不代表彼此曾私下聯繫或涉及任何性騷事件。"
+      ]
+    },
+    {
+      "id": "2024性平三法施行",
+      "label": "2024性平三法施行",
+      "group": "hub",
+      "notes": [
+        "官方或媒體可查證的公共事件／職務網絡；出現在同一事件不代表私人熟識、合作或司法認定。"
+      ]
+    },
+    {
+      "id": "2024立法委員行為法防性騷修法提案",
+      "label": "2024立法委員行為法防性騷修法提案",
+      "group": "hub",
+      "notes": [
+        "記錄曾提案，不推定法案已經三讀或任何立委存在違法事實。"
       ]
     }
   ],
@@ -22119,6 +22366,510 @@
       "period": "1997年起（歷年）",
       "source": "于美人｜節目合作",
       "url": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
+    },
+    {
+      "from": "2008至2010陳冲金管會主委任期",
+      "to": "陳冲",
+      "type": "event",
+      "detail": "2008年12月1日至2010年5月17日行政院金融監督管理委員會主任委員。",
+      "period": "2008-12–2010-05",
+      "source": "行政院｜歷任院長履歷",
+      "url": "https://www.ey.gov.tw/Page/4ED2F231892187F9/83605399-9ee6-4784-9ce8-fc77ae72a087"
+    },
+    {
+      "from": "2008至2010陳冲金管會主委任期",
+      "to": "陳樹",
+      "type": "event",
+      "detail": "金管會主委前任。",
+      "period": "2008-12–2010-05",
+      "source": "行政院｜歷任院長履歷",
+      "url": "https://www.ey.gov.tw/Page/4ED2F231892187F9/83605399-9ee6-4784-9ce8-fc77ae72a087"
+    },
+    {
+      "from": "2008至2010陳冲金管會主委任期",
+      "to": "陳裕璋",
+      "type": "event",
+      "detail": "金管會主委後任。",
+      "period": "2008-12–2010-05",
+      "source": "行政院｜歷任院長履歷",
+      "url": "https://www.ey.gov.tw/Page/4ED2F231892187F9/83605399-9ee6-4784-9ce8-fc77ae72a087"
+    },
+    {
+      "from": "2008至2010陳冲金管會主委任期",
+      "to": "劉兆玄",
+      "type": "event",
+      "detail": "2008年陳冲擔任金管會主委時的行政院院長。",
+      "period": "2008-12–2010-05",
+      "source": "行政院｜歷任院長履歷",
+      "url": "https://www.ey.gov.tw/Page/4ED2F231892187F9/83605399-9ee6-4784-9ce8-fc77ae72a087"
+    },
+    {
+      "from": "2008至2010陳冲金管會主委任期",
+      "to": "吳敦義",
+      "type": "event",
+      "detail": "2009年至2010年陳冲擔任金管會主委時的行政院院長。",
+      "period": "2008-12–2010-05",
+      "source": "行政院｜歷任院長履歷",
+      "url": "https://www.ey.gov.tw/Page/4ED2F231892187F9/83605399-9ee6-4784-9ce8-fc77ae72a087"
+    },
+    {
+      "from": "2010至2012陳冲行政院副院長任期",
+      "to": "陳冲",
+      "type": "event",
+      "detail": "2010年5月17日至2012年2月6日行政院副院長。",
+      "period": "2010-05–2012-02",
+      "source": "行政院｜陳冲任期",
+      "url": "https://www.ey.gov.tw/Page/4ED2F231892187F9/83605399-9ee6-4784-9ce8-fc77ae72a087"
+    },
+    {
+      "from": "2010至2012陳冲行政院副院長任期",
+      "to": "吳敦義",
+      "type": "event",
+      "detail": "2010年5月至2012年2月任行政院院長，陳冲任其副院長。",
+      "period": "2010-05–2012-02",
+      "source": "行政院｜陳冲任期",
+      "url": "https://www.ey.gov.tw/Page/4ED2F231892187F9/83605399-9ee6-4784-9ce8-fc77ae72a087"
+    },
+    {
+      "from": "2010至2012陳冲行政院副院長任期",
+      "to": "朱立倫",
+      "type": "event",
+      "detail": "前任行政院副院長，由陳冲接任。",
+      "period": "2010-05–2012-02",
+      "source": "行政院｜陳冲任期",
+      "url": "https://www.ey.gov.tw/Page/4ED2F231892187F9/83605399-9ee6-4784-9ce8-fc77ae72a087"
+    },
+    {
+      "from": "2010至2012陳冲行政院副院長任期",
+      "to": "江宜樺",
+      "type": "event",
+      "detail": "陳冲2012年轉任行政院院長後，由江宜樺接替副院長。",
+      "period": "2010-05–2012-02",
+      "source": "行政院｜陳冲任期",
+      "url": "https://www.ey.gov.tw/Page/4ED2F231892187F9/83605399-9ee6-4784-9ce8-fc77ae72a087"
+    },
+    {
+      "from": "2012至2013陳冲內閣",
+      "to": "陳冲",
+      "type": "event",
+      "detail": "2012年2月6日至2013年2月18日行政院院長。",
+      "period": "2012-02–2013-02",
+      "source": "總統府｜閣揆交接",
+      "url": "https://www.president.gov.tw/NEWS/17440"
+    },
+    {
+      "from": "2012至2013陳冲內閣",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "陳冲內閣時期的中華民國總統。",
+      "period": "2012-02–2013-02",
+      "source": "總統府｜閣揆交接",
+      "url": "https://www.president.gov.tw/NEWS/17440"
+    },
+    {
+      "from": "2012至2013陳冲內閣",
+      "to": "吳敦義",
+      "type": "event",
+      "detail": "陳冲接任行政院院長之前任；2013年交接時以副總統身份監交。",
+      "period": "2012-02–2013-02",
+      "source": "總統府｜閣揆交接",
+      "url": "https://www.president.gov.tw/NEWS/17440"
+    },
+    {
+      "from": "2012至2013陳冲內閣",
+      "to": "江宜樺",
+      "type": "event",
+      "detail": "陳冲內閣行政院副院長，2013年2月18日接任院長。",
+      "period": "2012-02–2013-02",
+      "source": "總統府｜閣揆交接",
+      "url": "https://www.president.gov.tw/NEWS/17440"
+    },
+    {
+      "from": "2025國民黨國家政策研究基金會董事改選",
+      "to": "鄭麗文",
+      "type": "event",
+      "detail": "2025年12月2日接任國民黨智庫董事長。",
+      "period": "2025-12-02",
+      "source": "中央社｜國民黨智庫董事改選",
+      "url": "https://www.cna.com.tw/news/aipl/202512020207.aspx"
+    },
+    {
+      "from": "2025國民黨國家政策研究基金會董事改選",
+      "to": "朱立倫",
+      "type": "event",
+      "detail": "2025年12月2日前任國民黨智庫董事長。",
+      "period": "2025-12-02",
+      "source": "中央社｜國民黨智庫董事改選",
+      "url": "https://www.cna.com.tw/news/aipl/202512020207.aspx"
+    },
+    {
+      "from": "2025國民黨國家政策研究基金會董事改選",
+      "to": "陳冲",
+      "type": "event",
+      "detail": "2025年12月2日新任國民黨智庫副董事長。",
+      "period": "2025-12-02",
+      "source": "中央社｜國民黨智庫董事改選",
+      "url": "https://www.cna.com.tw/news/aipl/202512020207.aspx"
+    },
+    {
+      "from": "2025國民黨國家政策研究基金會董事改選",
+      "to": "李鴻源",
+      "type": "event",
+      "detail": "2025年12月2日新任國民黨智庫副董事長。",
+      "period": "2025-12-02",
+      "source": "中央社｜國民黨智庫董事改選",
+      "url": "https://www.cna.com.tw/news/aipl/202512020207.aspx"
+    },
+    {
+      "from": "2025國民黨國家政策研究基金會董事改選",
+      "to": "邱淑媞",
+      "type": "event",
+      "detail": "2025年12月2日新任董事。",
+      "period": "2025-12-02",
+      "source": "中央社｜國民黨智庫董事改選",
+      "url": "https://www.cna.com.tw/news/aipl/202512020207.aspx"
+    },
+    {
+      "from": "2025國民黨國家政策研究基金會董事改選",
+      "to": "蘇宏達",
+      "type": "event",
+      "detail": "2025年12月2日新任董事。",
+      "period": "2025-12-02",
+      "source": "中央社｜國民黨智庫董事改選",
+      "url": "https://www.cna.com.tw/news/aipl/202512020207.aspx"
+    },
+    {
+      "from": "2025國民黨國家政策研究基金會董事改選",
+      "to": "楊永明",
+      "type": "event",
+      "detail": "2025年12月2日新任董事。",
+      "period": "2025-12-02",
+      "source": "中央社｜國民黨智庫董事改選",
+      "url": "https://www.cna.com.tw/news/aipl/202512020207.aspx"
+    },
+    {
+      "from": "陳冲",
+      "to": "劉兆玄",
+      "type": "affiliation",
+      "detail": "2008年12月1日陳冲接任金管會主委時，劉兆玄為行政院長。",
+      "period": "2008–2009",
+      "source": "行政院",
+      "url": "https://www.ey.gov.tw/Page/4ED2F231892187F9/83605399-9ee6-4784-9ce8-fc77ae72a087"
+    },
+    {
+      "from": "陳冲",
+      "to": "吳敦義",
+      "type": "affiliation",
+      "detail": "2009年至2012年陳冲先後在吳敦義內閣任金管會主委、副院長；2012年陳冲接任吳敦義院長職務。",
+      "period": "2009–2012",
+      "source": "行政院",
+      "url": "https://www.ey.gov.tw/Page/4ED2F231892187F9/83605399-9ee6-4784-9ce8-fc77ae72a087"
+    },
+    {
+      "from": "陳冲",
+      "to": "朱立倫",
+      "type": "affiliation",
+      "detail": "2010年5月17日陳冲接任朱立倫之後的行政院副院長。",
+      "period": "2010-05",
+      "source": "陳冲｜職務交接",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%86%B2_%28%E8%87%BA%E7%81%A3%29"
+    },
+    {
+      "from": "陳冲",
+      "to": "江宜樺",
+      "type": "affiliation",
+      "detail": "2012年江宜樺擔任陳冲內閣副院長，2013年2月18日接任院長。",
+      "period": "2012–2013",
+      "source": "總統府｜行政院長交接",
+      "url": "https://www.president.gov.tw/NEWS/17440"
+    },
+    {
+      "from": "陳冲",
+      "to": "馬英九",
+      "type": "affiliation",
+      "detail": "2012至2013年陳冲擔任馬英九任總統時期的行政院院長。",
+      "period": "2012–2013",
+      "source": "行政院｜歷任院長",
+      "url": "https://www.ey.gov.tw/Page/4ED2F231892187F9/83605399-9ee6-4784-9ce8-fc77ae72a087"
+    },
+    {
+      "from": "陳冲",
+      "to": "陳樹",
+      "type": "affiliation",
+      "detail": "陳冲於2008年12月1日接替陳樹出任金管會主任委員。",
+      "period": "2008-12",
+      "source": "陳冲｜金管會職務",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%86%B2_%28%E8%87%BA%E7%81%A3%29"
+    },
+    {
+      "from": "陳冲",
+      "to": "陳裕璋",
+      "type": "affiliation",
+      "detail": "2010年5月17日陳裕璋接任陳冲後的金管會主任委員。",
+      "period": "2010-05",
+      "source": "陳冲｜金管會職務",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%86%B2_%28%E8%87%BA%E7%81%A3%29"
+    },
+    {
+      "from": "陳冲",
+      "to": "鄭麗文",
+      "type": "affiliation",
+      "detail": "2025年12月2日鄭麗文接任國民黨智庫董事長，陳冲出任副董事長。",
+      "period": "2025-12",
+      "source": "中央社｜國民黨智庫",
+      "url": "https://www.cna.com.tw/news/aipl/202512020207.aspx"
+    },
+    {
+      "from": "陳冲",
+      "to": "李鴻源",
+      "type": "affiliation",
+      "detail": "2025年12月2日陳冲與李鴻源同獲選國民黨智庫副董事長，為公開共同黨務而非私人交情。",
+      "period": "2025-12",
+      "source": "中央社｜國民黨智庫",
+      "url": "https://www.cna.com.tw/news/aipl/202512020207.aspx"
+    },
+    {
+      "from": "2023年臺灣＃MeToo運動",
+      "to": "賴清德",
+      "type": "event",
+      "detail": "2023年以民進黨主席身份宣布檢討黨內處理性平申訴程序及紀律。",
+      "period": "2023-05–07",
+      "source": "維基百科｜MeToo歷史事件",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E8%87%BA%E7%81%A3%EF%BC%83MeToo%E9%81%8B%E5%8B%95"
+    },
+    {
+      "from": "2023年臺灣＃MeToo運動",
+      "to": "許立明",
+      "type": "event",
+      "detail": "2023年民進黨秘書長，指示性平調查小組檢討中央黨部機制。",
+      "period": "2023-05–07",
+      "source": "維基百科｜MeToo歷史事件",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E8%87%BA%E7%81%A3%EF%BC%83MeToo%E9%81%8B%E5%8B%95"
+    },
+    {
+      "from": "2023年臺灣＃MeToo運動",
+      "to": "陳建仁",
+      "type": "event",
+      "detail": "2023年行政院長，行政院在MeToo浪潮後啟動性平三法修法。",
+      "period": "2023-05–07",
+      "source": "維基百科｜MeToo歷史事件",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E8%87%BA%E7%81%A3%EF%BC%83MeToo%E9%81%8B%E5%8B%95"
+    },
+    {
+      "from": "2023年臺灣＃MeToo運動",
+      "to": "范雲",
+      "type": "event",
+      "detail": "2023年立法委員，就性平三法完成三讀發表公開評論。",
+      "period": "2023-05–07",
+      "source": "維基百科｜MeToo歷史事件",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E8%87%BA%E7%81%A3%EF%BC%83MeToo%E9%81%8B%E5%8B%95"
+    },
+    {
+      "from": "2023年臺灣＃MeToo運動",
+      "to": "李晏榕",
+      "type": "event",
+      "detail": "2023年民進黨性平部主任，參與性平案件行政調查及申訴制度改革。",
+      "period": "2023-05–07",
+      "source": "維基百科｜MeToo歷史事件",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E8%87%BA%E7%81%A3%EF%BC%83MeToo%E9%81%8B%E5%8B%95"
+    },
+    {
+      "from": "2023民進黨性平申訴處理調查與改善",
+      "to": "賴清德",
+      "type": "event",
+      "detail": "2023年民進黨主席，指示黨中央就職場性騷申訴處理進行調查及改革。",
+      "period": "2023-06",
+      "source": "民進黨官方｜性平調查結論",
+      "url": "https://www.dpp.org.tw/media/contents/10201"
+    },
+    {
+      "from": "2023民進黨性平申訴處理調查與改善",
+      "to": "許立明",
+      "type": "event",
+      "detail": "2023年民進黨秘書長，要求檢討黨內機制與教育訓練。",
+      "period": "2023-06",
+      "source": "民進黨官方｜性平調查結論",
+      "url": "https://www.dpp.org.tw/media/contents/10201"
+    },
+    {
+      "from": "2023民進黨性平申訴處理調查與改善",
+      "to": "周威佑",
+      "type": "event",
+      "detail": "2023年黨主席室主任，參與黨中央性平調查小組。",
+      "period": "2023-06",
+      "source": "民進黨官方｜性平調查結論",
+      "url": "https://www.dpp.org.tw/media/contents/10201"
+    },
+    {
+      "from": "2023民進黨性平申訴處理調查與改善",
+      "to": "楊懿珊",
+      "type": "event",
+      "detail": "2023年副秘書長，參與黨中央性平調查小組及6月16日改革說明。",
+      "period": "2023-06",
+      "source": "民進黨官方｜性平調查結論",
+      "url": "https://www.dpp.org.tw/media/contents/10201"
+    },
+    {
+      "from": "2023民進黨性平申訴處理調查與改善",
+      "to": "李晏榕",
+      "type": "event",
+      "detail": "2023年性平部主任，參與調查與改革說明。",
+      "period": "2023-06",
+      "source": "民進黨官方｜性平調查結論",
+      "url": "https://www.dpp.org.tw/media/contents/10201"
+    },
+    {
+      "from": "2023民進黨性平申訴處理調查與改善",
+      "to": "許嘉恬",
+      "type": "event",
+      "detail": "2023年6月9日黨內調查確認其處理性騷申訴時行政程序有疏漏；非指控其為性騷加害人。",
+      "period": "2023-06",
+      "source": "民進黨官方｜性平調查結論",
+      "url": "https://www.dpp.org.tw/media/contents/10201"
+    },
+    {
+      "from": "2023民進黨性平申訴處理調查與改善",
+      "to": "林飛帆",
+      "type": "event",
+      "detail": "2023年6月9日黨內調查確認其當時處置與中央黨部既有規定無違背之處。",
+      "period": "2023-06",
+      "source": "民進黨官方｜性平調查結論",
+      "url": "https://www.dpp.org.tw/media/contents/10201"
+    },
+    {
+      "from": "2023性平三法修法三讀",
+      "to": "陳建仁",
+      "type": "event",
+      "detail": "2023年行政院長，行政院提出性平三法修正草案並獲立法院於7月底三讀。",
+      "period": "2023-07",
+      "source": "行政院｜性平三法修法",
+      "url": "https://english.ey.gov.tw/News3/9E5540D592A5FECD/cd9925f8-8664-49ff-99ac-fa3f1d0a07d6"
+    },
+    {
+      "from": "2023性平三法修法三讀",
+      "to": "范雲",
+      "type": "event",
+      "detail": "2023年7月31日立院三讀後公開發言支持修法並呼籲保障被害人。",
+      "period": "2023-07",
+      "source": "行政院｜性平三法修法",
+      "url": "https://english.ey.gov.tw/News3/9E5540D592A5FECD/cd9925f8-8664-49ff-99ac-fa3f1d0a07d6"
+    },
+    {
+      "from": "2023性平三法修法三讀",
+      "to": "李晏榕",
+      "type": "event",
+      "detail": "2023年民進黨性平部主任，7月14日代表黨部對外支持行政院性平三法草案。",
+      "period": "2023-07",
+      "source": "行政院｜性平三法修法",
+      "url": "https://english.ey.gov.tw/News3/9E5540D592A5FECD/cd9925f8-8664-49ff-99ac-fa3f1d0a07d6"
+    },
+    {
+      "from": "2024性平三法施行",
+      "to": "陳建仁",
+      "type": "event",
+      "detail": "2024年3月8日三項修法主要規定施行時擔任行政院長。",
+      "period": "2024-03-08",
+      "source": "中央社｜性騷防治法上路",
+      "url": "https://www.cna.com.tw/news/aipl/202307310156.aspx"
+    },
+    {
+      "from": "2024立法委員行為法防性騷修法提案",
+      "to": "范雲",
+      "type": "event",
+      "detail": "2024年與林宜瑾、林月琴共同提出第7條防止立委性騷及歧視的修正草案。",
+      "period": "2024-03",
+      "source": "MeToo條目｜後續修法提案",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E8%87%BA%E7%81%A3%EF%BC%83MeToo%E9%81%8B%E5%8B%95"
+    },
+    {
+      "from": "2024立法委員行為法防性騷修法提案",
+      "to": "林宜瑾",
+      "type": "event",
+      "detail": "共同提出2024年立委行為法修正草案。",
+      "period": "2024-03",
+      "source": "MeToo條目｜後續修法提案",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E8%87%BA%E7%81%A3%EF%BC%83MeToo%E9%81%8B%E5%8B%95"
+    },
+    {
+      "from": "2024立法委員行為法防性騷修法提案",
+      "to": "林月琴",
+      "type": "event",
+      "detail": "共同提出2024年立委行為法修正草案。",
+      "period": "2024-03",
+      "source": "MeToo條目｜後續修法提案",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E8%87%BA%E7%81%A3%EF%BC%83MeToo%E9%81%8B%E5%8B%95"
+    },
+    {
+      "from": "賴清德",
+      "to": "許立明",
+      "type": "affiliation",
+      "detail": "2023年民進黨主席賴清德與秘書長許立明指示黨中央調查性平申訴處理；屬黨務行政分工。",
+      "period": "2023-06",
+      "source": "民進黨官方｜性平調查",
+      "url": "https://www.dpp.org.tw/media/contents/10201"
+    },
+    {
+      "from": "許立明",
+      "to": "楊懿珊",
+      "type": "cooperate",
+      "detail": "2023年許立明指示民進黨性平調查，楊懿珊為參與調查與改革說明的副秘書長。",
+      "period": "2023-06",
+      "source": "民進黨官方｜性平調查",
+      "url": "https://www.dpp.org.tw/media/contents/10201"
+    },
+    {
+      "from": "楊懿珊",
+      "to": "周威佑",
+      "type": "cooperate",
+      "detail": "2023年共同參與民進黨性平案件調查小組及後續改革說明。",
+      "period": "2023-06",
+      "source": "中央社｜性平制度改革",
+      "url": "https://www.cna.com.tw/news/aipl/202306160256.aspx"
+    },
+    {
+      "from": "楊懿珊",
+      "to": "李晏榕",
+      "type": "cooperate",
+      "detail": "2023年同參與民進黨性平事件調查及6月16日改善制度說明。",
+      "period": "2023-06",
+      "source": "中央社｜改革說明",
+      "url": "https://www.cna.com.tw/news/aipl/202306160256.aspx"
+    },
+    {
+      "from": "陳建仁",
+      "to": "范雲",
+      "type": "event",
+      "detail": "2023年陳建仁內閣提出性平三法修法，立委范雲於7月31日三讀後公開評論修法；非直接私人合作。",
+      "period": "2023-07",
+      "source": "中央社｜性平三法",
+      "url": "https://www.cna.com.tw/news/aipl/202307310176.aspx"
+    },
+    {
+      "from": "范雲",
+      "to": "林月琴",
+      "type": "cooperate",
+      "detail": "2024年與林宜瑾、林月琴提出立法委員行為法防性騷修正草案。",
+      "period": "2024-03",
+      "source": "維基｜MeToo後續修法",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E8%87%BA%E7%81%A3%EF%BC%83MeToo%E9%81%8B%E5%8B%95"
+    },
+    {
+      "from": "范雲",
+      "to": "林宜瑾",
+      "type": "cooperate",
+      "detail": "2024年與林宜瑾、林月琴提出立法委員行為法防性騷修正草案。",
+      "period": "2024-03",
+      "source": "維基｜MeToo後續修法",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E8%87%BA%E7%81%A3%EF%BC%83MeToo%E9%81%8B%E5%8B%95"
+    },
+    {
+      "from": "林宜瑾",
+      "to": "林月琴",
+      "type": "cooperate",
+      "detail": "2024年與范雲共同提出立法委員行為法防性騷修正草案。",
+      "period": "2024-03",
+      "source": "維基｜MeToo後續修法",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E8%87%BA%E7%81%A3%EF%BC%83MeToo%E9%81%8B%E5%8B%95"
     }
   ]
 }

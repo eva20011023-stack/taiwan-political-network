@@ -2,7 +2,7 @@
   "meta": {
     "title": "臺灣政治人物關係圖譜｜國民黨四公子、羅文嘉與海基會／黨務史",
     "date": "2026-10-29",
-    "scope": "臺灣政治人物與政治媒體公開關係圖譜。本輪新增李正皓2019國民黨開除、2020親民黨選舉、2022無黨籍選舉、2023民主大聯盟退選、2024王義川輔選、2026政論主持，嚴格按事件與黨籍年份區分；不得推定民進黨正式黨籍或私人關係。",
+    "scope": "公開政治人物、媒體主持、政府職務及選舉關係網絡。2026-10新增馬郁雯、于美人，嚴格分辨記者報導與司法案件當事人、黨內初選與正式選舉、無黨籍與候選人代言職務，以及公開交往伴侶與婚姻關係。",
     "sources": [
       {
         "name": "新黨",
@@ -123,6 +123,14 @@
       {
         "name": "李正皓",
         "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%AD%A3%E7%9A%93"
+      },
+      {
+        "name": "馬郁雯",
+        "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E9%83%81%E9%9B%AF"
+      },
+      {
+        "name": "于美人",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
       }
     ],
     "relation_note": "資料中共同任職某單位、被媒體並列、選舉競爭都不當作私人交情或相互支持；人物政黨歸屬只按最近可查資料來源年份，不等同2026即時正式黨籍；海基會董事長歷次交接不可視為多人同時擔任。",
@@ -9466,16 +9474,19 @@
     {
       "id": "于美人",
       "label": "于美人",
-      "group": "historical",
+      "group": "external",
       "notes": [
-        "2019年親民黨總統競選辦公室發言人，11月陪同李正皓登記選舉。"
+        "2019年親民黨總統競選辦公室發言人，11月陪同李正皓登記選舉。",
+        "臺灣資深廣播及電視主持人；2019年宋楚瑜參與2020總統大選時擔任親民黨競辦發言人，該工作身份不等於曾加入親民黨。",
+        "2024年以無黨籍身份參選臺北市第5選區（中正、萬華）立委，取得38913票、未當選；勝選者為民進黨吳沛憶。",
+        "三立節目《超級紅人榜》官方網站列為主持群；1990年代至今也曾主持《台北夜未眠》、《新聞挖挖哇》、《國民大會》等節目。"
       ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "目前黨籍未查證"
+        "code": "IND",
+        "kind": "last_documented",
+        "as_of": "2024-01-13 無黨籍臺北市第5選區立委候選人",
+        "source": "https://votetw.com/data/candidate/%E4%BA%8E%E7%BE%8E%E4%BA%BA",
+        "qualification": "2019年曾任親民黨宋楚瑜競辦發言人，不代表親民黨黨籍；2024年以無黨籍參選未當選，未核查2026年有無新黨籍。"
       }
     },
     {
@@ -9630,6 +9641,313 @@
       "group": "hub",
       "notes": [
         "節目與主持人的公開職務關係；不自動建立與所有來賓的人際連線。"
+      ]
+    },
+    {
+      "id": "馬郁雯",
+      "label": "馬郁雯",
+      "group": "current",
+      "notes": [
+        "曾在中視、三立擔任政治記者；2025年9月30日離開三立，之後投入臺北市議員選舉。",
+        "2026年3月11日通過民進黨臺北市第五選區（中正、萬華）市議員黨內初選；尚非當選議員，不能寫成已勝選。",
+        "2024年以政治記者身份報導京華城案，9月16日因媒體消息來源疑義以「證人」身份被北檢傳喚；北檢同日說明當時查獲的媒體消息來源並非北檢、廉政署、調查局或法院公務人員，不等於記者被認定違法。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "current_documented",
+        "as_of": "2026-03-11 民進黨臺北市議員初選出線",
+        "source": "https://www.cna.com.tw/news/aloc/202603110127.aspx",
+        "qualification": "民進黨公布中正萬華初選名單馬郁雯出線；正式選舉結果在2026年10月尚未出爐。"
+      }
+    },
+    {
+      "id": "段宜康",
+      "label": "段宜康",
+      "group": "historical",
+      "notes": [
+        "2026年2月6日陪同馬郁雯、陳又新登記民進黨臺北市議員初選。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查核當期政黨身份"
+      }
+    },
+    {
+      "id": "李建昌",
+      "label": "李建昌",
+      "group": "historical",
+      "notes": [
+        "2026年2月6日陪同馬郁雯、陳又新登記民進黨臺北市議員初選。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查核當期政黨身份"
+      }
+    },
+    {
+      "id": "陳又新",
+      "label": "陳又新",
+      "group": "historical",
+      "notes": [
+        "2026年民進黨內湖南港議員初選參選人，馬郁雯同日由段宜康、李建昌陪同登記。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查核當期政黨身份"
+      }
+    },
+    {
+      "id": "劉耀仁",
+      "label": "劉耀仁",
+      "group": "historical",
+      "notes": [
+        "2026年民進黨中正萬華市議員初選現任議員，取得提名資格。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查核當期政黨身份"
+      }
+    },
+    {
+      "id": "洪婉臻",
+      "label": "洪婉臻",
+      "group": "historical",
+      "notes": [
+        "2026年民進黨中正萬華市議員初選現任議員，取得提名資格。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查核當期政黨身份"
+      }
+    },
+    {
+      "id": "張銘祐",
+      "label": "張銘祐",
+      "group": "historical",
+      "notes": [
+        "2026年民進黨中正萬華市議員初選新人，取得提名資格。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查核當期政黨身份"
+      }
+    },
+    {
+      "id": "康家瑋",
+      "label": "康家瑋",
+      "group": "historical",
+      "notes": [
+        "2026年民進黨中正萬華市議員初選新人，未獲提名資格。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查核當期政黨身份"
+      }
+    },
+    {
+      "id": "2026民進黨中正萬華議員初選",
+      "label": "2026民進黨中正萬華議員初選",
+      "group": "hub",
+      "notes": [
+        "由公開報導或維基整理的事件／節目關係：共列於一個節點不等於互相熟識或同台。"
+      ]
+    },
+    {
+      "id": "2026馬郁雯議員初選登記協助",
+      "label": "2026馬郁雯議員初選登記協助",
+      "group": "hub",
+      "notes": [
+        "由公開報導或維基整理的事件／節目關係：共列於一個節點不等於互相熟識或同台。"
+      ]
+    },
+    {
+      "id": "2024京華城案政治記者報導與洩密疑義查證",
+      "label": "2024京華城案政治記者報導與洩密疑義查證",
+      "group": "hub",
+      "notes": [
+        "新聞報導關係與司法偵查背景；報導對象、被詢問證人不代表有私交、行賄或已判罪。"
+      ]
+    },
+    {
+      "id": "馬郁雯政治新聞媒體任職",
+      "label": "馬郁雯政治新聞媒體任職",
+      "group": "hub",
+      "notes": [
+        "由公開報導或維基整理的事件／節目關係：共列於一個節點不等於互相熟識或同台。"
+      ]
+    },
+    {
+      "id": "吳沛憶",
+      "label": "吳沛憶",
+      "group": "external",
+      "notes": [
+        "2024年民進黨臺北市第5選區立委選舉當選人，擊敗鍾小平、于美人等候選人。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2024臺北市第5選區立委選舉",
+        "source": "https://www.cna.com.tw/news/aipl/202401130302.aspx",
+        "qualification": "2024年民進黨籍立委當選人，未獨立核對最新黨員名冊。"
+      }
+    },
+    {
+      "id": "鍾小平",
+      "label": "鍾小平",
+      "group": "external",
+      "notes": [
+        "2024年臺北市第5選區國民黨立委候選人，與吳沛憶、于美人競選。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "2024臺北市第5選區立委選舉",
+        "source": "https://www.cna.com.tw/news/aipl/202401130302.aspx",
+        "qualification": "2024年國民黨立委候選人，未核對2026年正式黨籍。"
+      }
+    },
+    {
+      "id": "蔡昌憲",
+      "label": "蔡昌憲",
+      "group": "external",
+      "notes": [
+        "三立《超級紅人榜》官方網站列為主持人之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查核當期政黨身份"
+      }
+    },
+    {
+      "id": "許志豪",
+      "label": "許志豪",
+      "group": "external",
+      "notes": [
+        "三立《超級紅人榜》官方網站列為主持人之一。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查核當期政黨身份"
+      }
+    },
+    {
+      "id": "鄭弘儀",
+      "label": "鄭弘儀",
+      "group": "external",
+      "notes": [
+        "曾與于美人主持長期播出的《新聞挖挖哇》。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查核當期政黨身份"
+      }
+    },
+    {
+      "id": "趙樹海",
+      "label": "趙樹海",
+      "group": "external",
+      "notes": [
+        "曾與于美人共同主持《C club 名人三溫暖》。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查核當期政黨身份"
+      }
+    },
+    {
+      "id": "陳凱倫",
+      "label": "陳凱倫",
+      "group": "external",
+      "notes": [
+        "曾與于美人共同主持《C club 名人三溫暖》。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未查核當期政黨身份"
+      }
+    },
+    {
+      "id": "2020宋楚瑜親民黨競辦發言人",
+      "label": "2020宋楚瑜親民黨競辦發言人",
+      "group": "hub",
+      "notes": [
+        "由公開報導或維基整理的事件／節目關係：共列於一個節點不等於互相熟識或同台。"
+      ]
+    },
+    {
+      "id": "2024臺北市第5選區立委選舉",
+      "label": "2024臺北市第5選區立委選舉",
+      "group": "hub",
+      "notes": [
+        "由公開報導或維基整理的事件／節目關係：共列於一個節點不等於互相熟識或同台。"
+      ]
+    },
+    {
+      "id": "三立《超級紅人榜》節目主持團隊",
+      "label": "三立《超級紅人榜》節目主持團隊",
+      "group": "hub",
+      "notes": [
+        "娛樂節目共事僅為主持職務，不表示政治合作或私人關係。"
+      ]
+    },
+    {
+      "id": "于美人｜《新聞挖挖哇》主持",
+      "label": "于美人｜《新聞挖挖哇》主持",
+      "group": "hub",
+      "notes": [
+        "由公開報導或維基整理的事件／節目關係：共列於一個節點不等於互相熟識或同台。"
+      ]
+    },
+    {
+      "id": "于美人｜TVBS《國民大會》主持",
+      "label": "于美人｜TVBS《國民大會》主持",
+      "group": "hub",
+      "notes": [
+        "由公開報導或維基整理的事件／節目關係：共列於一個節點不等於互相熟識或同台。"
+      ]
+    },
+    {
+      "id": "于美人｜《C club 名人三溫暖》主持",
+      "label": "于美人｜《C club 名人三溫暖》主持",
+      "group": "hub",
+      "notes": [
+        "由公開報導或維基整理的事件／節目關係：共列於一個節點不等於互相熟識或同台。"
       ]
     }
   ],
@@ -21423,6 +21741,384 @@
       "period": "2023-06-09",
       "source": "中央社｜政黨回應",
       "url": "https://www.cna.com.tw/news/aipl/202306090038.aspx"
+    },
+    {
+      "from": "2026民進黨中正萬華議員初選",
+      "to": "馬郁雯",
+      "type": "event",
+      "detail": "2026年3月11日民調排名第3，初選通過、具備提名資格。",
+      "period": "2026-02–03",
+      "source": "中央社｜民進黨臺北市議員初選",
+      "url": "https://www.cna.com.tw/news/aloc/202603110127.aspx"
+    },
+    {
+      "from": "2026民進黨中正萬華議員初選",
+      "to": "劉耀仁",
+      "type": "event",
+      "detail": "現任議員，2026年3月11日黨內初選排名第1、通過。",
+      "period": "2026-02–03",
+      "source": "中央社｜民進黨臺北市議員初選",
+      "url": "https://www.cna.com.tw/news/aloc/202603110127.aspx"
+    },
+    {
+      "from": "2026民進黨中正萬華議員初選",
+      "to": "洪婉臻",
+      "type": "event",
+      "detail": "現任議員，2026年3月11日黨內初選排名第2、通過。",
+      "period": "2026-02–03",
+      "source": "中央社｜民進黨臺北市議員初選",
+      "url": "https://www.cna.com.tw/news/aloc/202603110127.aspx"
+    },
+    {
+      "from": "2026民進黨中正萬華議員初選",
+      "to": "張銘祐",
+      "type": "event",
+      "detail": "新人，2026年3月11日黨內初選排名第4、通過。",
+      "period": "2026-02–03",
+      "source": "中央社｜民進黨臺北市議員初選",
+      "url": "https://www.cna.com.tw/news/aloc/202603110127.aspx"
+    },
+    {
+      "from": "2026民進黨中正萬華議員初選",
+      "to": "康家瑋",
+      "type": "event",
+      "detail": "新人，2026年3月11日黨內初選排名第5、未通過。",
+      "period": "2026-02–03",
+      "source": "中央社｜民進黨臺北市議員初選",
+      "url": "https://www.cna.com.tw/news/aloc/202603110127.aspx"
+    },
+    {
+      "from": "2026馬郁雯議員初選登記協助",
+      "to": "馬郁雯",
+      "type": "event",
+      "detail": "2026年2月6日登記民進黨臺北市中正萬華市議員初選。",
+      "period": "2026-02-06",
+      "source": "中央社｜黨內初選登記",
+      "url": "https://www.cna.com.tw/news/aloc/202602060090.aspx"
+    },
+    {
+      "from": "2026馬郁雯議員初選登記協助",
+      "to": "陳又新",
+      "type": "event",
+      "detail": "2026年2月6日登記民進黨內湖南港市議員初選。",
+      "period": "2026-02-06",
+      "source": "中央社｜黨內初選登記",
+      "url": "https://www.cna.com.tw/news/aloc/202602060090.aspx"
+    },
+    {
+      "from": "2026馬郁雯議員初選登記協助",
+      "to": "段宜康",
+      "type": "event",
+      "detail": "2026年2月6日陪同馬郁雯與陳又新辦理初選登記。",
+      "period": "2026-02-06",
+      "source": "中央社｜黨內初選登記",
+      "url": "https://www.cna.com.tw/news/aloc/202602060090.aspx"
+    },
+    {
+      "from": "2026馬郁雯議員初選登記協助",
+      "to": "李建昌",
+      "type": "event",
+      "detail": "2026年2月6日陪同馬郁雯與陳又新辦理初選登記。",
+      "period": "2026-02-06",
+      "source": "中央社｜黨內初選登記",
+      "url": "https://www.cna.com.tw/news/aloc/202602060090.aspx"
+    },
+    {
+      "from": "2024京華城案政治記者報導與洩密疑義查證",
+      "to": "馬郁雯",
+      "type": "event",
+      "detail": "2024年9月以三立政治記者身份報導案件，9月16日以證人身份受北檢詢問，非被告；北檢同日公布初步查證結果。",
+      "period": "2024-09",
+      "source": "中央社｜北檢洩密疑義調查",
+      "url": "https://www.cna.com.tw/news/asoc/202409160170.aspx"
+    },
+    {
+      "from": "2024京華城案政治記者報導與洩密疑義查證",
+      "to": "柯文哲",
+      "type": "event",
+      "detail": "2024年京華城案偵查及相關新聞報導所涉及的當事人；與馬郁雯的連結是報導對象，非私人往來。",
+      "period": "2024-09",
+      "source": "中央社｜北檢洩密疑義調查",
+      "url": "https://www.cna.com.tw/news/asoc/202409160170.aspx"
+    },
+    {
+      "from": "馬郁雯政治新聞媒體任職",
+      "to": "馬郁雯",
+      "type": "event",
+      "detail": "2013年起曾任中視記者、2016至2025年9月曾任三立新聞台記者，後轉向選舉。",
+      "period": "2013–2025",
+      "source": "民視｜政治記者卸任",
+      "url": "https://finance.ftvnews.com.tw/news/detail/2025A02W0066"
+    },
+    {
+      "from": "馬郁雯",
+      "to": "李正皓",
+      "type": "partner",
+      "detail": "2026年10月公開報導確認馬郁雯與李正皓為交往伴侶；維基百科曾誤填配偶，當事人當時尚未證實結婚。不可標成夫妻。",
+      "period": "2026-10-05",
+      "source": "民視｜公開交往關係與維基誤植說明",
+      "url": "https://www.ftvnews.com.tw/news/detail/2026a05w0285"
+    },
+    {
+      "from": "馬郁雯",
+      "to": "段宜康",
+      "type": "support",
+      "detail": "2026年2月6日段宜康陪同馬郁雯登記民進黨中正萬華議員初選，公開表達支持。",
+      "period": "2026-02-06",
+      "source": "中央社｜2026登記",
+      "url": "https://www.cna.com.tw/news/aloc/202602060090.aspx"
+    },
+    {
+      "from": "馬郁雯",
+      "to": "李建昌",
+      "type": "support",
+      "detail": "2026年2月6日李建昌陪同馬郁雯登記民進黨中正萬華議員初選，公開表達支持。",
+      "period": "2026-02-06",
+      "source": "中央社｜2026登記",
+      "url": "https://www.cna.com.tw/news/aloc/202602060090.aspx"
+    },
+    {
+      "from": "馬郁雯",
+      "to": "張銘祐",
+      "type": "contest",
+      "detail": "2026年民進黨中正萬華議員初選同場參選人，兩人皆取得提名資格，非一般選舉對立或私人不和。",
+      "period": "2026-03",
+      "source": "中央社｜民進黨初選",
+      "url": "https://www.cna.com.tw/news/aloc/202603110127.aspx"
+    },
+    {
+      "from": "馬郁雯",
+      "to": "康家瑋",
+      "type": "contest",
+      "detail": "2026年民進黨中正萬華議員初選同場參選人，馬郁雯通過、康家瑋未過；不代表私人爭論。",
+      "period": "2026-03",
+      "source": "中央社｜民進黨初選",
+      "url": "https://www.cna.com.tw/news/aloc/202603110127.aspx"
+    },
+    {
+      "from": "2020宋楚瑜親民黨競辦發言人",
+      "to": "宋楚瑜",
+      "type": "event",
+      "detail": "2020年總統選舉親民黨總統候選人。",
+      "period": "2019-11–2020-01",
+      "source": "中央社｜于美人歷年競選職務",
+      "url": "https://www.cna.com.tw/news/aipl/202304190313.aspx"
+    },
+    {
+      "from": "2020宋楚瑜親民黨競辦發言人",
+      "to": "于美人",
+      "type": "event",
+      "detail": "2019年11月起擔任宋楚瑜總統競選辦公室發言人。",
+      "period": "2019-11–2020-01",
+      "source": "中央社｜于美人歷年競選職務",
+      "url": "https://www.cna.com.tw/news/aipl/202304190313.aspx"
+    },
+    {
+      "from": "2020宋楚瑜親民黨競辦發言人",
+      "to": "余湘",
+      "type": "event",
+      "detail": "2020年親民黨副總統候選人。",
+      "period": "2019-11–2020-01",
+      "source": "中央社｜于美人歷年競選職務",
+      "url": "https://www.cna.com.tw/news/aipl/202304190313.aspx"
+    },
+    {
+      "from": "2024臺北市第5選區立委選舉",
+      "to": "于美人",
+      "type": "event",
+      "detail": "2024年無黨籍立委候選人，取得38913票，落選。",
+      "period": "2024-01",
+      "source": "臺灣選舉資料庫｜2024投票結果",
+      "url": "https://votetw.com/data/candidate/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
+    },
+    {
+      "from": "2024臺北市第5選區立委選舉",
+      "to": "吳沛憶",
+      "type": "event",
+      "detail": "2024年民進黨立委候選人，取得66932票，當選。",
+      "period": "2024-01",
+      "source": "臺灣選舉資料庫｜2024投票結果",
+      "url": "https://votetw.com/data/candidate/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
+    },
+    {
+      "from": "2024臺北市第5選區立委選舉",
+      "to": "鍾小平",
+      "type": "event",
+      "detail": "2024年國民黨立委候選人，取得57634票，落選。",
+      "period": "2024-01",
+      "source": "臺灣選舉資料庫｜2024投票結果",
+      "url": "https://votetw.com/data/candidate/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
+    },
+    {
+      "from": "2024臺北市第5選區立委選舉",
+      "to": "林昶佐",
+      "type": "event",
+      "detail": "2020至2024年前任臺北市第5選區立委，此次不競選連任。",
+      "period": "2024-01",
+      "source": "臺灣選舉資料庫｜2024投票結果",
+      "url": "https://votetw.com/data/candidate/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
+    },
+    {
+      "from": "三立《超級紅人榜》節目主持團隊",
+      "to": "于美人",
+      "type": "event",
+      "detail": "三立官網列為《超級紅人榜》節目主持群。",
+      "period": "歷年，2026查詢時官網仍列",
+      "source": "三立電視｜官方節目頁",
+      "url": "https://www.settv.com.tw/program/top_singers"
+    },
+    {
+      "from": "三立《超級紅人榜》節目主持團隊",
+      "to": "蔡昌憲",
+      "type": "event",
+      "detail": "三立官網列為節目主持群。",
+      "period": "歷年，2026查詢時官網仍列",
+      "source": "三立電視｜官方節目頁",
+      "url": "https://www.settv.com.tw/program/top_singers"
+    },
+    {
+      "from": "三立《超級紅人榜》節目主持團隊",
+      "to": "許志豪",
+      "type": "event",
+      "detail": "三立官網列為節目主持群。",
+      "period": "歷年，2026查詢時官網仍列",
+      "source": "三立電視｜官方節目頁",
+      "url": "https://www.settv.com.tw/program/top_singers"
+    },
+    {
+      "from": "于美人｜《新聞挖挖哇》主持",
+      "to": "于美人",
+      "type": "event",
+      "detail": "曾長期主持《新聞挖挖哇》，2016年8月卸任。",
+      "period": "約2002–2016",
+      "source": "于美人｜節目歷程",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
+    },
+    {
+      "from": "于美人｜《新聞挖挖哇》主持",
+      "to": "鄭弘儀",
+      "type": "event",
+      "detail": "與于美人曾共同主持《新聞挖挖哇》。",
+      "period": "約2002–2016",
+      "source": "于美人｜節目歷程",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
+    },
+    {
+      "from": "于美人｜TVBS《國民大會》主持",
+      "to": "于美人",
+      "type": "event",
+      "detail": "2016年6月6日起主持TVBS《國民大會》。",
+      "period": "2016年起（節目歷程）",
+      "source": "于美人｜演藝事業",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
+    },
+    {
+      "from": "于美人｜《C club 名人三溫暖》主持",
+      "to": "于美人",
+      "type": "event",
+      "detail": "1997年開始主持《C club 名人三溫暖》。",
+      "period": "1997年起（歷年節目）",
+      "source": "于美人｜節目歷程",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
+    },
+    {
+      "from": "于美人｜《C club 名人三溫暖》主持",
+      "to": "趙樹海",
+      "type": "event",
+      "detail": "曾與于美人搭檔主持《C club 名人三溫暖》。",
+      "period": "1997年起（歷年節目）",
+      "source": "于美人｜節目歷程",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
+    },
+    {
+      "from": "于美人｜《C club 名人三溫暖》主持",
+      "to": "陳凱倫",
+      "type": "event",
+      "detail": "曾與于美人搭檔主持《C club 名人三溫暖》。",
+      "period": "1997年起（歷年節目）",
+      "source": "于美人｜節目歷程",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
+    },
+    {
+      "from": "于美人",
+      "to": "宋楚瑜",
+      "type": "affiliation",
+      "detail": "于美人於2019年11月起擔任2020總統大選宋楚瑜親民黨競選辦公室發言人；不能據此推論其親民黨黨員身份。",
+      "period": "2019–2020",
+      "source": "中央社｜2019競辦",
+      "url": "https://www.cna.com.tw/news/aipl/202304190313.aspx"
+    },
+    {
+      "from": "于美人",
+      "to": "李正皓",
+      "type": "cooperate",
+      "detail": "2019年11月于美人以親民黨競辦發言人身份陪同李正皓至選委會登記參選新北中和立委。",
+      "period": "2019-11",
+      "source": "中央社｜李正皓參選",
+      "url": "https://www.cna.com.tw/news/aipl/201911210329.aspx"
+    },
+    {
+      "from": "于美人",
+      "to": "吳沛憶",
+      "type": "contest",
+      "detail": "2024年臺北市第5選區立委選舉，于美人無黨籍參選，吳沛憶民進黨參選並當選。",
+      "period": "2024-01",
+      "source": "臺灣選舉資料庫",
+      "url": "https://votetw.com/data/candidate/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
+    },
+    {
+      "from": "于美人",
+      "to": "鍾小平",
+      "type": "contest",
+      "detail": "2024年臺北市第5選區立委選舉，于美人無黨籍、鍾小平國民黨參選；兩人均未當選。",
+      "period": "2024-01",
+      "source": "臺灣選舉資料庫",
+      "url": "https://votetw.com/data/candidate/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
+    },
+    {
+      "from": "于美人",
+      "to": "蔡昌憲",
+      "type": "show_host",
+      "detail": "于美人與蔡昌憲同列三立《超級紅人榜》官方節目主持群。",
+      "period": "官網資料（查詢於2026）",
+      "source": "三立電視｜官方節目",
+      "url": "https://www.settv.com.tw/program/top_singers"
+    },
+    {
+      "from": "于美人",
+      "to": "許志豪",
+      "type": "show_host",
+      "detail": "于美人與許志豪同列三立《超級紅人榜》官方節目主持群。",
+      "period": "官網資料（查詢於2026）",
+      "source": "三立電視｜官方節目",
+      "url": "https://www.settv.com.tw/program/top_singers"
+    },
+    {
+      "from": "于美人",
+      "to": "鄭弘儀",
+      "type": "show_host",
+      "detail": "于美人曾與鄭弘儀共同主持《新聞挖挖哇》，2016年退出節目主持。",
+      "period": "2000年代–2016",
+      "source": "于美人｜影視事業",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
+    },
+    {
+      "from": "于美人",
+      "to": "趙樹海",
+      "type": "show_host",
+      "detail": "于美人曾與趙樹海搭檔主持《C club 名人三溫暖》。",
+      "period": "1997年起（歷年）",
+      "source": "于美人｜節目合作",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
+    },
+    {
+      "from": "于美人",
+      "to": "陳凱倫",
+      "type": "show_host",
+      "detail": "于美人曾與陳凱倫搭檔主持《C club 名人三溫暖》。",
+      "period": "1997年起（歷年）",
+      "source": "于美人｜節目合作",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E7%BE%8E%E4%BA%BA"
     }
   ]
 }

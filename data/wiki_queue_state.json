@@ -198,8 +198,21 @@
   ],
   "skipped": [],
   "failed": [],
-  "last_run": "2026-10-28T16:16:47.943Z",
+  "last_run": "2026-10-28T16:20:11.737Z",
   "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
-  "processing": [],
-  "last_checked_at": "2026-10-28T16:16:47.943Z"
+  "processing": [
+    {
+      "key": "zh:陳冲 (臺灣)",
+      "title": "陳冲 (臺灣)",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%86%B2_(%E8%87%BA%E7%81%A3)",
+      "started_at": "2026-10-28T16:20:11.737Z"
+    },
+    {
+      "key": "zh:2023年臺灣＃MeToo運動",
+      "title": "2023年臺灣＃MeToo運動",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E8%87%BA%E7%81%A3%EF%BC%83MeToo%E9%81%8B%E5%8B%95",
+      "started_at": "2026-10-28T16:20:11.737Z"
+    }
+  ],
+  "last_checked_at": "2026-10-28T16:20:11.737Z"
 }

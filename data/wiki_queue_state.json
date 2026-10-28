@@ -182,8 +182,21 @@
   ],
   "skipped": [],
   "failed": [],
-  "last_run": "2026-10-28T16:12:36.280Z",
+  "last_run": "2026-10-28T16:13:32.713Z",
   "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
-  "processing": [],
-  "last_checked_at": "2026-10-28T16:12:36.280Z"
+  "processing": [
+    {
+      "title": "馬郁雯",
+      "key": "zh:馬郁雯",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E9%83%81%E9%9B%AF",
+      "started_at": "2026-10-28T16:13:32.713Z"
+    },
+    {
+      "title": "于美人",
+      "key": "zh:于美人",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E7%BE%8E%E4%BA%BA",
+      "started_at": "2026-10-28T16:13:32.713Z"
+    }
+  ],
+  "last_checked_at": "2026-10-28T16:13:32.713Z"
 }

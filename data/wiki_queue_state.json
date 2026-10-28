@@ -170,19 +170,20 @@
       "summary": "完成2014–2016科技部與行政院公職、2020韓國瑜副手、2022桃園市長選舉、2026國民黨桃園連任候選人及對手／競總歷史；未將2026選舉寫成當選。",
       "processed_at": "2026-10-28T16:09:07.772Z",
       "commit_sha": "750a45b47c5a19bc643c322381ad55640bed080b"
-    }
-  ],
-  "skipped": [],
-  "failed": [],
-  "last_run": "2026-10-28T16:09:49.328Z",
-  "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
-  "processing": [
+    },
     {
       "key": "zh:李正皓",
       "title": "李正皓",
       "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%AD%A3%E7%9A%93",
-      "started_at": "2026-10-28T16:09:49.328Z"
+      "processed_at": "2026-10-28T16:12:36.280Z",
+      "commit_sha": "fbea870d4d2a8e1d0439bbd007c20ad66dc50a02",
+      "summary": "完成2019國民黨開除黨籍、2019–2020親民黨立委選舉、2022無黨籍市議員選舉、2023民主大聯盟退選、2024王義川輔選，以及2026三立政論主持關係。未推論民進黨現行黨籍。"
     }
   ],
-  "last_checked_at": "2026-10-28T16:09:49.328Z"
+  "skipped": [],
+  "failed": [],
+  "last_run": "2026-10-28T16:12:36.280Z",
+  "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
+  "processing": [],
+  "last_checked_at": "2026-10-28T16:12:36.280Z"
 }

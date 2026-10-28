@@ -158,8 +158,21 @@
   ],
   "skipped": [],
   "failed": [],
-  "last_run": "2026-10-20T10:49:53.644Z",
+  "last_run": "2026-10-28T16:05:51.016Z",
   "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
-  "processing": [],
-  "last_checked_at": "2026-10-20T10:49:53.644Z"
+  "processing": [
+    {
+      "key": "zh:陳建仁",
+      "title": "陳建仁",
+      "url": "https://zh.wikipedia.org/zh-tw/%E9%99%B3%E5%BB%BA%E4%BB%81",
+      "started_at": "2026-10-28T16:05:51.016Z"
+    },
+    {
+      "key": "zh:張善政",
+      "title": "張善政",
+      "url": "https://zh.wikipedia.org/zh-tw/%E5%BC%B5%E5%96%84%E6%94%BF",
+      "started_at": "2026-10-28T16:05:51.016Z"
+    }
+  ],
+  "last_checked_at": "2026-10-28T16:05:51.016Z"
 }

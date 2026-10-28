@@ -174,8 +174,15 @@
   ],
   "skipped": [],
   "failed": [],
-  "last_run": "2026-10-28T16:09:07.772Z",
+  "last_run": "2026-10-28T16:09:49.328Z",
   "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
-  "processing": [],
-  "last_checked_at": "2026-10-28T16:09:07.772Z"
+  "processing": [
+    {
+      "key": "zh:李正皓",
+      "title": "李正皓",
+      "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%AD%A3%E7%9A%93",
+      "started_at": "2026-10-28T16:09:49.328Z"
+    }
+  ],
+  "last_checked_at": "2026-10-28T16:09:49.328Z"
 }

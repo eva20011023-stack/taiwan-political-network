@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "臺灣政治人物關係圖譜｜國民黨四公子、羅文嘉與海基會／黨務史",
-    "date": "2026-10-20",
-    "scope": "公開職務、選舉與親屬關係採年代及具體來源標註；「國民黨四公子」為歷史媒體稱呼，並非正式組織或黨內派系。羅文嘉的陳水扁幕僚、2019–2020民進黨黨務、2024–2026海基會任職分期建檔。",
+    "date": "2026-10-29",
+    "scope": "持續依維基條目及可信的當期報導建立臺灣政治、政府職務、選舉、媒體的公共關係網。此輪補入陳建仁2026中研院院長現職、張善政2026桃園市長候選人資訊；不同年代黨籍必須分開核對。",
     "sources": [
       {
         "name": "新黨",
@@ -111,6 +111,14 @@
       {
         "name": "羅文嘉",
         "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+      },
+      {
+        "name": "陳建仁",
+        "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%BB%BA%E4%BB%81"
+      },
+      {
+        "name": "張善政",
+        "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%96%84%E6%94%BF"
       }
     ],
     "relation_note": "資料中共同任職某單位、被媒體並列、選舉競爭都不當作私人交情或相互支持；人物政黨歸屬只按最近可查資料來源年份，不等同2026即時正式黨籍；海基會董事長歷次交接不可視為多人同時擔任。",
@@ -3473,14 +3481,16 @@
       "label": "陳建仁",
       "group": "current",
       "notes": [
-        "管碧玲在陳建仁內閣出任海洋委員會主任委員。"
+        "管碧玲在陳建仁內閣出任海洋委員會主任委員。",
+        "2016年至2020年擔任蔡英文第一任副總統，當時為無黨籍；2021年底申請加入民進黨，2022年2月25日由臺北市黨部入黨審查委員會通過。",
+        "2023年1月31日至2024年5月20日擔任行政院院長；2026年6月21日就任中央研究院第十三任院長，官方網站已列現職。"
       ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "尚未查證可靠的政黨歸屬"
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2022-02-25（民進黨臺北市黨部入黨審核通過）",
+        "source": "https://www.cna.com.tw/news/aipl/202202250306.aspx",
+        "qualification": "2016–2020年任副總統時為無黨籍，2022年申請入民進黨審查通過；尚未以2026年黨員名冊獨立確認最新黨籍。"
       }
     },
     {
@@ -3488,7 +3498,8 @@
       "label": "卓榮泰",
       "group": "current",
       "notes": [
-        "管碧玲於2024年卓榮泰內閣續任海洋委員會主任委員。"
+        "管碧玲於2024年卓榮泰內閣續任海洋委員會主任委員。",
+        "2024年5月20日接替陳建仁出任行政院長，陳建仁與其完成交接。"
       ],
       "party": {
         "code": "UNKNOWN",
@@ -5757,14 +5768,15 @@
       "label": "鄭運鵬",
       "group": "historical",
       "notes": [
-        "民進黨籍立委，曾公開評論柯建銘國會工作。"
+        "民進黨籍立委，曾公開評論柯建銘國會工作。",
+        "2022年民進黨桃園市長候選人，與張善政競選。"
       ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "黨籍／身份未單獨核實"
+        "code": "DPP",
+        "kind": "historical_only",
+        "as_of": "2022桃園市長選舉",
+        "source": "https://votetw.com/data/candidate/%E5%BC%B5%E5%96%84%E6%94%BF",
+        "qualification": "2022年國民黨張善政的民進黨競選對手；不表示現在仍有任何公職。"
       }
     },
     {
@@ -7218,16 +7230,19 @@
     {
       "id": "張善政",
       "label": "張善政",
-      "group": "historical",
+      "group": "current",
       "notes": [
-        "2022年桃園市長選舉國民黨候選人，羅智強後擔任其競選總部副主任委員。"
+        "2022年桃園市長選舉國民黨候選人，羅智強後擔任其競選總部副主任委員。",
+        "歷任行政院政務委員、科技部首任部長（2014年）、副院長（2014–2016）、院長（2016年2月至5月）；2022年12月25日起擔任桃園市長。",
+        "2019年以無黨籍身份與韓國瑜搭檔參選2020總統選舉；2022年加入國民黨、獲提名並當選桃園市長。",
+        "2026年10月27日以國民黨桃園市長連任候選人身分抽中2號；尚未投票，不能視為連任當選。"
       ],
       "party": {
-        "code": "UNKNOWN",
-        "kind": "uncertain",
-        "as_of": "",
-        "source": "",
-        "qualification": "未查證目前黨籍"
+        "code": "KMT",
+        "kind": "current_documented",
+        "as_of": "2026-10-27",
+        "source": "https://www.cna.com.tw/news/aloc/202610270036.aspx",
+        "qualification": "中央社2026年10月27日確認其為國民黨桃園市長連任參選人；2020年參選副總統時仍為無黨籍。"
       }
     },
     {
@@ -9067,6 +9082,304 @@
       "group": "hub",
       "notes": [
         "為公職議事質詢紀錄，不代表任何私人往來或違法定論。"
+      ]
+    },
+    {
+      "id": "陳新安",
+      "label": "陳新安",
+      "group": "historical",
+      "notes": [
+        "陳建仁之父，曾任高雄縣縣長、國民黨籍地方政治人物。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "historical_only",
+        "as_of": "歷史縣長任期",
+        "source": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%BB%BA%E4%BB%81",
+        "qualification": "早年歷史政治身分；已非當代公職／現有黨籍。"
+      }
+    },
+    {
+      "id": "陳時中",
+      "label": "陳時中",
+      "group": "historical",
+      "notes": [
+        "2022年民進黨臺北市長參選人，陳建仁擔任其競選總部主任委員。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "last_documented",
+        "as_of": "2022-07-19",
+        "source": "https://www.cna.com.tw/news/aipl/202207190064.aspx",
+        "qualification": "2022年民進黨提名臺北市長候選人，不能由此推論2026年是否擔任黨職。"
+      }
+    },
+    {
+      "id": "廖俊智",
+      "label": "廖俊智",
+      "group": "external",
+      "notes": [
+        "2026年6月中旬任期屆滿的中央研究院院長，由陳建仁接任。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對近期黨籍"
+      }
+    },
+    {
+      "id": "蕭美琴",
+      "label": "蕭美琴",
+      "group": "current",
+      "notes": [
+        "2024年5月20日以副總統身份監交行政院長陳建仁與卓榮泰的職務交接。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對近期黨籍"
+      }
+    },
+    {
+      "id": "2016蔡英文－陳建仁正副總統搭檔",
+      "label": "2016蔡英文－陳建仁正副總統搭檔",
+      "group": "hub",
+      "notes": [
+        "此為公開職務或選舉事件的關係節點；不推定私人熟識、同盟或曾同場出現。"
+      ]
+    },
+    {
+      "id": "2022陳時中臺北市長競選團隊",
+      "label": "2022陳時中臺北市長競選團隊",
+      "group": "hub",
+      "notes": [
+        "此為公開職務或選舉事件的關係節點；不推定私人熟識、同盟或曾同場出現。"
+      ]
+    },
+    {
+      "id": "2023至2024陳建仁行政院長任期",
+      "label": "2023至2024陳建仁行政院長任期",
+      "group": "hub",
+      "notes": [
+        "此為公開職務或選舉事件的關係節點；不推定私人熟識、同盟或曾同場出現。"
+      ]
+    },
+    {
+      "id": "2024陳建仁與卓榮泰行政院長交接",
+      "label": "2024陳建仁與卓榮泰行政院長交接",
+      "group": "hub",
+      "notes": [
+        "此為公開職務或選舉事件的關係節點；不推定私人熟識、同盟或曾同場出現。"
+      ]
+    },
+    {
+      "id": "2026中央研究院院長交接",
+      "label": "2026中央研究院院長交接",
+      "group": "hub",
+      "notes": [
+        "此為公開職務或選舉事件的關係節點；不推定私人熟識、同盟或曾同場出現。"
+      ]
+    },
+    {
+      "id": "2003陳建仁衛生署長與SARS防疫",
+      "label": "2003陳建仁衛生署長與SARS防疫",
+      "group": "hub",
+      "notes": [
+        "此為公開職務或選舉事件的關係節點；不推定私人熟識、同盟或曾同場出現。"
+      ]
+    },
+    {
+      "id": "毛治國",
+      "label": "毛治國",
+      "group": "historical",
+      "notes": [
+        "張善政在其內閣擔任行政院副院長，2016年接替其出任行政院院長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對近期黨籍"
+      }
+    },
+    {
+      "id": "杜紫軍",
+      "label": "杜紫軍",
+      "group": "historical",
+      "notes": [
+        "張善政2016年擔任行政院長時的副院長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對近期黨籍"
+      }
+    },
+    {
+      "id": "徐爵民",
+      "label": "徐爵民",
+      "group": "historical",
+      "notes": [
+        "張善政2014年出任首任科技部部長，徐爵民為後任。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對近期黨籍"
+      }
+    },
+    {
+      "id": "蘇俊賓",
+      "label": "蘇俊賓",
+      "group": "historical",
+      "notes": [
+        "2022年12月25日起擔任張善政市府副市長。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對近期黨籍"
+      }
+    },
+    {
+      "id": "王明鉅",
+      "label": "王明鉅",
+      "group": "historical",
+      "notes": [
+        "張善政市府副市長，桃園市府官網列示其現職搭配。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對近期黨籍"
+      }
+    },
+    {
+      "id": "黃世杰",
+      "label": "黃世杰",
+      "group": "historical",
+      "notes": [
+        "2026年民進黨桃園市長參選人，10月27日抽中1號，與國民黨張善政競選。"
+      ],
+      "party": {
+        "code": "DPP",
+        "kind": "current_documented",
+        "as_of": "2026-10-27",
+        "source": "https://www.cna.com.tw/news/aloc/202610270036.aspx",
+        "qualification": "中央社確認2026年民進黨桃園市長候選人，抽中1號；尚未投票。"
+      }
+    },
+    {
+      "id": "黃敏恭",
+      "label": "黃敏恭",
+      "group": "historical",
+      "notes": [
+        "2026年張善政桃園市長連任競選總部主任委員。"
+      ],
+      "party": {
+        "code": "UNKNOWN",
+        "kind": "uncertain",
+        "as_of": "",
+        "source": "",
+        "qualification": "尚未核對近期黨籍"
+      }
+    },
+    {
+      "id": "涂權吉",
+      "label": "涂權吉",
+      "group": "historical",
+      "notes": [
+        "2026年9月1日與黃敏恭代表張善政完成連任參選登記，中央社稱國民黨立委。"
+      ],
+      "party": {
+        "code": "KMT",
+        "kind": "last_documented",
+        "as_of": "2026-09-01",
+        "source": "https://www.cna.com.tw/news/aloc/202609010210.aspx",
+        "qualification": "中央社稱2026年國民黨立委，並參與桃園市長參選登記。"
+      }
+    },
+    {
+      "id": "賴香伶",
+      "label": "賴香伶",
+      "group": "historical",
+      "notes": [
+        "2022年民眾黨桃園市長候選人，與張善政競選。"
+      ],
+      "party": {
+        "code": "TPP",
+        "kind": "historical_only",
+        "as_of": "2022桃園市長選舉",
+        "source": "https://votetw.com/data/candidate/%E5%BC%B5%E5%96%84%E6%94%BF",
+        "qualification": "2022年台灣民眾黨桃園市長候選人；不推定其2026年黨務或公職。"
+      }
+    },
+    {
+      "id": "鄭寶清",
+      "label": "鄭寶清",
+      "group": "historical",
+      "notes": [
+        "2022年無黨籍桃園市長候選人，與張善政競選。"
+      ],
+      "party": {
+        "code": "IND",
+        "kind": "historical_only",
+        "as_of": "2022桃園市長選舉",
+        "source": "https://votetw.com/data/candidate/%E5%BC%B5%E5%96%84%E6%94%BF",
+        "qualification": "2022年以無黨籍身分參選；不代表其歷年或2026年黨籍。"
+      }
+    },
+    {
+      "id": "2014至2016張善政科技部與行政院職務",
+      "label": "2014至2016張善政科技部與行政院職務",
+      "group": "hub",
+      "notes": [
+        "此為公開職務或選舉事件的關係節點；不推定私人熟識、同盟或曾同場出現。"
+      ]
+    },
+    {
+      "id": "2020韓國瑜－張善政正副總統搭檔",
+      "label": "2020韓國瑜－張善政正副總統搭檔",
+      "group": "hub",
+      "notes": [
+        "此為公開職務或選舉事件的關係節點；不推定私人熟識、同盟或曾同場出現。"
+      ]
+    },
+    {
+      "id": "2022桃園市長選舉",
+      "label": "2022桃園市長選舉",
+      "group": "hub",
+      "notes": [
+        "此為公開職務或選舉事件的關係節點；不推定私人熟識、同盟或曾同場出現。"
+      ]
+    },
+    {
+      "id": "2022至2026張善政桃園市長任期",
+      "label": "2022至2026張善政桃園市長任期",
+      "group": "hub",
+      "notes": [
+        "此為公開職務或選舉事件的關係節點；不推定私人熟識、同盟或曾同場出現。"
+      ]
+    },
+    {
+      "id": "2026桃園市長連任選舉",
+      "label": "2026桃園市長連任選舉",
+      "group": "hub",
+      "notes": [
+        "此為公開職務或選舉事件的關係節點；不推定私人熟識、同盟或曾同場出現。"
       ]
     }
   ],
@@ -19933,6 +20246,582 @@
       "period": "1997",
       "source": "羅文嘉｜市府新聞處長",
       "url": "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%96%87%E5%98%89"
+    },
+    {
+      "from": "2016蔡英文－陳建仁正副總統搭檔",
+      "to": "蔡英文",
+      "type": "event",
+      "detail": "2016年民進黨總統候選人，當選並於5月20日就任。",
+      "period": "2016–2020",
+      "source": "陳建仁｜2016總統選舉與副總統",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%BB%BA%E4%BB%81"
+    },
+    {
+      "from": "2016蔡英文－陳建仁正副總統搭檔",
+      "to": "陳建仁",
+      "type": "event",
+      "detail": "2016年無黨籍副總統候選人，與蔡英文搭檔當選，任至2020年5月20日。",
+      "period": "2016–2020",
+      "source": "陳建仁｜2016總統選舉與副總統",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%BB%BA%E4%BB%81"
+    },
+    {
+      "from": "2022陳時中臺北市長競選團隊",
+      "to": "陳時中",
+      "type": "event",
+      "detail": "2022年民進黨臺北市長參選人。",
+      "period": "2022-07–11",
+      "source": "中央社｜競選團隊",
+      "url": "https://www.cna.com.tw/news/aipl/202207190064.aspx"
+    },
+    {
+      "from": "2022陳時中臺北市長競選團隊",
+      "to": "陳建仁",
+      "type": "event",
+      "detail": "2022年7月19日獲宣布擔任陳時中競選總部主任委員。",
+      "period": "2022-07–11",
+      "source": "中央社｜競選團隊",
+      "url": "https://www.cna.com.tw/news/aipl/202207190064.aspx"
+    },
+    {
+      "from": "2023至2024陳建仁行政院長任期",
+      "to": "陳建仁",
+      "type": "event",
+      "detail": "2023年1月31日至2024年5月20日任行政院長。",
+      "period": "2023-01-31–2024-05-20",
+      "source": "行政院｜歷任院長",
+      "url": "https://history.ey.gov.tw/author/chen-chien-jen/"
+    },
+    {
+      "from": "2023至2024陳建仁行政院長任期",
+      "to": "蔡英文",
+      "type": "event",
+      "detail": "2023年1月提名陳建仁接替蘇貞昌任行政院長的時任總統。",
+      "period": "2023-01-31–2024-05-20",
+      "source": "行政院｜歷任院長",
+      "url": "https://history.ey.gov.tw/author/chen-chien-jen/"
+    },
+    {
+      "from": "2023至2024陳建仁行政院長任期",
+      "to": "蘇貞昌",
+      "type": "event",
+      "detail": "陳建仁任行政院長的前任。",
+      "period": "2023-01-31–2024-05-20",
+      "source": "行政院｜歷任院長",
+      "url": "https://history.ey.gov.tw/author/chen-chien-jen/"
+    },
+    {
+      "from": "2023至2024陳建仁行政院長任期",
+      "to": "卓榮泰",
+      "type": "event",
+      "detail": "2024年5月20日接任陳建仁行政院長職務。",
+      "period": "2023-01-31–2024-05-20",
+      "source": "行政院｜歷任院長",
+      "url": "https://history.ey.gov.tw/author/chen-chien-jen/"
+    },
+    {
+      "from": "2023至2024陳建仁行政院長任期",
+      "to": "管碧玲",
+      "type": "event",
+      "detail": "2023年陳建仁內閣海洋委員會主任委員。",
+      "period": "2023-01-31–2024-05-20",
+      "source": "行政院｜歷任院長",
+      "url": "https://history.ey.gov.tw/author/chen-chien-jen/"
+    },
+    {
+      "from": "2024陳建仁與卓榮泰行政院長交接",
+      "to": "陳建仁",
+      "type": "event",
+      "detail": "2024年5月20日卸任並向卓榮泰移交行政院長職務。",
+      "period": "2024-05-20",
+      "source": "中央社｜內閣交接",
+      "url": "https://www.cna.com.tw/news/aipl/202405200146.aspx"
+    },
+    {
+      "from": "2024陳建仁與卓榮泰行政院長交接",
+      "to": "卓榮泰",
+      "type": "event",
+      "detail": "2024年5月20日接任行政院院長。",
+      "period": "2024-05-20",
+      "source": "中央社｜內閣交接",
+      "url": "https://www.cna.com.tw/news/aipl/202405200146.aspx"
+    },
+    {
+      "from": "2024陳建仁與卓榮泰行政院長交接",
+      "to": "蕭美琴",
+      "type": "event",
+      "detail": "2024年5月20日以副總統身份監交。",
+      "period": "2024-05-20",
+      "source": "中央社｜內閣交接",
+      "url": "https://www.cna.com.tw/news/aipl/202405200146.aspx"
+    },
+    {
+      "from": "2026中央研究院院長交接",
+      "to": "陳建仁",
+      "type": "event",
+      "detail": "2026年6月21日正式接任中央研究院第13任院長。",
+      "period": "2026-01–06",
+      "source": "總統府公報與中研院",
+      "url": "https://www.president.gov.tw/Page/294/50127"
+    },
+    {
+      "from": "2026中央研究院院長交接",
+      "to": "賴清德",
+      "type": "event",
+      "detail": "2026年1月2日發布總統令任命陳建仁，任期自6月21日起。",
+      "period": "2026-01–06",
+      "source": "總統府公報與中研院",
+      "url": "https://www.president.gov.tw/Page/294/50127"
+    },
+    {
+      "from": "2026中央研究院院長交接",
+      "to": "廖俊智",
+      "type": "event",
+      "detail": "2026年6月任期屆滿，陳建仁接任中研院院長。",
+      "period": "2026-01–06",
+      "source": "總統府公報與中研院",
+      "url": "https://www.president.gov.tw/Page/294/50127"
+    },
+    {
+      "from": "2003陳建仁衛生署長與SARS防疫",
+      "to": "陳建仁",
+      "type": "event",
+      "detail": "2003年5月至2005年1月擔任行政院衛生署署長，推動SARS後防疫體系調整。",
+      "period": "2003–2005",
+      "source": "行政院｜院長履歷",
+      "url": "https://history.ey.gov.tw/author/chen-chien-jen/"
+    },
+    {
+      "from": "陳建仁",
+      "to": "陳新安",
+      "type": "family",
+      "detail": "陳新安為陳建仁之父，曾任國民黨籍高雄縣縣長；父子政治歸屬與任職年代分開標記。",
+      "period": "歷史家庭關係",
+      "source": "陳建仁｜早年背景",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%BB%BA%E4%BB%81"
+    },
+    {
+      "from": "陳建仁",
+      "to": "蔡英文",
+      "type": "cooperate",
+      "detail": "2016年蔡英文與當時無黨籍的陳建仁搭檔正副總統當選；2023年蔡英文再任命陳建仁為閣揆。",
+      "period": "2016–2024",
+      "source": "陳建仁｜政治生涯",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%BB%BA%E4%BB%81"
+    },
+    {
+      "from": "陳建仁",
+      "to": "陳時中",
+      "type": "cooperate",
+      "detail": "陳建仁2022年7月19日擔任陳時中臺北市長競選總部主任委員。",
+      "period": "2022",
+      "source": "中央社｜陳時中競總",
+      "url": "https://www.cna.com.tw/news/aipl/202207190064.aspx"
+    },
+    {
+      "from": "陳建仁",
+      "to": "蘇貞昌",
+      "type": "affiliation",
+      "detail": "2023年1月31日陳建仁接任蘇貞昌之後的行政院院長。",
+      "period": "2023-01",
+      "source": "陳建仁｜閣揆前後任",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%BB%BA%E4%BB%81"
+    },
+    {
+      "from": "陳建仁",
+      "to": "卓榮泰",
+      "type": "affiliation",
+      "detail": "2024年5月20日陳建仁卸任行政院長並與卓榮泰交接印信，蕭美琴監交。",
+      "period": "2024-05-20",
+      "source": "中央社｜閣揆交接",
+      "url": "https://www.cna.com.tw/news/aipl/202405200146.aspx"
+    },
+    {
+      "from": "陳建仁",
+      "to": "蕭美琴",
+      "type": "event",
+      "detail": "2024年5月20日卸任行政院長陳建仁與卓榮泰交接，由副總統蕭美琴監交。",
+      "period": "2024-05-20",
+      "source": "中央社｜閣揆交接",
+      "url": "https://www.cna.com.tw/news/aipl/202405200146.aspx"
+    },
+    {
+      "from": "陳建仁",
+      "to": "賴清德",
+      "type": "affiliation",
+      "detail": "2026年1月2日總統賴清德任命陳建仁接任中央研究院第13任院長，6月21日起任職。",
+      "period": "2026-01–06",
+      "source": "總統府公報",
+      "url": "https://www.president.gov.tw/Page/294/50127"
+    },
+    {
+      "from": "陳建仁",
+      "to": "廖俊智",
+      "type": "affiliation",
+      "detail": "陳建仁於2026年6月21日接任廖俊智之後的中研院院長職務。",
+      "period": "2026-06-21",
+      "source": "中研院｜院長沿革",
+      "url": "https://www.sinica.edu.tw/tab/714"
+    },
+    {
+      "from": "2014至2016張善政科技部與行政院職務",
+      "to": "張善政",
+      "type": "event",
+      "detail": "2014年3月出任科技部首任部長、12月轉任行政院副院長、2016年2月接任行政院院長。",
+      "period": "2014–2016",
+      "source": "桃園市府｜市長經歷",
+      "url": "https://www.tycg.gov.tw/cp.aspx?n=20"
+    },
+    {
+      "from": "2014至2016張善政科技部與行政院職務",
+      "to": "馬英九",
+      "type": "event",
+      "detail": "張善政在2012至2016年間進入行政院的總統任期。",
+      "period": "2014–2016",
+      "source": "桃園市府｜市長經歷",
+      "url": "https://www.tycg.gov.tw/cp.aspx?n=20"
+    },
+    {
+      "from": "2014至2016張善政科技部與行政院職務",
+      "to": "毛治國",
+      "type": "event",
+      "detail": "2014–2016行政院長，張善政在其內閣任副院長；2016年張接任閣揆。",
+      "period": "2014–2016",
+      "source": "桃園市府｜市長經歷",
+      "url": "https://www.tycg.gov.tw/cp.aspx?n=20"
+    },
+    {
+      "from": "2014至2016張善政科技部與行政院職務",
+      "to": "杜紫軍",
+      "type": "event",
+      "detail": "張善政2016年出任院長時的副院長。",
+      "period": "2014–2016",
+      "source": "桃園市府｜市長經歷",
+      "url": "https://www.tycg.gov.tw/cp.aspx?n=20"
+    },
+    {
+      "from": "2014至2016張善政科技部與行政院職務",
+      "to": "林全",
+      "type": "event",
+      "detail": "2016年5月20日接替張善政出任行政院院長。",
+      "period": "2014–2016",
+      "source": "桃園市府｜市長經歷",
+      "url": "https://www.tycg.gov.tw/cp.aspx?n=20"
+    },
+    {
+      "from": "2014至2016張善政科技部與行政院職務",
+      "to": "徐爵民",
+      "type": "event",
+      "detail": "2014年12月接替張善政擔任科技部部長。",
+      "period": "2014–2016",
+      "source": "桃園市府｜市長經歷",
+      "url": "https://www.tycg.gov.tw/cp.aspx?n=20"
+    },
+    {
+      "from": "2020韓國瑜－張善政正副總統搭檔",
+      "to": "韓國瑜",
+      "type": "event",
+      "detail": "2020年國民黨總統候選人。",
+      "period": "2019–2020",
+      "source": "2020總統大選｜官方投票資料彙整",
+      "url": "https://votetw.com/data/candidate/%E5%BC%B5%E5%96%84%E6%94%BF"
+    },
+    {
+      "from": "2020韓國瑜－張善政正副總統搭檔",
+      "to": "張善政",
+      "type": "event",
+      "detail": "2020年以無黨籍身分與韓國瑜搭檔擔任副總統候選人。",
+      "period": "2019–2020",
+      "source": "2020總統大選｜官方投票資料彙整",
+      "url": "https://votetw.com/data/candidate/%E5%BC%B5%E5%96%84%E6%94%BF"
+    },
+    {
+      "from": "2020韓國瑜－張善政正副總統搭檔",
+      "to": "蔡英文",
+      "type": "event",
+      "detail": "2020年民進黨總統候選人，與韓張組合競選。",
+      "period": "2019–2020",
+      "source": "2020總統大選｜官方投票資料彙整",
+      "url": "https://votetw.com/data/candidate/%E5%BC%B5%E5%96%84%E6%94%BF"
+    },
+    {
+      "from": "2020韓國瑜－張善政正副總統搭檔",
+      "to": "賴清德",
+      "type": "event",
+      "detail": "2020年蔡英文的副總統候選人，與韓張組合競選。",
+      "period": "2019–2020",
+      "source": "2020總統大選｜官方投票資料彙整",
+      "url": "https://votetw.com/data/candidate/%E5%BC%B5%E5%96%84%E6%94%BF"
+    },
+    {
+      "from": "2022桃園市長選舉",
+      "to": "張善政",
+      "type": "event",
+      "detail": "2022年國民黨桃園市長候選人，獲得557572票當選。",
+      "period": "2022",
+      "source": "中央社｜國民黨提名與選舉",
+      "url": "https://www.cna.com.tw/news/aipl/202205180326.aspx"
+    },
+    {
+      "from": "2022桃園市長選舉",
+      "to": "鄭運鵬",
+      "type": "event",
+      "detail": "2022年民進黨桃園市長候選人。",
+      "period": "2022",
+      "source": "中央社｜國民黨提名與選舉",
+      "url": "https://www.cna.com.tw/news/aipl/202205180326.aspx"
+    },
+    {
+      "from": "2022桃園市長選舉",
+      "to": "賴香伶",
+      "type": "event",
+      "detail": "2022年台灣民眾黨桃園市長候選人。",
+      "period": "2022",
+      "source": "中央社｜國民黨提名與選舉",
+      "url": "https://www.cna.com.tw/news/aipl/202205180326.aspx"
+    },
+    {
+      "from": "2022桃園市長選舉",
+      "to": "鄭寶清",
+      "type": "event",
+      "detail": "2022年無黨籍桃園市長候選人。",
+      "period": "2022",
+      "source": "中央社｜國民黨提名與選舉",
+      "url": "https://www.cna.com.tw/news/aipl/202205180326.aspx"
+    },
+    {
+      "from": "2022桃園市長選舉",
+      "to": "朱立倫",
+      "type": "event",
+      "detail": "2022年國民黨主席，主導徵召張善政參選桃園市長。",
+      "period": "2022",
+      "source": "中央社｜國民黨提名與選舉",
+      "url": "https://www.cna.com.tw/news/aipl/202205180326.aspx"
+    },
+    {
+      "from": "2022桃園市長選舉",
+      "to": "羅智強",
+      "type": "event",
+      "detail": "2022年曾表態角逐桃園市長提名；後退出並參與張善政競選團隊。",
+      "period": "2022",
+      "source": "中央社｜國民黨提名與選舉",
+      "url": "https://www.cna.com.tw/news/aipl/202205180326.aspx"
+    },
+    {
+      "from": "2022桃園市長選舉",
+      "to": "鄭文燦",
+      "type": "event",
+      "detail": "2022年卸任桃園市長，張善政於12月25日接任。",
+      "period": "2022",
+      "source": "中央社｜國民黨提名與選舉",
+      "url": "https://www.cna.com.tw/news/aipl/202205180326.aspx"
+    },
+    {
+      "from": "2022至2026張善政桃園市長任期",
+      "to": "張善政",
+      "type": "event",
+      "detail": "2022年12月25日起任桃園市長，2026年10月仍任職並參選連任。",
+      "period": "2022-12–2026-10",
+      "source": "桃園市政府｜市長",
+      "url": "https://www.tycg.gov.tw/cp.aspx?n=20"
+    },
+    {
+      "from": "2022至2026張善政桃園市長任期",
+      "to": "鄭文燦",
+      "type": "event",
+      "detail": "張善政的前任桃園市長。",
+      "period": "2022-12–2026-10",
+      "source": "桃園市政府｜市長",
+      "url": "https://www.tycg.gov.tw/cp.aspx?n=20"
+    },
+    {
+      "from": "2022至2026張善政桃園市長任期",
+      "to": "蘇俊賓",
+      "type": "event",
+      "detail": "張善政桃園市府副市長。",
+      "period": "2022-12–2026-10",
+      "source": "桃園市政府｜市長",
+      "url": "https://www.tycg.gov.tw/cp.aspx?n=20"
+    },
+    {
+      "from": "2022至2026張善政桃園市長任期",
+      "to": "王明鉅",
+      "type": "event",
+      "detail": "張善政桃園市府副市長。",
+      "period": "2022-12–2026-10",
+      "source": "桃園市政府｜市長",
+      "url": "https://www.tycg.gov.tw/cp.aspx?n=20"
+    },
+    {
+      "from": "2026桃園市長連任選舉",
+      "to": "張善政",
+      "type": "event",
+      "detail": "2026年國民黨市長連任候選人，10月27日抽中2號；選舉結果尚未產生。",
+      "period": "2026-09–10",
+      "source": "中央社｜2026候選人抽籤",
+      "url": "https://www.cna.com.tw/news/aloc/202610270036.aspx"
+    },
+    {
+      "from": "2026桃園市長連任選舉",
+      "to": "黃世杰",
+      "type": "event",
+      "detail": "2026年民進黨桃園市長候選人，10月27日抽中1號。",
+      "period": "2026-09–10",
+      "source": "中央社｜2026候選人抽籤",
+      "url": "https://www.cna.com.tw/news/aloc/202610270036.aspx"
+    },
+    {
+      "from": "2026桃園市長連任選舉",
+      "to": "黃敏恭",
+      "type": "event",
+      "detail": "2026年張善政連任競選總部主任委員。",
+      "period": "2026-09–10",
+      "source": "中央社｜2026候選人抽籤",
+      "url": "https://www.cna.com.tw/news/aloc/202610270036.aspx"
+    },
+    {
+      "from": "2026桃園市長連任選舉",
+      "to": "涂權吉",
+      "type": "event",
+      "detail": "2026年9月1日與黃敏恭代表張善政登記連任參選。",
+      "period": "2026-09–10",
+      "source": "中央社｜2026候選人抽籤",
+      "url": "https://www.cna.com.tw/news/aloc/202610270036.aspx"
+    },
+    {
+      "from": "張善政",
+      "to": "馬英九",
+      "type": "affiliation",
+      "detail": "2014年起在馬英九任總統期間出任科技部部長、行政院副院長及院長，為任職關係。",
+      "period": "2014–2016",
+      "source": "桃園市府｜歷年職務",
+      "url": "https://www.tycg.gov.tw/cp.aspx?n=20"
+    },
+    {
+      "from": "張善政",
+      "to": "毛治國",
+      "type": "affiliation",
+      "detail": "張善政2014年任毛治國內閣副院長，2016年接替毛治國擔任行政院院長。",
+      "period": "2014–2016",
+      "source": "桃園市府｜院長任期",
+      "url": "https://www.tycg.gov.tw/cp.aspx?n=20"
+    },
+    {
+      "from": "張善政",
+      "to": "林全",
+      "type": "affiliation",
+      "detail": "2016年5月20日，林全接替張善政出任行政院院長。",
+      "period": "2016-05-20",
+      "source": "張善政｜歷任閣揆",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%96%84%E6%94%BF"
+    },
+    {
+      "from": "張善政",
+      "to": "韓國瑜",
+      "type": "cooperate",
+      "detail": "張善政擔任韓國瑜2020總統大選的副總統候選人及2019年國政顧問團總召，當時個人為無黨籍。",
+      "period": "2019–2020",
+      "source": "張善政｜卸任閣揆後",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%96%84%E6%94%BF"
+    },
+    {
+      "from": "張善政",
+      "to": "朱立倫",
+      "type": "cooperate",
+      "detail": "2022年國民黨主席朱立倫主導徵召張善政參選桃園市長。",
+      "period": "2022-05",
+      "source": "中央社｜2022國民黨提名",
+      "url": "https://www.cna.com.tw/news/aipl/202205180326.aspx"
+    },
+    {
+      "from": "張善政",
+      "to": "羅智強",
+      "type": "cooperate",
+      "detail": "2022年羅智強退出桃園市長選舉後加入張善政競選團隊擔任副主任委員。",
+      "period": "2022",
+      "source": "張善政／羅智強｜桃園競選",
+      "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E5%96%84%E6%94%BF"
+    },
+    {
+      "from": "張善政",
+      "to": "鄭文燦",
+      "type": "affiliation",
+      "detail": "2022年12月25日張善政接替鄭文燦擔任桃園市長，屬公職前後任而非政治同盟。",
+      "period": "2022-12-25",
+      "source": "桃園市政府｜市長",
+      "url": "https://www.tycg.gov.tw/cp.aspx?n=20"
+    },
+    {
+      "from": "張善政",
+      "to": "黃世杰",
+      "type": "contest",
+      "detail": "2026年桃園市長選舉，國民黨張善政與民進黨黃世杰各自參選、10月27日分別抽中2號與1號；尚未投票。",
+      "period": "2026-10-27",
+      "source": "中央社｜桃園市長選舉",
+      "url": "https://www.cna.com.tw/news/aloc/202610270036.aspx"
+    },
+    {
+      "from": "張善政",
+      "to": "鄭運鵬",
+      "type": "contest",
+      "detail": "2022年桃園市長選舉，張善政與民進黨鄭運鵬是公開競選對手。",
+      "period": "2022",
+      "source": "臺灣選舉資料庫｜候選人",
+      "url": "https://votetw.com/data/candidate/%E5%BC%B5%E5%96%84%E6%94%BF"
+    },
+    {
+      "from": "張善政",
+      "to": "賴香伶",
+      "type": "contest",
+      "detail": "2022年桃園市長選舉，張善政與民眾黨賴香伶是公開競選對手。",
+      "period": "2022",
+      "source": "臺灣選舉資料庫｜候選人",
+      "url": "https://votetw.com/data/candidate/%E5%BC%B5%E5%96%84%E6%94%BF"
+    },
+    {
+      "from": "張善政",
+      "to": "鄭寶清",
+      "type": "contest",
+      "detail": "2022年桃園市長選舉，張善政與無黨籍鄭寶清是公開競選對手。",
+      "period": "2022",
+      "source": "臺灣選舉資料庫｜候選人",
+      "url": "https://votetw.com/data/candidate/%E5%BC%B5%E5%96%84%E6%94%BF"
+    },
+    {
+      "from": "張善政",
+      "to": "黃敏恭",
+      "type": "cooperate",
+      "detail": "2026年張善政桃園市長連任競選總部主任委員為黃敏恭，黃敏恭9月1日代表其登記。",
+      "period": "2026-09",
+      "source": "中央社｜2026競總",
+      "url": "https://www.cna.com.tw/news/aloc/202609010210.aspx"
+    },
+    {
+      "from": "張善政",
+      "to": "涂權吉",
+      "type": "cooperate",
+      "detail": "2026年9月1日國民黨立委涂權吉與競總主委黃敏恭代表張善政登記參選市長。",
+      "period": "2026-09-01",
+      "source": "中央社｜登記參選",
+      "url": "https://www.cna.com.tw/news/aloc/202609010210.aspx"
+    },
+    {
+      "from": "張善政",
+      "to": "蘇俊賓",
+      "type": "affiliation",
+      "detail": "蘇俊賓擔任張善政桃園市府副市長。",
+      "period": "2022–2026",
+      "source": "桃園市府｜現職",
+      "url": "https://www.tycg.gov.tw/cp.aspx?n=20"
+    },
+    {
+      "from": "張善政",
+      "to": "王明鉅",
+      "type": "affiliation",
+      "detail": "王明鉅擔任張善政桃園市府副市長。",
+      "period": "2022–2026",
+      "source": "桃園市府｜現職",
+      "url": "https://www.tycg.gov.tw/cp.aspx?n=20"
     }
   ]
 }

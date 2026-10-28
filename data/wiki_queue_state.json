@@ -178,25 +178,28 @@
       "processed_at": "2026-10-28T16:12:36.280Z",
       "commit_sha": "fbea870d4d2a8e1d0439bbd007c20ad66dc50a02",
       "summary": "完成2019國民黨開除黨籍、2019–2020親民黨立委選舉、2022無黨籍市議員選舉、2023民主大聯盟退選、2024王義川輔選，以及2026三立政論主持關係。未推論民進黨現行黨籍。"
+    },
+    {
+      "key": "zh:馬郁雯",
+      "title": "馬郁雯",
+      "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E9%83%81%E9%9B%AF",
+      "summary": "完成政治記者轉2026民進黨中正萬華市議員初選出線、段宜康與李建昌輔選、2024京華城案記者證人角色；並以『公開伴侶（非婚姻）』標示李正皓關係，避免錯稱配偶。",
+      "processed_at": "2026-10-28T16:16:47.943Z",
+      "commit_sha": "3414aa04c92ddf5d9398876ad00a59be24c51b42"
+    },
+    {
+      "key": "zh:于美人",
+      "title": "于美人",
+      "url": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E7%BE%8E%E4%BA%BA",
+      "summary": "完成2019親民黨總統競辦發言工作、2024無黨籍北市第5選區立委參選落選及政論綜藝節目主持關係；不將競辦發言人誤標為親民黨黨員。",
+      "processed_at": "2026-10-28T16:16:47.943Z",
+      "commit_sha": "3414aa04c92ddf5d9398876ad00a59be24c51b42"
     }
   ],
   "skipped": [],
   "failed": [],
-  "last_run": "2026-10-28T16:13:32.713Z",
+  "last_run": "2026-10-28T16:16:47.943Z",
   "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
-  "processing": [
-    {
-      "title": "馬郁雯",
-      "key": "zh:馬郁雯",
-      "url": "https://zh.wikipedia.org/wiki/%E9%A6%AC%E9%83%81%E9%9B%AF",
-      "started_at": "2026-10-28T16:13:32.713Z"
-    },
-    {
-      "title": "于美人",
-      "key": "zh:于美人",
-      "url": "https://zh.wikipedia.org/wiki/%E4%BA%8E%E7%BE%8E%E4%BA%BA",
-      "started_at": "2026-10-28T16:13:32.713Z"
-    }
-  ],
-  "last_checked_at": "2026-10-28T16:13:32.713Z"
+  "processing": [],
+  "last_checked_at": "2026-10-28T16:16:47.943Z"
 }

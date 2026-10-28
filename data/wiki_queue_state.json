@@ -154,25 +154,28 @@
       "summary": "建檔陳水扁市府及競選團隊、2005臺北縣長選舉、2019–2020民進黨黨務，以及2024–2026海基會歷任董事長公職關係。本輪兩篇共新增30節點與62關係紀錄。",
       "processed_at": "2026-10-20T10:49:53.644Z",
       "commit_sha": "c1091c9de433163e142d054f8667e0bd82b5e4a8"
-    }
-  ],
-  "skipped": [],
-  "failed": [],
-  "last_run": "2026-10-28T16:05:51.016Z",
-  "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
-  "processing": [
+    },
     {
       "key": "zh:陳建仁",
       "title": "陳建仁",
       "url": "https://zh.wikipedia.org/zh-tw/%E9%99%B3%E5%BB%BA%E4%BB%81",
-      "started_at": "2026-10-28T16:05:51.016Z"
+      "summary": "完成2016無黨籍副總統搭檔蔡英文、2022加入民進黨、陳時中競總、2023–2024閣揆與2026中央研究院院長任命等公開紀錄。",
+      "processed_at": "2026-10-28T16:09:07.772Z",
+      "commit_sha": "750a45b47c5a19bc643c322381ad55640bed080b"
     },
     {
       "key": "zh:張善政",
       "title": "張善政",
       "url": "https://zh.wikipedia.org/zh-tw/%E5%BC%B5%E5%96%84%E6%94%BF",
-      "started_at": "2026-10-28T16:05:51.016Z"
+      "summary": "完成2014–2016科技部與行政院公職、2020韓國瑜副手、2022桃園市長選舉、2026國民黨桃園連任候選人及對手／競總歷史；未將2026選舉寫成當選。",
+      "processed_at": "2026-10-28T16:09:07.772Z",
+      "commit_sha": "750a45b47c5a19bc643c322381ad55640bed080b"
     }
   ],
-  "last_checked_at": "2026-10-28T16:05:51.016Z"
+  "skipped": [],
+  "failed": [],
+  "last_run": "2026-10-28T16:09:07.772Z",
+  "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
+  "processing": [],
+  "last_checked_at": "2026-10-28T16:09:07.772Z"
 }

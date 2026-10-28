@@ -194,25 +194,28 @@
       "summary": "完成2019親民黨總統競辦發言工作、2024無黨籍北市第5選區立委參選落選及政論綜藝節目主持關係；不將競辦發言人誤標為親民黨黨員。",
       "processed_at": "2026-10-28T16:16:47.943Z",
       "commit_sha": "3414aa04c92ddf5d9398876ad00a59be24c51b42"
+    },
+    {
+      "title": "陳冲 (臺灣)",
+      "key": "zh:陳冲 (臺灣)",
+      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%86%B2_(%E8%87%BA%E7%81%A3)",
+      "summary": "完成2008–2010金管會、2010–2012行政院副院長、2012–2013行政院院長、2025國民黨智庫副董事長，區分歷任公職與近期可確認的黨務。",
+      "processed_at": "2026-10-28T16:22:53.794Z",
+      "commit_sha": "5cd9866d26810b1de088ce96766062d8fc69211a"
+    },
+    {
+      "title": "2023年臺灣＃MeToo運動",
+      "key": "zh:2023年臺灣＃MeToo運動",
+      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E8%87%BA%E7%81%A3%EF%BC%83MeToo%E9%81%8B%E5%8B%95",
+      "summary": "建立2023民進黨性平行政調查與制度改革、2023性平三法修法、2024施行及立法委員行為法提案事件節點；僅記具名且核實的公開公務行動，避免未定指控被錯當司法定罪。",
+      "processed_at": "2026-10-28T16:22:53.794Z",
+      "commit_sha": "5cd9866d26810b1de088ce96766062d8fc69211a"
     }
   ],
   "skipped": [],
   "failed": [],
-  "last_run": "2026-10-28T16:20:11.737Z",
+  "last_run": "2026-10-28T16:22:53.794Z",
   "notes": "Processed only after verified GitHub graph commit; processing entries contain key,url,title,started_at. Supports wikipedia /wiki/ and /zh-tw/ URLs. Check only owner comments. Dates in ISO UTC.",
-  "processing": [
-    {
-      "key": "zh:陳冲 (臺灣)",
-      "title": "陳冲 (臺灣)",
-      "url": "https://zh.wikipedia.org/wiki/%E9%99%B3%E5%86%B2_(%E8%87%BA%E7%81%A3)",
-      "started_at": "2026-10-28T16:20:11.737Z"
-    },
-    {
-      "key": "zh:2023年臺灣＃MeToo運動",
-      "title": "2023年臺灣＃MeToo運動",
-      "url": "https://zh.wikipedia.org/wiki/2023%E5%B9%B4%E8%87%BA%E7%81%A3%EF%BC%83MeToo%E9%81%8B%E5%8B%95",
-      "started_at": "2026-10-28T16:20:11.737Z"
-    }
-  ],
-  "last_checked_at": "2026-10-28T16:20:11.737Z"
+  "processing": [],
+  "last_checked_at": "2026-10-28T16:22:53.794Z"
 }
